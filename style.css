@@ -5,14 +5,15 @@ body {
 	background-position: center;
 	background-size:cover;
 	color: #fff;
-	font-family: "Roboto", "Helvetica Neue", sans-serif;
+	font-family: "Lora", Georgia, serif;
 	text-shadow: 0 3px 6px rgba(0,0,0,.5);
 	font-weight: 300;
-	line-height: 1.6;
+	line-height: 1.7;
 }
 a {color:#fff}
 a:hover {color:#00a1e0;transition: all .3s ease-in-out;}
 .outer {
+	background-color: rgba(0,0,0,.5);
 	display: table;
 	position: absolute;
 	top: 0;
@@ -28,22 +29,19 @@ a:hover {color:#00a1e0;transition: all .3s ease-in-out;}
 }
 
 .inner {
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 	width: 80%;
 	max-width: 540px;
 	text-align: center;
-	background-color: rgba(0,0,0,.7);
 	padding: 35px;
 	padding-bottom: 5px;
-	border-radius: 12px;
 
 }
 h1 {
 	font-weight: 400;
 	margin: 25px 0;
 	font-size: 1.4em;
-	font-family:"Roboto Slab", sans-serif;
+	font-family:Lato, "Helvetica Neue", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
 }
