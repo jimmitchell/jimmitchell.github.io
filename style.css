@@ -1,3 +1,8 @@
+html
+{
+    font-size: 10px;
+}
+
 body
 {
 	background-color: #000;
@@ -8,6 +13,8 @@ body
 	background-size: cover;
 	color: #fff;
 	font-family: Lato, "Helvetica Neue", sans-serif;
+	font-size: 17px;
+    font-size: 1.7rem;
 	text-shadow: 0 3px 6px rgba(0,0,0,.5);
 	font-weight: 300;
 	line-height: 1.7;
@@ -31,8 +38,8 @@ a:hover
 	height: 100%;
 	width: 100%;
 	border: none;
-	-webkit-backdrop-filter: blur(4px);
-	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
 }
 
 .middle
@@ -45,7 +52,7 @@ a:hover
 {
 	margin: 0 auto;
 	width: 80%;
-	max-width: 500px;
+	max-width: 540px;
 	text-align: center;
 	padding: 35px;
 	padding-bottom: 5px;
@@ -55,7 +62,8 @@ h1
 {
 	font-weight: 400;
 	margin: 0 0 35px 0;
-	font-size: 1.3em;
+	font-size: 22px;
+	font-size: 2.2rem;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
 }
@@ -78,4 +86,4 @@ i.fab, i.fas { margin: 0 10px; }
 .social a.salesforce:hover { color: #1798c1; }
 .social a.instagram:hover { color: #e1306c; }
 .social a.reddit:hover { color: #ff4500; }
-.social a.email:hover { color: #00a1e0; }
+.social a.wordpress:hover { color: #0087be; }
