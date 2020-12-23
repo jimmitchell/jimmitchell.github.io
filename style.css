@@ -22,6 +22,8 @@ a:hover {color:#00a1e0;transition: all .3s ease-in-out;}
 	height: 100%;
 	width: 100%;
 	border:none;
+	-webkit-backdrop-filter: blur(3px);
+	backdrop-filter: blur(3px);
 }
 
 .middle {
