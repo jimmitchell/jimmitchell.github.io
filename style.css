@@ -1,1 +1,81 @@
-body { background-color: #000; background-image: url('bg.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-position: center; background-size: cover; color: #fff; font-family: Lato, "Helvetica Neue", sans-serif; text-shadow: 0 3px 6px rgba(0,0,0,.5); font-weight: 300; line-height: 1.7; } a { color: #fff; } a:hover { color: #00a1e0; transition: all .3s ease-in-out; } .outer { background-color: rgba(0,0,0,.7); display: table; position: absolute; top: 0; left: 0; height: 100%; width: 100%; border: none; -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px); } .middle { display: table-cell; vertical-align: middle; } .inner { margin: 0 auto; width: 80%; max-width: 500px; text-align: center; padding: 35px; padding-bottom: 5px; } h1 { font-weight: 400; margin: 25px 0; font-size: 1.3em; text-transform: uppercase; letter-spacing: 1.5px; } p { margin: 25px 0; } .profile { width: 80px; height: 80px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 3px 6px rgba(0,0,0,.5); } i.fab { margin: 0 10px; } .social a { color: #fff; } .social a.twitter:hover { color: #1da1f2; } .social a.linkedin:hover { color: #0077b5; } .social a.salesforce:hover { color: #1798c1; } .social a.instagram:hover { color: #e1306c; } .social a.reddit:hover { color: #ff4500; }
+body
+{
+	background-color: #000;
+	background-image: url('bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	font-family: Lato, "Helvetica Neue", sans-serif;
+	text-shadow: 0 3px 6px rgba(0,0,0,.5);
+	font-weight: 300;
+	line-height: 1.7;
+}
+
+a { color: #fff; }
+
+a:hover
+{
+	color: #00a1e0;
+	transition: all .3s ease-in-out;
+}
+
+.outer
+{
+	background-color: rgba(0,0,0,.7);
+	display: table;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	border: none;
+	-webkit-backdrop-filter: blur(4px);
+	backdrop-filter: blur(4px);
+}
+
+.middle
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.inner
+{
+	margin: 0 auto;
+	width: 80%;
+	max-width: 500px;
+	text-align: center;
+	padding: 35px;
+	padding-bottom: 5px;
+}
+
+h1
+{
+	font-weight: 400;
+	margin: 0 0 35px 0;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+
+p { margin: 35px 0; }
+
+.profile
+{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	box-shadow: 0 3px 6px rgba(0,0,0,.5);
+}
+
+i.fab, i.fas { margin: 0 10px; }
+.social a { color: #fff; }
+.social a.twitter:hover { color: #1da1f2; }
+.social a.linkedin:hover { color: #0077b5; }
+.social a.salesforce:hover { color: #1798c1; }
+.social a.instagram:hover { color: #e1306c; }
+.social a.reddit:hover { color: #ff4500; }
+.social a.email:hover { color: #00a1e0; }
