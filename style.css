@@ -52,7 +52,7 @@ a:hover
 {
 	margin: 0 auto;
 	width: 80%;
-	max-width: 540px;
+	max-width: 500px;
 	text-align: center;
 	padding: 35px;
 	padding-bottom: 5px;
@@ -80,10 +80,19 @@ p { margin: 35px 0; }
 }
 
 i.fab, i.fas { margin: 0 10px; }
-.social a { color: #fff; }
-.social a.twitter:hover { color: #1da1f2; }
-.social a.linkedin:hover { color: #0077b5; }
-.social a.salesforce:hover { color: #1798c1; }
-.social a.instagram:hover { color: #e1306c; }
-.social a.reddit:hover { color: #ff4500; }
-.social a.wordpress:hover { color: #0087be; }
+.social a {
+	background: #fff;
+	border-radius: 50%;
+	color: #000;
+	display: inline-block;
+	line-height: 36px;
+	margin: 0 3px;
+	text-shadow: none;
+	width: 36px;
+}
+.social a.twitter:hover { background: #1da1f2;color:#fff; }
+.social a.linkedin:hover { background: #0077b5;color:#fff; }
+.social a.salesforce:hover { background: #1798c1;color:#fff; }
+.social a.instagram:hover { background: #e1306c;color:#fff; }
+.social a.reddit:hover { background: #ff4500;color:#fff; }
+.social a.wordpress:hover { background: #0087be;color:#fff; }
