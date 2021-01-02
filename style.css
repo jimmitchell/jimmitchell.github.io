@@ -11,7 +11,7 @@ body
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
-	color: #fff;
+	color: #eee;
 	font-family: Lato, "Helvetica Neue", sans-serif;
 	font-size: 17px;
     font-size: 1.7rem;
@@ -20,7 +20,7 @@ body
 	line-height: 1.7;
 }
 
-a { color: #fff; }
+a { color: #eee; }
 
 a:hover
 {
@@ -52,7 +52,7 @@ a:hover
 {
 	margin: 0 auto;
 	width: 80%;
-	max-width: 500px;
+	max-width: 420px;
 	text-align: center;
 	padding: 35px;
 	padding-bottom: 5px;
@@ -75,24 +75,25 @@ p { margin: 35px 0; }
 	width: 80px;
 	height: 80px;
 	border-radius: 50%;
-	border: 2px solid #fff;
+	border: 2px solid #eee;
 	box-shadow: 0 3px 6px rgba(0,0,0,.5);
 }
 
 i.fab, i.fas { margin: 0 10px; }
 .social a {
-	background: #fff;
+	background: #eee;
 	border-radius: 50%;
-	color: #000;
+	color: #444;
 	display: inline-block;
 	line-height: 36px;
 	margin: 0 3px;
 	text-shadow: none;
 	width: 36px;
 }
-.social a.twitter:hover { background: #1da1f2;color:#fff; }
-.social a.linkedin:hover { background: #0077b5;color:#fff; }
-.social a.salesforce:hover { background: #1798c1;color:#fff; }
-.social a.instagram:hover { background: #e1306c;color:#fff; }
-.social a.reddit:hover { background: #ff4500;color:#fff; }
-.social a.wordpress:hover { background: #0087be;color:#fff; }
+
+.social a.twitter:hover { background: #1da1f2;color:#eee; }
+.social a.linkedin:hover { background: #0077b5;color:#eee; }
+.social a.salesforce:hover { background: #1798c1;color:#eee; }
+.social a.instagram:hover { background: #e1306c;color:#eee; }
+.social a.reddit:hover { background: #ff4500;color:#eee; }
+.social a.wordpress:hover { background: #0087be;color:#eee; }
