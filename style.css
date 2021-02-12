@@ -76,7 +76,7 @@ p { margin: 35px 0; }
 	height: 84px;
 	border-radius: 50%;
 	/* border: 2px solid #eee; */
-	box-shadow: 0 3px 6px rgba(0,0,0,1);
+	box-shadow: 0 3px 6px rgba(0,0,0,0.3);
 }
 
 i.fab, i.fas { margin: 0 10px; }
