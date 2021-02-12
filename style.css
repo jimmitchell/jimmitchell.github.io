@@ -30,7 +30,7 @@ a:hover
 
 .outer
 {
-	background-color: rgba(0,0,0,.7);
+	background-color: rgba(0,0,0,.5);
 	display: table;
 	position: absolute;
 	top: 0;
