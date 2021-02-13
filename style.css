@@ -1,10 +1,5 @@
-html
-{
-    font-size: 10px;
-}
-
-body
-{
+html {font-size: 10px;}
+body {
 	background-color: #000;
 	background-image: url('bg.jpg');
 	background-repeat: no-repeat;
@@ -14,22 +9,17 @@ body
 	color: #eee;
 	font-family: Lato, "Helvetica Neue", sans-serif;
 	font-size: 18px;
-    font-size: 1.8rem;
+	font-size: 1.8rem;
 	text-shadow: 0 3px 6px rgba(0,0,0,.5);
 	font-weight: 300;
 	line-height: 1.7;
 }
-
-a { color: #eee; }
-
-a:hover
-{
+a {color: #eee;}
+a:hover {
 	color: #00a1e0;
 	transition: all .3s ease-in-out;
 }
-
-.outer
-{
+.outer {
 	background-color: rgba(0,0,0,.5);
 	display: table;
 	position: absolute;
@@ -41,15 +31,11 @@ a:hover
 	-webkit-backdrop-filter: blur(5px);
 	backdrop-filter: blur(5px);
 }
-
-.middle
-{
+.middle {
 	display: table-cell;
 	vertical-align: middle;
 }
-
-.inner
-{
+.inner {
 	margin: 0 auto;
 	width: 80%;
 	max-width: 510px;
@@ -57,9 +43,7 @@ a:hover
 	padding: 35px;
 	padding-bottom: 5px;
 }
-
-h1
-{
+h1 {
 	font-weight: 400;
 	margin: 0 0 35px 0;
 	font-size: 22px;
@@ -67,38 +51,28 @@ h1
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
 }
-
-p { margin: 35px 0; }
-
-.profile
-{
+p {margin: 35px 0;}
+.profile {
 	width: 84px;
 	height: 84px;
 	border-radius: 50%;
-	/* border: 2px solid #eee; */
 	box-shadow: 0 3px 6px rgba(0,0,0,0.3);
 }
-
-i.fab, i.fas { margin: 0 10px; }
-
+i.fab, i.fas {margin: 0 10px;}
 .social a {
 	border-radius: 50%;
 	display: inline-block;
 	font-size: 16px;
-    font-size: 1.6rem;
+	font-size: 1.6rem;
 	line-height: 36px;
 	margin: 0 3px;
 	text-shadow: none;
 	width: 36px;
 }
-
-.social a.twitter { background: #1da1f2;color:#eee; }
-.social a.linkedin { background: #0077b5;color:#eee; }
-.social a.salesforce { background: #1798c1;color:#eee; }
-.social a.instagram { background: #e1306c;color:#eee; }
-.social a.reddit { background: #ff4500;color:#eee; }
-.social a.wordpress { background: #0087be;color:#eee; }
-
-.social a:hover {
-	filter: brightness(120%);
-}
+.social a.twitter {background: #1da1f2;color:#eee;}
+.social a.linkedin {background: #0077b5;color:#eee;}
+.social a.salesforce {background: #1798c1;color:#eee;}
+.social a.instagram {background: #e1306c;color:#eee;}
+.social a.reddit {background: #ff4500;color:#eee;}
+.social a.wordpress {background: #0087be;color:#eee;}
+.social a:hover {filter: brightness(120%);}
