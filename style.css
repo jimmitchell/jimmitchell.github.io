@@ -53,8 +53,8 @@ h1 {
 }
 p {margin: 35px 0;}
 .profile {
-	width: 84px;
-	height: 84px;
+	width: 96px;
+	height: 96px;
 	border-radius: 50%;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.3);
 }
