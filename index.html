@@ -1,47 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-NWJ329G6L2"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+---
+title: Home Page
+---
+<p>Certified Salesforce Administrator, Advanced Administrator, Service Cloud Consultant, Sales Cloud Consultant and Platform App Builder with experience in the Service Cloud, Sales Cloud and Marketing Cloud products.</p>
+<p>I'm also a co-leader for the Salesforce Irvine, CA Developer Group, a Salesforce Service Champion and an AppExchange All-Star.</p>
 
-	  gtag('config', 'G-NWJ329G6L2');
-	</script>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Jim Mitchell - Certified Salesforce Professional</title>
-	<link rel="shortcut icon" type="image/jpg" href="favicon.ico"/>
-	<link rel="preconnect" href="https://fonts.gstatic.com" />
-	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
-	<link rel="preload" href="bg.jpg" as="image">
-	<link rel="preload" href="profile.jpg" as="image">
-	<link rel="preload" href="style.css" as="style">
-	<link href="style.css" rel="stylesheet" />
-	<script src="https://kit.fontawesome.com/66d593ae38.js" crossorigin="anonymous"></script>
-</head>
-<body>
-	<div class="outer">
-		<div class="middle">
-			<div class="inner">
-				<img class="profile" src="profile.jpg" alt="Picture of Jim Mitchell" height="96" width="96" />
-				<h1>Jim Mitchell</h1>
-				<!-- <p>Certified Salesforce Administrator, Advanced Administrator, Service Cloud Consultant, Sales Cloud Consultant and Platform App Builder with experience in the Service Cloud, Sales Cloud and Marketing Cloud products.</p> -->
-				<!-- <p>I'm also a co-leader for the Salesforce Irvine, CA Developer Group, a Salesforce Service Champion and an AppExchange All-Star.</p> -->
-				<!-- <p>Connect with me through social media.</p> -->
-				<p class="social">
-					<a href="https://twitter.com/jimmitchell" target="_blank" class="twitter" title="Follow me on Twitter"><i class="fab fa-twitter"></i></a>
-					<a href="https://linkedin.com/in/jimmitchellmedia" target="_blank" class="linkedin" title="Connect with me on LinkedIn"><i class="fab fa-linkedin-in" style="text-indent:1px;"></i></a>
-					<a href="https://trailblazer.me/id/jimmitchell" target="_blank" class="salesforce" title="View my Trailblazer profile"><i class="fab fa-salesforce" style="text-indent:-2px;"></i></a>
-					<a href="https://instagram.com/trailblazer.jim" target="_blank" class="instagram" title="Follow me on Instagram"><i class="fab fa-instagram"></i></a>
-					<!-- <a href="https://reddit.com/u/jimmitchell" target="_blank" class="reddit" title="Connect with me on Reddit"><i class="fab fa-reddit-alien"></i></a> -->
-					<!-- <a href="https://jimmitchell.wordpress.com" target="_blank" class="wordpress" title="Read my posts on WordPress.com"><i class="fab fa-wordpress-simple"></i></i></a> -->
-				</p>
-			</div>
-		</div>
-	</div>
-</body>
-</html>
+{% if site.posts.size > 0 %}
+<h3>Recent Posts</h3>
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+{% endif %}
