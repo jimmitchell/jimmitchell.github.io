@@ -9,6 +9,9 @@ defaults:
     values:
       layout: "default"
 
+paginate: 6
+permalink: /:categories/:year/:month/:day/:title/
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap

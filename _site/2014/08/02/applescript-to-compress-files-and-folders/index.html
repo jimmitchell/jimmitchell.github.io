@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NWJ329G6L2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-NWJ329G6L2');
+</script>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link type="application/atom+xml" rel="alternate" href="/feed.xml" />
+    	<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Applescript To Compress Files And Folders</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Applescript To Compress Files And Folders" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I had the need to select several folders at once in the Mac OS Finder and zip them up as individual archives. This AppleScript to compress files and folders was the solution I came up with." />
+<meta property="og:description" content="I had the need to select several folders at once in the Mac OS Finder and zip them up as individual archives. This AppleScript to compress files and folders was the solution I came up with." />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2014-08-02T00:00:00-07:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Applescript To Compress Files And Folders" />
+<script type="application/ld+json">
+{"description":"I had the need to select several folders at once in the Mac OS Finder and zip them up as individual archives. This AppleScript to compress files and folders was the solution I came up with.","headline":"Applescript To Compress Files And Folders","dateModified":"2014-08-02T00:00:00-07:00","datePublished":"2014-08-02T00:00:00-07:00","url":"/2014/08/02/applescript-to-compress-files-and-folders/","mainEntityOfPage":{"@type":"WebPage","@id":"/2014/08/02/applescript-to-compress-files-and-folders/"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+		<link rel="shortcut icon" type="image/jpg" href="/assets/images/favicon.ico"/>
+		<link rel="preload" href="/assets/css/styles.css" as="style">
+		<script src="https://kit.fontawesome.com/66d593ae38.js" crossorigin="anonymous"></script>
+		<link href="/assets/css/prism.css" rel="stylesheet" />
+		<link href="/assets/css/styles.css" rel="stylesheet" />
+		<script src="/assets/js/prism.js"></script>
+	</head>
+	<body>
+		<div class="content">
+
+			<header>
+	<h1>Jim Mitchell</h1>
+</header>
+			<nav>
+    
+    <a href="/" >Home</a>
+    
+    <a href="/about/" >About</a>
+    
+</nav>
+			
+			<main>
+			<h1>Applescript To Compress Files And Folders</h1>
+<p class="meta">Saturday, August  2, 2014</p>
+
+<p>I had the need to select several folders at once in the Mac OS Finder and zip them up as individual archives. This AppleScript to compress files and folders was the solution I came up with.</p>
+
+<p>The script compresses each item selected into its own archive, and works with both folders and files.</p>
+
+<div class="language-applescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">tell</span><span class="w"> </span><span class="nb">application</span><span class="w"> </span><span class="s2">"Finder"</span><span class="w">
+    </span><span class="k">set</span><span class="w"> </span><span class="nv">theList</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="nv">selection</span><span class="w">
+    </span><span class="k">repeat</span><span class="w"> </span><span class="nv">with</span><span class="w"> </span><span class="nv">i</span><span class="w"> </span><span class="k">from</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="p">(</span><span class="nb">count</span><span class="w"> </span><span class="k">of</span><span class="w"> </span><span class="nv">theList</span><span class="p">)</span><span class="w">
+        </span><span class="k">set</span><span class="w"> </span><span class="nv">theItem</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="p">(</span><span class="nb">item</span><span class="w"> </span><span class="nv">i</span><span class="w"> </span><span class="k">of</span><span class="w"> </span><span class="nv">theList</span><span class="p">)</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nv">alias</span><span class="w">
+        </span><span class="k">set</span><span class="w"> </span><span class="nv">itemPath</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="nb">quoted form</span><span class="w"> </span><span class="k">of</span><span class="w"> </span><span class="nv">POSIX</span><span class="w"> </span><span class="na">path</span><span class="w"> </span><span class="k">of</span><span class="w"> </span><span class="nv">theItem</span><span class="w">
+        </span><span class="k">set</span><span class="w"> </span><span class="nv">fileName</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="na">name</span><span class="w"> </span><span class="k">of</span><span class="w"> </span><span class="nv">theItem</span><span class="w">
+        </span><span class="k">set</span><span class="w"> </span><span class="nv">theFolder</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="nv">POSIX</span><span class="w"> </span><span class="na">path</span><span class="w"> </span><span class="k">of</span><span class="w"> </span><span class="p">(</span><span class="nv">container</span><span class="w"> </span><span class="k">of</span><span class="w"> </span><span class="nv">theItem</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nv">alias</span><span class="p">)</span><span class="w">
+        </span><span class="k">set</span><span class="w"> </span><span class="nv">zipFile</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="nb">quoted form</span><span class="w"> </span><span class="k">of</span><span class="w"> </span><span class="p">(</span><span class="nv">theFolder</span><span class="w"> </span><span class="o">&amp;</span><span class="nv">amp</span><span class="err">;</span><span class="w"> </span><span class="nv">fileName</span><span class="w"> </span><span class="o">&amp;</span><span class="nv">amp</span><span class="err">;</span><span class="w"> </span><span class="s2">".zip"</span><span class="p">)</span><span class="w">
+        </span><span class="nb">do shell script</span><span class="w"> </span><span class="s2">"zip -jr "</span><span class="w"> </span><span class="o">&amp;</span><span class="nv">amp</span><span class="err">;</span><span class="w"> </span><span class="nv">zipFile</span><span class="w"> </span><span class="o">&amp;</span><span class="nv">amp</span><span class="err">;</span><span class="w"> </span><span class="s2">" "</span><span class="w"> </span><span class="o">&amp;</span><span class="nv">amp</span><span class="err">;</span><span class="w"> </span><span class="nv">itemPath</span><span class="w">
+    </span><span class="k">end</span><span class="w"> </span><span class="k">repeat</span><span class="w">
+</span><span class="k">end</span><span class="w"> </span><span class="k">tell</span><span class="w">
+</span></code></pre></div></div>
+<p>As always, you’ll get the best results when used with <a href="http://www.red-sweater.com/fastscripts/">FastScripts</a> by <a href="http://www.red-sweater.com/">Red Sweater Software</a>.</p>
+
+
+
+<div class="previous-next">
+    
+    &laquo;&nbsp;<a class="previous" href="/2014/07/23/salesforce-flows-visualforce-and-record-context/">Salesforce Flows Visualforce And Record Context</a>
+    
+    
+      <a class="next" href="/2014/10/15/passing-your-salesforce-adm201-certification-exam/">Passing Your Salesforce Adm201 Certification Exam</a>&nbsp;&raquo;
+    
+  </div>
+  
+			</main>
+
+			<footer>
+	<p class="social">
+		<a href="https://twitter.com/jimmitchell" target="_blank" class="twitter" title="Follow me on Twitter"><i class="fab fa-twitter"></i></a>
+		<a href="https://linkedin.com/in/jimmitchellmedia" target="_blank" class="linkedin" title="Connect with me on LinkedIn"><i class="fab fa-linkedin-in" style="text-indent:1px;"></i></a>
+		<a href="https://trailblazer.me/id/jimmitchell" target="_blank" class="salesforce" title="View my Trailblazer profile"><i class="fab fa-salesforce" style="text-indent:-2px;"></i></a>
+		<a href="https://instagram.com/trailblazer.jim" target="_blank" class="instagram" title="Follow me on Instagram"><i class="fab fa-instagram"></i></a>
+		<a href="https://github.com/jimmitchell" target="_blank" class="github" title="See my projects on Github"><i class="fab fa-github"></i></a>
+	</p>
+	<p>&copy;2021 - Jim Mitchell</p>
+</footer>
+		
+		</div>
+	</body>
+</html>
