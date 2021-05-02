@@ -22,7 +22,7 @@ title: Home Page
 
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
-      <span>{{ page }}</span>
+      <span style="font-weight:600;">{{ page }}</span>
     {% elsif page == 1 %}
       <a href="{{ '/' | relative_url }}">{{ page }}</a>
     {% else %}

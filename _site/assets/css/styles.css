@@ -96,11 +96,19 @@ ul.post-list h3 { font-size: 18px; font-size: 1.8rem; margin: 0; }
 
 ul.post-list a { display: inline-block; padding: 15px 0; border-bottom: 1px solid var(--accent-color-1); width: 100%; }
 
-p.meta { font-size: 12px; margin: -15px 0 15px 0; text-transform: uppercase; }
+ul.post-list a:link, ul.post-list a:visited { text-decoration: none; }
+
+ul.post-list a:hover, ul.post-list a:active { text-decoration: underline; }
+
+.post-title { line-height: 1.2; margin: 25px 0 15px 0; }
+
+p.meta { color: var(--accent-color-2); font-size: 12px; margin: -15px 0 25px 0; text-transform: uppercase; }
 
 p.category { font-size: 12px; text-transform: uppercase; }
 
 main { overflow: auto; width: 100%; margin: 10px 0; }
+
+main h1, main h2, main h3 { margin: 30px 0 -15px; }
 
 main img { max-width: 100%; }
 
@@ -111,6 +119,10 @@ main .previous-next { padding: 15px 0; border-top: 1px solid var(--accent-color-
 main .previous-next .previous, main .previous-next .next { flex: 50%; }
 
 main .previous-next .next { text-align: right; }
+
+.pagination { text-align: center; }
+
+.pagination span, .pagination a { margin: 0 3px; }
 
 header { padding: 25px 0; width: 100%; margin: 0 auto; text-align: center; }
 
@@ -128,23 +140,23 @@ nav a { line-height: 3; margin: 0 10px; }
 
 nav a.current { color: var(--link-color-hover); }
 
-footer { padding: 5px 0; width: 100%; margin: 0 auto; text-align: center; }
+footer { color: var(--accent-color-2); padding: 5px 0; width: 100%; margin: 0 auto; text-align: center; }
 
 i.fab, i.fas { margin: 0 8px; }
 
-.social a { background-color: var(--body-text-color); border-radius: 50%; color: var(--background-color); display: inline-block; font-size: 12px; font-size: 1.2rem; line-height: 28px; margin: 0 3px; text-shadow: none; width: 28px; }
+.social a { border-radius: 50%; color: var(--body-text-color); display: inline-block; font-size: 14px; font-size: 1.4rem; line-height: 28px; margin: 0; text-shadow: none; width: 28px; }
 
-.social a.twitter:hover { background: #1da1f2; }
+.social a.twitter:hover { color: #1da1f2; }
 
-.social a.linkedin:hover { background: #0077b5; }
+.social a.linkedin:hover { color: #0077b5; }
 
-.social a.salesforce:hover { background: #1798c1; }
+.social a.salesforce:hover { color: #1798c1; }
 
-.social a.instagram:hover { background: #e1306c; }
+.social a.instagram:hover { color: #e1306c; }
 
-.social a.reddit:hover { background: #ff4500; }
+.social a.reddit:hover { color: #ff4500; }
 
-.social a.github:hover { background: #4078c0; }
+.social a.github:hover { color: #4078c0; }
 
 footer p { font-size: 12px; margin: 15px 0; text-transform: uppercase; }
 
