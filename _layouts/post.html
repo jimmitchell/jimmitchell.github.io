@@ -8,12 +8,18 @@ layout: default
 {{ content }}
 
 {% if site.posts.size > 1 %}
-<div class="previous-next">
+<div class="single-pagination">
     {% if page.previous.url %}
-    &laquo;&nbsp;<a class="previous" href="{{page.previous.url}}">{{page.previous.title}}</a>
+    <div class="prev-link">
+      <h5>Older</h5>
+      <p><a href="{{page.previous.url}}">{{page.previous.title}}</a></p>
+    </div>
     {% endif %}
     {% if page.next.url %}
-      <a class="next" href="{{page.next.url}}">{{page.next.title}}</a>&nbsp;&raquo;
+    <div class="next-link">
+      <h5>Newer</h5>
+      <p><a href="{{page.next.url}}">{{page.next.title}}</a></p>
+    </div>
     {% endif %}
   </div>
   {% endif %}
