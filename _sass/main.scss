@@ -201,13 +201,26 @@ main .previous-next .next {
 .single-pagination a:hover {
     color: var(--link-color-hover);
 }
+
+.pagination a,
+.pagination span {
+    padding: 6px 16px 4px;
+    border: 1px solid var(--accent-color-1);
+    margin-left: -3px;
+    margin-right: -3px;
+    background-color: #ffffff;
+    display: inline-block;
+	text-decoration: none;
+  }
+.pagination a {    
+    &:hover {
+        background-color: #f1f1f1;
+		text-decoration: underline;
+    }
+ }
 .pagination {
-	text-align: center;
-}
-.pagination span,
-.pagination a {
-	margin: 0 3px;
-}
+    text-align: center;
+ }
 
 // Header
 header {
