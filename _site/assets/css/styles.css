@@ -138,11 +138,11 @@ main .previous-next .next { text-align: right; }
 
 .single-pagination a:hover { color: var(--link-color-hover); }
 
-.pagination a, .pagination span { padding: 6px 16px 4px; border: 1px solid var(--accent-color-1); margin-left: -3px; margin-right: -3px; background-color: #ffffff; display: inline-block; text-decoration: none; }
+.pagination a, .pagination span { padding: 6px 14px 4px; border: 1px solid var(--accent-color-1); margin-left: -3px; margin-right: -3px; background-color: #ffffff; display: inline-block; text-decoration: none; }
 
 .pagination a:hover { background-color: #f1f1f1; text-decoration: underline; }
 
-.pagination { text-align: center; }
+.pagination { text-align: center; font-size: 12px; font-size: 1.2rem; }
 
 header { padding: 25px 0; width: 100%; margin: 0 auto; text-align: center; }
 

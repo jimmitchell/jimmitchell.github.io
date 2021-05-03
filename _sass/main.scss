@@ -206,7 +206,7 @@ main .previous-next .next {
 
 .pagination a,
 .pagination span {
-    padding: 6px 16px 4px;
+    padding: 6px 14px 4px;
     border: 1px solid var(--accent-color-1);
     margin-left: -3px;
     margin-right: -3px;
@@ -222,6 +222,8 @@ main .previous-next .next {
  }
 .pagination {
     text-align: center;
+	font-size: 12px;
+	font-size: 1.2rem;
  }
 
 // Header
