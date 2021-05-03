@@ -135,11 +135,10 @@ main:first-of-type h1 {
 main img {
 	max-width: 100%;
 }
-main img[src~="full-width"] {
+img[src*="#full"] {
 	width:100%;
 	height:auto;
-}
-
+ }
 main .previous-next {
 	padding: 15px 0;
     border-top: 1px solid var(--accent-color-1);
@@ -155,7 +154,6 @@ main .previous-next .next {
 main .previous-next .next {
 	text-align: right;
 }
-
 .single-pagination {
     border-bottom: 1px solid var(--accent-color-1);
     border-top: 1px solid var(--accent-color-1);
@@ -166,11 +164,9 @@ main .previous-next .next {
     padding: 20px 0 0 0;
     width: 100%;
 }
-
 .single-pagination:after {
     clear: both;
 }
-
 .single-pagination .next-link {
     float: left;
     margin-right: 20px;
@@ -178,7 +174,6 @@ main .previous-next .next {
     vertical-align: text-top;
     width: 45%;
 }
-
 .single-pagination .prev-link {
     float: right;
     margin-left: 20px;
@@ -186,7 +181,6 @@ main .previous-next .next {
     vertical-align: text-top;
     width: 45%;
 }
-
 .single-pagination h5 {
 	color: var(--accent-color-2);
     font-size: 12px;
@@ -195,22 +189,18 @@ main .previous-next .next {
     margin: 0 0 -15px 0;
     text-transform: uppercase;
 }
-
 .single-pagination p {
     font-size: 18px;
     font-size: 1.8rem;
     line-height: 1.1;
 }
-
 .single-pagination a {
     background: none;
     line-height: 1.4;
 }
-
 .single-pagination a:hover {
     color: var(--link-color-hover);
 }
-
 .pagination {
 	text-align: center;
 }

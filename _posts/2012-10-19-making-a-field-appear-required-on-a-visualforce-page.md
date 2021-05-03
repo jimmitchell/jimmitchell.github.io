@@ -6,7 +6,7 @@ I’ve been working on a force.com app with the requirement that a user must ent
 
 But they must also be able to insert the related contact’s email address by clicking a button instead of having to leave the edit page to go find it. That seemed simple enough, but it wasn’t. This is my solution for making a field appear required on a Visualforce page.
 
-![Mail Folder](/assets/images/posts/visualforce-page.png "Apple Mail Folder")
+![Mail Folder](/assets/images/posts/visualforce-page.png#full "Apple Mail Folder")
 
 In my original Visualforce page, it seemed logical that if I set the recipient email field as required, all would work as expected. However, defining the field as required prevented my custom action in my page controller from firing and entering the email address.
 
