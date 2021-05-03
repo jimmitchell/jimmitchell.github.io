@@ -3,7 +3,7 @@ button,hr,input{overflow:visible}progress,sub,sup{vertical-align:baseline}[type=
 
 :root {
 	--background-color: #fff;
-	--body-text-color: #323639;
+	--body-text-color: #333;
 	--link-color-hover: #00a1e0;
 	--accent-color-1: #ddd;
 	--accent-color-2: #999;
@@ -28,7 +28,7 @@ body {
     font-weight: 400;
     font-size: 18px;
 	font-size: 1.8rem;
-	line-height: 1.7;
+	line-height: 1.6;
     animation: fadeInAnimation ease 0.75s; 
 	animation-iteration-count: 1; 
 	animation-fill-mode: forwards;
@@ -47,7 +47,7 @@ a:hover {
 	transition: all .3s ease-in-out;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-weight: 600;
+	font-weight: bold;
 }
 h1 {
 	font-size: 26px;
@@ -236,7 +236,7 @@ header img.profile {
 	box-shadow: 0 3px 6px rgba(0,0,0,0.3);
 }
 header h1 {
-	font-weight: 600;
+	//font-weight: 600;
 	margin: 0;
 	font-size: 24x;
 	font-size: 2.4rem;
