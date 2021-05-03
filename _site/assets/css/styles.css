@@ -146,7 +146,7 @@ header { padding: 25px 0; width: 100%; margin: 0 auto; text-align: center; }
 
 header img.profile { width: 72px; height: 72px; border-radius: 50%; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3); }
 
-header h1 { font-weight: 600; margin: 0; font-size: 20x; font-size: 2rem; text-transform: uppercase; }
+header h1 { font-weight: 600; margin: 0; font-size: 24x; font-size: 2.4rem; }
 
 header a { text-decoration: none; display: block; }
 
