@@ -130,7 +130,7 @@ main .previous-next .next { text-align: right; }
 
 .single-pagination .prev-link { float: right; margin-left: 20px; text-align: right; vertical-align: text-top; width: 45%; }
 
-.single-pagination h5 { color: var(--accent-color-2); font-size: 12px; font-size: 1.2rem; margin: 0 0 -15px 0; }
+.single-pagination h5 { color: var(--accent-color-2); font-size: 14px; font-size: 1.4rem; margin: 0 0 -15px 0; }
 
 .single-pagination p { line-height: 1.1; }
 
