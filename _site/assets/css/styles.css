@@ -110,9 +110,9 @@ main img { max-width: 100%; margin: 20px auto 10px auto; }
 
 main img[src*="#full"] { width: 100%; height: auto; }
 
-ul.post-list { list-style: none; padding: 0; margin-bottom: 25px; }
+ul.post-list { list-style: none; padding: 0; margin-bottom: 25px; text-align: center; }
 
-ul.post-list h3 { font-size: 17px; font-size: 1.7rem; margin: 0; }
+ul.post-list h2 { margin: 0; }
 
 ul.post-list a { display: inline-block; padding: 20px 0; border-bottom: 1px solid var(--accent-color-1); width: 100%; }
 
