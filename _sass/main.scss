@@ -71,6 +71,33 @@ pre, code {
 	font-size: 1.4rem;
 }
 
+// Header
+header {
+	padding: 20px 0;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+header h1 {
+	margin: 0;
+	font-size: 24x;
+	font-size: 2.4rem;
+}
+
+// Navigation
+nav {
+	border-top: 1px solid var(--accent-color-1);
+	border-bottom: 1px solid var(--accent-color-1);
+	text-align: center;
+}
+nav a {
+	line-height: 3;
+	margin: 0 10px;
+}
+nav a.current {
+	color: var(--link-color-hover);
+}
+
 // Content
 .content {
 	width: 100%;
@@ -78,11 +105,35 @@ pre, code {
 	max-width: 740px;
 	margin: 0 auto;
 }
+
+main {
+	overflow: auto;
+	width: 100%;
+	margin: 10px 0;
+}
+main h1,
+main h2,
+main h3 {
+	margin: 35px 0 -5px;
+	line-height: 1.2;
+}
+main:first-of-type h1 {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	line-height: 1.2;
+}
+main img {
+	max-width: 100%;
+	margin: 20px auto 10px auto;
+}
+main img[src*="#full"] {
+	width:100%;
+	height:auto;
+}
 ul.post-list {
 	list-style: none;
 	padding: 0;
 	margin-bottom: 25px;
-	//border-top: 1px solid var(--accent-color-1);
 }
 ul.post-list h3 {
 	font-size: 17px;
@@ -117,45 +168,8 @@ p.category {
 	font-size: 12px;
 	text-transform: uppercase;
 }
-main {
-	overflow: auto;
-	width: 100%;
-	margin: 10px 0;
-}
-main h1,
-main h2,
-main h3 {
-	margin: 35px 0 -5px;
-	line-height: 1.2;
-}
-main:first-of-type h1 {
-	margin-top: 25px;
-	margin-bottom: 25px;
-	line-height: 1.2;
-}
-main img {
-	max-width: 100%;
-	margin: 20px auto 10px auto;
-}
-main img[src*="#full"] {
-	width:100%;
-	height:auto;
- }
-main .previous-next {
-	padding: 15px 0;
-    border-top: 1px solid var(--accent-color-1);
-    border-bottom: 1px solid var(--accent-color-1);
-    margin: 30px auto 5px auto;
-	width: 100%;
-	display: flex;
-}
-main .previous-next .previous,
-main .previous-next .next {
-	flex: 50%;
-}
-main .previous-next .next {
-	text-align: right;
-}
+
+// Single page pagination
 .single-pagination {
     border-bottom: 1px solid var(--accent-color-1);
     border-top: 1px solid var(--accent-color-1);
@@ -185,9 +199,7 @@ main .previous-next .next {
 	color: var(--accent-color-2);
     font-size: 14px;
     font-size: 1.4rem;
-    //font-weight: 400;
     margin: 0 0 -15px 0;
-    //text-transform: uppercase;
 }
 .single-pagination p {
     line-height: 1.1;
@@ -200,6 +212,12 @@ main .previous-next .next {
     color: var(--link-color-hover);
 }
 
+// Home page pagination
+.pagination {
+    text-align: center;
+	font-size: 14px;
+	font-size: 1.4rem;
+ }
 .pagination a,
 .pagination span {
     padding: 6px 12px 4px;
@@ -222,54 +240,6 @@ main .previous-next .next {
  .pagination .next {
 	 border-radius: 0 5px 5px 0;
  }
-.pagination {
-    text-align: center;
-	font-size: 12px;
-	font-size: 1.2rem;
- }
-
-// Header
-header {
-	padding: 20px 0;
-	width: 100%;
-	margin: 0 auto;
-	text-align: center;
-}
-header img.profile {
-	width: 72px;
-	height: 72px;
-	border-radius: 50%;
-	box-shadow: 0 3px 6px rgba(0,0,0,0.3);
-}
-header h1 {
-	//font-weight: 600;
-	margin: 0;
-	font-size: 24x;
-	font-size: 2.4rem;
-	//text-transform: uppercase;
-}
-header a {
-	text-decoration: none;
-	display: block;
-}
-header a:link,
-header a:visited {
-	text-decoration: none;
-}
-
-// Navigation
-nav {
-	border-top: 1px solid var(--accent-color-1);
-	border-bottom: 1px solid var(--accent-color-1);
-	text-align: center;
-}
-nav a {
-	line-height: 3;
-	margin: 0 10px;
-}
-nav a.current {
-	color: var(--link-color-hover);
-}
 
 // Footer
 footer {
@@ -278,32 +248,12 @@ footer {
 	width: 100%;
 	margin: 0 auto 15px auto;
 	text-align: center;
-}
-i.fab, i.fas {margin: 0 8px;}
-.social a {
-	//background-color: var(--body-text-color);
-	border-radius: 50%;
-	color: var(--body-text-color);
-	display: inline-block;
-	font-size: 14px;
-	font-size: 1.4rem;
-	line-height: 28px;
-	margin: 0;
-	text-shadow: none;
-	width: 28px;
-}
-.social a.twitter:hover {color: #1da1f2;}
-.social a.linkedin:hover {color: #0077b5;}
-.social a.salesforce:hover {color: #1798c1;}
-.social a.instagram:hover {color: #e1306c;}
-.social a.reddit:hover {color: #ff4500;}
-.social a.github:hover {color: #4078c0;}
-footer p {
 	font-size: 12px;
-	margin: 15px 0;
+	font-size: 1.2rem;
 	text-transform: uppercase;
 }
 
+// Mobile responsive
 @media only screen and (max-width: 740px) {
 	.single-pagination .prev-link,
     .single-pagination .next-link {
