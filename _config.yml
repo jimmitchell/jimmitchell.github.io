@@ -12,7 +12,7 @@ defaults:
 title: Jim Mitchell
 description: The site of Jim Mitchell...
 
-paginate: 10
+paginate: 8
 permalink: /:categories/:year/:month/:day/:title/
 
 plugins:
