@@ -1,6 +1,6 @@
-- name: Posts
+- name: Home
   link: /
 - name: About
   link: /about/
-- name: Contact
+- name: Twitter
   link: https://twitter.com/jimmitchell
