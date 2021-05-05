@@ -156,6 +156,6 @@ p.category { font-size: 12px; text-transform: uppercase; }
 
 footer { color: var(--accent-color-2); padding: 5px 0; width: 100%; margin: 0 auto 15px auto; text-align: center; font-size: 12px; font-size: 1.2rem; text-transform: uppercase; }
 
-@media only screen and (max-width: 740px) { .single-pagination .prev-link, .single-pagination .next-link { margin: 0; text-align: left; width: 100%; } }
+@media only screen and (max-width: 740px) { .single-pagination .prev-link, .single-pagination .next-link { margin: 0; text-align: left; width: 100%; } #disqus_thread { max-width: calc(100% + 40px); margin-left: calc(-20px); margin-right: calc(-20px); } }
 
 /*# sourceMappingURL=styles.css.map */
