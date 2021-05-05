@@ -126,7 +126,7 @@ p.meta { color: var(--accent-color-2); font-size: 12px; margin: -20px 0 25px 0; 
 
 p.category { font-size: 12px; text-transform: uppercase; }
 
-#disqus_thread { margin: 30px 0; }
+#disqus_thread { margin: 30px 0; padding: 20px 20px 0 20px; background: #fafafa; }
 
 .single-pagination { border-bottom: 1px solid var(--accent-color-1); border-top: 1px solid var(--accent-color-1); float: left; margin: 15px 0 0 0; padding: 20px 0 0 0; width: 100%; }
 
