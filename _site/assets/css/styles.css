@@ -100,7 +100,7 @@ nav a.current { color: var(--link-color-hover); }
 
 .content { width: 100%; padding: 5px 20px; max-width: 740px; margin: 0 auto; }
 
-main { overflow: auto; width: 100%; margin: 10px 0; }
+main { width: 100%; margin: 10px 0; }
 
 main h1, main h2, main h3 { margin: 35px 0 -5px; line-height: 1.2; }
 
