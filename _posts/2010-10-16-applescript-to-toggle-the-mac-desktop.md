@@ -1,5 +1,6 @@
 ---
 Title: AppleScript to Toggle the Mac Desktop
+comments: true
 ---
 
 Here's an AppleScript I use to quickly toggle desktop visibility for taking screenshots and recording screencasts that I thought might be useful for others.

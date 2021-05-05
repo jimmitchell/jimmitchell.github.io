@@ -1,5 +1,6 @@
 ---
 Title: Making a Field Appear Required on a Visualforce Page
+comments: true
 ---
 
 I’ve been working on a force.com app with the requirement that a user must enter a valid email address on a Visualforce page before being able to save a record.

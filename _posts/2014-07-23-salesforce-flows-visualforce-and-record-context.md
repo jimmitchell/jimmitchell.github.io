@@ -1,5 +1,6 @@
 ---
 Title: Salesforce Flows, Visualforce and Record Context
+comments: true
 ---
 
 I was asked to find a solution for our field reps that would simplify the process of adding a completed task to their activities when they visited one of our retail stores.

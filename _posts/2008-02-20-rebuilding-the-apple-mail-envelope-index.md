@@ -1,5 +1,6 @@
 ---
 Title: Rebuilding the Apple Mail Envelope Index
+comments: true
 ---
 
 Some time ago, I set up my Gmail account in Apple Mail to copy over messages which were not sent to my jimmitchell.org account. I’m one of those guys who likes to have everything all in one place at my finger tips when I need it.

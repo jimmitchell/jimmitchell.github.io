@@ -1,5 +1,6 @@
 ---
 Title: Top Chrome Extensions Every Salesforce Admin Needs
+comments: true
 ---
 
 Most Salesforce admins have a list of favorite Google Chrome extensions they use to make their work just a little easier.

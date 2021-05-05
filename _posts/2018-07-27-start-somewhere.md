@@ -1,5 +1,6 @@
 ---
 Title: Start Somewhere
+comments: true
 ---
 
 Eventually you use up every excuse in your book for not doing the thing you keep saying you’re going to do. You’ve procrastinated yourself into a corner and realize it’s either time to just do it, or finally forget about it and move on.

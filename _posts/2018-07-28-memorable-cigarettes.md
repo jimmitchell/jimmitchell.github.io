@@ -1,5 +1,6 @@
 ---
 Title: Memorable Cigarettes
+comments: true
 ---
 
 After nearly fifty years, I can still remember the first time I smoked a cigarette. It was early spring and my family lived on a farm in a semi-rural part of Colorado, a little north of Denver, at the foot of the Rocky Mountains.

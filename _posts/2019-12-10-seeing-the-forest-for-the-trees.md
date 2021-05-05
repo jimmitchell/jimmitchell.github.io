@@ -1,5 +1,6 @@
 ---
 Title: Seeing the Forest for the Trees
+comments: true
 ---
 
 No matter how well-intentioned we are, sometimes we allow things to sneak into our lives under the guise of it being something important.

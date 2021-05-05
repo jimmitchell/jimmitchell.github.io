@@ -1,5 +1,6 @@
 ---
 Title: Spin Cycle
+comments: true
 ---
 
 I’ve been around long enough to know life moves in cycles.

@@ -1,5 +1,6 @@
 ---
 Title: It's Your First Dreamforce. What Should You Expect?
+comments: true
 ---
 
 Yay! It’s your first Dreamforce!

@@ -1,5 +1,6 @@
 ---
 Title: AppleScript to Add Files in the Mac Finder
+comments: true
 ---
 
 Today I had the need to add a bunch of named text files to a folder in the Finder on my Mac.
