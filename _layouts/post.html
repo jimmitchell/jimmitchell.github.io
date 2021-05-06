@@ -7,10 +7,6 @@ layout: default
 
 {{ content }}
 
-{% if page.comments %}
-{% include disqus.html %}
-{% endif %}
-
 {% if site.posts.size > 1 %}
 <div class="single-pagination">
   {% if page.previous.url %}
