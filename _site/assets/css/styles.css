@@ -126,11 +126,9 @@ p.meta { color: var(--accent-color-2); font-size: 12px; margin: -20px 0 25px 0; 
 
 p.category { font-size: 12px; text-transform: uppercase; }
 
-#disqus_thread { margin: 30px 0; padding: 5px 20px 0 20px; background: #f6f6f6; }
+#disqus_thread { margin: 30px 0 10px 0; padding: 5px 20px 0 20px; background: #f6f6f6; }
 
-.single-pagination { border-bottom: 1px solid var(--accent-color-1); border-top: 1px solid var(--accent-color-1); float: left; margin: 15px 0 0 0; padding: 20px 0 0 0; width: 100%; }
-
-.single-pagination:after { clear: both; }
+.single-pagination { border-bottom: 1px solid var(--accent-color-1); border-top: 1px solid var(--accent-color-1); float: left; margin: 15px 0 30px 0; padding: 20px 0 0 0; width: 100%; }
 
 .single-pagination .next-link { float: left; margin-right: 20px; text-align: left; vertical-align: text-top; width: 45%; }
 
@@ -143,6 +141,8 @@ p.category { font-size: 12px; text-transform: uppercase; }
 .single-pagination a { background: none; line-height: 1.4; }
 
 .single-pagination a:hover { color: var(--link-color-hover); }
+
+.single-pagination::after { clear: both; }
 
 .pagination { text-align: center; font-size: 14px; font-size: 1.4rem; }
 

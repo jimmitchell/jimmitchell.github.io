@@ -13,17 +13,17 @@ layout: default
 
 {% if site.posts.size > 1 %}
 <div class="single-pagination">
-    {% if page.previous.url %}
-    <div class="prev-link">
-      <h5>Older</h5>
-      <p><a href="{{page.previous.url}}">{{page.previous.title}}</a></p>
-    </div>
-    {% endif %}
-    {% if page.next.url %}
-    <div class="next-link">
-      <h5>Newer</h5>
-      <p><a href="{{page.next.url}}">{{page.next.title}}</a></p>
-    </div>
-    {% endif %}
+  {% if page.previous.url %}
+  <div class="prev-link">
+    <h5>Older</h5>
+    <p><a href="{{page.previous.url}}">{{page.previous.title}}</a></p>
   </div>
   {% endif %}
+  {% if page.next.url %}
+  <div class="next-link">
+    <h5>Newer</h5>
+    <p><a href="{{page.next.url}}">{{page.next.title}}</a></p>
+  </div>
+  {% endif %}
+</div>
+{% endif %}

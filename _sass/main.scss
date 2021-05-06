@@ -167,7 +167,7 @@ p.category {
 	text-transform: uppercase;
 }
 #disqus_thread {
-	margin: 30px 0;
+	margin: 30px 0 10px 0;
 	padding: 5px 20px 0 20px;
 	background: #f6f6f6;
 }
@@ -177,12 +177,9 @@ p.category {
     border-bottom: 1px solid var(--accent-color-1);
     border-top: 1px solid var(--accent-color-1);
     float: left;
-    margin: 15px 0 0 0;
+    margin: 15px 0 30px 0;
     padding: 20px 0 0 0;
     width: 100%;
-}
-.single-pagination:after {
-    clear: both;
 }
 .single-pagination .next-link {
     float: left;
@@ -214,6 +211,10 @@ p.category {
 .single-pagination a:hover {
     color: var(--link-color-hover);
 }
+.single-pagination::after {
+    clear: both;
+}
+
 
 // Home page pagination
 .pagination {
