@@ -61,7 +61,7 @@ summary { display: list-item; }
 
 [hidden], template { display: none; }
 
-:root { --background-color: #fff; --body-text-color: #333; --link-color-hover: #00a1e0; --accent-color-1: #ddd; --accent-color-2: #999; --accent-color-3: #555; }
+:root { --background-color: #fff; --body-text-color: #333; --link-color-hover: #00a1e0; --accent-color-1: #ddd; --accent-color-2: #333; --accent-color-3: #555; }
 
 html { font-size: 10px; }
 
@@ -90,7 +90,7 @@ pre, code { font-family: monospace; font-size: 14px; font-size: 1.4rem; }
 
 header { padding: 20px 0; width: 100%; margin: 0 auto; text-align: center; }
 
-header h1 { margin: 0; font-size: 24x; font-size: 2.4rem; }
+header p.site-title { margin: 0; font-size: 24x; font-size: 2.4rem; font-weight: bold; }
 
 nav { border-top: 1px solid var(--accent-color-1); border-bottom: 1px solid var(--accent-color-1); text-align: center; }
 
