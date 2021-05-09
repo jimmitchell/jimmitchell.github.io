@@ -76,6 +76,10 @@ a { color: var(--body-text-color); }
 
 a:hover { color: var(--link-color-hover); transition: all .3s ease-in-out; }
 
+a.skip { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+
+a.skip:active, a.skip:focus { left: 0; width: auto; height: auto; overflow: visible; text-decoration: underline; }
+
 h1, h2, h3, h4, h5, h6 { font-weight: bold; }
 
 h1 { font-size: 24px; font-size: 2.4rem; }
@@ -90,7 +94,7 @@ pre, code { font-family: monospace; font-size: 14px; font-size: 1.4rem; }
 
 header { padding: 20px 0; width: 100%; margin: 0 auto; text-align: center; }
 
-header p.site-title { margin: 0; font-size: 24x; font-size: 2.4rem; font-weight: bold; }
+header p.site-title { margin: 0; font-size: 20x; font-size: 2rem; font-weight: bold; letter-spacing: 1px; text-transform: uppercase; }
 
 nav { border-top: 1px solid var(--accent-color-1); border-bottom: 1px solid var(--accent-color-1); text-align: center; }
 
@@ -134,7 +138,7 @@ p.category { font-size: 12px; text-transform: uppercase; }
 
 .single-pagination .prev-link { float: right; margin-left: 20px; text-align: right; vertical-align: text-top; width: 45%; }
 
-.single-pagination h5 { color: var(--accent-color-2); font-size: 14px; font-size: 1.4rem; margin: 0 0 -15px 0; }
+.single-pagination p.title { color: var(--accent-color-2); font-size: 14px; font-size: 1.4rem; margin: 0 0 -15px 0; font-weight: bold; }
 
 .single-pagination p { line-height: 1.1; }
 

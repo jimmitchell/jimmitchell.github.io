@@ -46,6 +46,21 @@ a:hover {
 	color: var(--link-color-hover);
 	transition: all .3s ease-in-out;
 }
+a.skip {
+	position: absolute;
+	left: -10000px;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+a.skip:active,
+a.skip:focus {
+	left: 0;
+	width: auto;
+	height: auto;
+	overflow: visible;
+	text-decoration: underline;
+}
 h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 }
@@ -80,9 +95,11 @@ header {
 }
 header p.site-title {
 	margin: 0;
-	font-size: 24x;
-	font-size: 2.4rem;
+	font-size: 20x;
+	font-size: 2rem;
 	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
 }
 
 // Navigation
@@ -106,7 +123,6 @@ nav a.current {
 	max-width: 740px;
 	margin: 0 auto;
 }
-
 main {
 	width: 100%;
 	margin: 10px 0;
@@ -197,11 +213,12 @@ p.category {
     vertical-align: text-top;
     width: 45%;
 }
-.single-pagination h5 {
+.single-pagination p.title {
 	color: var(--accent-color-2);
     font-size: 14px;
     font-size: 1.4rem;
     margin: 0 0 -15px 0;
+	font-weight: bold;
 }
 .single-pagination p {
     line-height: 1.1;
