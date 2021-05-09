@@ -61,7 +61,7 @@ summary { display: list-item; }
 
 [hidden], template { display: none; }
 
-:root { --background-color: #fff; --body-text-color: #333; --link-color-hover: #00a1e0; --accent-color-1: #ddd; --accent-color-2: #333; --accent-color-3: #555; }
+:root { --background-color: #fff; --body-text-color: #333; --link-color: #e00070; --link-color-hover: #b30060; --accent-color-1: #ddd; --accent-color-2: #333; --accent-color-3: #555; }
 
 html { font-size: 10px; }
 
@@ -72,9 +72,9 @@ body { background-color: var(--background-color); color: var(--body-text-color);
 @keyframes fadeInAnimation { 0% { opacity: 0; }
   100% { opacity: 1; } }
 
-a { color: var(--body-text-color); }
+a { color: var(--link-color); text-decoration: none; }
 
-a:hover { color: var(--link-color-hover); transition: all .3s ease-in-out; }
+a:hover { color: var(--link-color-hover); transition: all .3s ease-in-out; text-decoration: underline; }
 
 a.skip { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
 
@@ -102,8 +102,6 @@ nav { border-top: 1px solid var(--accent-color-1); border-bottom: 1px solid var(
 
 nav a { line-height: 3; margin: 0 10px; }
 
-nav a.current { color: var(--link-color-hover); }
-
 main { width: 100%; margin: 10px 0; }
 
 main h1, main h2, main h3 { margin: 35px 0 -5px; line-height: 1.2; }
@@ -118,11 +116,11 @@ ul.post-list { list-style: none; padding: 0; margin-bottom: 25px; }
 
 ul.post-list h2 { margin: 0; }
 
-ul.post-list a { display: inline-block; padding: 20px 0; border-bottom: 1px solid var(--accent-color-1); width: 100%; }
+ul.post-list a { color: var(--body-text-color); display: inline-block; padding: 20px 0; border-bottom: 1px solid var(--accent-color-1); width: 100%; }
 
 ul.post-list a:link, ul.post-list a:visited { text-decoration: none; }
 
-ul.post-list a:hover, ul.post-list a:active { text-decoration: underline; }
+ul.post-list a:hover, ul.post-list a:active { color: var(--link-color-hover); text-decoration: underline; }
 
 .post-title { line-height: 1.2; margin: 25px 0 15px 0; }
 

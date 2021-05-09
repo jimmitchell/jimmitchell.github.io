@@ -4,7 +4,8 @@ button,hr,input{overflow:visible}progress,sub,sup{vertical-align:baseline}[type=
 :root {
 	--background-color: #fff;
 	--body-text-color: #333;
-	--link-color-hover: #00a1e0;
+	--link-color: #e00070;
+	--link-color-hover: #b30060;
 	--accent-color-1: #ddd;
 	--accent-color-2: #333;
 	--accent-color-3: #555;
@@ -41,10 +42,14 @@ body {
 		opacity: 1; 
 	} 
 }
-a {color: var(--body-text-color);}
+a {
+	color: var(--link-color);
+	text-decoration: none;
+}
 a:hover {
 	color: var(--link-color-hover);
 	transition: all .3s ease-in-out;
+	text-decoration: underline;
 }
 a.skip {
 	position: absolute;
@@ -118,9 +123,6 @@ nav a {
 	line-height: 3;
 	margin: 0 10px;
 }
-nav a.current {
-	color: var(--link-color-hover);
-}
 
 // Main
 main {
@@ -157,6 +159,7 @@ ul.post-list h2 {
 	margin: 0;
 }
 ul.post-list a {
+	color: var(--body-text-color);
 	display: inline-block;
 	padding: 20px 0;
 	border-bottom: 1px solid var(--accent-color-1);
@@ -168,6 +171,7 @@ ul.post-list a:visited {
 }
 ul.post-list a:hover,
 ul.post-list a:active {
+	color: var(--link-color-hover);
 	text-decoration: underline;
 }
 .post-title {
