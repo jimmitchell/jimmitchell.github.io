@@ -92,17 +92,17 @@ h4, h5, h6 { font-size: 16px; font-size: 1.6rem; }
 
 pre, code { font-family: monospace; font-size: 14px; font-size: 1.4rem; }
 
+.content { width: 100%; padding: 5px 20px; max-width: 680px; margin: 0 auto; }
+
 header { padding: 20px 0; width: 100%; margin: 0 auto; text-align: center; }
 
-header p.site-title { margin: 0; font-size: 20x; font-size: 2rem; font-weight: bold; letter-spacing: 1px; text-transform: uppercase; }
+header p.site-title { margin: 0; font-size: 20x; font-size: 2rem; font-weight: bold; }
 
 nav { border-top: 1px solid var(--accent-color-1); border-bottom: 1px solid var(--accent-color-1); text-align: center; }
 
 nav a { line-height: 3; margin: 0 10px; }
 
 nav a.current { color: var(--link-color-hover); }
-
-.content { width: 100%; padding: 5px 20px; max-width: 740px; margin: 0 auto; }
 
 main { width: 100%; margin: 10px 0; }
 
