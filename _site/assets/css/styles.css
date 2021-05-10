@@ -61,7 +61,7 @@ summary { display: list-item; }
 
 [hidden], template { display: none; }
 
-:root { --background-color: #fff; --body-text-color: #333; --link-color: #00a1e0; --link-color-hover: #0091ca; --accent-color-1: #ddd; --accent-color-2: #333; --accent-color-3: #555; }
+:root { --background-color: #fff; --body-text-color: #333; --link-color: #4c74b9; --link-color-hover: #4c74b9; --link-decoration-color: #d2dcee; --accent-color-1: #ddd; --accent-color-2: #333; --accent-color-3: #555; }
 
 html { font-size: 10px; }
 
@@ -72,9 +72,9 @@ body { background-color: var(--background-color); color: var(--body-text-color);
 @keyframes fadeInAnimation { 0% { opacity: 0; }
   100% { opacity: 1; } }
 
-a { color: var(--link-color); text-decoration: none; }
+a { color: var(--link-color); text-decoration-color: var(--link-decoration-color); }
 
-a:hover { color: var(--link-color-hover); transition: all .3s ease-in-out; text-decoration: underline; }
+a:hover { color: var(--link-color-hover); transition: all .3s ease-in-out; text-decoration: underline; link-decoration-color: var(--link-color); }
 
 a.skip { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
 
@@ -82,13 +82,13 @@ a.skip:active, a.skip:focus { left: 0; width: auto; height: auto; overflow: visi
 
 h1, h2, h3, h4, h5, h6 { font-weight: bold; }
 
-h1 { font-size: 24px; font-size: 2.4rem; }
+h1 { font-size: 26px; font-size: 2.6rem; }
 
-h2 { font-size: 20px; font-size: 2rem; }
+h2 { font-size: 22px; font-size: 2.2rem; }
 
-h3 { font-size: 18px; font-size: 1.8rem; }
+h3 { font-size: 20px; font-size: 2rem; }
 
-h4, h5, h6 { font-size: 16px; font-size: 1.6rem; }
+h4, h5, h6 { font-size: 18px; font-size: 1.8rem; }
 
 pre, code { font-family: monospace; font-size: 14px; font-size: 1.4rem; }
 
@@ -118,7 +118,7 @@ ul.post-list h2 { margin: 0; }
 
 ul.post-list a { color: var(--body-text-color); display: inline-block; padding: 20px 0; border-bottom: 1px solid var(--accent-color-1); width: 100%; }
 
-ul.post-list a:link, ul.post-list a:visited { text-decoration: none; }
+ul.post-list a:link, ul.post-list a:visited { text-decoration-color: var(--link-decoration-color); }
 
 ul.post-list a:hover, ul.post-list a:active { color: var(--link-color-hover); text-decoration: underline; }
 
