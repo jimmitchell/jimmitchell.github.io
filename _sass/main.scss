@@ -3,13 +3,13 @@ button,hr,input{overflow:visible}progress,sub,sup{vertical-align:baseline}[type=
 
 :root {
 	--background-color: #fff;
-	--body-text-color: #333;
-	--link-color: #0073a1;
-	--link-color-hover: #0073a1;
-	--link-decoration-color: #cce3ec;
-	--accent-color-1: #ddd;
-	--accent-color-2: #333;
-	--accent-color-3: #555;
+	--body-text-color: #55585b;
+	--link-color: #00a1e0;
+	--link-color-hover: #00a1e0;
+	--link-decoration-color: #99d9f2;
+	--accent-color-1: #dbdbdc;
+	--accent-color-2: #55585b;
+	--accent-color-3: #7a7b7c;
 }
 html {font-size: 10px;}
 *,
@@ -26,7 +26,8 @@ textarea {
 body {
 	background-color:var(--background-color);
 	color: var(--body-text-color);
-	font-family: "Avenir Next", "Avenir", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+	//font-family: "Avenir Next", "Avenir", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     //font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
     font-size: 18x;
@@ -71,23 +72,24 @@ a.skip:focus {
 	text-decoration: underline;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-weight: bold;
+	font-weight: 900;
+	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1 {
-	font-size: 26px;
-	font-size: 2.6rem;
+	font-size: 28px;
+	font-size: 2.8rem;
 }
 h2 {
+	font-size: 24px;
+	font-size: 2.4rem;
+}
+h3 {
 	font-size: 22px;
 	font-size: 2.2rem;
 }
-h3 {
+h4, h5, h6 {
 	font-size: 20px;
 	font-size: 2rem;
-}
-h4, h5, h6 {
-	font-size: 18px;
-	font-size: 1.8rem;
 }
 pre, code {
 	font-family: monospace;
@@ -112,9 +114,10 @@ header {
 }
 header p.site-title {
 	margin: 0;
-	font-size: 20x;
-	font-size: 2rem;
-	font-weight: bold;
+	font-size: 24x;
+	font-size: 2.4rem;
+	font-weight: 900;
+	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 // Navigation
@@ -122,6 +125,9 @@ nav {
 	border-top: 1px solid var(--accent-color-1);
 	border-bottom: 1px solid var(--accent-color-1);
 	text-align: center;
+	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-size: 1.6rem;
 }
 nav a {
 	line-height: 3;
@@ -143,8 +149,9 @@ main:first-of-type h1 {
 	margin-top: 25px;
 	margin-bottom: 25px;
 	line-height: 1.2;
-	//font-size: 30px;
-	//font-size: 3rem;
+	font-size: 30px;
+	font-size: 3rem;
+	text-align: center;
 }
 main img {
 	max-width: 100%;
@@ -171,8 +178,8 @@ ul.post-list a {
 }
 ul.post-list a:link,
 ul.post-list a:visited {
-	//text-decoration: none;
-	text-decoration-color: var(--link-decoration-color);
+	text-decoration: none;
+	//text-decoration-color: var(--link-decoration-color);
 }
 ul.post-list a:hover,
 ul.post-list a:active {
@@ -188,10 +195,13 @@ p.meta {
 	font-size: 12px;
 	margin: -20px 0 25px 0;
 	text-transform: uppercase;
+	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
 }
 p.category {
 	font-size: 12px;
 	text-transform: uppercase;
+	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #disqus_thread {
 	margin: 30px 0 10px 0;
@@ -227,7 +237,8 @@ p.category {
     font-size: 14px;
     font-size: 1.4rem;
     margin: 0 0 -15px 0;
-	font-weight: bold;
+	font-weight: 900;
+	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .single-pagination p {
     line-height: 1.1;
@@ -249,6 +260,7 @@ p.category {
     text-align: center;
 	font-size: 14px;
 	font-size: 1.4rem;
+	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
  }
 .pagination a,
 .pagination span {
@@ -283,6 +295,7 @@ footer {
 	font-size: 12px;
 	font-size: 1.2rem;
 	text-transform: uppercase;
+	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 // Mobile responsive
