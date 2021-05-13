@@ -67,7 +67,7 @@ html { font-size: 10px; }
 
 *, input[type="email"], input[type="password"], input[type="search"], input[type="text"], input[type="url"], textarea { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-body { background-color: var(--background-color); color: var(--body-text-color); font-family: Lora, Georgia, 'Times New Roman', Times, serif; font-weight: 400; font-size: 18x; font-size: 1.8rem; line-height: 1.7; animation: fadeInAnimation ease 0.75s; animation-iteration-count: 1; animation-fill-mode: forwards; }
+body { background-color: var(--background-color); color: var(--body-text-color); font-family: "Avenir Next", "Avenir", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; font-weight: 400; font-size: 18x; font-size: 1.8rem; line-height: 1.7; animation: fadeInAnimation ease 0.75s; animation-iteration-count: 1; animation-fill-mode: forwards; }
 
 @keyframes fadeInAnimation { 0% { opacity: 0; }
   100% { opacity: 1; } }
@@ -80,7 +80,7 @@ a.skip { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: 
 
 a.skip:active, a.skip:focus { left: 0; width: auto; height: auto; overflow: visible; text-decoration: underline; }
 
-h1, h2, h3, h4, h5, h6 { font-weight: 900; font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-weight: 600; }
 
 h1 { font-size: 28px; font-size: 2.8rem; }
 
@@ -96,9 +96,9 @@ pre, code { font-family: monospace; font-size: 14px; font-size: 1.4rem; }
 
 header { padding: 20px 0; width: 100%; margin: 0 auto; text-align: center; }
 
-header p.site-title { margin: 0; font-size: 24x; font-size: 2.4rem; font-weight: 900; font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+header p.site-title { margin: 0; font-size: 24x; font-size: 2.4rem; font-weight: 600; }
 
-nav { border-top: 1px solid var(--accent-color-1); border-bottom: 1px solid var(--accent-color-1); text-align: center; font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; font-size: 1.6rem; }
+nav { border-top: 1px solid var(--accent-color-1); border-bottom: 1px solid var(--accent-color-1); text-align: center; font-size: 16px; font-size: 1.6rem; }
 
 nav a { line-height: 3; margin: 0 10px; }
 
@@ -106,7 +106,7 @@ main { width: 100%; margin: 10px 0; }
 
 main h1, main h2, main h3 { margin: 35px 0 -5px; line-height: 1.2; }
 
-main:first-of-type h1 { margin-top: 25px; margin-bottom: 25px; line-height: 1.2; font-size: 30px; font-size: 3rem; text-align: center; }
+main:first-of-type h1 { margin-top: 25px; margin-bottom: 25px; line-height: 1.2; }
 
 main img { max-width: 100%; margin: 20px auto 10px auto; }
 
@@ -124,9 +124,9 @@ ul.post-list a:hover, ul.post-list a:active { color: var(--link-color-hover); te
 
 .post-title { line-height: 1.2; margin: 25px 0 15px 0; }
 
-p.meta { color: var(--accent-color-2); font-size: 12px; margin: -20px 0 25px 0; text-transform: uppercase; font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif; text-align: center; }
+p.meta { color: var(--accent-color-2); font-size: 12px; margin: -20px 0 25px 0; text-transform: uppercase; }
 
-p.category { font-size: 12px; text-transform: uppercase; font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+p.category { font-size: 12px; text-transform: uppercase; }
 
 #disqus_thread { margin: 30px 0 10px 0; padding: 5px 20px 0 20px; background: #f6f6f6; }
 
@@ -136,7 +136,7 @@ p.category { font-size: 12px; text-transform: uppercase; font-family: "Roboto", 
 
 .single-pagination .prev-link { float: right; margin-left: 20px; text-align: right; vertical-align: text-top; width: 45%; }
 
-.single-pagination p.title { color: var(--accent-color-2); font-size: 14px; font-size: 1.4rem; margin: 0 0 -15px 0; font-weight: 900; font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+.single-pagination p.title { color: var(--accent-color-2); font-size: 14px; font-size: 1.4rem; margin: 0 0 -15px 0; font-weight: 600; }
 
 .single-pagination p { line-height: 1.1; }
 
@@ -146,7 +146,7 @@ p.category { font-size: 12px; text-transform: uppercase; font-family: "Roboto", 
 
 .single-pagination::after { clear: both; }
 
-.pagination { text-align: center; font-size: 14px; font-size: 1.4rem; font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+.pagination { text-align: center; font-size: 14px; font-size: 1.4rem; }
 
 .pagination a, .pagination span { padding: 6px 12px 4px; border: 1px solid var(--accent-color-1); margin-left: -3px; margin-right: -3px; background-color: #ffffff; display: inline-block; text-decoration: none; }
 
@@ -156,7 +156,7 @@ p.category { font-size: 12px; text-transform: uppercase; font-family: "Roboto", 
 
 .pagination .next { border-radius: 0 5px 5px 0; }
 
-footer { color: var(--accent-color-2); padding: 5px 0; width: 100%; margin: 0 auto 15px auto; text-align: center; font-size: 12px; font-size: 1.2rem; text-transform: uppercase; font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+footer { color: var(--accent-color-2); padding: 5px 0; width: 100%; margin: 0 auto 15px auto; text-align: center; font-size: 12px; font-size: 1.2rem; text-transform: uppercase; }
 
 @media only screen and (max-width: 740px) { .single-pagination .prev-link, .single-pagination .next-link { margin: 0; text-align: left; width: 100%; } #disqus_thread { max-width: calc(100% + 40px); margin-left: calc(-20px); margin-right: calc(-20px); } }
 

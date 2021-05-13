@@ -1,10 +1,12 @@
 ---
 ---
-# About Me
+# About
 
 My name is Jim Mitchell. I've been blogging here since early 2004.
 
-The site has gone through many style changes since it launched way back then. In 2014, I "decluttered" all of the irrelevant content, leaving the posts which received the most traffic. I then chose to start over with a focus on writing about living a simpler, more meaningful life. Less but better.
+The site has gone through many style and platform changes since it launched way back then. In 2014, I "decluttered" all of the irrelevant content, leaving the posts which received the most traffic. I then chose to start over with a focus on writing about living a simpler, more meaningful life.
+
+Less but better.
 
 ## History
 
