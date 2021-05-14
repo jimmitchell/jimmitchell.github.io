@@ -5,7 +5,7 @@ title: Home Page
 {% if site.posts.size > 0 %}
 <ul class="post-list">
 {% for post in paginator.posts %}
-  <li><h2><a href="{{ post.url }}">{{ post.title }}</a></h2></li>
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
 
