@@ -67,7 +67,7 @@ html { font-size: 10px; }
 
 *, input[type="email"], input[type="password"], input[type="search"], input[type="text"], input[type="url"], textarea { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-body { background-color: var(--background-color); color: var(--body-text-color); font-family: "Avenir Next", "Avenir", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; font-weight: 400; font-size: 18x; font-size: 1.8rem; line-height: 1.7; animation: fadeInAnimation ease 0.75s; animation-iteration-count: 1; animation-fill-mode: forwards; }
+body { background-color: var(--background-color); color: var(--body-text-color); font-family: "Proxima Nova", "Avenir Next", "Avenir", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; font-weight: 400; font-size: 18x; font-size: 1.8rem; line-height: 1.7; animation: fadeInAnimation ease 0.75s; animation-iteration-count: 1; animation-fill-mode: forwards; }
 
 @keyframes fadeInAnimation { 0% { opacity: 0; }
   100% { opacity: 1; } }
@@ -96,7 +96,7 @@ pre, code { font-family: monospace; font-size: 14px; font-size: 1.4rem; }
 
 header { padding: 20px 0; width: 100%; margin: 0 auto; text-align: center; }
 
-header p.site-title { margin: 0; font-size: 24x; font-size: 2.4rem; font-weight: 600; }
+header p.site-title { margin: 0; font-size: 20x; font-size: 2rem; font-weight: 600; text-transform: uppercase; }
 
 nav { border-top: 1px solid var(--accent-color-1); border-bottom: 1px solid var(--accent-color-1); text-align: center; font-size: 16px; font-size: 1.6rem; }
 
@@ -155,6 +155,22 @@ p.category { font-size: 12px; text-transform: uppercase; }
 .pagination .prev { border-radius: 5px 0 0 5px; }
 
 .pagination .next { border-radius: 0 5px 5px 0; }
+
+input[type="email"], input[type="password"], input[type="search"], input[type="text"], input[type="textarea"], input[type="url"], textarea { -webkit-appearance: none; -moz-appearance: none; appearance: none; border: 2px solid var(--accent-color-3); border-radius: 0; font-size: 18px; font-size: 1.8rem; line-height: 1.6; padding: 10px; text-rendering: optimizeLegibility; width: 100%; background: var(--background-color); -webkit-font-feature-settings: 'kern' 1; -moz-font-feature-settings: 'kern' 1; -o-font-feature-settings: 'kern' 1; font-feature-settings: 'kern' 1; }
+
+input[type="password"] { width: auto; }
+
+input[type="email"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="text"]:focus, input[type="textarea"]:focus, input[type="url"]:focus, textarea:focus { border-color: var(--accent-color-2); color: var(--text-main-color); outline-color: transparent; outline-style: none; }
+
+input[type="email"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder, input[type="search"]::-webkit-input-placeholder, input[type="text"]::-webkit-input-placeholder, input[type="url"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: var(--accent-color-3); }
+
+input[type="email"]:focus::-webkit-input-placeholder, input[type="password"]:focus::-webkit-input-placeholder, input[type="search"]:focus::-webkit-input-placeholder, input[type="text"]:focus::-webkit-input-placeholder, input[type="url"]:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder { opacity: 0; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+
+input[type="submit"] { background-color: var(--text-main-color); border: none; border-radius: 50px; color: var(--background-color); cursor: pointer; font-size: 14px; font-size: 1.4rem; padding: 16px 24px 14px; text-transform: uppercase; width: auto; }
+
+input[type="submit"]:hover { background-color: var(--link-color); color: var(--background-color); text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); }
+
+#search-input { margin: 40px auto; display: block; }
 
 footer { color: var(--accent-color-2); padding: 5px 0; width: 100%; margin: 0 auto 15px auto; text-align: center; font-size: 12px; font-size: 1.2rem; text-transform: uppercase; }
 
