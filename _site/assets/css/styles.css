@@ -116,7 +116,7 @@ ul.post-list, ul.search-results { list-style: none; padding: 0; margin-bottom: 2
 
 ul.post-list h2 { margin: 0; }
 
-ul.post-list a, ul.search-results a { color: var(--body-text-color); display: inline-block; padding: 15px 0; border-bottom: 1px solid var(--accent-color-1); width: 100%; font-weight: 600; }
+ul.post-list a, ul.search-results a { color: var(--body-text-color); display: inline-block; padding: 15px 0; border-bottom: 1px solid var(--accent-color-1); width: 100%; font-weight: 600; line-height: 1.2; }
 
 ul.post-list a:link, ul.post-list a:visited, ul.search-results a:link, ul.search-results a:visited { text-decoration: none; }
 
