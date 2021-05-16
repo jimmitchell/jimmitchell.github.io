@@ -15,7 +15,7 @@ description: The site of Jim Mitchell...
 disqus:
     shortname: jimmitchell
 
-paginate: 10
+paginate: 20
 permalink: /:categories/:year/:month/:day/:title/
 
 plugins:

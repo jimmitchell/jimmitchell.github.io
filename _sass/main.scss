@@ -98,7 +98,7 @@ pre, code {
 .content {
 	width: 100%;
 	padding: 5px 20px;
-	max-width: 680px;
+	max-width: 740px;
 	margin: 0 auto;
 }
 
@@ -383,7 +383,7 @@ footer {
 }
 
 // Mobile responsive
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 740px) {
 	.single-pagination .prev-link,
     .single-pagination .next-link {
         margin: 0;
