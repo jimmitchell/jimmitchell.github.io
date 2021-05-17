@@ -106,7 +106,7 @@ main { width: 100%; margin: 10px 0; }
 
 main h1, main h2, main h3 { margin: 35px 0 -5px; line-height: 1.2; }
 
-main:first-of-type h1 { margin-top: 25px; margin-bottom: 25px; line-height: 1.2; }
+main:first-of-type h1 { margin-top: 25px; margin-bottom: 25px; line-height: 1.2; text-align: center; }
 
 main img { max-width: 100%; margin: 20px auto 10px auto; }
 
@@ -124,7 +124,7 @@ ul.post-list a:hover, ul.post-list a:active, ul.search-results a:hover, ul.searc
 
 .post-title { line-height: 1.2; margin: 25px 0 15px 0; }
 
-p.meta { color: var(--accent-color-3); font-size: 12px; margin: -20px 0 25px 0; text-transform: uppercase; }
+p.meta { color: var(--accent-color-3); font-size: 12px; margin: -20px 0 25px 0; text-transform: uppercase; text-align: center; }
 
 p.category { font-size: 12px; text-transform: uppercase; }
 
