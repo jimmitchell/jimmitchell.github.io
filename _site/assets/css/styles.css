@@ -106,13 +106,13 @@ main { width: 100%; margin: 10px 0; }
 
 main h1, main h2, main h3 { margin: 35px 0 -5px; line-height: 1.2; }
 
-main:first-of-type h1 { margin-top: 25px; margin-bottom: 25px; line-height: 1.2; text-align: center; }
+main:first-of-type h1 { margin-top: 40px; margin-bottom: 25px; line-height: 1.2; }
 
 main img { max-width: 100%; margin: 20px auto 10px auto; }
 
 main img[src*="#full"] { width: 100%; height: auto; }
 
-ul.post-list, ul.search-results { list-style: none; padding: 0; margin-bottom: 25px; }
+ul.post-list, ul.search-results { list-style: none; padding: 0; margin-bottom: 25px; margin-top: 30px; }
 
 ul.post-list h2 { margin: 0; }
 
@@ -122,9 +122,13 @@ ul.post-list a:link, ul.post-list a:visited, ul.search-results a:link, ul.search
 
 ul.post-list a:hover, ul.post-list a:active, ul.search-results a:hover, ul.search-results a:active { color: var(--link-color-hover); text-decoration: underline; }
 
+h3.archive-year { margin-bottom: 0; margin-top: 50px; font-size: 12px; color: var(--accent-color-3); }
+
+ul.archive-list { margin-top: 15px; border-top: 1px solid var(--accent-color-1); }
+
 .post-title { line-height: 1.2; margin: 25px 0 15px 0; }
 
-p.meta { color: var(--accent-color-3); font-size: 12px; margin: -20px 0 25px 0; text-transform: uppercase; text-align: center; }
+p.meta { color: var(--accent-color-3); font-size: 12px; margin: -20px 0 25px 0; text-transform: uppercase; }
 
 p.category { font-size: 12px; text-transform: uppercase; }
 
