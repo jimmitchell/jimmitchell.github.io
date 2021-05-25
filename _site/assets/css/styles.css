@@ -61,7 +61,7 @@ summary { display: list-item; }
 
 [hidden], template { display: none; }
 
-:root { --background-color: #fff; --body-text-color: #55585b; --link-color: #00a1e0; --link-color-hover: #00a1e0; --link-decoration-color: #99d9f2; --accent-color-1: #dbdbdc; --accent-color-2: #55585b; --accent-color-3: #7a7b7c; }
+:root { --background-color: #fff; --body-text-color: #2a2b2d; --link-color: #007cad; --link-color-hover: #007cad; --link-decoration-color: #99d9f2; --accent-color-1: #dbdbdc; --accent-color-2: #2a2b2d; --accent-color-3: #7a7b7c; }
 
 html { font-size: 10px; }
 
