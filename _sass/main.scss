@@ -124,12 +124,16 @@ nav {
 	text-align: center;
 	font-size: 18px;
 	font-size: 1.8rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
 }
 nav a {
 	line-height: 3;
-	margin: 0;
-	width: 15%;
-	display: inline-block;
+	
 }
 
 // Main
