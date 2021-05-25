@@ -45,8 +45,8 @@ body {
 // }
 a {
 	color: var(--link-color);
-	//text-decoration: none;
-	text-decoration-color: var(--link-decoration-color);
+	text-decoration: none;
+	//text-decoration-color: var(--link-decoration-color);
 }
 a:hover {
 	color: var(--link-color-hover);
