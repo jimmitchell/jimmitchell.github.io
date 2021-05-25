@@ -121,7 +121,7 @@ ul.post-list a:hover, ul.post-list a:active, ul.search-results a:hover, ul.searc
 
 h3.archive-year { margin-bottom: 0; margin-top: 50px; font-size: 12px; color: var(--accent-color-3); }
 
-ul.archive-list { margin-top: 15px; border-top: 1px solid var(--accent-color-1); }
+ul.archive-list { margin-top: 15px; border-top: 1px solid var(--accent-color-1); font-size: 20px; font-size: 2rem; }
 
 .post-title { line-height: 1.2; margin: 25px 0 15px 0; }
 
