@@ -237,12 +237,14 @@ p.category {
     vertical-align: text-top;
 	justify-content: left;
 	flex: 1;
+	padding-right: 15px;
 }
 .single-pagination .prev-link {
     text-align: right;
     vertical-align: text-top;
 	justify-content: right;
 	flex: 1;
+	padding-left: 15px;
 }
 .single-pagination p.title {
 	color: var(--accent-color-2);
@@ -395,6 +397,7 @@ footer {
 	.single-pagination .prev-link,
     .single-pagination .next-link {
         margin: 0;
+		padding: 0;
         text-align: left;
         width: 100%;
     }
