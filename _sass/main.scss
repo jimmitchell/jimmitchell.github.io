@@ -7,6 +7,7 @@ button,hr,input{overflow:visible}progress,sub,sup{vertical-align:baseline}[type=
 	--link-color: #00a1e0;
 	--accent-color-1: #dbdbdc;
 	--accent-color-2: #7a7b7c;
+	--accent-color-3: #f8f8f8;
 }
 html {font-size: 10px;}
 *,
@@ -130,8 +131,11 @@ nav {
 	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: 0.06rem;
-	background-color: #f8f8f8;
+	background-color: var(--accent-color-3);
 	border-radius: 4px;
+	width: calc(100% + 40px);
+	margin-left: calc(-20px);
+	margin-right: calc(-20px);
 }
 nav a {
 	line-height: 3;
@@ -415,6 +419,9 @@ footer {
 @media only screen and (max-width: 740px) {
 	nav {
 		padding: 0;
+		border-radius: 0;
+		border-left: none;
+		border-right: none;
 	}
 	.single-pagination {
 		flex-direction: column;
