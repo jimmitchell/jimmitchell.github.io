@@ -9,6 +9,8 @@ defaults:
     values:
       layout: "default"
 
+permalink: pretty
+
 jekyll-archives:
   enabled: all
   layout: archive
@@ -20,12 +22,9 @@ jekyll-archives:
     category: '/category/:name/'
 
 title: Jim Mitchell
-description: The site of Jim Mitchell...
+description: Thoughts, Stories and Code
 
-disqus:
-    shortname: jimmitchell
-
-paginate: 20
+paginate: 5
 permalink: /:categories/:year/:month/:day/:title/
 
 plugins:

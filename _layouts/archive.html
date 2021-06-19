@@ -7,7 +7,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		{% feed_meta %}
     	{% seo %}
-		<link rel="shortcut icon" type="image/jpg" href="/assets/images/favicon.ico"/>
+		<link rel="shortcut icon" href="/assets/images/favicon.ico"/>
 		<link rel="preload" href="/assets/css/proxima-nova.min.css" as="style">
 		<link rel="preload" href="/assets/css/styles.css" as="style">
 		<link href="/assets/css/proxima-nova.min.css" rel="stylesheet" />
@@ -18,10 +18,17 @@
 		<div class="content">
 
 			{% include header.html %}
-			{% include navigation.html %}
 			
 			<main id="skip">
-                {{ content }}
+                {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}
+				{% for year in postsByYear %}
+					<h3 class="archive-year" >{{ year.name }}</h3>
+					<ul class="post-list archive-list">
+					{% for post in year.items %}
+						<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+					{% endfor %}
+					</ul>
+				{% endfor %}
 			</main>
 
 			{% include footer.html %}

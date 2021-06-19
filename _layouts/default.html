@@ -7,7 +7,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		{% feed_meta %}
     	{% seo %}
-		<link rel="shortcut icon" type="image/jpg" href="/assets/images/favicon.ico"/>
+		<link rel="shortcut icon" href="/assets/images/favicon.ico"/>
 		<link rel="preload" href="/assets/css/prism.css" as="style">
 		<link rel="preload" href="/assets/css/proxima-nova.min.css" as="style">
 		<link rel="preload" href="/assets/css/styles.css" as="style">
@@ -20,7 +20,6 @@
 		<div class="content">
 
 			{% include header.html %}
-			{% include navigation.html %}
 			
 			<main id="skip">
 			{{content}}
