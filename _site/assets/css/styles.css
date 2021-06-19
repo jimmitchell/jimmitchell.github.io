@@ -92,7 +92,7 @@ h4, h5, h6 { font-size: 18px; font-size: 1.8rem; }
 
 pre, code { font-family: monospace; font-size: 14px; font-size: 1.4rem; }
 
-.content { width: 100%; padding: 5px 20px; max-width: 740px; margin: 0 auto; }
+.content { width: 100%; padding: 5px 20px; max-width: 680px; margin: 0 auto; }
 
 header { padding: 35px 0 0 0; width: 100%; margin: 0 auto; }
 
@@ -178,6 +178,6 @@ input[type="submit"]:hover { background-color: var(--link-color); color: var(--b
 
 footer { color: var(--accent-color-2); padding: 0; width: 100%; margin: 35px auto; text-align: center; font-size: 12px; font-size: 1.2rem; text-transform: uppercase; }
 
-@media only screen and (max-width: 740px) { nav { padding: 0; border-radius: 0; border-left: none; border-right: none; } .single-pagination { flex-direction: column; } .single-pagination .prev-link, .single-pagination .next-link { margin: 0; padding: 0; text-align: left; width: 100%; } #disqus_thread { max-width: calc(100% + 40px); margin-left: calc(-20px); margin-right: calc(-20px); } }
+@media only screen and (max-width: 680px) { nav { padding: 0; border-radius: 0; border-left: none; border-right: none; } .single-pagination { flex-direction: column; } .single-pagination .prev-link, .single-pagination .next-link { margin: 0; padding: 0; text-align: left; width: 100%; } #disqus_thread { max-width: calc(100% + 40px); margin-left: calc(-20px); margin-right: calc(-20px); } }
 
 /*# sourceMappingURL=styles.css.map */
