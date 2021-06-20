@@ -80,7 +80,7 @@ a.skip { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: 
 
 a.skip:active, a.skip:focus { left: 0; width: auto; height: auto; overflow: visible; text-decoration: underline; }
 
-h1, h2, h3, h4, h5, h6 { font-weight: 600; }
+h1, h2, h3, h4, h5, h6 { font-weight: 700; }
 
 h1 { font-size: 24px; font-size: 2.4rem; }
 
@@ -96,13 +96,13 @@ pre, code { font-family: monospace; font-size: 14px; font-size: 1.4rem; }
 
 header { padding: 35px 0 0 0; width: 100%; margin: 0 auto; }
 
-header p.site-title { margin: 0; font-size: 16x; font-size: 1.6rem; font-weight: 600; text-transform: uppercase; }
+header p.site-title { margin: 0; font-size: 16x; font-size: 1.6rem; font-weight: 700; text-transform: uppercase; }
 
 header p.site-title a, header p.site-title a:link, header p.site-title a:visited { color: var(--body-text-color); text-decoration: none; }
 
 header p.site-title a:hover, header p.site-title a:active { color: var(--link-color); }
 
-header p.site-description { font-size: 12px; font-size: 1.2rem; text-transform: uppercase; margin-top: 5px; color: var(--accent-color-2); }
+header p.site-description { font-size: 12px; font-size: 1.2rem; text-transform: uppercase; margin-top: 3px; color: var(--accent-color-2); }
 
 main { width: 100%; margin: 10px 0; }
 
@@ -124,7 +124,7 @@ ul.post-list a:link, ul.post-list a:visited, ul.search-results a:link, ul.search
 
 ul.post-list a:hover, ul.post-list a:active, ul.search-results a:hover, ul.search-results a:active { color: var(--link-color); background: var(--link-color-rgba); text-decoration: none; }
 
-h3.archive-year { margin-bottom: 0; margin-top: 50px; font-size: 12px; font-size: 1.2rem; color: var(--accent-color-2); font-weight: 600; }
+h3.archive-year { margin-bottom: 0; margin-top: 50px; font-size: 12px; font-size: 1.2rem; color: var(--accent-color-2); font-weight: 700; }
 
 ul.archive-list { margin-top: 15px; border-top: 1px solid var(--accent-color-1); }
 
