@@ -118,7 +118,7 @@ ul.post-list a:link, ul.post-list a:visited, ul.search-results a:link, ul.search
 
 ul.post-list a:hover, ul.post-list a:active, ul.search-results a:hover, ul.search-results a:active { text-decoration: none; }
 
-h3.archive-year { margin-bottom: 0; margin-top: 50px; font-size: 12px; font-size: 1.2rem; font-weight: 700; }
+h3.archive-year { margin-bottom: 0; margin-top: 45px; font-size: 12px; font-size: 1.2rem; font-weight: 700; }
 
 ul.archive-list { margin-top: 15px; }
 
