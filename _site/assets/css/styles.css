@@ -92,15 +92,23 @@ pre, code { font-family: monospace; font-size: 14px; font-size: 1.4rem; }
 
 .content { width: 100%; padding: 5px 20px; max-width: 740px; margin: 0 auto; }
 
-header { padding: 35px 0 0 0; width: 100%; margin: 0 auto; }
+header { padding: 35px 0; width: 100%; margin: 0 auto; display: flex; align-content: space-between; justify-content: space-between; border-bottom: 1px solid; }
 
 header p.site-title { margin: 0; font-size: 16x; font-size: 1.6rem; font-weight: 700; }
+
+nav { justify-content: right; }
+
+nav ul { display: flex; list-style: none; margin: 0; font-size: 16px; font-size: 1.6rem; justify-content: right; }
+
+nav ul li { margin-left: 15px; }
 
 main { width: 100%; margin: 10px 0; }
 
 main h1, main h2, main h3 { margin: 60px 0 -5px; line-height: 1.2; }
 
 main:first-of-type h1 { margin-top: 40px; margin-bottom: 25px; line-height: 1.2; font-weight: 30px; font-weight: 3rem; }
+
+main hr { border: 0; border-top: 1px dotted; margin: 40px auto; box-sizing: content-box; height: 0; overflow: visible; width: 85%; }
 
 main ul { padding-left: 20px; }
 
@@ -120,6 +128,8 @@ ul.archive-list { margin-top: 15px; }
 
 p.meta { font-size: 14px; font-size: 1.4rem; margin: -23px 0 25px 0; }
 
+input[type="search"] { width: 100%; padding: 6px; margin: 30px auto 20px; }
+
 .single-pagination { margin: 30px 0; padding: 20px 0 0 0; display: flex; flex-direction: row; flex-wrap: nowrap; align-items: stretch; align-content: stretch; }
 
 .single-pagination .next-link { text-align: left; vertical-align: text-top; justify-content: left; flex: 1; padding-right: 15px; }
@@ -136,10 +146,10 @@ p.meta { font-size: 14px; font-size: 1.4rem; margin: -23px 0 25px 0; }
 
 footer { padding: 0; width: 100%; margin: 35px auto; text-align: center; font-size: 14px; font-size: 1.4rem; }
 
-@media (prefers-color-scheme: dark) { body { background-color: var(--dark-bg-color); color: var(--dark-body-color); } a, a:link, a:visited { color: var(--link-color); } a:hover, a:active { color: var(--dark-link-hover); } .single-pagination { border-bottom: 1px solid var(--accent-2); border-top: 1px solid var(--accent-2); } :not(pre) > code[class*="language-"], pre[class*="language-"] { background: #111; } }
+@media (prefers-color-scheme: dark) { body { background-color: var(--dark-bg-color); color: var(--dark-body-color); } a, a:link, a:visited { color: var(--link-color); } a:hover, a:active { color: var(--dark-link-hover); } header { border-bottom-color: var(--accent-2); } main hr { border-top-color: var(--accent-2); } .single-pagination { border-bottom: 1px solid var(--accent-2); border-top: 1px solid var(--accent-2); } :not(pre) > code[class*="language-"], pre[class*="language-"] { background: #111; } }
 
-@media (prefers-color-scheme: light) { body { background-color: var(--light-bg-color); color: var(--light-body-color); } a { color: var(--link-color); } a:hover, a:active { color: var(--light-link-hover); } .single-pagination { border-bottom: 1px solid var(--accent-1); border-top: 1px solid var(--accent-1); } }
+@media (prefers-color-scheme: light) { body { background-color: var(--light-bg-color); color: var(--light-body-color); } a { color: var(--link-color); } a:hover, a:active { color: var(--light-link-hover); } header { border-bottom-color: var(--accent-1); } main hr { border-top-color: var(--accent-1); } .single-pagination { border-bottom: 1px solid var(--accent-1); border-top: 1px solid var(--accent-1); } }
 
-@media only screen and (max-width: 740px) { nav { padding: 0; border-radius: 0; border-left: none; border-right: none; } .single-pagination { flex-direction: column; } .single-pagination .prev-link, .single-pagination .next-link { margin: 0; padding: 0; text-align: left; width: 100%; } #disqus_thread { max-width: calc(100% + 40px); margin-left: calc(-20px); margin-right: calc(-20px); } }
+@media only screen and (max-width: 740px) { nav { padding: 0; border-radius: 0; border-left: none; border-right: none; } .single-pagination { flex-direction: column; } .single-pagination .prev-link, .single-pagination .next-link { margin: 0; padding: 0; text-align: left; width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */
