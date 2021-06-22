@@ -108,7 +108,7 @@ main img { max-width: 100%; margin: 10px auto; }
 
 main img[src*="#full"] { width: 100%; height: auto; }
 
-ul.post-list, ul.search-results { list-style: none; padding: 0; margin-bottom: 25px; margin-top: 30px; }
+ul.post-list, ul.search-results { margin-bottom: 25px; }
 
 ul.post-list a, ul.search-results a { font-weight: 400; }
 
