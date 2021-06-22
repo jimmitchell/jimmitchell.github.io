@@ -96,7 +96,7 @@ pre, code { font-family: monospace; font-size: 14px; font-size: 1.4rem; }
 
 header { padding: 35px 0 0 0; width: 100%; margin: 0 auto; }
 
-header p.site-title { margin: 0; font-size: 16x; font-size: 1.6rem; font-weight: 700; text-transform: uppercase; }
+header p.site-title { margin: 0; font-size: 16x; font-size: 1.6rem; font-weight: 700; }
 
 header p.site-title a, header p.site-title a:link, header p.site-title a:visited { text-decoration: none; }
 
@@ -124,7 +124,7 @@ ul.archive-list { margin-top: 15px; }
 
 .post-title { line-height: 1.2; margin: 25px 0 15px 0; }
 
-p.meta { font-size: 12px; font-size: 1.2rem; margin: -23px 0 25px 0; text-transform: uppercase; }
+p.meta { font-size: 12px; font-size: 1.2rem; margin: -23px 0 25px 0; }
 
 .single-pagination { margin: 30px 0; padding: 20px 0 0 0; display: flex; flex-direction: row; flex-wrap: nowrap; align-items: stretch; align-content: stretch; }
 
@@ -132,7 +132,7 @@ p.meta { font-size: 12px; font-size: 1.2rem; margin: -23px 0 25px 0; text-transf
 
 .single-pagination .prev-link { text-align: right; vertical-align: text-top; justify-content: right; flex: 1; padding-left: 15px; }
 
-.single-pagination p.title { font-size: 12px; font-size: 1.2rem; margin: 0 0 -15px 0; text-transform: uppercase; }
+.single-pagination p.title { font-size: 12px; font-size: 1.2rem; margin: 0 0 -15px 0; }
 
 .single-pagination p { line-height: 1.1; }
 
@@ -140,7 +140,7 @@ p.meta { font-size: 12px; font-size: 1.2rem; margin: -23px 0 25px 0; text-transf
 
 .single-pagination::after { clear: both; }
 
-footer { padding: 0; width: 100%; margin: 35px auto; text-align: center; font-size: 12px; font-size: 1.2rem; text-transform: uppercase; }
+footer { padding: 0; width: 100%; margin: 35px auto; text-align: center; font-size: 12px; font-size: 1.2rem; }
 
 @media (prefers-color-scheme: dark) { body { background-color: var(--dark-bg-color); color: var(--dark-body-color); } a { color: var(--link-color); } header p.site-title a, header p.site-title a:link, header p.site-title a:visited { color: var(--dark-body-color); } header p.site-title a:hover, header p.site-title a:active { color: var(--link-color); } header p.site-description { color: var(--accent-1); } ul.archive-list { border-top: 1px solid var(--accent-2); } ul.post-list a, ul.search-results a { color: var(--dark-body-color); border-bottom: 1px solid var(--accent-2); } ul.post-list a:hover, ul.post-list a:active, ul.search-results a:hover, ul.search-results a:active { color: var(--link-color); background: var(--link-color-rgba); } h3.archive-year { color: var(--accent-1); } p.meta { color: var(--accent-1); } input[type="email"], input[type="password"], input[type="search"], input[type="text"], input[type="textarea"], input[type="url"], textarea { border: 2px solid var(--accent-1); background: var(--dark-bg-color); } input[type="email"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="text"]:focus, input[type="textarea"]:focus, input[type="url"]:focus, textarea:focus { border-color: var(--accent-1); color: var(--dark-bg-color); } input[type="email"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder, input[type="search"]::-webkit-input-placeholder, input[type="text"]::-webkit-input-placeholder, input[type="url"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: var(--accent-2); } input[type="submit"] { background-color: var(--dark-body-color); color: var(--dark-bg-color); } input[type="submit"]:hover { background-color: var(--link-color); color: var(--dark-body-color); } .single-pagination { border-bottom: 1px solid var(--accent-2); border-top: 1px solid var(--accent-2); } .single-pagination p.title { color: var(--accent-1); } .pagination a, .pagination span { border: 1px solid var(--accent-2); } .pagination a:hover { background-color: #111; } footer { color: var(--accent-1); } :not(pre) > code[class*="language-"], pre[class*="language-"] { background: #000; } }
 

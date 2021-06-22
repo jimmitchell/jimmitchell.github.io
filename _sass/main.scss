@@ -107,7 +107,7 @@ header p.site-title {
 	font-size: 16x;
 	font-size: 1.6rem;
 	font-weight: 700;
-	text-transform: uppercase;
+	//text-transform: uppercase;
 }
 header p.site-title a,
 header p.site-title a:link,
@@ -189,7 +189,7 @@ p.meta {
 	font-size: 12px;
 	font-size: 1.2rem;
 	margin: -23px 0 25px 0;
-	text-transform: uppercase;
+	//text-transform: uppercase;
 }
 
 // Single page pagination
@@ -220,7 +220,7 @@ p.meta {
     font-size: 12px;
     font-size: 1.2rem;
     margin: 0 0 -15px 0;
-	text-transform: uppercase;
+	//text-transform: uppercase;
 }
 .single-pagination p {
     line-height: 1.1;
@@ -334,7 +334,7 @@ footer {
 	text-align: center;
 	font-size: 12px;
 	font-size: 1.2rem;
-	text-transform: uppercase;
+	//text-transform: uppercase;
 }
 
 @media (prefers-color-scheme: dark) {
