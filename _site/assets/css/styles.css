@@ -100,8 +100,6 @@ header p.site-title { margin: 0; font-size: 16x; font-size: 1.6rem; font-weight:
 
 header p.site-title a, header p.site-title a:link, header p.site-title a:visited { text-decoration: none; }
 
-header p.site-description { font-size: 12px; font-size: 1.2rem; text-transform: uppercase; margin-top: 0; }
-
 main { width: 100%; margin: 10px 0; }
 
 main h1, main h2, main h3 { margin: 60px 0 -5px; line-height: 1.2; }
@@ -113,8 +111,6 @@ main img { max-width: 100%; margin: 20px auto 10px auto; }
 main img[src*="#full"] { width: 100%; height: auto; }
 
 ul.post-list, ul.search-results { list-style: none; padding: 0; margin-bottom: 25px; margin-top: 30px; }
-
-ul.post-list h2 { margin: 0; }
 
 ul.post-list a, ul.search-results a { display: inline-block; padding: 10px; width: 100%; font-weight: 400; line-height: 1.2; }
 
@@ -130,10 +126,6 @@ ul.archive-list { margin-top: 15px; }
 
 p.meta { font-size: 12px; font-size: 1.2rem; margin: -23px 0 25px 0; text-transform: uppercase; }
 
-p.category { font-size: 12px; text-transform: uppercase; }
-
-#disqus_thread { margin: 30px 0 10px 0; padding: 5px 20px 0 20px; background: #f6f6f6; }
-
 .single-pagination { margin: 30px 0; padding: 20px 0 0 0; display: flex; flex-direction: row; flex-wrap: nowrap; align-items: stretch; align-content: stretch; }
 
 .single-pagination .next-link { text-align: left; vertical-align: text-top; justify-content: left; flex: 1; padding-right: 15px; }
@@ -147,30 +139,6 @@ p.category { font-size: 12px; text-transform: uppercase; }
 .single-pagination a { background: none; line-height: 1.4; }
 
 .single-pagination::after { clear: both; }
-
-.pagination { text-align: center; font-size: 14px; font-size: 1.4rem; }
-
-.pagination a, .pagination span { padding: 6px 12px 4px; margin-left: -3px; margin-right: -3px; background-color: #ffffff; display: inline-block; text-decoration: none; }
-
-.pagination a:hover { background-color: #f1f1f1; text-decoration: underline; }
-
-.pagination .prev { border-radius: 5px 0 0 5px; }
-
-.pagination .next { border-radius: 0 5px 5px 0; }
-
-input[type="email"], input[type="password"], input[type="search"], input[type="text"], input[type="textarea"], input[type="url"], textarea { -webkit-appearance: none; -moz-appearance: none; appearance: none; border-radius: 12px; font-size: 18px; font-size: 1.8rem; line-height: 1.6; padding: 10px; text-rendering: optimizeLegibility; width: 100%; -webkit-font-feature-settings: 'kern' 1; -moz-font-feature-settings: 'kern' 1; -o-font-feature-settings: 'kern' 1; font-feature-settings: 'kern' 1; }
-
-input[type="password"] { width: auto; }
-
-input[type="email"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="text"]:focus, input[type="textarea"]:focus, input[type="url"]:focus, textarea:focus { outline-color: transparent; outline-style: none; }
-
-input[type="email"]:focus::-webkit-input-placeholder, input[type="password"]:focus::-webkit-input-placeholder, input[type="search"]:focus::-webkit-input-placeholder, input[type="text"]:focus::-webkit-input-placeholder, input[type="url"]:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder { opacity: 0; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
-
-input[type="submit"] { border: none; border-radius: 50px; cursor: pointer; font-size: 12px; font-size: 1.2rem; padding: 16px 24px 14px; text-transform: uppercase; width: auto; }
-
-input[type="submit"]:hover { text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); }
-
-#search-input { margin: 40px auto; display: block; }
 
 footer { padding: 0; width: 100%; margin: 35px auto; text-align: center; font-size: 12px; font-size: 1.2rem; text-transform: uppercase; }
 
