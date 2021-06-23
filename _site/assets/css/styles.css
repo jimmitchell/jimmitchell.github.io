@@ -106,7 +106,7 @@ input[type="submit"]:hover { text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); }
 
 header { padding: 35px 0; width: 100%; margin: 0 auto; display: flex; align-content: space-between; justify-content: space-between; border-bottom: 1px solid; }
 
-header p.site-title { margin: 0; font-size: 16x; font-size: 1.6rem; font-weight: 700; }
+header p.site-title { margin: 0; font-size: 16x; font-size: 1.6rem; font-weight: 600; }
 
 nav { justify-content: right; }
 
@@ -132,7 +132,7 @@ ul.post-list, ul.search-results { margin-bottom: 25px; }
 
 ul.post-list a, ul.search-results a { font-weight: 400; }
 
-h3.archive-year { margin-bottom: 0; margin-top: 45px; font-size: 14px; font-size: 1.4rem; font-weight: 700; }
+h3.archive-year { margin-bottom: 0; margin-top: 45px; font-size: 14px; font-size: 1.4rem; font-weight: 600; }
 
 ul.archive-list { margin-top: 15px; }
 
