@@ -322,6 +322,15 @@ footer {
 		background-color:var(--dark-bg-color);
 		color: var(--dark-body-color);
 	}
+	::-moz-selection {
+		background: var(--dark-body-color);
+		color: var(--dark-bg-color);
+	}
+	
+	::selection {
+		background: var(--dark-body-color);
+		color: var(--dark-bg-color);
+	}
 	a,
 	a:link,
 	a:visited {
@@ -389,6 +398,15 @@ footer {
 	body {
 		background-color:var(--light-bg-color);
 		color: var(--light-body-color);
+	}
+	::-moz-selection {
+		background: var(--light-body-color);
+		color: var(--light-bg-color);
+	}
+	
+	::selection {
+		background: var(--light-body-color);
+		color: var(--light-bg-color);
 	}
 	a {
 		color: var(--link-color);
