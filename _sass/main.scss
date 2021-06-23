@@ -88,6 +88,68 @@ pre, code {
 	font-size: 1.4rem;
 }
 
+// Input definitions
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="text"],
+input[type="textarea"],
+input[type="url"],
+textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    font-size: 18px;
+    font-size: 1.8rem;
+    line-height: 1.6;
+    padding: 10px;
+    text-rendering: optimizeLegibility;
+    width: 100%;
+    background: var(--background-color);
+    -webkit-font-feature-settings: 'kern' 1;
+    -moz-font-feature-settings: 'kern' 1;
+    -o-font-feature-settings: 'kern' 1;
+    font-feature-settings: 'kern' 1;
+}
+input[type="password"] {
+    width: auto;
+}
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="textarea"]:focus,
+input[type="url"]:focus,
+textarea:focus {
+    outline-color: transparent;
+    outline-style: none;
+}
+input[type="email"]:focus::-webkit-input-placeholder,
+input[type="password"]:focus::-webkit-input-placeholder,
+input[type="search"]:focus::-webkit-input-placeholder,
+input[type="text"]:focus::-webkit-input-placeholder,
+input[type="url"]:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+input[type="submit"] {
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    font-size: 1.4rem;
+    padding: 16px 24px 14px;
+    text-transform: uppercase;
+    width: auto;
+}
+input:hover[type="submit"] {
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+
 // Content definition
 .content {
 	width: 100%;
@@ -279,6 +341,43 @@ footer {
 		border-bottom-color: var(--dark-accent);
 		border-top-color: var(--dark-accent);
 	}
+	input[type="email"],
+	input[type="password"],
+	input[type="search"],
+	input[type="text"],
+	input[type="textarea"],
+	input[type="url"],
+	textarea {
+		border: 2px solid var(--dark-accent);
+		background: var(--dark-bg-color);
+		color: var(--dark-body-color);
+	}
+	input[type="email"]:focus,
+	input[type="password"]:focus,
+	input[type="search"]:focus,
+	input[type="text"]:focus,
+	input[type="textarea"]:focus,
+	input[type="url"]:focus,
+	textarea:focus {
+		border-color: var(--dark-accent);
+		color: var(--dark-body-color);
+	}
+	input[type="email"]::-webkit-input-placeholder,
+	input[type="password"]::-webkit-input-placeholder,
+	input[type="search"]::-webkit-input-placeholder,
+	input[type="text"]::-webkit-input-placeholder,
+	input[type="url"]::-webkit-input-placeholder,
+	textarea::-webkit-input-placeholder {
+		color: var(--dark-accent);
+	}
+	input[type="submit"] {
+		background-color: var(--dark-body-color);
+		color: var(--dark-bg-color);
+	}
+	input:hover[type="submit"] {
+		background-color: var(--link-color);
+		color: var(--dark-bg-color);
+	}
 	:not(pre) > code[class*="language-"],
 	pre[class*="language-"] {
 		background: #111;
@@ -307,6 +406,43 @@ footer {
 	.single-pagination {
 		border-bottom-color: var(--light-accent);
 		border-top-color: var(--light-accent);
+	}
+	input[type="email"],
+	input[type="password"],
+	input[type="search"],
+	input[type="text"],
+	input[type="textarea"],
+	input[type="url"],
+	textarea {
+		border: 2px solid var(--light-accent);
+		background: var(--light-bg-color);
+		color: var(--light-body-color);
+	}
+	input[type="email"]:focus,
+	input[type="password"]:focus,
+	input[type="search"]:focus,
+	input[type="text"]:focus,
+	input[type="textarea"]:focus,
+	input[type="url"]:focus,
+	textarea:focus {
+		border-color: var(--light-accent);
+		color: var(--light-body-color);
+	}
+	input[type="email"]::-webkit-input-placeholder,
+	input[type="password"]::-webkit-input-placeholder,
+	input[type="search"]::-webkit-input-placeholder,
+	input[type="text"]::-webkit-input-placeholder,
+	input[type="url"]::-webkit-input-placeholder,
+	textarea::-webkit-input-placeholder {
+		color: var(--light-accent);
+	}
+	input[type="submit"] {
+		background-color: var(--light-body-color);
+		color: var(--light-bg-color);
+	}
+	input:hover[type="submit"] {
+		background-color: var(--link-color);
+		color: var(--light-bg-color);
 	}
 }
 
