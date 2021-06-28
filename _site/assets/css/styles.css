@@ -67,7 +67,7 @@ html { font-size: 10px; }
 
 *, input[type="email"], input[type="password"], input[type="search"], input[type="text"], input[type="url"], textarea { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-body { font-family: "Avenir Next", "Helvetica Neue", sans-serif; font-weight: 400; font-size: 18x; font-size: 1.8rem; line-height: 1.7; animation: fadeInAnimation ease 0.5s; animation-iteration-count: 1; animation-fill-mode: forwards; }
+body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; font-weight: 400; font-size: 18x; font-size: 1.8rem; line-height: 1.7; animation: fadeInAnimation ease 0.5s; animation-iteration-count: 1; animation-fill-mode: forwards; }
 
 @keyframes fadeInAnimation { 0% { opacity: 0; }
   100% { opacity: 1; } }
@@ -102,7 +102,7 @@ input[type="submit"] { border: none; border-radius: 50px; cursor: pointer; font-
 
 input[type="submit"]:hover { text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); }
 
-.content { width: 100%; padding: 5px 20px; max-width: 740px; margin: 0 auto; }
+.content { width: 100%; padding: 5px 20px; max-width: 680px; margin: 0 auto; }
 
 header { padding: 35px 0; width: 100%; margin: 0 auto; display: flex; align-content: space-between; justify-content: space-between; border-bottom: 1px solid; }
 
@@ -148,7 +148,7 @@ input[type="search"] { width: 100%; padding: 6px; margin: 30px auto 20px; }
 
 .single-pagination .prev-link { text-align: right; vertical-align: text-top; justify-content: right; flex: 1; padding-left: 15px; }
 
-.single-pagination p.title { font-size: 12px; font-size: 1.2rem; margin: 0 0 -15px 0; }
+.single-pagination p.title { font-size: 12px; font-size: 1.2rem; font-weight: 600; margin: 0 0 -15px 0; }
 
 .single-pagination p { line-height: 1.1; }
 
@@ -162,6 +162,6 @@ footer { padding: 0; width: 100%; margin: 35px auto; text-align: center; font-si
 
 @media (prefers-color-scheme: light) { body { background-color: var(--light-bg-color); color: var(--light-body-color); } ::-moz-selection { background: var(--light-body-color); color: var(--light-bg-color); } ::selection { background: var(--light-body-color); color: var(--light-bg-color); } a { color: var(--link-color); } a:hover, a:active { color: var(--light-link-hover); } header { border-bottom-color: var(--light-accent); } main hr { border-top-color: var(--light-accent); } .single-pagination { border-bottom-color: var(--light-accent); border-top-color: var(--light-accent); } input[type="email"], input[type="password"], input[type="search"], input[type="text"], input[type="textarea"], input[type="url"], textarea { border: 2px solid var(--light-accent); background: var(--light-bg-color); color: var(--light-body-color); } input[type="email"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="text"]:focus, input[type="textarea"]:focus, input[type="url"]:focus, textarea:focus { border-color: var(--light-accent); color: var(--light-body-color); } input[type="email"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder, input[type="search"]::-webkit-input-placeholder, input[type="text"]::-webkit-input-placeholder, input[type="url"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: var(--light-accent); } input[type="submit"] { background-color: var(--light-body-color); color: var(--light-bg-color); } input[type="submit"]:hover { background-color: var(--link-color); color: var(--light-bg-color); } }
 
-@media only screen and (max-width: 740px) { nav { padding: 0; border-radius: 0; border-left: none; border-right: none; } .single-pagination { flex-direction: column; } .single-pagination .prev-link, .single-pagination .next-link { margin: 0; padding: 0; text-align: left; width: 100%; } }
+@media only screen and (max-width: 680px) { nav { padding: 0; border-radius: 0; border-left: none; border-right: none; } .single-pagination { flex-direction: column; } .single-pagination .prev-link, .single-pagination .next-link { margin: 0; padding: 0; text-align: left; width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */
