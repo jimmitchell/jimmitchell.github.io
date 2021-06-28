@@ -61,7 +61,7 @@ summary { display: list-item; }
 
 [hidden], template { display: none; }
 
-:root { --link-color: #00a1e0; --light-bg-color: #fff; --light-body-color: #56575c; --light-link-hover: #02ac8e; --light-accent: #ddd; --dark-bg-color: #303136; --dark-body-color: #eee; --dark-link-hover: #02ac8e; --dark-accent: #4f4f4f; }
+:root { --link-color: #00a1e0; --light-bg-color: #fff; --light-body-color: #56575c; --light-link-hover: #e03f00; --light-accent: #ddd; --dark-bg-color: #303136; --dark-body-color: #eee; --dark-link-hover: #e0af00; --dark-accent: #4f4f4f; }
 
 html { font-size: 10px; }
 
