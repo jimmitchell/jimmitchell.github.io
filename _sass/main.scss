@@ -233,6 +233,9 @@ ul.post-list,
 ul.search-results {
 	margin-bottom: 25px;
 }
+ul.search-results li:last-of-type {
+	margin-bottom: 40px;
+}
 ul.post-list a,
 ul.search-results a {
 	font-weight: 400;
