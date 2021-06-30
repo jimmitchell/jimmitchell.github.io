@@ -282,7 +282,7 @@ input[type="search"] {
 .single-pagination {
     //border-bottom: 1px solid;
 	border-top: 1px solid;
-	margin: 0;
+	margin: 35px 0 -35px 0;
     padding: 20px 0 0 0;
 	display: flex;
 	flex-direction: row;
@@ -322,7 +322,7 @@ input[type="search"] {
 footer {
 	padding: 25px 0;
 	width: 100%;
-	margin: 0 auto;
+	margin: 35px auto 0 auto;
 	text-align: center;
 	font-size: 14px;
 	font-size: 1.4rem;
