@@ -5,8 +5,9 @@ layout: default
 <h1 class="post-title">{{page.title | markdownify}}</h1>
 <!-- <p class="meta">{{ page.date | date: "%A, %B %e, %Y" }}</p> -->
 <!-- <p class="meta">{% include reading-time.html %}</p> -->
-
+<article>
 {{ content }}
+</article>
 
 {% if site.posts.size > 1 %}
 <div class="single-pagination">

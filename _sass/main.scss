@@ -197,6 +197,9 @@ main {
 	width: 100%;
 	margin: 10px 0 0 0;
 }
+// main article {
+// 	margin-bottom: 35px;
+// }
 main h1,
 main h2,
 main h3 {
@@ -231,9 +234,9 @@ main img[src*="#full"] {
 	width:100%;
 	height:auto;
 }
-main p:last-child {
-	margin-bottom: 35px;
-}
+// main p:last-child {
+// 	margin-bottom: 35px;
+// }
 ul.post-list,
 ul.search-results {
 	margin-bottom: 25px;
@@ -279,7 +282,7 @@ input[type="search"] {
 .single-pagination {
     //border-bottom: 1px solid;
 	border-top: 1px solid;
-	margin: 45px 0 0 0;
+	margin: 0;
     padding: 20px 0 0 0;
 	display: flex;
 	flex-direction: row;

@@ -128,8 +128,6 @@ main img { max-width: 100%; margin: 10px auto; }
 
 main img[src*="#full"] { width: 100%; height: auto; }
 
-main p:last-child { margin-bottom: 35px; }
-
 ul.post-list, ul.search-results { margin-bottom: 25px; }
 
 ul.search-results li:last-of-type { margin-bottom: 40px; }
@@ -148,7 +146,7 @@ p.meta { font-size: 14px; font-size: 1.4rem; margin: -23px 0 25px 0; }
 
 input[type="search"] { width: 100%; padding: 6px; margin: 30px auto 20px; }
 
-.single-pagination { border-top: 1px solid; margin: 45px 0 0 0; padding: 20px 0 0 0; display: flex; flex-direction: row; flex-wrap: nowrap; align-items: stretch; align-content: stretch; }
+.single-pagination { border-top: 1px solid; margin: 0; padding: 20px 0 0 0; display: flex; flex-direction: row; flex-wrap: nowrap; align-items: stretch; align-content: stretch; }
 
 .single-pagination .next-link { text-align: left; vertical-align: text-top; justify-content: left; flex: 1; padding-right: 15px; }
 
