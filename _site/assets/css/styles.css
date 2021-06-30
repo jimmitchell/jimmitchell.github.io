@@ -128,6 +128,8 @@ main img { max-width: 100%; margin: 10px auto; }
 
 main img[src*="#full"] { width: 100%; height: auto; }
 
+main p:last-child { margin-bottom: 35px; }
+
 ul.post-list, ul.search-results { margin-bottom: 25px; }
 
 ul.search-results li:last-of-type { margin-bottom: 40px; }

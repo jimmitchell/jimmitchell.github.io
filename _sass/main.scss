@@ -231,6 +231,9 @@ main img[src*="#full"] {
 	width:100%;
 	height:auto;
 }
+main p:last-child {
+	margin-bottom: 35px;
+}
 ul.post-list,
 ul.search-results {
 	margin-bottom: 25px;
