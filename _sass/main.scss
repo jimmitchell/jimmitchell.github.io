@@ -34,6 +34,7 @@ body {
     animation: fadeInAnimation ease 0.5s; 
 	animation-iteration-count: 1; 
 	animation-fill-mode: forwards;
+	letter-spacing: 0.01rem;
 }
 @keyframes fadeInAnimation { 
 	0% { 
@@ -189,7 +190,7 @@ nav ul {
 	justify-content: right;
 }
 nav ul li {
-	margin-left: 15px;
+	margin-left: 20px;
 }
 
 // Main
@@ -328,6 +329,10 @@ footer {
 	font-size: 1.4rem;
 	border-top: 1px solid;
 }
+footer .social a {
+	display: inline-block;
+	margin: 0 10px;
+}
 
 // Dark color scheme
 @media (prefers-color-scheme: dark) {
@@ -355,6 +360,15 @@ footer {
 	}
 	header {
 		border-bottom-color: var(--dark-accent);
+	}
+	nav ul a:link,
+	nav ul a:visited {
+		color: var(--dark-body-color);
+	}
+	nav ul a:hover,
+	nav ul a:active,
+	nav ul a:focus {
+		color: var(--link-color);
 	}
 	main hr {
 		border-top-color: var(--dark-accent);
@@ -407,6 +421,15 @@ footer {
 	footer {
 		border-top-color: var(--dark-accent);
 	}
+	footer .social a:link,
+	footer .social a:visited {
+		color: var(--dark-body-color);
+	}
+	footer .social a:hover,
+	footer .social a:active,
+	footer .social a:focus {
+		color: var(--link-color);
+	}
 }
   
 // Light color scheme
@@ -433,6 +456,15 @@ footer {
 	}
 	header {
 		border-bottom-color: var(--light-accent);
+	}
+	nav ul a:link,
+	nav ul a:visited {
+		color: var(--light-body-color);
+	}
+	nav ul a:hover,
+	nav ul a:active,
+	nav ul a:focus {
+		color: var(--link-color);
 	}
 	main hr {
 		border-top-color: var(--light-accent);

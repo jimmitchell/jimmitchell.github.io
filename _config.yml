@@ -23,6 +23,7 @@ jekyll-archives:
 
 title: Jim Mitchell
 description: Thoughts, Stories and Code
+author: Jim Mitchell Media
 
 paginate: 5
 permalink: /:categories/:year/:month/:day/:title/
