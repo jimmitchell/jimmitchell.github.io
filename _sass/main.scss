@@ -34,7 +34,6 @@ body {
     animation: fadeInAnimation ease 0.5s; 
 	animation-iteration-count: 1; 
 	animation-fill-mode: forwards;
-	letter-spacing: 0.01rem;
 }
 @keyframes fadeInAnimation { 
 	0% { 
@@ -172,9 +171,9 @@ header {
 }
 header p.site-title {
 	margin: 0;
-	font-size: 14px;
-	font-size: 1.4rem;
-	font-weight: 600;
+	font-size: 15px;
+	font-size: 1.5rem;
+	font-weight: 700;
 }
 
 // Nav
@@ -512,6 +511,15 @@ footer .social a {
 	}
 	footer {
 		border-top-color: var(--light-accent);
+	}
+	footer .social a:link,
+	footer .social a:visited {
+		color: var(--light-body-color);
+	}
+	footer .social a:hover,
+	footer .social a:active,
+	footer .social a:focus {
+		color: var(--link-color);
 	}
 }
 
