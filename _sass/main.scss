@@ -46,8 +46,10 @@ a,
 a:link,
 a:visited,
 a:hover,
-a:active {
+a:active,
+a:focus {
 	transition: color 0.3s;
+	text-decoration: none;
 }
 a.skip {
 	position: absolute;
@@ -198,6 +200,9 @@ nav ul li {
 main {
 	width: 100%;
 	margin: 10px 0 0 0;
+}
+main a {
+	border-bottom: 1px dotted;
 }
 main h1,
 main h2,
