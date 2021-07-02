@@ -175,6 +175,9 @@ header p.site-title {
 	font-size: 1.5rem;
 	font-weight: 700;
 }
+header p.site-title a {
+	text-decoration: none;
+}
 
 // Nav
 nav {
@@ -360,10 +363,15 @@ footer .social a {
 	header {
 		border-bottom-color: var(--dark-accent);
 	}
+	header .site-title a:link,
+	header .site-title a:visited,
 	nav ul a:link,
 	nav ul a:visited {
 		color: var(--dark-body-color);
 	}
+	header .site-title a:hover,
+	header .site-title a:active,
+	header .site-title a:focus,
 	nav ul a:hover,
 	nav ul a:active,
 	nav ul a:focus {
@@ -456,10 +464,15 @@ footer .social a {
 	header {
 		border-bottom-color: var(--light-accent);
 	}
+	header .site-title a:link,
+	header .site-title a:visited,
 	nav ul a:link,
 	nav ul a:visited {
 		color: var(--light-body-color);
 	}
+	header .site-title a:hover,
+	header .site-title a:active,
+	header .site-title a:focus,
 	nav ul a:hover,
 	nav ul a:active,
 	nav ul a:focus {
