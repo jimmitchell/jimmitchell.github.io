@@ -279,6 +279,7 @@ p.meta {
 	font-size: 14px;
 	font-size: 1.4rem;
 	margin: -23px 0 25px 0;
+	color: var(--dark-accent);
 }
 
 // Search
@@ -390,6 +391,9 @@ footer .social a {
 	main hr {
 		border-top-color: var(--dark-accent);
 	}
+	main img {
+		box-shadow: 0 4px 8px rgba(0,0,0,.3);
+	}
 	.single-pagination {
 		border-top-color: var(--dark-accent);
 	}
@@ -492,6 +496,9 @@ footer .social a {
 	}
 	main hr {
 		border-top-color: var(--light-accent);
+	}
+	main img {
+		box-shadow: 0 2px 6px rgba(0,0,0,.15);
 	}
 	.single-pagination {
 		border-top-color: var(--light-accent);
