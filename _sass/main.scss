@@ -4,7 +4,7 @@ button,hr,input{overflow:visible}progress,sub,sup{vertical-align:baseline}[type=
 :root {
 	--link-color: #41aac4;
 	--light-bg-color: #fff;
-	--light-body-color: #2f343a;
+	--light-body-color: #43484d;
 	--light-link-hover: #80ceb9;
 	--light-accent: #ddd;
 	--dark-bg-color: #2f343a;
@@ -209,6 +209,7 @@ main {
 }
 main a {
 	border-bottom: 1px dotted;
+	font-weight: 600;
 }
 main h1,
 main h2,

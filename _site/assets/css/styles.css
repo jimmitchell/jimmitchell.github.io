@@ -61,13 +61,13 @@ summary { display: list-item; }
 
 [hidden], template { display: none; }
 
-:root { --link-color: #41aac4; --light-bg-color: #fff; --light-body-color: #2f343a; --light-link-hover: #80ceb9; --light-accent: #ddd; --dark-bg-color: #2f343a; --dark-body-color: #ddd; --dark-link-hover: #bdb69c; --dark-accent: #717d8c; }
+:root { --link-color: #41aac4; --light-bg-color: #fff; --light-body-color: #43484d; --light-link-hover: #80ceb9; --light-accent: #ddd; --dark-bg-color: #2f343a; --dark-body-color: #ddd; --dark-link-hover: #bdb69c; --dark-accent: #717d8c; }
 
 html { font-size: 10px; }
 
 *, input[type="email"], input[type="password"], input[type="search"], input[type="text"], input[type="url"], textarea { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 400; font-size: 18x; font-size: 1.8rem; line-height: 1.7; animation: fadeInAnimation ease 0.5s; animation-iteration-count: 1; animation-fill-mode: forwards; }
+body { font-family: "Avenir Next", "Helvetica Neue", sans-serif; font-weight: 400; font-size: 18x; font-size: 1.8rem; line-height: 1.7; animation: fadeInAnimation ease 0.5s; animation-iteration-count: 1; animation-fill-mode: forwards; }
 
 @keyframes fadeInAnimation { 0% { opacity: 0; }
   100% { opacity: 1; } }
@@ -120,7 +120,7 @@ nav ul li { margin-left: 20px; }
 
 main { width: 100%; margin: 10px 0 0 0; }
 
-main a { border-bottom: 1px dotted; }
+main a { border-bottom: 1px dotted; font-weight: 600; }
 
 main h1, main h2, main h3 { margin: 45px 0 -5px; line-height: 1.2; }
 
