@@ -30,7 +30,7 @@ body {
 	font-weight: 400;
     font-size: 18x;
 	font-size: 1.8rem;
-	line-height: 1.6;
+	line-height: 1.7;
     animation: fadeInAnimation ease 0.5s; 
 	animation-iteration-count: 1; 
 	animation-fill-mode: forwards;
@@ -547,6 +547,9 @@ footer .social a {
 
 // Mobile responsive
 @media only screen and (max-width: 740px) {
+	body {
+		line-height: 1.55;
+	}
 	nav {
 		padding: 0;
 		border-radius: 0;
