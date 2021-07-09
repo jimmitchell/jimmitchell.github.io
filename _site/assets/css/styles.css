@@ -67,7 +67,7 @@ html { font-size: 10px; }
 
 *, input[type="email"], input[type="password"], input[type="search"], input[type="text"], input[type="url"], textarea { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 400; font-size: 18x; font-size: 1.8rem; line-height: 1.5; animation: fadeInAnimation ease 0.5s; animation-iteration-count: 1; animation-fill-mode: forwards; }
+body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 400; font-size: 18x; font-size: 1.8rem; line-height: 1.6; animation: fadeInAnimation ease 0.5s; animation-iteration-count: 1; animation-fill-mode: forwards; }
 
 @keyframes fadeInAnimation { 0% { opacity: 0; }
   100% { opacity: 1; } }
@@ -80,11 +80,11 @@ a.skip:active, a.skip:focus { left: 0; width: auto; height: auto; overflow: visi
 
 h1, h2, h3, h4, h5, h6 { font-weight: 700; }
 
-h1 { font-size: 26px; font-size: 2.6rem; }
+h1 { font-size: 24px; font-size: 2.4rem; }
 
-h2 { font-size: 22px; font-size: 2.2rem; }
+h2 { font-size: 20px; font-size: 2rem; }
 
-h3 { font-size: 20px; font-size: 2rem; }
+h3 { font-size: 18px; font-size: 1.8rem; }
 
 h4, h5, h6 { font-size: 18px; font-size: 1.8rem; }
 
@@ -137,6 +137,8 @@ main img[src*="#full"] { width: 100%; height: auto; }
 ul.post-list, ul.search-results { margin-bottom: 25px; }
 
 ul.search-results li:last-of-type { margin-bottom: 40px; }
+
+ul.post-list li, ul.search-results li { margin: 10px 0; }
 
 ul.post-list a, ul.search-results a { font-weight: 400; }
 

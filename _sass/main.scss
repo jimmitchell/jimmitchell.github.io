@@ -30,7 +30,7 @@ body {
 	font-weight: 400;
     font-size: 18x;
 	font-size: 1.8rem;
-	line-height: 1.5;
+	line-height: 1.6;
     animation: fadeInAnimation ease 0.5s; 
 	animation-iteration-count: 1; 
 	animation-fill-mode: forwards;
@@ -70,16 +70,16 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 }
 h1 {
-	font-size: 26px;
-	font-size: 2.6rem;
+	font-size: 24px;
+	font-size: 2.4rem;
 }
 h2 {
-	font-size: 22px;
-	font-size: 2.2rem;
-}
-h3 {
 	font-size: 20px;
 	font-size: 2rem;
+}
+h3 {
+	font-size: 18px;
+	font-size: 1.8rem;
 }
 h4, h5, h6 {
 	font-size: 18px;
@@ -248,6 +248,10 @@ ul.search-results {
 }
 ul.search-results li:last-of-type {
 	margin-bottom: 40px;
+}
+ul.post-list li,
+ul.search-results li {
+	margin: 10px 0;
 }
 ul.post-list a,
 ul.search-results a {
