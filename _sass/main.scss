@@ -85,6 +85,11 @@ h4, h5, h6 {
 	font-size: 18px;
 	font-size: 1.8rem;
 }
+blockquote {
+	margin: 0 0 0 2px;
+	padding: 0 0 0 15px;
+	border-left: 2px solid;
+}
 pre, code {
 	font-family: monospace;
 	font-size: 14px;
@@ -356,6 +361,9 @@ footer .social a {
 	a:active {
 		color: var(--dark-link-hover);
 	}
+	blockquote {
+		border-color: var(--link-color);
+	}
 	header {
 		border-bottom-color: var(--dark-accent);
 	}
@@ -455,6 +463,9 @@ footer .social a {
 	a:hover,
 	a:active {
 		color: var(--light-link-hover);
+	}
+	blockquote {
+		border-color: var(--link-color);
 	}
 	header {
 		border-bottom-color: var(--light-accent);
