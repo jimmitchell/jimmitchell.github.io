@@ -1,6 +1,6 @@
 ---
 ---
-# About
+# About Me
 
 My name is Jim Mitchell. I've been blogging here since early 2004.
 
