@@ -1,10 +1,10 @@
-- name: Home
+- name: <i class="fas fa-home"></i>
   link: /
-  title: 
-- name: About
-  link: /about/
-  title: 
-- name: <i class='fa fa-search'></i>
+  title: Home
+- name: <i class='fas fa-search'></i>
   link: /search/
   title: Search
+- name: <i class="fas fa-rss"></i>
+  link: /feed.xml
+  title: RSS Feed
 
