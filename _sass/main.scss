@@ -51,6 +51,7 @@ a:active,
 a:focus {
 	transition: color 0.3s;
 	text-decoration: none;
+	font-weight: 600;
 }
 a.skip {
 	position: absolute;
@@ -184,6 +185,7 @@ header p.site-title {
 }
 header p.site-title a {
 	text-decoration: none;
+	font-weight: 700;
 }
 
 // Nav
@@ -209,7 +211,6 @@ main {
 }
 main a {
 	border-bottom: 1px dotted;
-	font-weight: 600;
 }
 main h1,
 main h2,
@@ -279,7 +280,6 @@ p.meta {
 	font-size: 14px;
 	font-size: 1.4rem;
 	margin: -23px 0 25px 0;
-	color: var(--dark-accent);
 }
 
 // Search
@@ -326,7 +326,6 @@ input[type="search"] {
 .single-pagination a {
     background: none;
     line-height: 1.6;
-	font-weight: 400;
 }
 
 // Footer
@@ -387,6 +386,9 @@ footer .social a {
 	nav ul a:active,
 	nav ul a:focus {
 		color: var(--link-color);
+	}
+	p.meta {
+		color: var(--dark-accent);
 	}
 	main hr {
 		border-top-color: var(--dark-accent);
@@ -493,6 +495,9 @@ footer .social a {
 	nav ul a:active,
 	nav ul a:focus {
 		color: var(--link-color);
+	}
+	p.meta {
+		color: var(--dark-accent);
 	}
 	main hr {
 		border-top-color: var(--light-accent);

@@ -65,7 +65,7 @@ Know your surroundings at all times and keep your head on a swivel.
 
 ## Take Lots of Pictures
 
-Finally, take lots of pictures and share them with your friends and family, and on social media, using the #<a href="https://twitter.com/hashtag/DF19">DF19 hashtag</a>. Your pictures will remind you of the magic you experienced and keep you pumped through the year until you get to go to your next Dreamforce.
+Finally, take lots of pictures and share them with your friends and family, and on social media, using the <a href="https://twitter.com/hashtag/DF19">#DF19 hashtag</a>. Your pictures will remind you of the magic you experienced and keep you pumped through the year until you get to go to your next Dreamforce.
 
 Feel free to connect with me through social media in the menu above and let me know you’ll be at Dreamforce. I may not be a hero, but I do love connecting with other people who have a passion for Salesforce like I do. I might even know someone who can help you out. You never know…
 
