@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>This-Here on Jim Mitchell Dev</title>
+    <link>http://localhost:1313/categories/this-here/</link>
+    <description>Recent content in This-Here on Jim Mitchell Dev</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Jul 2024 18:58:39 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/this-here/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Fourth Post</title>
+      <link>http://localhost:1313/posts/my-fourth-post/</link>
+      <pubDate>Tue, 09 Jul 2024 18:58:39 -0700</pubDate>
+      <guid>http://localhost:1313/posts/my-fourth-post/</guid>
+      <description>&lt;p&gt;Then there were none&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
