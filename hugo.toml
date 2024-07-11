@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://github.jimmitchell.dev/'
 languageCode = 'en-us'
-title = 'Jim Mitchell Dev'
+title = 'Jim Mitchell'
 theme = 'respite'
 
 [[menus.main]]
