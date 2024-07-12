@@ -6,7 +6,7 @@
     --accent-2: #dfdfdf;
     --accent-3: #676767;
     --social: #9c9c9c;
-    --sans-serif-font: 'Avenir Next', Avenir, -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --sans-serif-font: Roboto, -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --mono-space-font: ui-monospace, SFMono-Regular, ui-monospace, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
     --font-weight-normal: 400;
     --font-weight-bold: 700;
@@ -49,11 +49,11 @@ body {
 	color: var(--text);
 	background: var(--background);
 	font-family: var(--sans-serif-font);
-	font-size: 1.7rem;
-	line-height: 1.5;
-	margin: 1rem auto;
-	max-width: 70rem;
-	padding: 2rem;
+	font-size: 1.8rem;
+	line-height: 1.7;
+	margin: 0 auto;
+	max-width: 76rem;
+	padding: 0 2rem;
 	-moz-font-feature-settings:    "kern" 1; 
 	-ms-font-feature-settings:     "kern" 1; 
 	-o-font-feature-settings:      "kern" 1; 
@@ -64,20 +64,80 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 a:link, a:visited {
-	color: var(--link);
+  color: var(--link);
+  text-decoration: none;
+}
+a:hover, a:active {
+  text-decoration: underline;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: var(--font-weight-bold);
 }
 
 header {
   border-bottom: 1px solid var(--accent-2);
   margin-bottom: 1rem;
+  padding: 2rem;
+}
+.site-title {
+  font-size: 2.4rem;
+  text-align: center;
+}
+.site-title a:link,
+.site-title a:visited {
+  color: var(--text);
+  text-decoration: none;
+}
+.site-title a:hover,
+.stie-title a:active {
+  color: var(--link);
+}
+
+nav {
+  display: none;
+}
+
+main {
+  padding: .5rem 0 2rem 0;
+}
+.post-title {
+  margin-bottom: 0;
+}
+time {
+  font-size: 1.6rem;
+  color: var(--accent-3);
+}
+.article-content h2,
+.article-content h3 {
+  margin-top: 4rem;
+}
+.terms {
+  font-size: 1.6rem;
+  list-style: none;
+  padding: 0;
+}
+.terms .fa-tag {
+  color: var(--accent-2);
+  margin-right: 4px;
+}
+.terms li {
+  display: inline-block;
+  margin-right: .25rem;
+}
+.terms li:after {
+  content: ",";
+}
+.terms li:last-of-type:after {
+  content: " ";
 }
 
 footer {
   border-top: 1px solid var(--accent-2);
   margin-top: 1rem;
+  padding: 2rem;
 }
-
-a {
-  color: #00e;
-  text-decoration: none;
+footer p {
+  text-align: center;
+  font-size: 1.6rem;
+  color: var(--accent-3);
 }

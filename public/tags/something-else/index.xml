@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Something-Else on Jim Mitchell Dev</title>
+    <title>Something-Else on Jim Mitchell</title>
     <link>http://localhost:1313/tags/something-else/</link>
-    <description>Recent content in Something-Else on Jim Mitchell Dev</description>
+    <description>Recent content in Something-Else on Jim Mitchell</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 09 Jul 2024 04:49:28 -0700</lastBuildDate>
