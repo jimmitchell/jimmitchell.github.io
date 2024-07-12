@@ -80,7 +80,7 @@ header {
   padding: 2rem;
 }
 .site-title {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   text-align: center;
 }
 .site-title a:link,
@@ -91,10 +91,6 @@ header {
 .site-title a:hover,
 .stie-title a:active {
   color: var(--link);
-}
-
-nav {
-  display: none;
 }
 
 main {
@@ -122,7 +118,7 @@ time {
 }
 .terms li {
   display: inline-block;
-  margin-right: .25rem;
+  margin-right: 2px;
 }
 .terms li:after {
   content: ",";
