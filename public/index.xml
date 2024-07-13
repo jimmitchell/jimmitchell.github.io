@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Jim Mitchell</title>
-    <link>http://localhost:51048/</link>
+    <link>http://localhost:51137/</link>
     <description>Recent content on Jim Mitchell</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Sat, 13 Jul 2024 07:47:01 -0700</lastBuildDate>
-    <atom:link href="http://localhost:51048/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:51137/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Still Another Post</title>
-      <link>http://localhost:51048/posts/2004/still-another-post/</link>
+      <link>http://localhost:51137/posts/2004/still-another-post/</link>
       <pubDate>Sat, 13 Jul 2024 07:47:01 -0700</pubDate>
-      <guid>http://localhost:51048/posts/2004/still-another-post/</guid>
+      <guid>http://localhost:51137/posts/2004/still-another-post/</guid>
       <description>Here&amp;rsquo;s a quick summary about the post</description>
     </item>
     <item>
       <title>Yet Another Post</title>
-      <link>http://localhost:51048/posts/2004/yet-another-post/</link>
+      <link>http://localhost:51137/posts/2004/yet-another-post/</link>
       <pubDate>Sat, 13 Jul 2024 07:37:53 -0700</pubDate>
-      <guid>http://localhost:51048/posts/2004/yet-another-post/</guid>
+      <guid>http://localhost:51137/posts/2004/yet-another-post/</guid>
       <description>Lorem ipsum dolor sit met, consectetur adipiscing elit. Aliquam eu cursus lorem, ut vulputate libero. Sed nec purus a urna ornare condimentum vel quis augue. Sed eget accumsan nibh, quis ultricies dolor. Done eget odio eleifend, comido massa vitae, lacinia nunc. Vestibule vel nisi rhoncus ligula lobortis imperdiet. Prooien postere tellus et cursus porta. Curabitur porttitor sapin ut lestés dictum lobortis. Vivamus mattis iaculis ullamcorper. Suspendisse imperdiet, augue at gravida consectetuer, ipsum elit cursus lacs, non accusant purus lectuur sit met est.</description>
     </item>
     <item>
       <title>My Fourth Post</title>
-      <link>http://localhost:51048/posts/2004/my-fourth-post/</link>
+      <link>http://localhost:51137/posts/2004/my-fourth-post/</link>
       <pubDate>Tue, 09 Jul 2024 18:58:39 -0700</pubDate>
-      <guid>http://localhost:51048/posts/2004/my-fourth-post/</guid>
+      <guid>http://localhost:51137/posts/2004/my-fourth-post/</guid>
       <description>This would be considered a summary in some countries. Is it in yours?</description>
     </item>
     <item>
       <title>My Third Post</title>
-      <link>http://localhost:51048/posts/2004/my-third-post/</link>
+      <link>http://localhost:51137/posts/2004/my-third-post/</link>
       <pubDate>Tue, 09 Jul 2024 04:55:11 -0700</pubDate>
-      <guid>http://localhost:51048/posts/2004/my-third-post/</guid>
+      <guid>http://localhost:51137/posts/2004/my-third-post/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit met, consectetur adipiscing elit. Aliquam eu cursus lorem, ut vulputate libero. Sed nec purus a urna ornare condimentum vel quis augue. Sed eget accumsan nibh, quis ultricies dolor. Done eget odio eleifend, comido massa vitae, lacinia nunc. Vestibule vel nisi rhoncus ligula lobortis imperdiet. Prooien postere tellus et cursus porta. Curabitur porttitor sapin ut lestés dictum lobortis. Vivamus mattis iaculis ullamcorper. Suspendisse imperdiet, augue at gravida consectetuer, ipsum elit cursus lacs, non accusant purus lectuur sit met est. Sed euismod augue vel tortuur semper bandiet. Curabitur elit leo, sodas a feugiat eget, kommod vitae lorem. Aliquam ut enim in elit elementum molestie id vel urna. Vestibulum molestie lorem nec massa adipiscing, quis elementum locus ultraces. Etiam porta elit turpis, faucibus ornare massa consequat ac. Nullam id felis at neque varius euismod eu eu sappen. Etiam id fermentum ligula, ac fermentum veilt.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Second Post</title>
-      <link>http://localhost:51048/posts/2004/my-second-post/</link>
+      <link>http://localhost:51137/posts/2004/my-second-post/</link>
       <pubDate>Tue, 09 Jul 2024 04:49:28 -0700</pubDate>
-      <guid>http://localhost:51048/posts/2004/my-second-post/</guid>
+      <guid>http://localhost:51137/posts/2004/my-second-post/</guid>
       <description>Lorem ipsum dolor sit met, consectetur adipiscing elit. Aliquam eu cursus lorem, ut vulputate libero. Sed nec purus a urna ornare condimentum vel quis augue. Sed eget accumsan nibh, quis ultricies dolor. Done eget odio eleifend, comido massa vitae, lacinia nunc. Vestibule vel nisi rhoncus ligula lobortis imperdiet. Prooien postere tellus et cursus porta. Curabitur porttitor sapin ut lestés dictum lobortis. Vivamus mattis iaculis ullamcorper. Suspendisse imperdiet, augue at gravida consectetuer, ipsum elit cursus lacs, non accusant purus lectuur sit met est.</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:51048/posts/2004/07/my-first-post/</link>
+      <link>http://localhost:51137/posts/2004/07/my-first-post/</link>
       <pubDate>Wed, 03 Jul 2024 18:08:29 -0700</pubDate>
-      <guid>http://localhost:51048/posts/2004/07/my-first-post/</guid>
+      <guid>http://localhost:51137/posts/2004/07/my-first-post/</guid>
       <description>&lt;p&gt;This is a summary of the very first post.&lt;/p&gt;</description>
     </item>
   </channel>
