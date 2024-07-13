@@ -1,0 +1,22 @@
+baseURL: 'https://github.jimmitchell.dev/'
+languageCode: en-us
+title: Jim Mitchell
+theme: PaperMod
+menus:
+  main:
+    - name: Home
+      pageRef: /
+      weight: 10
+    - name: Posts
+      pageRef: /posts
+      weight: 20
+    - name: Tags
+      pageRef: /tags
+      weight: 30
+    - name: About
+      pageRef: /about
+      weight: 40
+module:
+  hugoVersion:
+    extended: false
+    min: 0.116.0

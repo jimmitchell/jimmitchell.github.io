@@ -1,10 +1,12 @@
-+++
-title = 'My Fourth Post'
-date = 2024-07-09T18:58:39-07:00
-categories = ['this-here']
-tags = ['something']
-draft = false
-+++
-Then there were none...
-<!--more-->
-Here is something that is really cool. I get to write my articles using Markdown.
+---
+categories:
+- this-here
+date: "2024-07-09T18:58:39-07:00"
+tags:
+- something
+title: My Fourth Post
+---
+
+This would be considered a summary in some countries. Is it in yours?
+
+Then there were none... Here is something that is really cool. I get to write my articles using Markdown.

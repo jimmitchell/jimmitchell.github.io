@@ -2,22 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-07-09T18:58:39-07:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-07-09T18:58:39-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/my-fourth-post/</loc>
-    <lastmod>2024-07-09T18:58:39-07:00</lastmod>
+    <lastmod>2024-07-13T07:47:01-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-07-09T18:58:39-07:00</lastmod>
+    <lastmod>2024-07-13T07:47:01-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-07-13T07:37:53-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/something/</loc>
-    <lastmod>2024-07-09T18:58:39-07:00</lastmod>
+    <lastmod>2024-07-13T07:37:53-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/something-else/</loc>
+    <lastmod>2024-07-13T07:37:53-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-07-13T07:37:53-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/testing/</loc>
+    <lastmod>2024-07-13T07:37:53-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/testing/</loc>
+    <lastmod>2024-07-13T07:37:53-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/yet-another-post/</loc>
+    <lastmod>2024-07-13T07:37:53-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/my-fourth-post/</loc>
     <lastmod>2024-07-09T18:58:39-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/this-here/</loc>
@@ -33,9 +45,6 @@
     <lastmod>2024-07-09T04:55:11-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/my-second-post/</loc>
-    <lastmod>2024-07-09T04:49:28-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/something-else/</loc>
     <lastmod>2024-07-09T04:49:28-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/my-first-post/</loc>
