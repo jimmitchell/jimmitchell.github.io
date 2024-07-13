@@ -15,7 +15,9 @@ Lorem ipsum dolor sit met, consectetur adipiscing elit. Aliquam eu cursus lorem,
 ## Code
 
 ```html
-<div class="testing">
-	<p>blah</p>
-</div>
+<body>
+	<div class="testing">
+		<p>blah</p>
+		</div>
+</body>
 ```

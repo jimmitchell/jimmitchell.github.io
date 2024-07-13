@@ -77,11 +77,11 @@ params:
   socialIcons:
     - name: mastodon
       url: "https://mastodon.social/@jimmitchell"
-    - name: x
-      url: "https://x.com/_jimmitchell"
     - name: github
       url: "https://github.com/jimmitchell"
-
+    - name: x
+      url: "https://x.com/_jimmitchell"
+    
 #   analytics:
 #     google:
 #       SiteVerificationTag: "XYZabc"
