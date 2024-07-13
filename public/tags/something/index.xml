@@ -5,7 +5,7 @@
     <link>http://localhost:1313/tags/something/</link>
     <description>Recent content in Something on Jim Mitchell</description>
     <generator>Hugo -- 0.127.0</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Sat, 13 Jul 2024 07:47:01 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/something/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/still-another-post/</link>
       <pubDate>Sat, 13 Jul 2024 07:47:01 -0700</pubDate>
       <guid>http://localhost:1313/posts/still-another-post/</guid>
-      <description>&lt;p&gt;Here&amp;rsquo;s a quick summary about the post&lt;/p&gt;</description>
+      <description>Here&amp;rsquo;s a quick summary about the post</description>
     </item>
     <item>
       <title>Yet Another Post</title>
