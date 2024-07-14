@@ -113,33 +113,5 @@
       <guid>http://localhost:1313/tags/how-to/</guid>
       <description></description>
     </item>
-    <item>
-      <title>Another</title>
-      <link>http://localhost:1313/tags/another/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/another/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Something</title>
-      <link>http://localhost:1313/tags/something/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/something/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Something-Else</title>
-      <link>http://localhost:1313/tags/something-else/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/something-else/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Testing</title>
-      <link>http://localhost:1313/tags/testing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/testing/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

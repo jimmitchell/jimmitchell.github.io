@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Apple on Jim Mitchell</title>
+    <link>http://localhost:1313/tags/apple/</link>
+    <description>Recent content in Apple on Jim Mitchell</description>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 02 Apr 2024 07:57:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/apple/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MacBook Air M3 15&#34; First Impressions</title>
+      <link>http://localhost:1313/posts/2024/macbook-air-m3-15-first-impressions/</link>
+      <pubDate>Tue, 02 Apr 2024 07:57:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/2024/macbook-air-m3-15-first-impressions/</guid>
+      <description>My initial thoughts on the MacBook Air M3 15&amp;quot; fully specd model&amp;hellip;</description>
+    </item>
+    <item>
+      <title>My 2023 Mac Apps of the Year</title>
+      <link>http://localhost:1313/posts/2024/my-2023-mac-apps-of-the-year/</link>
+      <pubDate>Tue, 02 Jan 2024 13:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/2024/my-2023-mac-apps-of-the-year/</guid>
+      <description>My list of the top five Mac apps I used in the past year that made my work easier.</description>
+    </item>
+    <item>
+      <title>My App Defaults</title>
+      <link>http://localhost:1313/posts/2023/app-defaults/</link>
+      <pubDate>Thu, 23 Nov 2023 08:06:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/2023/app-defaults/</guid>
+      <description>I wasn&amp;rsquo;t going to do a post like this&amp;hellip; But what the heck, all the cool kids are doing it this week, so why shouldn&amp;rsquo;t I, right?</description>
+    </item>
+    <item>
+      <title>Rebuilding the Apple Mail Envelope Index</title>
+      <link>http://localhost:1313/posts/2008/rebuilding-the-mail-envelope-index/</link>
+      <pubDate>Wed, 20 Feb 2008 17:45:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/2008/rebuilding-the-mail-envelope-index/</guid>
+      <description>I’m one of those guys who likes to have everything all in one place at my finger tips when I need it. But something wasn&amp;rsquo;t quite right.</description>
+    </item>
+  </channel>
+</rss>
