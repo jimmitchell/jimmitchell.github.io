@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Micro.blog on Jim Mitchell</title>
-    <link>http://localhost:1313/tags/micro.blog/</link>
+    <link>https://jimmitchell.dev/tags/micro.blog/</link>
     <description>Recent content in Micro.blog on Jim Mitchell</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Sun, 26 Nov 2023 10:59:00 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/micro.blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jimmitchell.dev/tags/micro.blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tinylytics for Micro.blog v3.1.0</title>
-      <link>http://localhost:1313/posts/2023/tinylytics-for-micro-blog-v3-1-0/</link>
+      <link>https://jimmitchell.dev/posts/2023/tinylytics-for-micro-blog-v3-1-0/</link>
       <pubDate>Sun, 26 Nov 2023 10:59:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/2023/tinylytics-for-micro-blog-v3-1-0/</guid>
+      <guid>https://jimmitchell.dev/posts/2023/tinylytics-for-micro-blog-v3-1-0/</guid>
       <description>Yet another update to Tinylytics for Micro.blog</description>
     </item>
     <item>
       <title>Tinylytics for Micro.blog 3.0 Released</title>
-      <link>http://localhost:1313/posts/2023/tinylytics-for-micro-blog-3-0-released/</link>
+      <link>https://jimmitchell.dev/posts/2023/tinylytics-for-micro-blog-3-0-released/</link>
       <pubDate>Thu, 19 Oct 2023 07:34:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/2023/tinylytics-for-micro-blog-3-0-released/</guid>
+      <guid>https://jimmitchell.dev/posts/2023/tinylytics-for-micro-blog-3-0-released/</guid>
       <description>Another major update for Tinylytics for Micro.blog&amp;hellip;</description>
     </item>
     <item>
       <title>Tinylytics for Micro.blog v2.1 Released</title>
-      <link>http://localhost:1313/posts/2023/tinylytics-for-micro-blog-v2-1-released/</link>
+      <link>https://jimmitchell.dev/posts/2023/tinylytics-for-micro-blog-v2-1-released/</link>
       <pubDate>Tue, 11 Jul 2023 08:25:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/2023/tinylytics-for-micro-blog-v2-1-released/</guid>
+      <guid>https://jimmitchell.dev/posts/2023/tinylytics-for-micro-blog-v2-1-released/</guid>
       <description>Even more Tinylytics for Micro.blog updates&amp;hellip;</description>
     </item>
     <item>
       <title>Tinylytics for Micro.blog 2.0 Release</title>
-      <link>http://localhost:1313/posts/2023/tinylytics-for-micro-blog-2-0-release/</link>
+      <link>https://jimmitchell.dev/posts/2023/tinylytics-for-micro-blog-2-0-release/</link>
       <pubDate>Sat, 08 Jul 2023 21:09:48 -0700</pubDate>
-      <guid>http://localhost:1313/posts/2023/tinylytics-for-micro-blog-2-0-release/</guid>
+      <guid>https://jimmitchell.dev/posts/2023/tinylytics-for-micro-blog-2-0-release/</guid>
       <description>More Tinylytics for Micro.blog updates&amp;hellip;</description>
     </item>
     <item>
       <title>Tinylytics for Micro Blog Updated to 1.0.6</title>
-      <link>http://localhost:1313/posts/2023/tinylytics-for-micro-blog-updated-to-1-0-6/</link>
+      <link>https://jimmitchell.dev/posts/2023/tinylytics-for-micro-blog-updated-to-1-0-6/</link>
       <pubDate>Sun, 02 Jul 2023 21:06:42 -0700</pubDate>
-      <guid>http://localhost:1313/posts/2023/tinylytics-for-micro-blog-updated-to-1-0-6/</guid>
+      <guid>https://jimmitchell.dev/posts/2023/tinylytics-for-micro-blog-updated-to-1-0-6/</guid>
       <description>Some Tinylytics for Micro.blog updates</description>
     </item>
     <item>
       <title>New Plugin Tinylytics for Micro Blog</title>
-      <link>http://localhost:1313/posts/2023/new-plugin-tinylytics-for-micro-blog/</link>
+      <link>https://jimmitchell.dev/posts/2023/new-plugin-tinylytics-for-micro-blog/</link>
       <pubDate>Wed, 07 Jun 2023 21:01:43 -0700</pubDate>
-      <guid>http://localhost:1313/posts/2023/new-plugin-tinylytics-for-micro-blog/</guid>
+      <guid>https://jimmitchell.dev/posts/2023/new-plugin-tinylytics-for-micro-blog/</guid>
       <description>I published my very first Micro.blog plugin today.</description>
     </item>
   </channel>

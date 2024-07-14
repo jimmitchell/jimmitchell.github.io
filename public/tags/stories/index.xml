@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Stories on Jim Mitchell</title>
-    <link>http://localhost:1313/tags/stories/</link>
+    <link>https://jimmitchell.dev/tags/stories/</link>
     <description>Recent content in Stories on Jim Mitchell</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Sun, 29 Jul 2018 20:46:10 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/stories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jimmitchell.dev/tags/stories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Ant Mound</title>
-      <link>http://localhost:1313/posts/2018/ants/</link>
+      <link>https://jimmitchell.dev/posts/2018/ants/</link>
       <pubDate>Sun, 29 Jul 2018 20:46:10 -0700</pubDate>
-      <guid>http://localhost:1313/posts/2018/ants/</guid>
+      <guid>https://jimmitchell.dev/posts/2018/ants/</guid>
       <description>Though it didn&amp;rsquo;t turn out to be the end of the world, it sure seemed like a living hell when it happened.</description>
     </item>
     <item>
       <title>Memorable Cigarettes</title>
-      <link>http://localhost:1313/posts/2018/cigarettes/</link>
+      <link>https://jimmitchell.dev/posts/2018/cigarettes/</link>
       <pubDate>Sat, 28 Jul 2018 20:43:07 -0700</pubDate>
-      <guid>http://localhost:1313/posts/2018/cigarettes/</guid>
+      <guid>https://jimmitchell.dev/posts/2018/cigarettes/</guid>
       <description>I used to smoke a long time ago. It&amp;rsquo;s not something I&amp;rsquo;m proud of, but it is part of who I am. These are a few memories tied to a nasty habit I was able to break.</description>
     </item>
   </channel>

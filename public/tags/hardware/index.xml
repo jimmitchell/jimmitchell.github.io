@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hardware on Jim Mitchell</title>
-    <link>http://localhost:1313/tags/hardware/</link>
+    <link>https://jimmitchell.dev/tags/hardware/</link>
     <description>Recent content in Hardware on Jim Mitchell</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Tue, 02 Apr 2024 07:57:00 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jimmitchell.dev/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MacBook Air M3 15&#34; First Impressions</title>
-      <link>http://localhost:1313/posts/2024/macbook-air-m3-15-first-impressions/</link>
+      <link>https://jimmitchell.dev/posts/2024/macbook-air-m3-15-first-impressions/</link>
       <pubDate>Tue, 02 Apr 2024 07:57:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/2024/macbook-air-m3-15-first-impressions/</guid>
+      <guid>https://jimmitchell.dev/posts/2024/macbook-air-m3-15-first-impressions/</guid>
       <description>My initial thoughts on the MacBook Air M3 15&amp;quot; fully specd model&amp;hellip;</description>
     </item>
   </channel>
