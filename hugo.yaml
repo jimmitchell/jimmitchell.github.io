@@ -1,6 +1,6 @@
 baseURL: "https://github.jimmitchell.dev/"
 title: Jim Mitchell
-paginate: 5
+paginate: 8
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -18,11 +18,10 @@ params:
   description: "ExampleSite description"
   keywords: [Blog, Portfolio, PaperMod]
   author: Jim Mitchell
-  # author: ["Me", "You"] # multiple authors
   # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "Monday, January 2, 2006"
-  defaultTheme: auto # dark, light
-  disableThemeToggle: false
+  defaultTheme: auto
+  disableThemeToggle: true
 
   ShowReadingTime: true
   ShowShareButtons: false
@@ -40,7 +39,7 @@ params:
   showtoc: false
   tocopen: false
 
-  assets:
+  # assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     # favicon: "<link / abs url>"
@@ -55,19 +54,19 @@ params:
     iconHeight: 35
 
   # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: Jim Mitchell
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+  # profileMode:
+  #   enabled: false # needs to be explicitly set
+  #   title: Jim Mitchell
+  #   subtitle: "This is subtitle"
+  #   imageUrl: "<img location>"
+  #   imageWidth: 120
+  #   imageHeight: 120
+  #   imageTitle: my image
+  #   buttons:
+  #     - name: Posts
+  #       url: posts
+  #     - name: Tags
+  #       url: tags
 
   # home-info mode
   homeInfoParams:
@@ -79,6 +78,12 @@ params:
       url: "https://mastodon.social/@jimmitchell"
     - name: github
       url: "https://github.com/jimmitchell"
+    - name: instagram
+      url: "https://instagram.com/_jimmitchell"
+    - name: threads
+      url: "https://www.threads.net/@_jimmitchell"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/jimmitchellmedia/"
     - name: x
       url: "https://x.com/_jimmitchell"
     
@@ -111,6 +116,11 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
+  outputs:
+    home:
+      - HTML
+      - RSS
+      - JSON # necessary for search
 menu:
   main:
     - identifier: projects
@@ -125,6 +135,10 @@ menu:
       name: About
       url: /about/
       weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
