@@ -12,7 +12,7 @@ Henry had chops and a great voice. He had style too. And to top it off, he was o
 
 This photo is from the last time I got to play with him on New Year's Eve, 2017.
 
-![A group of musicians on stage. Henry carvajal plays the guitar. Jim Mitchell plays the bass.](https://jimmitchell.org/wp-content/uploads/2024/06/henry-carvajal.jpg "henry-carvajal.jpg")
+![A group of musicians on stage. Henry Carvajal plays the guitar. Jim Mitchell plays the bass.](/uploads/2024/henry-carvajal.jpg "henry-carvajal.jpg")
 
 That's Henry on guitar. I'm on bass. 
 
