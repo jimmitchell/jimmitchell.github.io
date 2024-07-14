@@ -1,7 +1,6 @@
 ---
 title: 'On the Fragility of Life'
 date: 2024-03-06T10:46:00-07:00
-tags: ['Health Stuff']
 summary: 'Events happen in our lives that make us do a full stop and give a long, hard look at how things are.'
 ---
 Events happen in our lives that make us do a full stop and give a long, hard look at how things are. This was one of those events that slapped me in the face so hard I'm still having a hard time grasping it.
