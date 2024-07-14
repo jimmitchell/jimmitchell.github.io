@@ -76,6 +76,8 @@ params:
   socialIcons:
     - name: mastodon
       url: "https://mastodon.social/@jimmitchell"
+    - name: microblog
+      url: "https://jimmitchell.micro.blog"
     - name: github
       url: "https://github.com/jimmitchell"
     - name: instagram
