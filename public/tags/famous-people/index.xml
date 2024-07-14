@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Famous People on Jim Mitchell</title>
-    <link>https://jimmitchell.dev/tags/famous-people/</link>
+    <link>http://localhost:1313/tags/famous-people/</link>
     <description>Recent content in Famous People on Jim Mitchell</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Sat, 29 Jun 2024 08:33:00 -0700</lastBuildDate>
-    <atom:link href="https://jimmitchell.dev/tags/famous-people/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/famous-people/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Day I Sort of Met Martin Mull</title>
-      <link>https://jimmitchell.dev/posts/2024/the-day-i-sort-of-met-martin-mull/</link>
+      <link>http://localhost:1313/posts/2024/the-day-i-sort-of-met-martin-mull/</link>
       <pubDate>Sat, 29 Jun 2024 08:33:00 -0700</pubDate>
-      <guid>https://jimmitchell.dev/posts/2024/the-day-i-sort-of-met-martin-mull/</guid>
+      <guid>http://localhost:1313/posts/2024/the-day-i-sort-of-met-martin-mull/</guid>
       <description>Hearing of the passing of Martin Mull reminded me of the time that I sort of met him quite by accident. What struck me was that he was exactly the same person I&amp;rsquo;d seen on TV so many times.</description>
     </item>
   </channel>

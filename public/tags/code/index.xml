@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Code on Jim Mitchell</title>
-    <link>https://jimmitchell.dev/tags/code/</link>
+    <link>http://localhost:1313/tags/code/</link>
     <description>Recent content in Code on Jim Mitchell</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Sun, 26 Nov 2023 10:59:00 -0700</lastBuildDate>
-    <atom:link href="https://jimmitchell.dev/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tinylytics for Micro.blog v3.1.0</title>
-      <link>https://jimmitchell.dev/posts/2023/tinylytics-for-micro-blog-v3-1-0/</link>
+      <link>http://localhost:1313/posts/2023/tinylytics-for-micro-blog-v3-1-0/</link>
       <pubDate>Sun, 26 Nov 2023 10:59:00 -0700</pubDate>
-      <guid>https://jimmitchell.dev/posts/2023/tinylytics-for-micro-blog-v3-1-0/</guid>
+      <guid>http://localhost:1313/posts/2023/tinylytics-for-micro-blog-v3-1-0/</guid>
       <description>Yet another update to Tinylytics for Micro.blog</description>
     </item>
     <item>
       <title>Tinylytics for Micro.blog 3.0 Released</title>
-      <link>https://jimmitchell.dev/posts/2023/tinylytics-for-micro-blog-3-0-released/</link>
+      <link>http://localhost:1313/posts/2023/tinylytics-for-micro-blog-3-0-released/</link>
       <pubDate>Thu, 19 Oct 2023 07:34:00 -0700</pubDate>
-      <guid>https://jimmitchell.dev/posts/2023/tinylytics-for-micro-blog-3-0-released/</guid>
+      <guid>http://localhost:1313/posts/2023/tinylytics-for-micro-blog-3-0-released/</guid>
       <description>Another major update for Tinylytics for Micro.blog&amp;hellip;</description>
     </item>
     <item>
       <title>Tinylytics for Micro.blog v2.1 Released</title>
-      <link>https://jimmitchell.dev/posts/2023/tinylytics-for-micro-blog-v2-1-released/</link>
+      <link>http://localhost:1313/posts/2023/tinylytics-for-micro-blog-v2-1-released/</link>
       <pubDate>Tue, 11 Jul 2023 08:25:00 -0700</pubDate>
-      <guid>https://jimmitchell.dev/posts/2023/tinylytics-for-micro-blog-v2-1-released/</guid>
+      <guid>http://localhost:1313/posts/2023/tinylytics-for-micro-blog-v2-1-released/</guid>
       <description>Even more Tinylytics for Micro.blog updates&amp;hellip;</description>
     </item>
     <item>
       <title>Tinylytics for Micro.blog 2.0 Release</title>
-      <link>https://jimmitchell.dev/posts/2023/tinylytics-for-micro-blog-2-0-release/</link>
+      <link>http://localhost:1313/posts/2023/tinylytics-for-micro-blog-2-0-release/</link>
       <pubDate>Sat, 08 Jul 2023 21:09:48 -0700</pubDate>
-      <guid>https://jimmitchell.dev/posts/2023/tinylytics-for-micro-blog-2-0-release/</guid>
+      <guid>http://localhost:1313/posts/2023/tinylytics-for-micro-blog-2-0-release/</guid>
       <description>More Tinylytics for Micro.blog updates&amp;hellip;</description>
     </item>
     <item>
       <title>Tinylytics for Micro Blog Updated to 1.0.6</title>
-      <link>https://jimmitchell.dev/posts/2023/tinylytics-for-micro-blog-updated-to-1-0-6/</link>
+      <link>http://localhost:1313/posts/2023/tinylytics-for-micro-blog-updated-to-1-0-6/</link>
       <pubDate>Sun, 02 Jul 2023 21:06:42 -0700</pubDate>
-      <guid>https://jimmitchell.dev/posts/2023/tinylytics-for-micro-blog-updated-to-1-0-6/</guid>
+      <guid>http://localhost:1313/posts/2023/tinylytics-for-micro-blog-updated-to-1-0-6/</guid>
       <description>Some Tinylytics for Micro.blog updates</description>
     </item>
     <item>
       <title>New Plugin Tinylytics for Micro Blog</title>
-      <link>https://jimmitchell.dev/posts/2023/new-plugin-tinylytics-for-micro-blog/</link>
+      <link>http://localhost:1313/posts/2023/new-plugin-tinylytics-for-micro-blog/</link>
       <pubDate>Wed, 07 Jun 2023 21:01:43 -0700</pubDate>
-      <guid>https://jimmitchell.dev/posts/2023/new-plugin-tinylytics-for-micro-blog/</guid>
+      <guid>http://localhost:1313/posts/2023/new-plugin-tinylytics-for-micro-blog/</guid>
       <description>I published my very first Micro.blog plugin today.</description>
     </item>
     <item>
       <title>Better Applescript Compress Files or Folders</title>
-      <link>https://jimmitchell.dev/posts/2023/better-applescript-compress-files-or-folders/</link>
+      <link>http://localhost:1313/posts/2023/better-applescript-compress-files-or-folders/</link>
       <pubDate>Fri, 14 Apr 2023 20:56:54 -0700</pubDate>
-      <guid>https://jimmitchell.dev/posts/2023/better-applescript-compress-files-or-folders/</guid>
+      <guid>http://localhost:1313/posts/2023/better-applescript-compress-files-or-folders/</guid>
       <description>I created an AppleScript that allows you to compress files and folders by simply dropping them onto the applet. A reader asked for a way to archive files and folders based off that post. This was my solution.</description>
     </item>
     <item>
       <title>Applescript to Compress Files and Folders</title>
-      <link>https://jimmitchell.dev/posts/2014/applescript-to-compress-files-and-folders/</link>
+      <link>http://localhost:1313/posts/2014/applescript-to-compress-files-and-folders/</link>
       <pubDate>Sat, 02 Aug 2014 20:08:13 -0700</pubDate>
-      <guid>https://jimmitchell.dev/posts/2014/applescript-to-compress-files-and-folders/</guid>
+      <guid>http://localhost:1313/posts/2014/applescript-to-compress-files-and-folders/</guid>
       <description>This Applescript compresses files and folders into their own archive.</description>
     </item>
     <item>
       <title>AppleScript to Add Files in the Mac Finder</title>
-      <link>https://jimmitchell.dev/posts/2011/applescript-to-quickly-add-empty-files-in-the-macos-finder/</link>
+      <link>http://localhost:1313/posts/2011/applescript-to-quickly-add-empty-files-in-the-macos-finder/</link>
       <pubDate>Fri, 12 Aug 2011 20:03:38 -0700</pubDate>
-      <guid>https://jimmitchell.dev/posts/2011/applescript-to-quickly-add-empty-files-in-the-macos-finder/</guid>
+      <guid>http://localhost:1313/posts/2011/applescript-to-quickly-add-empty-files-in-the-macos-finder/</guid>
       <description>I had the need to add several named text files to a project folder in the Finder on my Mac today. This is the AppleScript I developed to solve it.</description>
     </item>
     <item>
       <title>Applescript to Toggle the Desktop</title>
-      <link>https://jimmitchell.dev/posts/2010/applescript-to-toggle-the-desktop/</link>
+      <link>http://localhost:1313/posts/2010/applescript-to-toggle-the-desktop/</link>
       <pubDate>Sat, 16 Oct 2010 19:53:10 -0700</pubDate>
-      <guid>https://jimmitchell.dev/posts/2010/applescript-to-toggle-the-desktop/</guid>
+      <guid>http://localhost:1313/posts/2010/applescript-to-toggle-the-desktop/</guid>
       <description>An AppleScript I use to quickly toggle desktop visibility for taking screenshots and recording screencasts that I thought might be useful for others.</description>
     </item>
   </channel>
