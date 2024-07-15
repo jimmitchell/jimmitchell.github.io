@@ -2,129 +2,129 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Jim Mitchell</title>
-    <link>https://jimmitchell.dev/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Jim Mitchell</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Mon, 15 Jul 2024 07:00:00 -0700</lastBuildDate>
-    <atom:link href="https://jimmitchell.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo</title>
-      <link>https://jimmitchell.dev/tags/hugo/</link>
+      <link>http://localhost:1313/tags/hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jimmitchell.dev/tags/hugo/</guid>
+      <guid>http://localhost:1313/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Micro.blog</title>
-      <link>https://jimmitchell.dev/tags/micro.blog/</link>
+      <link>http://localhost:1313/tags/micro.blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jimmitchell.dev/tags/micro.blog/</guid>
+      <guid>http://localhost:1313/tags/micro.blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Website</title>
-      <link>https://jimmitchell.dev/tags/website/</link>
+      <link>http://localhost:1313/tags/website/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jimmitchell.dev/tags/website/</guid>
+      <guid>http://localhost:1313/tags/website/</guid>
       <description></description>
     </item>
     <item>
       <title>WordPress</title>
-      <link>https://jimmitchell.dev/tags/wordpress/</link>
+      <link>http://localhost:1313/tags/wordpress/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jimmitchell.dev/tags/wordpress/</guid>
+      <guid>http://localhost:1313/tags/wordpress/</guid>
       <description></description>
     </item>
     <item>
       <title>Famous People</title>
-      <link>https://jimmitchell.dev/tags/famous-people/</link>
+      <link>http://localhost:1313/tags/famous-people/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jimmitchell.dev/tags/famous-people/</guid>
+      <guid>http://localhost:1313/tags/famous-people/</guid>
       <description></description>
     </item>
     <item>
       <title>Memories</title>
-      <link>https://jimmitchell.dev/tags/memories/</link>
+      <link>http://localhost:1313/tags/memories/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jimmitchell.dev/tags/memories/</guid>
+      <guid>http://localhost:1313/tags/memories/</guid>
       <description></description>
     </item>
     <item>
       <title>Gig Years</title>
-      <link>https://jimmitchell.dev/tags/gig-years/</link>
+      <link>http://localhost:1313/tags/gig-years/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jimmitchell.dev/tags/gig-years/</guid>
+      <guid>http://localhost:1313/tags/gig-years/</guid>
       <description></description>
     </item>
     <item>
       <title>Apple</title>
-      <link>https://jimmitchell.dev/tags/apple/</link>
+      <link>http://localhost:1313/tags/apple/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jimmitchell.dev/tags/apple/</guid>
+      <guid>http://localhost:1313/tags/apple/</guid>
       <description></description>
     </item>
     <item>
       <title>Hardware</title>
-      <link>https://jimmitchell.dev/tags/hardware/</link>
+      <link>http://localhost:1313/tags/hardware/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jimmitchell.dev/tags/hardware/</guid>
+      <guid>http://localhost:1313/tags/hardware/</guid>
       <description></description>
     </item>
     <item>
       <title>Mac Apps</title>
-      <link>https://jimmitchell.dev/tags/mac-apps/</link>
+      <link>http://localhost:1313/tags/mac-apps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jimmitchell.dev/tags/mac-apps/</guid>
+      <guid>http://localhost:1313/tags/mac-apps/</guid>
       <description></description>
     </item>
     <item>
       <title>Code</title>
-      <link>https://jimmitchell.dev/tags/code/</link>
+      <link>http://localhost:1313/tags/code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jimmitchell.dev/tags/code/</guid>
+      <guid>http://localhost:1313/tags/code/</guid>
       <description></description>
     </item>
     <item>
       <title>AppleScript</title>
-      <link>https://jimmitchell.dev/tags/applescript/</link>
+      <link>http://localhost:1313/tags/applescript/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jimmitchell.dev/tags/applescript/</guid>
+      <guid>http://localhost:1313/tags/applescript/</guid>
       <description></description>
     </item>
     <item>
       <title>Intentional Living</title>
-      <link>https://jimmitchell.dev/tags/intentional-living/</link>
+      <link>http://localhost:1313/tags/intentional-living/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jimmitchell.dev/tags/intentional-living/</guid>
+      <guid>http://localhost:1313/tags/intentional-living/</guid>
       <description></description>
     </item>
     <item>
       <title>Thoughts</title>
-      <link>https://jimmitchell.dev/tags/thoughts/</link>
+      <link>http://localhost:1313/tags/thoughts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jimmitchell.dev/tags/thoughts/</guid>
+      <guid>http://localhost:1313/tags/thoughts/</guid>
       <description></description>
     </item>
     <item>
       <title>Stories</title>
-      <link>https://jimmitchell.dev/tags/stories/</link>
+      <link>http://localhost:1313/tags/stories/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jimmitchell.dev/tags/stories/</guid>
+      <guid>http://localhost:1313/tags/stories/</guid>
       <description></description>
     </item>
     <item>
       <title>Writing</title>
-      <link>https://jimmitchell.dev/tags/writing/</link>
+      <link>http://localhost:1313/tags/writing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jimmitchell.dev/tags/writing/</guid>
+      <guid>http://localhost:1313/tags/writing/</guid>
       <description></description>
     </item>
     <item>
       <title>How To</title>
-      <link>https://jimmitchell.dev/tags/how-to/</link>
+      <link>http://localhost:1313/tags/how-to/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jimmitchell.dev/tags/how-to/</guid>
+      <guid>http://localhost:1313/tags/how-to/</guid>
       <description></description>
     </item>
   </channel>

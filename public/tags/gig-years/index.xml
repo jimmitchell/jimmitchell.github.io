@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Gig Years on Jim Mitchell</title>
-    <link>https://jimmitchell.dev/tags/gig-years/</link>
+    <link>http://localhost:1313/tags/gig-years/</link>
     <description>Recent content in Gig Years on Jim Mitchell</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Sat, 08 Jun 2024 07:26:00 -0700</lastBuildDate>
-    <atom:link href="https://jimmitchell.dev/tags/gig-years/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/gig-years/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pour One Out for Henry</title>
-      <link>https://jimmitchell.dev/posts/2024/pour-one-out-for-henry/</link>
+      <link>http://localhost:1313/posts/2024/pour-one-out-for-henry/</link>
       <pubDate>Sat, 08 Jun 2024 07:26:00 -0700</pubDate>
-      <guid>https://jimmitchell.dev/posts/2024/pour-one-out-for-henry/</guid>
+      <guid>http://localhost:1313/posts/2024/pour-one-out-for-henry/</guid>
       <description>It&amp;rsquo;s always jarring to learn of someone you knew passing away.</description>
     </item>
   </channel>

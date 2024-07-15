@@ -103,23 +103,23 @@ params:
 #     Text: "Suggest Changes" # edit text
 #     appendFilePath: true # to append file path to Edit link
 
-  # for search
-  # https://fusejs.io/api/options.html
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
-    keys: ["title", "permalink", "summary", "content"]
-    outputs:
-      home:
-        - HTML
-        - RSS
-        - JSON
-        
+# for search
+# https://fusejs.io/api/options.html
+fuseOpts:
+  isCaseSensitive: false
+  shouldSort: true
+  location: 0
+  distance: 1000
+  threshold: 0.4
+  minMatchCharLength: 0
+  limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+  keys: ["title", "permalink", "summary", "content"]
+  outputs:
+    home:
+      - HTML
+      - JSON
+      - RSS
+
 menu:
   main:
     - identifier: archives
@@ -129,11 +129,11 @@ menu:
     - identifier: about
       name: About
       url: /about/
-      weight: 20
-    - identifier: search
-      name: Search
-      url: /search/
       weight: 30
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 20
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

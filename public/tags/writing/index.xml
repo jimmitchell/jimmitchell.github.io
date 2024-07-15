@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Writing on Jim Mitchell</title>
-    <link>https://jimmitchell.dev/tags/writing/</link>
+    <link>http://localhost:1313/tags/writing/</link>
     <description>Recent content in Writing on Jim Mitchell</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Fri, 27 Jul 2018 20:39:38 -0700</lastBuildDate>
-    <atom:link href="https://jimmitchell.dev/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/writing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Start Somewhere</title>
-      <link>https://jimmitchell.dev/posts/2018/start/</link>
+      <link>http://localhost:1313/posts/2018/start/</link>
       <pubDate>Fri, 27 Jul 2018 20:39:38 -0700</pubDate>
-      <guid>https://jimmitchell.dev/posts/2018/start/</guid>
+      <guid>http://localhost:1313/posts/2018/start/</guid>
       <description>Eventually you use up every excuse in your book for not doing the thing you keep saying you’re going to do.</description>
     </item>
   </channel>
