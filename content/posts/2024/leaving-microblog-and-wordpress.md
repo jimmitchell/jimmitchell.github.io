@@ -45,4 +45,4 @@ The only real challenge is being able to publish a post from anywhere, like I co
 
 I've enjoyed my time on Micro.blog and WordPress, but I think it's time for a new beginning publishing with Hugo.
 
-Tell me your thoughts on [Mastodon](https://mastodon.social/@jimmitchell).
+Tell me your thoughts on [Mastodon](https://mastodon.social/@jimmitchell/112792227346102025).
