@@ -50,8 +50,8 @@ params:
 
   label:
     text: "Jim Mitchell"
-    icon: "/favicon/apple-touch-icon.png"
-    iconHeight: 35
+    # icon: "/favicon/apple-touch-icon.png"
+    # iconHeight: 35
 
   # profile-mode
   # profileMode:
