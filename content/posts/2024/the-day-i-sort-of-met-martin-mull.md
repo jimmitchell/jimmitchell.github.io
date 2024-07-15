@@ -1,5 +1,5 @@
 ---
-title: 'The Day I Sort of Met Martin Mull'
+title: 'The Day I Met Martin Mull... Sort Of'
 date: 2024-06-29T08:33:00-07:00
 tags: ['Memories','Famous People']
 summary: "Hearing of the passing of Martin Mull reminded me of the time that I sort of met him quite by accident. What struck me was that he was exactly the same person I'd seen on TV so many times."
