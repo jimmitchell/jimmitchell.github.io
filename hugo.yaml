@@ -84,10 +84,6 @@ params:
       url: "https://instagram.com/_jimmitchell"
     - name: threads
       url: "https://www.threads.net/@_jimmitchell"
-    - name: linkedin
-      url: "https://www.linkedin.com/in/jimmitchellmedia/"
-    - name: x
-      url: "https://x.com/_jimmitchell"
     
 #   analytics:
 #     google:
