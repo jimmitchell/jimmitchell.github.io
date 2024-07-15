@@ -121,22 +121,22 @@ params:
         - JSON # necessary for search
 menu:
   main:
-    - identifier: projects
-      name: Projects
-      url: /projects/
-      weight: 10
+    # - identifier: projects
+    #   name: Projects
+    #   url: /projects/
+    #   weight: 10
     - identifier: archives
       name: Archives
       url: /archives/
-      weight: 20
+      weight: 10
     - identifier: about
       name: About
       url: /about/
-      weight: 30
+      weight: 20
     - identifier: search
       name: Search
       url: /search/
-      weight: 40
+      weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
