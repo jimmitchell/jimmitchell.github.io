@@ -118,13 +118,10 @@ params:
       home:
         - HTML
         - RSS
-        - JSON # necessary for search
+        - JSON
+        
 menu:
   main:
-    # - identifier: projects
-    #   name: Projects
-    #   url: /projects/
-    #   weight: 10
     - identifier: archives
       name: Archives
       url: /archives/
