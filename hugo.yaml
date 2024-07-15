@@ -15,10 +15,10 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Jim Mitchell
-  description: "ExampleSite description"
+  description: "I wrangle nerds, herd cats, and sometimes write code that works. Apple fanboy. Somewhat sarcastic, but mostly harmless. Prolific abuser of ellipses…"
   keywords: [Blog, Portfolio, PaperMod]
   author: Jim Mitchell
-  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["/images/opengraph.png"]
   DateFormat: "Monday, January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: true
@@ -117,8 +117,8 @@ fuseOpts:
   outputs:
     home:
       - HTML
-      - JSON
       - RSS
+      - JSON
 
 menu:
   main:

@@ -4,6 +4,11 @@
     <title>Posts on Jim Mitchell</title>
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Jim Mitchell</description>
+    <image>
+      <title>Jim Mitchell</title>
+      <url>http://localhost:1313/images/opengraph.png</url>
+      <link>http://localhost:1313/images/opengraph.png</link>
+    </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Mon, 15 Jul 2024 07:00:00 -0700</lastBuildDate>

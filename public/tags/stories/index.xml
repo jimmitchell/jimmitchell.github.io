@@ -4,6 +4,11 @@
     <title>Stories on Jim Mitchell</title>
     <link>http://localhost:1313/tags/stories/</link>
     <description>Recent content in Stories on Jim Mitchell</description>
+    <image>
+      <title>Jim Mitchell</title>
+      <url>http://localhost:1313/images/opengraph.png</url>
+      <link>http://localhost:1313/images/opengraph.png</link>
+    </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Sun, 29 Jul 2018 20:46:10 -0700</lastBuildDate>
