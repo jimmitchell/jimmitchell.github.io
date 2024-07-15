@@ -11,7 +11,7 @@ I've finally pulled the trigger to begin spinning down both my Micro.blog and Wo
 
 It's time to scale back what I spend to be online as much as I can. I'm not strapped for cash, but why should I spend where I don't have to? I have the technical chops for it and understand Hugo quite well thanks to the top-notch [documentation](https://gohugo.io/documentation/), so it made sense I should consider it for a publishing workflow.
 
-[Hugo](https://gohugo.io) is an active open source project with a vibrant community. [GitHub Pages](https://pages.github.com) is free with super-robust infrastructure backed by Microsoft. I don't see either of them going away anytime soon, so it was a compelling reason to use the combination as a hosting solution.
+[Hugo](https://gohugo.io) is an active open source project with a really vibrant community. [GitHub Pages](https://pages.github.com) is free with super-robust infrastructure backed by Microsoft. I don't see either of them going away anytime soon, so it was a compelling reason to use the combination as a hosting solution.
 
 Ditching Micro.blog and a self-hosted WordPress site on a dedicated VPS in favor of Hugo and GitHub Pages will end up saving me roughly $100 a year. No, it's not a lot. But every penny counts in this self-imposed challenge. Throw in the very rare $30 update for MarsEdit I won't have to pay anymore, and it adds a little extra savings.
 
