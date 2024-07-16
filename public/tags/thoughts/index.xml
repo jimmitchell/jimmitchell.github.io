@@ -4,6 +4,11 @@
     <title>Thoughts on Jim Mitchell</title>
     <link>http://localhost:1313/tags/thoughts/</link>
     <description>Recent content in Thoughts on Jim Mitchell</description>
+    <image>
+      <title>Jim Mitchell</title>
+      <url>http://localhost:1313/images/opengraph.png</url>
+      <link>http://localhost:1313/images/opengraph.png</link>
+    </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Tue, 10 Dec 2019 20:49:38 -0700</lastBuildDate>

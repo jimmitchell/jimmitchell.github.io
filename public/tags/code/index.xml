@@ -4,6 +4,11 @@
     <title>Code on Jim Mitchell</title>
     <link>http://localhost:1313/tags/code/</link>
     <description>Recent content in Code on Jim Mitchell</description>
+    <image>
+      <title>Jim Mitchell</title>
+      <url>http://localhost:1313/images/opengraph.png</url>
+      <link>http://localhost:1313/images/opengraph.png</link>
+    </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Sun, 26 Nov 2023 10:59:00 -0700</lastBuildDate>

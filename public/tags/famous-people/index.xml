@@ -4,6 +4,11 @@
     <title>Famous People on Jim Mitchell</title>
     <link>http://localhost:1313/tags/famous-people/</link>
     <description>Recent content in Famous People on Jim Mitchell</description>
+    <image>
+      <title>Jim Mitchell</title>
+      <url>http://localhost:1313/images/opengraph.png</url>
+      <link>http://localhost:1313/images/opengraph.png</link>
+    </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Sat, 29 Jun 2024 08:33:00 -0700</lastBuildDate>
