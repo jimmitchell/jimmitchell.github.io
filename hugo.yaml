@@ -81,9 +81,9 @@ params:
     - name: github
       url: "https://github.com/jimmitchell"
     - name: instagram
-      url: "https://instagram.com/_jimmitchell"
+      url: "https://instagram.com/jimmitchell.dev"
     - name: threads
-      url: "https://www.threads.net/@_jimmitchell"
+      url: "https://www.threads.net/@jimmitchell.dev"
     
 #   analytics:
 #     google:
