@@ -1,5 +1,5 @@
 ---
-title: "Why I'm Leaving Micro.blog and WordPress Behind"
+title: "Why I'm Leaving Micro.blog and WordPress"
 date: 2024-07-15T07:00:00-07:00
 tags: ["Micro.blog","WordPress","Hugo","Website"]
 summary: "I've chosen to move away from other platforms and begin usin Hugo with GitHub Pages to run my website."
