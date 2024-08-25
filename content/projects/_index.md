@@ -7,11 +7,11 @@ A list of different projects I have in the works. More to come eventually...
 
 ## Yasu for Mac
 
-A resurrection of an old project, Yasu (Yet another system utility) will be a complete rewrite of my once popular system maintenance utility. There is no timeline for release yet.
+The resurrection of an old project, Yasu (Yet another system utility) will be a complete rewrite of my once popular system maintenance utility. There is no timeline for release yet.
 
 ## Cache Out X
 
-Also a resurrection of a project I took over from TriLateral Systems years ago, it was originally a competitor to Yasu, but I'm going to bring it back as a browswer cache management app. There is no timeline for release yet, but will probably be released before Yasu.
+Also the resurrection of a project I took over from TriLateral Systems years ago, it was originally a competitor to Yasu, but I'm going to bring it back as a browser cache management app. There is no timeline for release yet, but will probably be released before Yasu.
 
 ## Tinylytics for WordPress
 
