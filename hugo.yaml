@@ -1,6 +1,6 @@
 baseURL: "https://jimmitchell.dev/"
 title: Jim Mitchell
-paginate: 8
+paginate: 10
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -15,7 +15,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Jim Mitchell
-  description: "I wrangle nerds, herd cats, and sometimes write code that works. Apple fanboy. Somewhat sarcastic, but mostly harmless. Prolific abuser of ellipses…"
+  description: "I'm the original developer of Yasu. This site is the journey of bringing it and Cache Out X back to life."
   keywords: [Blog, Portfolio, PaperMod]
   author: Jim Mitchell
   images: ["/images/opengraph.png"]
@@ -33,6 +33,7 @@ params:
   UseHugoToc: false
   disableSpecial1stPost: true
   disableScrollToTop: true
+  disableScrollBarStyle: false
   comments: false
   hidemeta: false
   hideSummary: false
@@ -72,17 +73,13 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hey. I'm Jim... 👋"
-    Content: I wrangle nerds, herd cats, and sometimes write code that works. Apple fanboy. Somewhat sarcastic, but mostly harmless. Prolific abuser of ellipses…
+    Content: I'm the original developer of Yasu. This site is the journey of bringing it and Cache Out X back to life.
 
   socialIcons:
     - name: mastodon
       url: "https://mastodon.social/@jimmitchell"
     - name: github
       url: "https://github.com/jimmitchell"
-    - name: instagram
-      url: "https://instagram.com/jimmitchell.dev"
-    - name: threads
-      url: "https://www.threads.net/@jimmitchell.dev"
     
 #   analytics:
 #     google:

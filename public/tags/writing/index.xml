@@ -9,7 +9,7 @@
       <url>http://localhost:1313/images/opengraph.png</url>
       <link>http://localhost:1313/images/opengraph.png</link>
     </image>
-    <generator>Hugo -- 0.127.0</generator>
+    <generator>Hugo -- 0.130.0</generator>
     <language>en</language>
     <lastBuildDate>Fri, 27 Jul 2018 20:39:38 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/writing/index.xml" rel="self" type="application/rss+xml" />
