@@ -15,7 +15,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Jim Mitchell
-  description: "I'm the original developer of Yasu. This site is the journey of bringing it and Cache Out X back to life."
+  description: "I'm the original developer of Yasu. This site is dedicated to bringing it and Cache Out X back to life."
   keywords: [Blog, Portfolio, PaperMod]
   author: Jim Mitchell
   images: ["/images/opengraph.png"]
@@ -73,7 +73,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hey. I'm Jim... 👋"
-    Content: I'm the original developer of Yasu. This site is the journey of bringing it and Cache Out X back to life.
+    Content: I'm the original developer of Yasu. This site is dedicated to bringing it and Cache Out X back to life.
 
   socialIcons:
     - name: mastodon
