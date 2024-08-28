@@ -73,7 +73,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hey. I'm Jim... 👋"
-    Content: I'm the original developer of Yasu. This site is dedicated to bringing it and Cache Out X back to life.
+    Content: I'm the developer of Yasu and Cache Out X. This site is dedicated to bringing them both back to life.
 
   socialIcons:
     - name: mastodon
