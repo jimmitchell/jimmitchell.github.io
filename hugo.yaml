@@ -1,7 +1,8 @@
 baseURL: "https://jimmitchell.dev/"
 title: Jim Mitchell
-paginate: 10
-theme: PaperMod
+languageCode: 'en-us'
+title: 'Jim Mitchell'
+theme: 'hugo-mnml'
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -16,131 +17,38 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Jim Mitchell
   description: "I'm the original developer of Yasu. This site is dedicated to bringing it and Cache Out X back to life."
-  keywords: [Blog, Portfolio, PaperMod]
   author: Jim Mitchell
-  images: ["/images/opengraph.png"]
-  DateFormat: "Monday, January 2, 2006"
-  defaultTheme: auto
-  disableThemeToggle: true
-
-  ShowReadingTime: true
-  ShowShareButtons: false
-  ShowPostNavLinks: false
-  ShowBreadCrumbs: false
-  ShowCodeCopyButtons: true
-  ShowWordCount: true
-  ShowRssButtonInSectionTermList: false
-  UseHugoToc: false
-  disableSpecial1stPost: true
-  disableScrollToTop: true
-  disableScrollBarStyle: false
-  comments: false
-  hidemeta: false
-  hideSummary: false
-  showtoc: false
-  tocopen: false
-  displayTinylytics: true
-
-  assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "/favicon/favicon.io"
-    favicon16x16: "/favicon/favicon-16x16.png"
-    favicon32x32: "/favicon/favicon-32x32.png"
-    apple_touch_icon: "/favicon/apple-touch-icon.png"
-    safari_pinned_tab: "/favicon/favicon-32x32.png"
-
-  label:
-    text: "Jim Mitchell"
-    # icon: "/favicon/apple-touch-icon.png"
-    # iconHeight: 35
-
-  # profile-mode
-  # profileMode:
-  #   enabled: false # needs to be explicitly set
-  #   title: Jim Mitchell
-  #   subtitle: "This is subtitle"
-  #   imageUrl: "<img location>"
-  #   imageWidth: 120
-  #   imageHeight: 120
-  #   imageTitle: my image
-  #   buttons:
-  #     - name: Posts
-  #       url: posts
-  #     - name: Tags
-  #       url: tags
-
-  # home-info mode
-  homeInfoParams:
-    Title: "Hey. I'm Jim... 👋"
-    Content: I'm the developer of Yasu and Cache Out X. This site is dedicated to bringing them both back to life.
-
-  socialIcons:
-    - name: mastodon
-      url: "https://mastodon.social/@jimmitchell"
-    - name: github
-      url: "https://github.com/jimmitchell"
-    
-#   analytics:
-#     google:
-#       SiteVerificationTag: "XYZabc"
-#     bing:
-#       SiteVerificationTag: "XYZabc"
-#     yandex:
-#       SiteVerificationTag: "XYZabc"
-# 
-  cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
-
-#   editPost:
-#     URL: "https://github.com/<path_to_repo>/content"
-#     Text: "Suggest Changes" # edit text
-#     appendFilePath: true # to append file path to Edit link
-
-# for search
-# https://fusejs.io/api/options.html
-fuseOpts:
-  isCaseSensitive: false
-  shouldSort: true
-  location: 0
-  distance: 1000
-  threshold: 0.4
-  minMatchCharLength: 0
-  limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
-  keys: ["title", "permalink", "summary", "content"]
-  outputs:
-    home:
-      - HTML
-      - RSS
-      - JSON
-
-menu:
+  
+menus:
   main:
-    - identifier: archives
-      name: Archives
-      url: /archives/
-      weight: 20
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 30
-    - identifier: projects
-      name: Projects
-      url: /projects/
+    - name: Yasu
+      pageRef: /yasu
       weight: 10
-    - identifier: donate
-      name: Donate
-      url: https://donate.stripe.com/4gwdUv6Yr8Y68h23cf
+    - name: Cache Out X
+      pageRef: /cache-out-x
+      weight: 20
+    - name: Archives
+      pageRef: /archives
+      weight: 30
+    - name: About
+      pageRef: /about
       weight: 40
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-pygmentsUseClasses: true
+
+module:
+  hugoVersion:
+    extended: false
+    min: 0.116.0
+    
 markup:
   highlight:
-    noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    style: nord
+    codeFences: true
+    tabWidth: 4
+    noHl: false
+    
+pagination:
+  disableAliases: false
+  pagerSize: 8
+  path: page
+
+

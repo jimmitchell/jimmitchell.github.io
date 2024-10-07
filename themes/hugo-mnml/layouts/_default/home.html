@@ -1,0 +1,20 @@
+{{- define "main" }}
+  {{- $paginator := .Paginate (where .Site.Pages.ByDate.Reverse "Type" "post") (index .Site.Params "archive-paginate" | default 5) }}
+  {{- range $paginator.Pages  }}
+  <article>
+    <h2 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+    {{ $dateHuman := .Date.Format "January 2, 2006" }}
+    <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+    <p>{{ .Summary }}</p>
+  </article>
+  {{- end }}
+  {{- if or ($paginator.HasNext) ($paginator.HasPrev) }}
+  <nav class="pagination">
+      <ul>
+          <li>{{ if $paginator.HasNext }}<a href="{{ $paginator.Next.URL }}">← Older</a>{{ end }}</li>
+          <li>{{ if $paginator.HasPrev }}<a href="{{ $paginator.Prev.URL }}">Newer →</a>{{ end }}</li>
+      </ul>
+  </nav>
+  {{- end }}
+{{- end }}

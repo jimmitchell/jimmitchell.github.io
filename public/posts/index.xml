@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Jim Mitchell</title>
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Jim Mitchell</description>
-    <image>
-      <title>Jim Mitchell</title>
-      <url>http://localhost:1313/images/opengraph.png</url>
-      <link>http://localhost:1313/images/opengraph.png</link>
-    </image>
-    <generator>Hugo -- 0.130.0</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 25 Aug 2024 08:27:24 -0700</lastBuildDate>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Oct 2024 05:02:31 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Return of Yasu and Cache Out X</title>
-      <link>http://localhost:1313/posts/2024/the-return-of-yasu-and-cache-out-x/</link>
-      <pubDate>Sun, 25 Aug 2024 08:27:24 -0700</pubDate>
-      <guid>http://localhost:1313/posts/2024/the-return-of-yasu-and-cache-out-x/</guid>
-      <description>After taking a break from both Yasu and Cache Out X, it&amp;rsquo;s time to bring them back.</description>
+      <title>A Fresh Start</title>
+      <link>http://localhost:1313/posts/2024/10/a-fresh-start/</link>
+      <pubDate>Mon, 07 Oct 2024 05:02:31 -0700</pubDate>
+      <guid>http://localhost:1313/posts/2024/10/a-fresh-start/</guid>
+      <description>I&amp;rsquo;ve been a WordPress user for more than 20 years. Here&amp;rsquo;s why I&amp;rsquo;ve chosen to abandon it in favor of Hugo</description>
     </item>
   </channel>
 </rss>

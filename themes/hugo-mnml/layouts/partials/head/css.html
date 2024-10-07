@@ -1,0 +1,26 @@
+{{- /* core styles */}}
+{{- $theme_vars := (resources.Get "css/core/theme-vars.css") }}
+{{- $reset      := (resources.Get "css/core/reset.css") }}
+{{- $main       := (resources.Get "css/core/main.css") }}
+{{- $fonts       := (resources.Get "css/core/fonts.css") }}
+{{- $stylesheet := (slice $theme_vars $reset $main) | resources.Concat "assets/css/styles.css" | resources.Minify  }}
+{{- /* fontawesome */}}
+{{- $fontawesome := (resources.Get "css/fontawesome/fontawesome.min.css") }}
+{{- $solid      := (resources.Get "css/fontawesome/solid.min.css") }}
+{{- $brands       := (resources.Get "css/fontawesome/brands.min.css") }}
+{{- $fa_styles := (slice $fontawesome $solid $brands) | resources.Concat "assets/css/fontawesome.css" | resources.Minify  }}
+{{- /* prism */}}
+{{- $prism := (resources.Get "css/prism/prism.min.css") }}
+{{- if eq hugo.Environment "development" }}
+    <link  crossorigin="anonymous" href="{{ $fa_styles.RelPermalink }}" rel="preload stylesheet" as="style">
+    <link  crossorigin="anonymous" href="{{ $prism.RelPermalink }}" rel="preload stylesheet" as="style">
+    <link  crossorigin="anonymous" href="{{ $fonts.RelPermalink }}" rel="preload stylesheet" as="style">
+    <link  crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" rel="preload stylesheet" as="style">
+{{- else }}
+  {{- with . | minify | fingerprint }}
+    <link  crossorigin="anonymous" href="{{ $fa_styles.RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" rel="preload stylesheet" as="style">
+    <link  crossorigin="anonymous" href="{{ $prism.RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" rel="preload stylesheet" as="style">
+    <link  crossorigin="anonymous" href="{{ $fonts.RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" rel="preload stylesheet" as="style">
+    <link  crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" rel="preload stylesheet" as="style">
+  {{- end }}
+{{- end }}
