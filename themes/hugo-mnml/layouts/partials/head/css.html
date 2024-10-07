@@ -17,7 +17,7 @@
     <link  crossorigin="anonymous" href="{{ $fonts.RelPermalink }}" rel="preload stylesheet" as="style">
     <link  crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" rel="preload stylesheet" as="style">
 {{- else }}
-  {{- with . | minify | fingerprint }}
+  {{- with . | minify | fingerprint "sha256" }}
     <link  crossorigin="anonymous" href="{{ $fa_styles.RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" rel="preload stylesheet" as="style">
     <link  crossorigin="anonymous" href="{{ $prism.RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" rel="preload stylesheet" as="style">
     <link  crossorigin="anonymous" href="{{ $fonts.RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" rel="preload stylesheet" as="style">
