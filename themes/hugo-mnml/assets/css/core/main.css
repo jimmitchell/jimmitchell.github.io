@@ -102,7 +102,7 @@ header .site-title a:active {
 }
 .social a:hover,
 .social a:active {
-  color: var(--accent-color-6);
+  color: var(--link-color-hover);
 }
 
 main {
