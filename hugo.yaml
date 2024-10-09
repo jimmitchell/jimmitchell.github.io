@@ -17,7 +17,7 @@ params:
   env: production
 
 redirects:
-- from: /**
+  from: /**
   status: 404
   to: /404/
   

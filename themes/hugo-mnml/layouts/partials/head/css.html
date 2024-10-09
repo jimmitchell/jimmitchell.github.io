@@ -1,6 +1,5 @@
 {{- $vars        := (resources.Get "css/core/theme-vars.css") }}
 {{- $reset       := (resources.Get "css/core/reset.css") }}
-{{- $fonts       := (resources.Get "css/core/fonts.css") }}
 {{- $main        := (resources.Get "css/core/main.css") }}
 {{- $faBase      := (resources.Get "css/fontawesome/fontawesome.min.css") }}
 {{- $faSolid     := (resources.Get "css/fontawesome/solid.min.css") }}
@@ -9,7 +8,7 @@
 
 {{- $fontawesome := (slice $faBase $faSolid $faBrands) | resources.Concat "css/fontawesome.css" | resources.Minify  }}
 {{- $prism := (slice $prismStyles) | resources.Concat "css/prism.css" | resources.Minify  }}
-{{- $stylesheet  := (slice $fonts $vars $reset $main) | resources.Concat "css/styles.css" | resources.Minify  }}
+{{- $stylesheet  := (slice $vars $reset $main) | resources.Concat "css/styles.css" | resources.Minify  }}
 
 {{- if eq hugo.Environment "development" }}
   <link  crossorigin="anonymous" href="{{ $fontawesome.RelPermalink }}" rel="preload stylesheet" as="style">
