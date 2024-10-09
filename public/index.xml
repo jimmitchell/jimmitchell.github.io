@@ -13,7 +13,28 @@
       <link>http://localhost:1313/posts/2024/10/a-fresh-start/</link>
       <pubDate>Mon, 07 Oct 2024 05:02:31 -0700</pubDate>
       <guid>http://localhost:1313/posts/2024/10/a-fresh-start/</guid>
-      <description>I&amp;rsquo;ve been a WordPress user for more than 20 years. Here&amp;rsquo;s why I&amp;rsquo;ve chosen to abandon it in favor of Hugo</description>
+      <description>I&amp;rsquo;ve been a WordPress user for more than 20 years. Here&amp;rsquo;s why I&amp;rsquo;ve chosen to abandon it in favor of Hugo.</description>
+    </item>
+    <item>
+      <title>A Better Applescript Compress Files or Folders</title>
+      <link>http://localhost:1313/posts/2023/04/better-applescript-compress-files-or-folders/</link>
+      <pubDate>Fri, 14 Apr 2023 09:24:09 -0700</pubDate>
+      <guid>http://localhost:1313/posts/2023/04/better-applescript-compress-files-or-folders/</guid>
+      <description>I had the need to select several folders at once in the Mac OS Finder and zip them up as individual archives. This AppleScript was the solution I came up with.</description>
+    </item>
+    <item>
+      <title>Applescript to Add Empty Files in the macOS Finder</title>
+      <link>http://localhost:1313/posts/2011/08/applescript-to-add-empty-files-in-the-macos-finder/</link>
+      <pubDate>Fri, 12 Aug 2011 08:20:45 -0700</pubDate>
+      <guid>http://localhost:1313/posts/2011/08/applescript-to-add-empty-files-in-the-macos-finder/</guid>
+      <description>I needed to create a bunch of txt files in a folder, but needed a way to do it quickly.</description>
+    </item>
+    <item>
+      <title>Applescript to Toggle the Desktop</title>
+      <link>http://localhost:1313/posts/2010/10/applescript-to-toggle-the-desktop/</link>
+      <pubDate>Sat, 16 Oct 2010 08:08:34 -0700</pubDate>
+      <guid>http://localhost:1313/posts/2010/10/applescript-to-toggle-the-desktop/</guid>
+      <description>Here’s an AppleScript I use to quickly toggle desktop visibility for taking screenshots and recording screencasts that I thought might be useful for others.</description>
     </item>
   </channel>
 </rss>

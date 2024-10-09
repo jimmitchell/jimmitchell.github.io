@@ -15,6 +15,11 @@ minify:
 
 params:
   env: production
+
+redirects:
+- from: /**
+  status: 404
+  to: /404/
   
 menus:
   main:
