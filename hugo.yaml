@@ -14,10 +14,7 @@ minify:
   minifyOutput: true
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Jim Mitchell
-  description: "I'm the original developer of Yasu. This site is dedicated to bringing it and Cache Out X back to life."
-  author: Jim Mitchell
+  env: production
   
 menus:
   main:
