@@ -4,6 +4,7 @@ date: 2011-08-12T08:20:45-07:00
 type: "post"
 tags: ["AppleScript","Automation","Code"]
 summary: "I needed to create a bunch of txt files in a folder, but needed a way to do it quickly."
+description: "I needed to create a bunch of txt files in a folder, but needed a way to do it quickly. This is how I did it."
 ---
 Today I had the need to add a bunch of named text files to a folder in the Finder on my Mac.
 

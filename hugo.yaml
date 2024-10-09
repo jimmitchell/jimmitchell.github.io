@@ -3,6 +3,7 @@ title: Jim Mitchell
 languageCode: 'en-us'
 title: 'Jim Mitchell'
 theme: 'hugo-mnml'
+siteDescription: "I wrangle nerds, herd cats, and sometimes write code that works. Apple fanboy. Fledgling SwiftUI developer. Somewhat sarcastic. Prolific abuser of ellipses..."
 
 enableRobotsTXT: true
 buildDrafts: false

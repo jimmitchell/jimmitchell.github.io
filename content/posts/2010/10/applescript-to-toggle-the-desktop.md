@@ -4,6 +4,7 @@ date: 2010-10-16T08:08:34-07:00
 tags: ["AppleScript","Automation","Code"]
 type: "post"
 summary: "Here’s an AppleScript I use to quickly toggle desktop visibility for taking screenshots and recording screencasts that I thought might be useful for others."
+description: "Here’s an AppleScript I use to quickly toggle desktop visibility for taking screenshots and recording screencasts that I thought might be useful for others."
 ---
 Here’s an AppleScript I use to quickly toggle desktop visibility for taking screenshots and recording screencasts that I thought might be useful for others.
 

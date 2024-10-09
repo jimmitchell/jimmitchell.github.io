@@ -4,6 +4,7 @@ date: 2023-04-14T09:24:09-07:00
 tags: ["AppleScript","Automation","Code"]
 type: post
 summary: "I had the need to select several folders at once in the Mac OS Finder and zip them up as individual archives. This AppleScript was the solution I came up with."
+description: "I had the need to select several folders at once in the Mac OS Finder and zip them up as individual archives. This AppleScript was the solution I came up with."
 ---
 A while ago, I created a simple AppleScript to compress files and folders by simply dropping them onto the applet. One of the readers left a comment asking for a way to achieve the following tasks:
 
