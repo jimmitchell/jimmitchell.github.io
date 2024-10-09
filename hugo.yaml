@@ -15,6 +15,7 @@ minify:
 
 params:
   env: production
+  assetDir: assets
   
 menus:
   main:
