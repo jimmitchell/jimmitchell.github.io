@@ -1,32 +1,4 @@
 @font-face {
-	font-family: 'GT Walsheim';
-	font-style: normal;
-	font-weight: 400;
-	src: local(""), url("/fonts/GT-Walsheim-Regular.woff") format("woff");
-}
-
-@font-face {
-	font-family: 'GT Walsheim';
-	font-style: normal;
-	font-weight: 700;
-	src: local(""), url("/fonts/GT-Walsheim-Bold.woff") format("woff");
-}
-
-@font-face {
-	font-family: 'GT Walsheim';
-	font-style: italic;
-	font-weight: 400;
-	src: local(""), url("/fonts/GT-Walsheim-Regular-Oblique.woff") format("woff");
-}
-
-@font-face {
-	font-family: 'GT Walsheim';
-	font-style: italic;
-	font-weight: 700;
-	src: local(""), url("/fonts/GT-Walsheim-Bold-Oblique.woff") format("woff");
-}
-
-@font-face {
 	font-family: 'Proxima Nova';
 	font-style: normal;
 	font-weight: 400;

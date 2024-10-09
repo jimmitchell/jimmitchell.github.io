@@ -15,21 +15,20 @@ minify:
 
 params:
   env: production
-  assetDir: assets
   
 menus:
   main:
     - name: Yasu
-      pageRef: /yasu
+      pageRef: /pages/yasu
       weight: 10
     - name: Cache Out X
-      pageRef: /cache-out-x
+      pageRef: /pages/cache-out-x
       weight: 20
     - name: Archives
-      pageRef: /archives
+      pageRef: /pages/archives
       weight: 30
     - name: About
-      pageRef: /about
+      pageRef: /pages/about
       weight: 40
 
 module:

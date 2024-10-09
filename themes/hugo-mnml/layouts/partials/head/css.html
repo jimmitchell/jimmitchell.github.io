@@ -1,26 +1,25 @@
-{{- /* core styles */}}
-{{- $theme_vars := (resources.Get "css/core/theme-vars.css") }}
-{{- $reset      := (resources.Get "css/core/reset.css") }}
-{{- $main       := (resources.Get "css/core/main.css") }}
+{{- $vars        := (resources.Get "css/core/theme-vars.css") }}
+{{- $reset       := (resources.Get "css/core/reset.css") }}
 {{- $fonts       := (resources.Get "css/core/fonts.css") }}
-{{- $stylesheet := (slice $theme_vars $reset $main) | resources.Concat "assets/css/styles.css" | resources.Minify  }}
-{{- /* fontawesome */}}
-{{- $fontawesome := (resources.Get "css/fontawesome/fontawesome.min.css") }}
-{{- $solid      := (resources.Get "css/fontawesome/solid.min.css") }}
-{{- $brands       := (resources.Get "css/fontawesome/brands.min.css") }}
-{{- $fa_styles := (slice $fontawesome $solid $brands) | resources.Concat "assets/css/fontawesome.css" | resources.Minify  }}
-{{- /* prism */}}
-{{- $prism := (resources.Get "css/prism/prism.min.css") }}
+{{- $main        := (resources.Get "css/core/main.css") }}
+{{- $faBase      := (resources.Get "css/fontawesome/fontawesome.min.css") }}
+{{- $faSolid     := (resources.Get "css/fontawesome/solid.min.css") }}
+{{- $faBrands    := (resources.Get "css/fontawesome/brands.min.css") }}
+{{- $prismStyles := (resources.Get "css/prism/prism.min.css") }}
+
+{{- $fontawesome := (slice $faBase $faSolid $faBrands) | resources.Concat "css/fontawesome.css" | resources.Minify  }}
+{{- $prism := (slice $prismStyles) | resources.Concat "css/prism.css" | resources.Minify  }}
+{{- $stylesheet  := (slice $fonts $vars $reset $main) | resources.Concat "css/styles.css" | resources.Minify  }}
+
 {{- if eq hugo.Environment "development" }}
-    <link  crossorigin="anonymous" href="{{ $fa_styles.RelPermalink }}" rel="preload stylesheet" as="style">
-    <link  crossorigin="anonymous" href="{{ $prism.RelPermalink }}" rel="preload stylesheet" as="style">
-    <link  crossorigin="anonymous" href="{{ $fonts.RelPermalink }}" rel="preload stylesheet" as="style">
-    <link  crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" rel="preload stylesheet" as="style">
+  <link  crossorigin="anonymous" href="{{ $fontawesome.RelPermalink }}" rel="preload stylesheet" as="style">
+  <link  crossorigin="anonymous" href="{{ $prism.RelPermalink }}" rel="preload stylesheet" as="style">
+  <link  crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" rel="preload stylesheet" as="style">
 {{- else }}
-  {{- with . | resources.Minify | fingerprint "sha256" }}
-    <link  crossorigin="anonymous" href="{{ $fa_styles.RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" rel="preload stylesheet" as="style">
-    <link  crossorigin="anonymous" href="{{ $prism.RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" rel="preload stylesheet" as="style">
-    <link  crossorigin="anonymous" href="{{ $fonts.RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" rel="preload stylesheet" as="style">
-    <link  crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" rel="preload stylesheet" as="style">
-  {{- end }}
+  {{- $secureFontawesome := $fontawesome | resources.Fingerprint "sha512" }}
+  {{- $securePrism := $prism | resources.Fingerprint "sha512" }}
+  {{- $secureStylesheet  := $stylesheet | resources.Fingerprint "sha512" }}
+  <link  crossorigin="anonymous" href="{{ $secureFontawesome.RelPermalink }}" integrity="{{ $secureFontawesome.Data.Integrity }}" crossorigin="anonymous" rel="preload stylesheet" as="style">
+  <link  crossorigin="anonymous" href="{{ $securePrism.RelPermalink }}" integrity="{{ $securePrism.Data.Integrity }}" crossorigin="anonymous" rel="preload stylesheet" as="style">
+  <link  crossorigin="anonymous" href="{{ $secureStylesheet.RelPermalink }}" integrity="{{ $secureStylesheet.Data.Integrity }}" crossorigin="anonymous" rel="preload stylesheet" as="style">
 {{- end }}
