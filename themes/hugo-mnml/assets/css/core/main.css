@@ -78,6 +78,8 @@ header a:active {
 header .site-title {
   font-weight: var(--font-weight-bold);
   margin-top: 0;
+  font-size: 1.6rem;
+  line-height: 1;
 }
 header .site-title a {
   color: var(--text-main-color);
@@ -95,7 +97,7 @@ header .site-title a:active {
 }
 .navbar li {
   display: inline;
-  margin: 0 0 0 2rem;
+  margin: 0 0 0 1.5rem;
 }
 
 main {
