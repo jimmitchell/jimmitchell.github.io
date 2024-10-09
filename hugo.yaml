@@ -19,7 +19,7 @@ params:
 redirects:
   from: /**
   status: 404
-  to: /404/
+  to: /404.html
   
 menus:
   main:
