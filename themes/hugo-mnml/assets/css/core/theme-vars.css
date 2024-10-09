@@ -1,7 +1,7 @@
 :root {
     --background-color: #ffffff;
     --text-main-color: #555;
-    --link-color: #009ddc;
+    --link-color: #0f71ab;
     --link-color-hover: #111112;
     --accent-color-1: #f4f4f5;
     --accent-color-2: #dbdbdc;
@@ -15,12 +15,13 @@
     --mono-space-font: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
     --font-weight-normal: 400;
     --font-weight-bold: 700;
-    --max-width: 68rem;
+    --max-width: 64rem;
 }
 @media (prefers-color-scheme: dark) {
     :root {
         --background-color: #1F1F20;
         --text-main-color: #f8f8f8;
+        --link-color: #009ddc;
         --link-color-hover: #fff;
         --accent-color-1: #2c2c2c;
         --accent-color-2: #4c4c4c;
