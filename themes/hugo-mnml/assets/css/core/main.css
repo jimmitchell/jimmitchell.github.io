@@ -194,7 +194,8 @@ main ol, main ul {
 .archive-list li {
   margin: 0;
   border-bottom: 1px solid var(--accent-color-2);
-  line-height: 3;
+  line-height: 1.1;
+  padding: 1.5rem 0;
 }
 h4.post-group {
   margin-bottom: -3rem;
