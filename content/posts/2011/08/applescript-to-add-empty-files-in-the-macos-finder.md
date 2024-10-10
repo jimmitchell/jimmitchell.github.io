@@ -14,7 +14,7 @@ So, I threw together this little AppleScript to add empty files instead. The gis
 
 I found this to be more than twice as fast as the “traditional” method of making several files. Hopefully, it can help you out too. Remember, use it with FastScripts for quick keystroke access. Save as a script in the “Finder” scripts folder (`“~/Library/Scripts/Applications/Finder/”`).
 
-Here’s the code. Download the source, open up and copy/paste into AppleScript Editor and save…
+Here’s the code. Copy the source, open AppleScript Editor, paste into a new script and save…
 
 ```applescript
 property defaultFileName : "newFile.txt"

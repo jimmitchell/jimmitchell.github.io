@@ -28,7 +28,7 @@ I think the existing binaries are still usable on older Macs. To be honest, I ha
 
 I’ve often toyed with the idea of taking Yasu back and resurrecting development. It would mean a complete rewrite in a completely different language which would be a challenge, but if there was enough interest, I might just be persuaded to give it a try. It would give me a passion project to work on again too.
 
-👉🏻 **This is where you come in.** 👈🏻
+### This is where you come in
 
 If you’re interested in seeing a Yasu resurrection, [contact me](mailto:hello@jimmitchell.dev) or let me know on [Mastodon](https://mastodon.social/@jimmitchell). Your message or toot might just be that one motivator that pushes me over the edge to get off my butt.
 

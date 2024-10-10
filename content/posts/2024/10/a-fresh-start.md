@@ -19,11 +19,15 @@ I've enjoyed every single minute of it.
 
 But it's time to move on to something new.
 
-I discovered Hugo thanks to having an account on [Micro.blog](https://micro.blog) for a bit. I learned the Go templating language, tweaking my theme over and over (sense a pattern?). I even made a community plugin for the Micro.blog community.
+I discovered Hugo thanks to having an account on [Micro.blog](https://micro.blog) for a bit. I learned the Go templating language, tweaking my theme over and over (sense a pattern?). I even made a plugin for the Micro.blog community.
 
 I chose to leave Micro.blog because I didn't feel like paying for someone else's service. This got me to move to a VPS where I would have 100% control of everything. It was a lot of fun.
 
-But then the "Mattening" happened. I won't go into the details, but I'm sure you've heard about it. It's pretty much what made me decide it's time to move on. That, and the fact that WordPress has become so bloated, making it way more than I need to blog simple posts. Plus, the fact that hosting my own VPS was costing me and I'm not making anything from my plugins.
+But then the "Mattening" happened. I won't go into the details, but I'm sure you've heard about it. It's pretty much what made me decide it's time to move on.
+
+That, and the fact that WordPress has become so bloated, making it way more than I need to blog simple posts.
+
+Plus, the fact that hosting my own VPS was costing me and I'm not making anything from my plugins.
 
 So, I've chosen to use Hugo to generate a static site that gets published to Github pages on repo commit. It's a super simple workflow and fits my needs really well, and it doesn't cost me a dime.
 

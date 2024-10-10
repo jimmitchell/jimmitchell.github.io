@@ -11,7 +11,8 @@
     --accent-color-6: #7a7b7c;
     --warning-color: #e00031;
     --menu-line-height: 50px;
-    --primary-font: -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --sans-serif-font: Roboto, -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --serif-font: Merriweather, Georgia, Times, "Times New Roman", serif;
     --mono-space-font: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
     --font-weight-normal: 400;
     --font-weight-bold: 700;
