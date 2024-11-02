@@ -220,7 +220,7 @@ main img {
 .archive-list li {
   margin: 0;
   border-bottom: 1px solid var(--accent-color-2);
-  line-height: 1.1;
+  line-height: 1.2;
   padding: 1.5rem .2rem;
   display: flex;
   justify-content: space-between;
