@@ -179,7 +179,7 @@ main img {
 .post-date {
   font-size: 1.4rem;
   color: var(--accent-color-3);
-  flex-wrap: nowrap;
+  flex-shrink: 0;
 }
 
 .tags {
