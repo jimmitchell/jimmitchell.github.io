@@ -50,15 +50,15 @@ code {
   color: var(--warning-color);
 }
 pre {
-  padding: 2rem;
+  padding: 2rem 2.5rem;
   margin: 4rem 0;
-  border-radius: 6px;
+  border-radius: 3px;
   font-size: 1.5rem;
   overflow: scroll;
-  background-color: #000 !important;
 }
 pre code {
   padding: 0;
+  margin: 0;
   white-space: pre;
 }
 
