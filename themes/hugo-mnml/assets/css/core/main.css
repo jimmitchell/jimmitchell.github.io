@@ -1,9 +1,9 @@
 body {
   color: var(--text-main-color);
   background: var(--background-color);
-  font-family: var(--serif-font);
   padding: 0 2rem;
   font-size: 1.8rem;
+  font-family: var(--sans-serif-font);
   font-weight: var(--font-weight-normal);
   font-stretch: normal;
   font-variant-ligatures: none !important;
@@ -108,7 +108,7 @@ header .site-title a:active {
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 2.5;
   text-transform: uppercase;
 }
@@ -148,7 +148,6 @@ article:last-of-type {
   font-size: 3.2rem;
   margin-bottom: 3rem;
   font-family: var(--sans-serif-font);
-  text-align: center;
 }
 .post-title a:link,
 .post-title a:visited {
@@ -164,7 +163,6 @@ time {
   font-size: 1.5rem;
   color: var(--accent-color-6);
   font-family: var(--sans-serif-font);
-  text-align: center;
 }
 main p, main ol, main ul {
   margin: 3rem 0;
@@ -173,6 +171,9 @@ main ol, main ul {
   padding: 0;
   margin-left: 2rem;
   margin-right: 2rem;
+}
+main img {
+  border-radius: 3px;
 }
 
 .post-date {
@@ -185,7 +186,6 @@ main ol, main ul {
   margin: 3rem 0;
   padding: 0;
   font-family: var(--sans-serif-font);
-  text-align: center;
 }
 .tags li {
   display: inline-block;
@@ -199,7 +199,7 @@ main ol, main ul {
   color: var(--accent-color-6);
   border: 1px solid var(--accent-color-1);
   background: var(--background-color);
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
 }
 .tags a:hover,

@@ -3,8 +3,11 @@ title: "Yasu"
 layout: "page"
 url: "/yasu/"
 type: "page"
+description: "The history and future of Yasu, a macOS maintenance utility."
 ---
 If you’ve landed on this page, you are either a Yasu user from long ago (👋🏻 hello again!), or have heard about Yasu from someone who once was themselves. Whichever the case, I’m humbled that my little app was interesting enough for you to look for it.
+
+![Screenshot depicting the new app layout for Yasu](yasu.jpg)
 
 If you just landed here hoping to download the latest version for an old Mac you have, they’re still available on the [Yasu for Mac](https://yasuformac.com) site. More on that in a bit.
 
@@ -28,7 +31,7 @@ I think the existing binaries are still usable on older Macs. To be honest, I ha
 
 I’ve often toyed with the idea of taking Yasu back and resurrecting development. It would mean a complete rewrite in a completely different language which would be a challenge, but if there was enough interest, I might just be persuaded to give it a try. It would give me a passion project to work on again too.
 
-### This is where you come in
+**This is where you come in...**
 
 If you’re interested in seeing a Yasu resurrection, [contact me](mailto:hello@jimmitchell.dev) or let me know on [Mastodon](https://social.lol/@jim). Your message or toot might just be that one motivator that pushes me over the edge to get off my butt.
 
