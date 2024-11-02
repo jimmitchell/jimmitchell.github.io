@@ -10,8 +10,8 @@ Probably since the day after I turned Yasu over the other developer, I regretted
 
 At the time, I just didn't have the bandwidth for it. So I put the idea in the back of my head and let it simmer.
 
-Seven years have passed. The other developer has done nothing, as he promised he would. So, it's time to bring Yasu back to life. I see there's still a need for the simple maintenance app that Yasu was -- and will be again.
+Seven years have passed. The other developer has done nothing, as he promised he would. It's time to bring Yasu back to life. I see there's still a need for the simple maintenance app that Yasu was -- and will be again.
 
-This site is dedicated to the journey it will take to get it back to where it once was. Follow along as we start again from scratch.
+This site is to document the journey it takes to get Yasu back to where it once was. Follow along as we start again from scratch.
 
 Thanks for reading.
