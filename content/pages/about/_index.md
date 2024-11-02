@@ -16,6 +16,6 @@ I am a certified Salesforce administrator, developer, and consultant, as well as
 
 I am blessed to have found and married an amazing woman. Without her, I would be completely lost. I have some great kids because of her too. In my free time, I enjoy dinking with code, spending time with the family, playing music, or exploring the outdoors on an Orange County hiking trail.
 
-I love hearing from visitors, so if you want to ask a question, share a thought, or just chit-chat, connect with me on [Mastodon](https://mastodon.social/@jimmitchell), or [shoot me an email](mailto:hello@jimmitchell.dev).
+I love hearing from visitors, so if you want to ask a question, share a thought, or just chit-chat, connect with me on [Mastodon](https://social.lol/@jim), or [shoot me an email](mailto:hello@jimmitchell.dev).
 
 If you made it this far, I'm really impressed.
