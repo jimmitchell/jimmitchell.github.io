@@ -63,7 +63,7 @@ pre code {
 }
 
 header {
-  margin: 4rem auto;
+  margin: 4rem auto 6rem;
   max-width: var(--max-width);
   text-align: center;
   font-family: var(--sans-serif-font);
