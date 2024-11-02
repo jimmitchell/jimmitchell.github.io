@@ -1,7 +1,7 @@
 :root {
     --background-color: #ffffff;
     --text-main-color: #555;
-    --link-color: #1195a3;
+    --link-color: #0d88d8;
     --link-color-hover: #111112;
     --accent-color-1: #f4f4f5;
     --accent-color-2: #dbdbdc;
@@ -11,12 +11,12 @@
     --accent-color-6: #7a7b7c;
     --warning-color: #e00031;
     --menu-line-height: 50px;
-    --sans-serif-font: Roboto, -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --serif-font: Merriweather, Georgia, Times, "Times New Roman", serif;
+    --sans-serif-font: 'GTW', -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --serif-font: 'GTW', -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --mono-space-font: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
     --font-weight-normal: 400;
     --font-weight-bold: 700;
-    --max-width: 64rem;
+    --max-width: 60rem;
 }
 @media (prefers-color-scheme: dark) {
     :root {

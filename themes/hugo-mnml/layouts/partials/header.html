@@ -1,10 +1,5 @@
 <nav class="navbar">
+    <a href="/"><img src="/img/avatar.jpg" alt="{{ .Site.Title }} Profile Photo" class="profile_photo u-photo" width="90" height="90"></a>
     <h1 class="site-title"><a href="/">{{ site.Title }}</a></h1>
     {{- partial "menu.html" (dict "menuID" "main" "page" .) }}
-    <ul class="nav-links social">
-        <li><a href="https://mastodon.social/@jimmitchell" aria-label="Mastodon"><i class="fa-brands fa-mastodon"></i></a></li>
-        <li><a href="https://github.com/jimmitchell" aria-label="Github"><i class="fa-brands fa-github"></i></a></li>
-        <li><a href="https://threads.net/salesforcejim" aria-label="Threads"><i class="fa-brands fa-threads"></i></a></li>
-        <li><a href="https://linkedin.com/in/jimmitchellmedia" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a></li>
-    </ul>
 </nav>

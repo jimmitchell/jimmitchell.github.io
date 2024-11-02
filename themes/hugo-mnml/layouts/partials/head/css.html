@@ -1,24 +1,24 @@
 {{- $vars        := (resources.Get "css/core/theme-vars.css") }}
 {{- $reset       := (resources.Get "css/core/reset.css") }}
 {{- $main        := (resources.Get "css/core/main.css") }}
+{{- $gtwFont     := (resources.Get "css/core/gtw.css") }}
 {{- $faBase      := (resources.Get "css/fontawesome/fontawesome.min.css") }}
 {{- $faSolid     := (resources.Get "css/fontawesome/solid.min.css") }}
 {{- $faBrands    := (resources.Get "css/fontawesome/brands.min.css") }}
-{{- $prismStyles := (resources.Get "css/prism/prism.min.css") }}
 
+{{- $gtw := (slice $gtwFont) | resources.Concat "css/gtw.css" | resources.Minify  }}
 {{- $fontawesome := (slice $faBase $faSolid $faBrands) | resources.Concat "css/fontawesome.css" | resources.Minify  }}
-{{- $prism := (slice $prismStyles) | resources.Concat "css/prism.css" | resources.Minify  }}
 {{- $stylesheet  := (slice $vars $reset $main) | resources.Concat "css/styles.css" | resources.Minify  }}
 
 {{- if eq hugo.Environment "development" }}
+  <link  crossorigin="anonymous" href="{{ $gtw.RelPermalink }}" rel="preload stylesheet" as="style">  
   <link  crossorigin="anonymous" href="{{ $fontawesome.RelPermalink }}" rel="preload stylesheet" as="style">
-  <link  crossorigin="anonymous" href="{{ $prism.RelPermalink }}" rel="preload stylesheet" as="style">
   <link  crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" rel="preload stylesheet" as="style">
 {{- else }}
+  {{- $secureGtw := $gtw | resources.Fingerprint "sha512" }}
   {{- $secureFontawesome := $fontawesome | resources.Fingerprint "sha512" }}
-  {{- $securePrism := $prism | resources.Fingerprint "sha512" }}
   {{- $secureStylesheet  := $stylesheet | resources.Fingerprint "sha512" }}
+  <link  crossorigin="anonymous" href="{{ $secureGtw.RelPermalink }}" integrity="{{ $secureGtw.Data.Integrity }}" crossorigin="anonymous" rel="preload stylesheet" as="style">
   <link  crossorigin="anonymous" href="{{ $secureFontawesome.RelPermalink }}" integrity="{{ $secureFontawesome.Data.Integrity }}" crossorigin="anonymous" rel="preload stylesheet" as="style">
-  <link  crossorigin="anonymous" href="{{ $securePrism.RelPermalink }}" integrity="{{ $securePrism.Data.Integrity }}" crossorigin="anonymous" rel="preload stylesheet" as="style">
   <link  crossorigin="anonymous" href="{{ $secureStylesheet.RelPermalink }}" integrity="{{ $secureStylesheet.Data.Integrity }}" crossorigin="anonymous" rel="preload stylesheet" as="style">
 {{- end }}

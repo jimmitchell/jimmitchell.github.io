@@ -1,1 +1,0 @@
-jQuery(function($){$("#header-menu-icon").click(function(){$("#header-menu-icon").toggleClass("closed open");$(".main-menu").toggleClass("header-menu-hidden header-menu-display");});});

@@ -24,15 +24,15 @@ redirects:
   
 menus:
   main:
+    - name: Home
+      pageRef: /
+      weight: 10
     - name: Yasu
       pageRef: /pages/yasu
-      weight: 10
-    - name: Cache Out X
-      pageRef: /pages/cache-out-x
       weight: 20
     - name: Archives
       pageRef: /pages/archives
-      weight: 30
+      weight: 50
     - name: About
       pageRef: /pages/about
       weight: 40
@@ -51,7 +51,7 @@ markup:
     
 pagination:
   disableAliases: false
-  pagerSize: 8
+  pagerSize: 10
   path: page
 
 

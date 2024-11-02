@@ -3,12 +3,12 @@ body {
   background: var(--background-color);
   font-family: var(--serif-font);
   padding: 0 2rem;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-weight: var(--font-weight-normal);
   font-stretch: normal;
   font-variant-ligatures: none !important;
   font-weight: var(--font-weight-normal);
-  line-height: 1.6;
+  line-height: 1.5666;
   -ms-word-wrap: break-word;
   word-wrap: break-word;
   text-rendering: geometricPrecision;
@@ -50,13 +50,16 @@ code {
   color: var(--warning-color);
 }
 pre {
-  padding:2rem;
+  padding: 2rem;
   margin: 4rem 0;
   border-radius: 6px;
   font-size: 1.5rem;
+  overflow: scroll;
+  background-color: #000 !important;
 }
 pre code {
   padding: 0;
+  white-space: pre;
 }
 
 header {
@@ -65,6 +68,16 @@ header {
   text-align: center;
   font-family: var(--sans-serif-font);
 }
+
+header .profile_photo {
+  display: inline-block;
+  margin: 0 auto;
+  border: 3px solid var(--accent-color-2);
+  border-radius: 50%;
+  width: 72px;
+  height: auto;
+}
+
 header a:link,
 header a:visited {
   color: var(--link-color);
@@ -78,7 +91,9 @@ header a:active {
 }
 header .site-title {
   margin: 0;
-  line-height: 2.1;
+  line-height: 2;
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
 }
 header .site-title a {
   color: var(--text-main-color);
@@ -93,28 +108,29 @@ header .site-title a:active {
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: 1.6rem;
+  font-size: 1rem;
   line-height: 2.5;
+  text-transform: uppercase;
 }
 .navbar li {
   display: inline;
-  margin: 0 1rem;
+  margin: 0;
+}
+.nav-links a:link,
+.nav-links a:visited {
+  padding: 2px 16px;
+  display: inline-block;
+  border-radius: 24px;
+  border: 1px solid var(--accent-color-1);
+  margin: 0 .5rem;
+  color: var(--accent-color-5);
 }
 .nav-links a:hover,
 .nav-links a:active {
   color: var(--link-color-hover);
-}
-
-.social a {
-  font-size: 2rem;
-}
-.social a:link,
-.social a:visited {
-  color: var(--accent-color-4);
-}
-.social a:hover,
-.social a:active {
-  color: var(--link-color-hover);
+  border-color: var(--accent-color-2);
+  text-decoration: none;
+  background-color: var(--accent-color-1);
 }
 
 main {
@@ -127,12 +143,28 @@ article {
 article:last-of-type {
   margin-bottom: 6rem;
 }
+.page-title,
+.post-title {
+  font-size: 3.2rem;
+  margin-bottom: 3rem;
+  font-family: var(--sans-serif-font);
+  text-align: center;
+}
+.post-title a:link,
+.post-title a:visited {
+  color: var(--text-main-color);
+}
+.post-title a:hover,
+.post-title a:active {
+  color: var(--link-color);
+}
 time {
-  margin: -2.5rem 0 -1rem 0;
+  margin: -2.5rem 0 3rem 0;
   display: block;
   font-size: 1.5rem;
   color: var(--accent-color-6);
   font-family: var(--sans-serif-font);
+  text-align: center;
 }
 main p, main ol, main ul {
   margin: 3rem 0;
@@ -142,26 +174,18 @@ main ol, main ul {
   margin-left: 2rem;
   margin-right: 2rem;
 }
-.page-title,
-.post-title {
-  font-size: 2.6rem;
-  margin-bottom: 3rem;
-  font-family: var(--sans-serif-font);
+
+.post-date {
+  font-size: 1.4rem;
+  color: var(--accent-color-3);
 }
 
-.post-title a:link,
-.post-title a:visited {
-  color: var(--text-main-color);
-}
-.post-title a:hover,
-.post-title a:active {
-  color: var(--link-color);
-}
 .tags {
   list-style: none;
   margin: 3rem 0;
   padding: 0;
   font-family: var(--sans-serif-font);
+  text-align: center;
 }
 .tags li {
   display: inline-block;
@@ -169,20 +193,21 @@ main ol, main ul {
 }
 .tags a {
   display: inline-block;
-  line-height: 1;
-  padding: 6px 12px;
-  border-radius: 6px;
+  line-height: 2.5;
+  padding: 2px 16px;
+  border-radius: 20px;
   color: var(--accent-color-6);
-  border: 1px solid var(--accent-color-3);
-  background: var(--accent-color-1);
-  font-size: 1.4rem;
+  border: 1px solid var(--accent-color-1);
+  background: var(--background-color);
+  font-size: 1rem;
+  text-transform: uppercase;
 }
 .tags a:hover,
 .tags a:active {
-  background-color: var(--text-main-color);
+  color: var(--link-color-hover);
+  border-color: var(--accent-color-2);
   text-decoration: none;
-  color: var(--background-color);
-  border-color: var(--background-color);
+  background-color: var(--accent-color-1);
 }
 
 .archive-list {
@@ -195,7 +220,10 @@ main ol, main ul {
   margin: 0;
   border-bottom: 1px solid var(--accent-color-2);
   line-height: 1.1;
-  padding: 1.5rem 0;
+  padding: 1.5rem .2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 h4.post-group {
   margin-bottom: -3rem;
