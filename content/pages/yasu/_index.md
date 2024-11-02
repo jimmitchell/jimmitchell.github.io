@@ -30,6 +30,6 @@ I’ve often toyed with the idea of taking Yasu back and resurrecting developmen
 
 ### This is where you come in
 
-If you’re interested in seeing a Yasu resurrection, [contact me](mailto:hello@jimmitchell.dev) or let me know on [Mastodon](https://mastodon.social/@jimmitchell). Your message or toot might just be that one motivator that pushes me over the edge to get off my butt.
+If you’re interested in seeing a Yasu resurrection, [contact me](mailto:hello@jimmitchell.dev) or let me know on [Mastodon](https://social.lol/@jim). Your message or toot might just be that one motivator that pushes me over the edge to get off my butt.
 
 Whatever the future holds, thanks so much for being curious about Yasu. It means a lot that there are still people like you looking for it. ✌🏻
