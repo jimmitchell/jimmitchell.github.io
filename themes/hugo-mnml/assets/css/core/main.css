@@ -122,7 +122,7 @@ header .site-title a:active {
   display: inline-block;
   border-radius: 24px;
   border: 1px solid var(--accent-color-1);
-  margin: 0 .5rem;
+  margin: .25rem;
   color: var(--accent-color-5);
 }
 .nav-links a:hover,
