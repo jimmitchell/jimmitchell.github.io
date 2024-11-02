@@ -36,6 +36,9 @@ menus:
     - name: About
       pageRef: /pages/about
       weight: 40
+    - name: Micro.blog
+      url: https://jimmitchell.org
+      weight: 60
 
 module:
   hugoVersion:
