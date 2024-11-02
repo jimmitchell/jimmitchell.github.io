@@ -14,8 +14,16 @@ minify:
   disableXML: true
   minifyOutput: true
 
+copyright: © Jim Mitchell
 params:
   env: production
+  author:
+    name: Jim Mitchell
+    email: hello@jimmitchell.dev
+
+services:
+  rss:
+    limit: 15
 
 redirects:
   from: /**
