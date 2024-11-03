@@ -9,7 +9,7 @@ summary: "The first tasks are done. Time to tackle the hard part."
 
 The first steps of bringing Yasu back to life have been completed: Creating the project, commiting it to source control and purchasing a domain name.
 
-Next up is a simple site for that domain and figuring out where to host it. ~~I'm leaning towards a simple, one page Github Pages site.~~ I'm thinking a one-pager on Micro.blog may be my best option since Github pages requires the repo to be public, which I'm not ready for, and since I already am using Micro.blog for my personal site, it just makes sense.
+Next up is a simple site for that domain and figuring out where to host it. ~~I'm leaning towards a simple, one page Github Pages site.~~ ~~I'm thinking a one-pager on Micro.blog may be my best option since Github pages requires the repo to be public, which I'm not ready for, and since I already am using Micro.blog for my personal site, it just makes sense.~~ Github pages it is...
 
 Then, a new icon is needed. I have an idea of what I want it to look like, with an homage to the original. I'll iterate on it a bit. A good icon is crucial to success.
 
