@@ -1,7 +1,7 @@
 ---
 title: 'Laying the Groundwork'
 date: 2024-11-03T08:15:03-08:00
-tags: ["Yasu","Development"]
+tags: ["Getting Started"]
 type: post
 summary: "The first tasks are done. Time to tackle the hard part."
 ---
