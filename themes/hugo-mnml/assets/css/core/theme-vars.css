@@ -6,7 +6,6 @@
     --accent-color-1: #f4f4f5;
     --accent-color-2: #dbdbdc;
     --accent-color-3: #cccccd;
-    --accent-color-4: #b7b8b9;
     --accent-color-5: #999a9c;
     --accent-color-6: #7a7b7c;
     --warning-color: #e00031;
@@ -19,14 +18,13 @@
 }
 @media (prefers-color-scheme: dark) {
     :root {
-        --background-color: #1F1F20;
+        --background-color: #282c35;
         --text-main-color: #f8f8f8;
-        --link-color: #009ddc;
+        --link-color: #68daff;
         --link-color-hover: #fff;
-        --accent-color-1: #2c2c2c;
+        --accent-color-1: #3d4149;
         --accent-color-2: #4c4c4c;
         --accent-color-3: #696969;
-        --accent-color-4: #999a9c;
         --accent-color-5: #b7b8b9;
         --accent-color-6: #d9d9d9;
     }

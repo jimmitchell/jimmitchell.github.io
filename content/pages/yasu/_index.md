@@ -13,13 +13,13 @@ If you just landed here hoping to download the latest version for an old Mac you
 
 ### The History
 
-I first created Yasu (short for “Yet another system utility”) back in 2001 as an answer to [Cocktail](https://www.maintain.se/cocktail/) moving to a shareware model. I thought I’d be able to make something just as useful, so challenged myself to building a Mac utility app.
+I first created Yasu (short for “Yet another system utility”) back in 2001 as an answer to [Cocktail](https://www.maintain.se/cocktail/) moving to a shareware model. I thought I’d be able to make something just as useful, so challenged myself to build a Mac maintenance utility app.
 
-That very first version was really ugly, but it laid the groundwork for something that eventually grew into a successful Mac app over the next 15+ years.
+That very first version was really ugly, but it laid the groundwork for something that eventually grew into a successful app over the next 15+ years.
 
-Ironically, I took Yasu to a shareware model at some point too. I was completely blown away that people were willing to pay me for my hobby project. I didn’t get rich from it, but I was able to use the proceeds to pay for hosting and other online services.
+I eventually took Yasu to a shareware model myself. I was blown away people were actually asking if they could give me money for my hobby project. I didn’t get rich out of it, but I was able to use the earning to pay for hosting and other related costs to maintaining my app.
 
-It also lead to speaking gigs at Mac User Groups and a couple of small local Mac conferences. The app was even featured in print magazines a few times. I still have my cherished copy of MacWorld that has a write up on the app. When this issue dropped, I considered myself pretty damn lucky and thought I’d made the big time.
+It also lead to speaking gigs at Mac User Groups and a couple of small local Mac conferences. The app was even featured in print magazines a few times. I still have my cherished copy of MacWorld that has a write up on Yasu. When this issue dropped, I considered myself pretty damn lucky and thought I’d made the big time.
 
 But, as times changed, and Mac OS became macOS, it became harder to maintain the app thanks to Apple moving to a sandboxed operating system. Where it was once easy to issue Unix commands to clean a system level cache became a total obstacle. There were more and more roadblocks to overcome to keep the app alive.
 
