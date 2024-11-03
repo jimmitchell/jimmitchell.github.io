@@ -59,6 +59,9 @@ pre code {
   margin: 0;
   white-space: pre;
 }
+s, strike, del {
+  color: var(--accent-color-3);
+}
 
 header {
   margin: 4rem auto;
