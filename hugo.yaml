@@ -1,6 +1,6 @@
 baseURL: "https://jimmitchell.dev/"
 languageCode: 'en-us'
-title: 'Ressurecting Yasu'
+title: 'Resurrecting Yasu'
 theme: 'hugo-mnml'
 siteDescription: "This is the journey of bringing my macOS app Yasu back to life. We're starting from scratch on this one."
 
