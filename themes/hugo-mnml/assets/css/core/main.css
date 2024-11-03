@@ -69,9 +69,7 @@ header {
 header .profile_photo {
   display: inline-block;
   margin: 0 auto;
-  border: 3px solid var(--accent-color-2);
-  border-radius: 50%;
-  width: 72px;
+  width: 90px;
   height: auto;
 }
 
