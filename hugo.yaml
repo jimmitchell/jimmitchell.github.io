@@ -37,15 +37,9 @@ menus:
     - name: What's Yasu?
       pageRef: /pages/yasu
       weight: 20
-    - name: Archives
-      pageRef: /pages/archives
-      weight: 50
     - name: About
       pageRef: /pages/about
       weight: 40
-    - name: RSS Feed
-      url: /index.xml
-      weight: 60
 
 module:
   hugoVersion:
