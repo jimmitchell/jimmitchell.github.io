@@ -9,7 +9,7 @@ summary: "The first tasks are done. Time to tackle the hard part."
 
 The first steps of bringing Yasu back to life have been completed: Creating the project, commiting it to source control and purchasing a domain name.
 
-Next up is a simple site for that domain and figuring out where to host it. I'm leaning towards a simple, one page Github Pages site.
+Next up is a simple site for that domain and figuring out where to host it. ~~I'm leaning towards a simple, one page Github Pages site.~~ I'm thinking a one-pager on Micro.blog may be my best option since Github pages requires the repo to be public, which I'm not ready for, and since I already am using Micro.blog for my personal site, it just makes sense.
 
 After that, the hard part begins... Actually learning SwiftUI and hacking something into shape with what I learn. Do I focus on learning just the things I need to build my app, or do I focus on the fundamentals first, even though they may not be relevant to the end product?
 
