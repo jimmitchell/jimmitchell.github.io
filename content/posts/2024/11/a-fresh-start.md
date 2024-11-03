@@ -8,10 +8,12 @@ description: "I've been thinking about bringing Yasu back to life for a long tim
 ---
 Probably since the day after I turned Yasu over to the other developer, I regretted my decision and told myself I'd bring my app back one day, somehow.
 
-At the time, I didn't have the bandwidth for it. So I put the idea in the back of my head and let it simmer -- for a long time.
+At the time, I didn't have the capacity for it. So I put the idea in the back of my mind and let it simmer -- for a long time.
 
-Seven years have passed. The other developer has done nothing, as he promised he would. It's time to bring Yasu back to life. I see there's still a need for the simple maintenance app that Yasu was -- and will be again.
+Seven years have passed since then. The other developer has done nothing, as he promised he would. I've tried to get hte app back and he's ignored me. I'm not surprised.
 
-This site is to document the journey it takes to get Yasu back out there. Follow along as we start again from scratch.
+I've decided it's time to bring Yasu back to life. I see there's still a need for the simple maintenance app that Yasu once was -- and will be again.
 
-Thanks for reading.
+This site is to document the journey it takes to get Yasu back out there. Follow along as we begin again from scratch.
+
+Thanks for reading. Subscribe via [RSS](/index.xml).

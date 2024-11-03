@@ -1,9 +1,8 @@
 baseURL: "https://jimmitchell.dev/"
-title: Jim Mitchell
 languageCode: 'en-us'
-title: 'Jim Mitchell'
+title: 'Ressurecting Yasu'
 theme: 'hugo-mnml'
-siteDescription: "I wrangle nerds, herd cats, and sometimes write code that works. Apple fanboy. Fledgling SwiftUI developer. Somewhat sarcastic. Prolific abuser of ellipses..."
+siteDescription: "This is the journey of bringing my macOS app Yasu back to life. We're starting from scratch on this one."
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -32,7 +31,7 @@ redirects:
   
 menus:
   main:
-    - name: Home
+    - name: Devlog
       pageRef: /
       weight: 10
     - name: Yasu

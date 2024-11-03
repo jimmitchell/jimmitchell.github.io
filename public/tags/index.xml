@@ -1,49 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Jim Mitchell</title>
+    <title>Tags on Ressurecting Yasu</title>
     <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on Jim Mitchell</description>
+    <description>Recent content in Tags on Ressurecting Yasu</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>hello@jimmitchell.dev (Jim Mitchell)</managingEditor>
     <webMaster>hello@jimmitchell.dev (Jim Mitchell)</webMaster>
     <copyright>© Jim Mitchell</copyright>
-    <lastBuildDate>Sat, 02 Nov 2024 11:06:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 03 Nov 2024 08:15:03 -0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Development</title>
       <link>http://localhost:1313/tags/development/</link>
-      <pubDate>Sat, 02 Nov 2024 11:06:00 -0700</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
+      <pubDate>Sun, 03 Nov 2024 08:15:03 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
       <guid>http://localhost:1313/tags/development/</guid>
       <description></description>
     </item>
     <item>
       <title>Yasu</title>
       <link>http://localhost:1313/tags/yasu/</link>
-      <pubDate>Sat, 02 Nov 2024 11:06:00 -0700</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
+      <pubDate>Sun, 03 Nov 2024 08:15:03 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
       <guid>http://localhost:1313/tags/yasu/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AppleScript</title>
-      <link>http://localhost:1313/tags/applescript/</link>
-      <pubDate>Fri, 14 Apr 2023 09:24:09 -0700</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
-      <guid>http://localhost:1313/tags/applescript/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Automation</title>
-      <link>http://localhost:1313/tags/automation/</link>
-      <pubDate>Fri, 14 Apr 2023 09:24:09 -0700</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
-      <guid>http://localhost:1313/tags/automation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Code</title>
-      <link>http://localhost:1313/tags/code/</link>
-      <pubDate>Fri, 14 Apr 2023 09:24:09 -0700</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
-      <guid>http://localhost:1313/tags/code/</guid>
       <description></description>
     </item>
   </channel>
