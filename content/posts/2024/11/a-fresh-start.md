@@ -1,7 +1,7 @@
 ---
 title: 'Yasu, Resurrected'
 date: 2024-11-02T11:06:00-07:00
-tags: ["Yasu","Development"]
+tags: ["Getting Started"]
 type: "post"
 summary: "I've been thinking about bringing Yasu back to life for a long time. This is the beginning of that journey."
 description: "I've been thinking about bringing Yasu back to life for a long time. This is the beginning of that journey."
