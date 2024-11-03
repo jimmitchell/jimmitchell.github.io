@@ -11,6 +11,8 @@ The first steps of bringing Yasu back to life have been completed: Creating the 
 
 Next up is a simple site for that domain and figuring out where to host it. ~~I'm leaning towards a simple, one page Github Pages site.~~ I'm thinking a one-pager on Micro.blog may be my best option since Github pages requires the repo to be public, which I'm not ready for, and since I already am using Micro.blog for my personal site, it just makes sense.
 
+Then, a new icon is needed. I have an idea of what I want it to look like, with an homage to the original. I'll iterate on a bit. A good icon is crucial to success.
+
 After that, the hard part begins... Actually learning SwiftUI and hacking something into shape with what I learn. Do I focus on learning just the things I need to build my app, or do I focus on the fundamentals first, even though they may not be relevant to the end product?
 
 I think the right approach is to focus on SwiftUI fundamentals. It may mean slow progress to begin with, but in the end I think it will mean a better product.
