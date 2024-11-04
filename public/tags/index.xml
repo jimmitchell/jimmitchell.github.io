@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Resurrecting Yasu</title>
+    <title>Tags on Yasu, Resurrected</title>
     <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on Resurrecting Yasu</description>
+    <description>Recent content in Tags on Yasu, Resurrected</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>hello@jimmitchell.dev (Jim Mitchell)</managingEditor>
     <webMaster>hello@jimmitchell.dev (Jim Mitchell)</webMaster>
-    <copyright>© Jim Mitchell</copyright>
+    <copyright>©Jim Mitchell</copyright>
     <lastBuildDate>Sun, 03 Nov 2024 08:15:03 -0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Development</title>
-      <link>http://localhost:1313/tags/development/</link>
+      <title>Getting Started</title>
+      <link>http://localhost:1313/tags/getting-started/</link>
       <pubDate>Sun, 03 Nov 2024 08:15:03 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
-      <guid>http://localhost:1313/tags/development/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Yasu</title>
-      <link>http://localhost:1313/tags/yasu/</link>
-      <pubDate>Sun, 03 Nov 2024 08:15:03 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
-      <guid>http://localhost:1313/tags/yasu/</guid>
+      <guid>http://localhost:1313/tags/getting-started/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,8 +1,8 @@
 baseURL: "https://yasuapp.dev/"
 languageCode: 'en-us'
-title: 'Resurrecting Yasu'
+title: 'Yasu, Resurrected'
 theme: 'hugo-mnml'
-siteDescription: "This is the journey of bringing my macOS app Yasu back to life. We're starting from scratch on this one."
+siteDescription: "This is the journey to bring my macOS app Yasu back to life. We're starting from scratch on this one."
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -13,7 +13,7 @@ minify:
   disableXML: true
   minifyOutput: true
 
-copyright: © Jim Mitchell
+copyright: ©Jim Mitchell
 params:
   env: production
   author:
@@ -31,10 +31,10 @@ redirects:
   
 menus:
   main:
-    - name: Devlog
+    - name: Blog
       pageRef: /
       weight: 10
-    - name: What's Yasu?
+    - name: What is Yasu?
       pageRef: /pages/yasu
       weight: 20
     - name: About
