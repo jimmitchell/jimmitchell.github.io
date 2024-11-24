@@ -13,8 +13,8 @@
     --sans-serif-font: -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --mono-space-font: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
     --font-weight-normal: 400;
-    --font-weight-bold: 700;
-    --max-width: 64rem;
+    --font-weight-bold: 600;
+    --max-width: 68rem;
 }
 @media (prefers-color-scheme: dark) {
     :root {
