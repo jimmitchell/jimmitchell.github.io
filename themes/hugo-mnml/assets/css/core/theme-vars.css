@@ -10,7 +10,7 @@
     --accent-color-6: #7a7b7c;
     --warning-color: #e00031;
     --menu-line-height: 50px;
-    --sans-serif-font: GTW, -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --sans-serif-font: -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --mono-space-font: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
     --font-weight-normal: 400;
     --font-weight-bold: 700;
