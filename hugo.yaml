@@ -31,10 +31,10 @@ redirects:
   
 menus:
   main:
-    - name: Blog
+    - name: Posts
       pageRef: /
       weight: 10
-    - name: What is Yasu?
+    - name: Yasu
       pageRef: /pages/yasu
       weight: 20
     - name: About
