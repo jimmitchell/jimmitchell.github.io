@@ -1,7 +1,7 @@
 :root {
     --background-color: #ffffff;
     --text-main-color: #555;
-    --link-color: #0d88d8;
+    --link-color: #068AC6;
     --link-color-hover: #111112;
     --accent-color-1: #f4f4f5;
     --accent-color-2: #dbdbdc;
@@ -20,7 +20,7 @@
     :root {
         --background-color: #282c35;
         --text-main-color: #f8f8f8;
-        --link-color: #68daff;
+        --link-color: #068AC6;
         --link-color-hover: #fff;
         --accent-color-1: #3d4149;
         --accent-color-2: #4c4c4c;
