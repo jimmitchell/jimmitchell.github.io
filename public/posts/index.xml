@@ -1,29 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Yasu, Resurrected</title>
+    <title>Posts on Jim Mitchell</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Yasu, Resurrected</description>
+    <description>Recent content in Posts on Jim Mitchell</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>hello@jimmitchell.dev (Jim Mitchell)</managingEditor>
     <webMaster>hello@jimmitchell.dev (Jim Mitchell)</webMaster>
     <copyright>©Jim Mitchell</copyright>
-    <lastBuildDate>Sun, 03 Nov 2024 08:15:03 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 11 Dec 2024 20:31:38 -0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Laying the Groundwork</title>
-      <link>http://localhost:1313/posts/2024/11/laying-the-groundwork/</link>
-      <pubDate>Sun, 03 Nov 2024 08:15:03 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
-      <guid>http://localhost:1313/posts/2024/11/laying-the-groundwork/</guid>
-      <description>The first tasks are done. Time to tackle the hard part.</description>
-    </item>
-    <item>
-      <title>Yasu, Resurrected</title>
-      <link>http://localhost:1313/posts/2024/11/a-fresh-start/</link>
-      <pubDate>Sat, 02 Nov 2024 11:06:00 -0700</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
-      <guid>http://localhost:1313/posts/2024/11/a-fresh-start/</guid>
-      <description>I&amp;rsquo;ve been thinking about bringing Yasu back to life for a long time. This is the beginning of that journey.</description>
+      <title>A Fresh Start</title>
+      <link>http://localhost:1313/posts/2024/12/a-fresh-start/</link>
+      <pubDate>Wed, 11 Dec 2024 20:31:38 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
+      <guid>http://localhost:1313/posts/2024/12/a-fresh-start/</guid>
+      <description>A fresh start.</description>
     </item>
   </channel>
 </rss>

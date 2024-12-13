@@ -1,8 +1,7 @@
-baseURL: "https://yasuapp.dev/"
+baseURL: "https://jimmitchell.dev/"
 languageCode: 'en-us'
-title: 'Yasu, Resurrected'
+title: 'Jim Mitchell'
 theme: 'hugo-mnml'
-siteDescription: "This is the journey to bring my macOS app Yasu back to life. We're starting from scratch on this one."
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -19,6 +18,7 @@ params:
   author:
     name: Jim Mitchell
     email: hello@jimmitchell.dev
+  siteDescription: "Salesforce guy. I wrangle nerds, herd cats, and sometimes write code that works. Somewhat sarcastic, but mostly harmless. Prolific abuser of ellipses…"
 
 services:
   rss:
@@ -31,15 +31,21 @@ redirects:
   
 menus:
   main:
-    - name: Posts
+    - name: Home
       pageRef: /
-      weight: 10
-    - name: Yasu
-      pageRef: /pages/yasu
-      weight: 20
+      weight: 1
+    - name: Archives
+      pageRef: archives
+      weight: 3
+    - name: Projects
+      pageRef: /pages/projects
+      weight: 2
     - name: About
       pageRef: /pages/about
-      weight: 40
+      weight: 4
+    - name: Mastodon
+      url: https://social.lol/@jim
+      weight: 5
 
 module:
   hugoVersion:
