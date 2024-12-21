@@ -43,11 +43,6 @@ menus:
     - name: About
       pageRef: /pages/about
       weight: 4
-    - name: Mastodon
-      params:
-        rel: "external"
-      url: https://social.lol/@jim
-      weight: 5
 
 module:
   hugoVersion:
