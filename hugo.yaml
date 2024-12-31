@@ -1,6 +1,6 @@
 baseURL: "https://jimmitchell.dev/"
 languageCode: 'en-us'
-title: 'Jim Mitchell'
+title: 'jimmitchell.dev'
 theme: 'hugo-mnml'
 
 enableRobotsTXT: true
@@ -43,6 +43,10 @@ menus:
     - name: About
       pageRef: /pages/about
       weight: 4
+    - name: Mastodon
+      url: https://social.jimmitchell.org/
+      weight: 5
+    
 
 module:
   hugoVersion:
