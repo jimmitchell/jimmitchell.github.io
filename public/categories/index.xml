@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on jimmitchell.dev</title>
+    <title>Categories on Jim Mitchell</title>
     <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on jimmitchell.dev</description>
+    <description>Recent content in Categories on Jim Mitchell</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>hello@jimmitchell.dev (Jim Mitchell)</managingEditor>

@@ -1,6 +1,6 @@
 baseURL: "https://jimmitchell.dev/"
 languageCode: 'en-us'
-title: 'jimmitchell.dev'
+title: 'Jim Mitchell'
 theme: 'hugo-mnml'
 
 enableRobotsTXT: true
@@ -37,9 +37,6 @@ menus:
     - name: Archives
       pageRef: archives
       weight: 3
-    - name: Projects
-      pageRef: /pages/projects
-      weight: 2
     - name: About
       pageRef: /pages/about
       weight: 4
