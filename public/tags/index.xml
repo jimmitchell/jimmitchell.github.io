@@ -9,13 +9,27 @@
     <managingEditor>hello@jimmitchell.dev (Jim Mitchell)</managingEditor>
     <webMaster>hello@jimmitchell.dev (Jim Mitchell)</webMaster>
     <copyright>©Jim Mitchell</copyright>
-    <lastBuildDate>Wed, 11 Dec 2024 20:31:38 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2024 20:31:38 -0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blogging</title>
+      <link>http://localhost:1313/tags/blogging/</link>
+      <pubDate>Wed, 18 Dec 2024 20:31:38 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
+      <guid>http://localhost:1313/tags/blogging/</guid>
+      <description></description>
+    </item>
     <item>
       <title>General</title>
       <link>http://localhost:1313/tags/general/</link>
-      <pubDate>Wed, 11 Dec 2024 20:31:38 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
+      <pubDate>Wed, 18 Dec 2024 20:31:38 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
       <guid>http://localhost:1313/tags/general/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Other Stuff</title>
+      <link>http://localhost:1313/tags/other-stuff/</link>
+      <pubDate>Wed, 18 Dec 2024 20:31:38 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
+      <guid>http://localhost:1313/tags/other-stuff/</guid>
       <description></description>
     </item>
   </channel>

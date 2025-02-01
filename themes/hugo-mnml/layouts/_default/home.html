@@ -1,21 +1,38 @@
-{{- define "main" }}
-  {{- $paginator := .Paginate (where .Site.Pages.ByDate.Reverse "Type" "post") (index .Site.Params "archive-paginate" | default 10) }}
-  <!-- <h1 class="post-title">Recent Posts</h1> -->
-  <ul class="archive-list">
-  {{- range $paginator.Pages  }}
-      <li>
-        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-        <span class="post-date">{{ .Date.Format "01/02/2006" }}</span>
-      </li>
-  {{- end }}
-  </ul>
-
-  {{- if or ($paginator.HasNext) ($paginator.HasPrev) }}
-  <nav class="pagination">
-      <ul>
-          <li>{{ if $paginator.HasNext }}<a href="{{ $paginator.Next.URL }}">← Older</a>{{ end }}</li>
-          <li>{{ if $paginator.HasPrev }}<a href="{{ $paginator.Prev.URL }}">Newer →</a>{{ end }}</li>
-      </ul>
-  </nav>
-  {{- end }}
-{{- end }}
+{{ define "main" }}
+    {{ $pages := .Site.GetPage "section" "posts" }}
+    {{ $sortedPages := $pages.Pages.ByPublishDate.Reverse }}
+    
+    <div class="latest-post">
+        {{ with index $sortedPages 0 }}
+            <article class="full-post">
+                <h1>{{ .Title }}</h1>
+                <div class="post-meta">
+                    <time datetime="{{ .Date.Format "2006-01-02" }}">
+                        {{ .Date.Format "January 2, 2006" }}
+                    </time>
+                </div>
+                <div class="post-content">
+                    {{ .Content }}
+                </div>
+                {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+            </article>
+        {{ end }}
+    </div>
+    
+    {{ if gt (len $sortedPages) 1 }}
+    <div class="recent-posts">
+        <h4>Recent Posts</h4>
+        <ul class="archive-list">
+            {{ range first 5 (after 1 $sortedPages) }}
+                <li>
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    <span class="post-date">{{ .Date.Format "01/02/2006" }}</span>
+                </li>
+            {{ end }}
+        </ul>
+        {{ if gt (len $sortedPages) 6 }}
+        <p class="more-posts"><a href="/archives/">Even more posts →</a></p>
+        {{ end }}
+    </div>
+    {{ end }}
+{{ end }}
