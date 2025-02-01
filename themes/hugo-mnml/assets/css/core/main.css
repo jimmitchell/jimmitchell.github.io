@@ -2,7 +2,7 @@ body {
   color: var(--text-main-color);
   background: var(--background-color);
   padding: 2rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family: var(--sans-serif-font);
   font-weight: var(--font-weight-normal);
   font-stretch: normal;
@@ -106,7 +106,7 @@ header a:active {
 header .site-title {
   margin: 0;
   line-height: 2;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 header .site-title a {
   color: var(--accent-color-5);
@@ -137,7 +137,7 @@ header .site-title a:active {
 }
 .social {
   margin: 0;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 .social a:link,
 .social a:visited {
@@ -149,6 +149,18 @@ header .site-title a:active {
 .social a:active {
   color: var(--link-color-hover);
   text-decoration: none;
+}
+.social a.mastodon:hover,
+.social a.mastodon:active {
+  color: #615ef8;
+}
+.social a.microblog:hover,
+.social a.microblog:active {
+  color: #ff8800;
+}
+.social a.github:hover,
+.social a.github:active {
+  color: #fff;
 }
 
 
@@ -164,6 +176,10 @@ header .site-title a:active {
 .more-posts a:active {
   color: var(--link-color-hover);
   text-decoration: none;
+}
+
+.read-more {
+  font-size: 1.6rem;
 }
 
 
@@ -211,7 +227,7 @@ main img {
 
 .post-date {
   font-size: 1.6rem;
-  color: var(--accent-color-3);
+  color: var(--accent-color-5);
   flex-shrink: 0;
 }
 
@@ -227,15 +243,29 @@ main img {
 }
 .tags a {
   font-size: 1.6rem;
-  color: var(--accent-color-5);
-  text-decoration: none;
-}
-.tags a:hover,
-.tags a:active {
-  color: var(--link-color);
 }
 .tags span {
   color: var(--accent-color-2);
+}
+
+.main-nav {
+  margin: 0;
+  padding: 1rem 0 2rem 0;
+}
+
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+.main-nav li {
+  margin: 0;
+  padding: 0;
 }
 
 .archive-list {
@@ -261,7 +291,7 @@ h4.post-group {
   margin-top: 3rem;
 }
 
-
+/*
 .pagination {
   margin: 0;
   padding: 1rem 0;
@@ -278,7 +308,7 @@ h4.post-group {
   margin: 0;
   padding: 0;
 }
-
+*/
 
 footer {
   max-width: 70rem;
@@ -290,7 +320,6 @@ footer {
 footer a:link,
 footer a:visited {
   color: var(--accent-color-5);
-  text-decoration: none;
 }
 footer a:hover,
 footer a:active {

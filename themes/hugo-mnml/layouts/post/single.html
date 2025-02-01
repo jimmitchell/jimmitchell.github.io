@@ -4,7 +4,7 @@
   
     <div class="post-meta">
         <time datetime="{{ .Date | time.Format "2006-01-02T15:04:05-07:00" }}">
-            {{ .Date.Format "January 2, 2006" }}
+            {{ .Date.Format "2006.01.02" }}
         </time>
     </div>
     
@@ -13,5 +13,14 @@
     </div>
     
     {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    
+    {{- if or (.NextInSection) (.PrevInSection) }}
+    <nav class="main-nav">
+        <ul>
+            <li>{{ if .PrevInSection }}<a href="{{ .PrevInSection.Permalink }}">← Older</a>{{ end }}</li>
+            <li>{{ if .NextInSection }}<a href="{{ .NextInSection.Permalink }}">Newer →</a>{{ end }}</li>
+        </ul>
+    </nav>
+    {{- end }}
   </article>
 {{ end }}
