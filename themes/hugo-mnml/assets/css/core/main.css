@@ -7,7 +7,7 @@ body {
   font-weight: var(--font-weight-normal);
   font-stretch: normal;
   font-variant-ligatures: none !important;
-  line-height: 1.6667;
+  line-height: var(--base-line-height);
   -ms-word-wrap: break-word;
   word-wrap: break-word;
   text-rendering: geometricPrecision;
@@ -31,11 +31,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: var(--font-weight-bold);
 }
 blockquote {
-  border-left: 2px solid var(--accent-color-3);
-  padding: 0 2rem;
-  margin: 3rem 1rem;
-  font-style: italic;
+  /* border-left: 2px solid var(--accent-color-3); */
+  padding: 1px 2rem;
+  margin: 3rem 0;
+  /* font-style: italic; */
   color: var(--accent-color-5);
+  background: var(--accent-color-1);
+  border-radius: 1rem;
 }
 code, pre {
   font-size: 1.6rem;
@@ -89,7 +91,7 @@ hr {
 
 
 header {
-  margin: 2rem auto 6rem;
+  margin: 2rem auto 4rem;
   max-width: var(--max-width);
 }
 header a:link,
@@ -157,7 +159,7 @@ main {
   margin: 0 auto;
 }
 article {
-  margin: 4rem 0 8rem;
+  margin: 0 0 8rem;
 }
 article:last-of-type {
   margin-bottom: 6rem;
@@ -183,7 +185,7 @@ time {
   color: var(--accent-color-5);
 }
 main p, main ol, main ul {
-  margin: 3rem 0;
+  margin: 2rem 0;
 }
 main ol, main ul {
   padding: 0;
@@ -244,7 +246,7 @@ main ol, main ul {
   margin: 0;
   border-bottom: 1px solid var(--accent-color-2);
   line-height: 1.2;
-  padding: 1.5rem .2rem;
+  padding: 1.2rem .2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -279,8 +281,8 @@ h4.post-group {
 */
 
 footer {
-  max-width: 70rem;
-  margin: 4rem auto;
+  max-width: var(--max-width);
+  margin: 0 auto 4rem auto;
   font-size: 1.6rem;
   text-align: center;
   color: var(--accent-color-5);
