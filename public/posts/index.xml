@@ -9,14 +9,28 @@
     <managingEditor>hello@jimmitchell.dev (Jim Mitchell)</managingEditor>
     <webMaster>hello@jimmitchell.dev (Jim Mitchell)</webMaster>
     <copyright>©Jim Mitchell</copyright>
-    <lastBuildDate>Wed, 11 Dec 2024 20:31:38 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 01 Feb 2025 09:51:00 -0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Fresh Start</title>
-      <link>http://localhost:1313/posts/2024/12/a-fresh-start/</link>
-      <pubDate>Wed, 11 Dec 2024 20:31:38 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
-      <guid>http://localhost:1313/posts/2024/12/a-fresh-start/</guid>
-      <description>A fresh start.</description>
+      <link>http://localhost:1313/posts/2025/02/a-fresh-start/</link>
+      <pubDate>Sat, 01 Feb 2025 09:51:00 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
+      <guid>http://localhost:1313/posts/2025/02/a-fresh-start/</guid>
+      <description>A fresh start&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Applescript to Toggle the Mac Desktop</title>
+      <link>http://localhost:1313/posts/2010/10/16/applescript-to-toggle-the-mac-desktop/</link>
+      <pubDate>Sat, 16 Oct 2010 15:32:43 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
+      <guid>http://localhost:1313/posts/2010/10/16/applescript-to-toggle-the-mac-desktop/</guid>
+      <description>Here’s an AppleScript I use to quickly toggle desktop visibility for taking screenshots and recording screencasts that I thought might be useful for others.</description>
+    </item>
+    <item>
+      <title>Rebuilding the Apple Mail Envelope Index</title>
+      <link>http://localhost:1313/posts/2008/02/20/rebuilding-the-apple-mail-envelope-index/</link>
+      <pubDate>Wed, 20 Feb 2008 11:00:00 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
+      <guid>http://localhost:1313/posts/2008/02/20/rebuilding-the-apple-mail-envelope-index/</guid>
+      <description>Some time ago, I set up my Gmail account in Apple Mail to copy over messages which were not sent to my jimmitchell.org account. I’m one of those guys who likes to have everything all in one place at my finger tips when I need it.</description>
     </item>
   </channel>
 </rss>

@@ -16,7 +16,49 @@
       <link>http://localhost:1313/posts/2025/02/a-fresh-start/</link>
       <pubDate>Sat, 01 Feb 2025 09:51:00 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
       <guid>http://localhost:1313/posts/2025/02/a-fresh-start/</guid>
-      <description>A fresh start&amp;hellip;</description>
+      <description>I&amp;rsquo;ve chosen to make a fresh start where I have the control&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Saying No</title>
+      <link>http://localhost:1313/posts/2017/03/12/no/</link>
+      <pubDate>Sun, 12 Mar 2017 16:07:43 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
+      <guid>http://localhost:1313/posts/2017/03/12/no/</guid>
+      <description>Saying no can be one of the hardest things to do.</description>
+    </item>
+    <item>
+      <title>Spin Cycle</title>
+      <link>http://localhost:1313/posts/2017/03/07/spin/</link>
+      <pubDate>Tue, 07 Mar 2017 16:02:25 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
+      <guid>http://localhost:1313/posts/2017/03/07/spin/</guid>
+      <description>&lt;p&gt;I’ve been around long enough to know life moves in cycles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Applescript to Compress Files and Folders</title>
+      <link>http://localhost:1313/posts/2014/08/02/applescript-to-compress-files-and-folders/</link>
+      <pubDate>Sat, 02 Aug 2014 15:59:31 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
+      <guid>http://localhost:1313/posts/2014/08/02/applescript-to-compress-files-and-folders/</guid>
+      <description>I had the need to select several folders at once in the Mac OS Finder and zip them up as individual archives. This AppleScript to compress files and folders was the solution I came up with.</description>
+    </item>
+    <item>
+      <title>Applescript to Add Files in the Mac Finder</title>
+      <link>http://localhost:1313/posts/2011/08/12/applescript-to-add-files-in-the-mac-finder/</link>
+      <pubDate>Fri, 12 Aug 2011 15:56:26 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
+      <guid>http://localhost:1313/posts/2011/08/12/applescript-to-add-files-in-the-mac-finder/</guid>
+      <description>Today I had the need to add a bunch of named text files to a folder in the Finder on my Mac.</description>
+    </item>
+    <item>
+      <title>Applescript to Toggle the Mac Desktop</title>
+      <link>http://localhost:1313/posts/2010/10/16/applescript-to-toggle-the-mac-desktop/</link>
+      <pubDate>Sat, 16 Oct 2010 15:32:43 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
+      <guid>http://localhost:1313/posts/2010/10/16/applescript-to-toggle-the-mac-desktop/</guid>
+      <description>Here’s an AppleScript I use to quickly toggle desktop visibility for taking screenshots and recording screencasts that I thought might be useful for others.</description>
+    </item>
+    <item>
+      <title>Rebuilding the Apple Mail Envelope Index</title>
+      <link>http://localhost:1313/posts/2008/02/20/rebuilding-the-apple-mail-envelope-index/</link>
+      <pubDate>Wed, 20 Feb 2008 11:00:00 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
+      <guid>http://localhost:1313/posts/2008/02/20/rebuilding-the-apple-mail-envelope-index/</guid>
+      <description>Some time ago, I set up my Gmail account in Apple Mail to copy over messages which were not sent to my jimmitchell.org account. I’m one of those guys who likes to have everything all in one place at my finger tips when I need it.</description>
     </item>
   </channel>
 </rss>

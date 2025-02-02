@@ -89,7 +89,7 @@ hr {
 
 
 header {
-  margin: 2rem auto 4rem;
+  margin: 2rem auto 6rem;
   max-width: var(--max-width);
 }
 header a:link,
@@ -137,7 +137,7 @@ header .site-title a:active {
 }
 .social {
   margin: 0;
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 .social a:link,
 .social a:visited {
@@ -150,32 +150,12 @@ header .site-title a:active {
   color: var(--link-color-hover);
   text-decoration: none;
 }
-.social a.mastodon:hover,
-.social a.mastodon:active {
-  color: #615ef8;
-}
-.social a.microblog:hover,
-.social a.microblog:active {
-  color: #ff8800;
-}
-.social a.github:hover,
-.social a.github:active {
-  color: #fff;
-}
 
 
 .more-posts {
   margin: 0;
   margin-top: -1rem;
   font-size: 1.6rem;
-}
-.more-posts a {
-  color: var(--accent-color-5);
-}
-.more-posts a:hover,
-.more-posts a:active {
-  color: var(--link-color-hover);
-  text-decoration: none;
 }
 
 .read-more {
@@ -260,7 +240,6 @@ main img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.6rem;
 }
 
 .main-nav li {
@@ -286,6 +265,8 @@ main img {
 h4.post-group {
   margin-bottom: -1rem;
   margin-top: 4rem;
+  color: var(--accent-color-5);
+  font-size: 1.6rem;
 }
 .archives h4.post-group:first-of-type {
   margin-top: 3rem;
