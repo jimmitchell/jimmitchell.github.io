@@ -9,9 +9,9 @@
     --accent-color-5: #b7b8b9;
     --accent-color-6: #d9d9d9;
     --warning-color: #e00031;
-    --sans-serif-font: Nunito, -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --sans-serif-font: -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --mono-space-font: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier, monospace;
     --font-weight-normal: 400;
     --font-weight-bold: 700;
-    --max-width: 70rem;
+    --max-width: 68rem;
 }

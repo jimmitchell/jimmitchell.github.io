@@ -1,13 +1,13 @@
 body {
   color: var(--text-main-color);
   background: var(--background-color);
-  padding: 2rem;
+  padding: 1rem;
   font-size: 1.8rem;
   font-family: var(--sans-serif-font);
   font-weight: var(--font-weight-normal);
   font-stretch: normal;
   font-variant-ligatures: none !important;
-  line-height: 1.556;
+  line-height: 1.6667;
   -ms-word-wrap: break-word;
   word-wrap: break-word;
   text-rendering: geometricPrecision;
@@ -152,17 +152,6 @@ header .site-title a:active {
 }
 
 
-.more-posts {
-  margin: 0;
-  margin-top: -1rem;
-  font-size: 1.6rem;
-}
-
-.read-more {
-  font-size: 1.6rem;
-}
-
-
 main {
   max-width: var(--max-width);
   margin: 0 auto;
@@ -201,14 +190,12 @@ main ol, main ul {
   margin-left: 2rem;
   margin-right: 2rem;
 }
-main img {
-  border-radius: 6px;
-}
 
 .post-date {
   font-size: 1.6rem;
   color: var(--accent-color-5);
   flex-shrink: 0;
+  margin-left: 1rem;
 }
 
 .tags {

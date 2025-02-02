@@ -8,7 +8,7 @@
                 <h1>{{ .Title }}</h1>
                 <div class="post-meta">
                     <time datetime="{{ .Date.Format "2006-01-02" }}">
-                        {{ .Date.Format "2006.01.02" }}
+                        {{ .Date.Format "01/02/2006" }}
                     </time>
                 </div>
                 <div class="post-content">
@@ -28,12 +28,12 @@
             {{ range first 5 (after 1 $sortedPages) }}
                 <li>
                     <a href="{{ .Permalink }}">{{ .Title }}</a>
-                    <span class="post-date">{{ .Date.Format "2006.01.02" }}</span>
+                    <span class="post-date">{{ .Date.Format "01/02/06" }}</span>
                 </li>
             {{ end }}
         </ul>
         {{ if gt (len $sortedPages) 6 }}
-        <p class="more-posts"><a href="/archives/">All posts →</a></p>
+        <p class="more-posts"><a href="/archives/">Archives →</a></p>
         {{ end }}
     </div>
     {{ end }}
