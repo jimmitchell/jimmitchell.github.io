@@ -17,6 +17,15 @@
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-02-01T09:51:00-08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/2023/04/14/better-applescript-to-compress-files-or-folders/</loc>
+    <lastmod>2023-04-14T13:34:05-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/applescript/</loc>
+    <lastmod>2023-04-14T13:34:05-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/code/</loc>
+    <lastmod>2023-04-14T13:34:05-08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/intentional-living/</loc>
     <lastmod>2017-03-12T16:07:43-08:00</lastmod>
   </url><url>
@@ -29,13 +38,7 @@
     <loc>http://localhost:1313/tags/apple/</loc>
     <lastmod>2014-08-02T15:59:31-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/applescript/</loc>
-    <lastmod>2014-08-02T15:59:31-08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/2014/08/02/applescript-to-compress-files-and-folders/</loc>
-    <lastmod>2014-08-02T15:59:31-08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/code/</loc>
     <lastmod>2014-08-02T15:59:31-08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2011/08/12/applescript-to-add-files-in-the-mac-finder/</loc>
