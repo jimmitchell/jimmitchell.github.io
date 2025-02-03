@@ -1,7 +1,7 @@
 :root {
     --background-color: #1b1d23;
     --text-main-color: #f8f8f8;
-    --link-color: #5eb7d4;
+    --link-color: #45c8f7;
     --link-color-hover: #fff;
     --accent-color-1: #3d4149;
     --accent-color-2: #4c4c4c;
@@ -9,10 +9,10 @@
     --accent-color-5: #b7b8b9;
     --accent-color-6: #d9d9d9;
     --warning-color: #e00031;
-    --sans-serif-font: 'Libre Franklin', -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --sans-serif-font: -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --mono-space-font: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier, monospace;
     --font-weight-normal: 400;
     --font-weight-bold: 700;
     --max-width: 70rem;
-    --base-line-height: 1.6;
+    --base-line-height: 1.6667;
 }

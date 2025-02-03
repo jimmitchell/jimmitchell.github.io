@@ -4,14 +4,9 @@
 <meta name="description" content="{{ .Description | default .Site.Params.SiteDescription}}" />
 <meta name="fediverse:creator" content="@jim@social.jimmitchell.org" />
 <link rel="me" href="https://social.jimmitchell.org/@jim">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-{{ with .OutputFormats.Get "rss" -}}
+{{- with .OutputFormats.Get "rss" -}}
   {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
-{{ end }}
+{{- end }}
 {{- if .Params.noindex }}
 <meta name="robots" content="noindex" /> 
 {{- end }}

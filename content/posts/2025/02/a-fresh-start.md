@@ -3,7 +3,7 @@ title: 'A Fresh Start'
 date: 2025-02-01T09:51:00-08:00
 tags: ["General"]
 type: post
-summary: "I've chosen to make a fresh start where I have more control over how my content is rendered..."
+summary: "I've chosen to make a fresh start where I have more control over my content..."
 description: "I've chosen to make a fresh start where I have the control..."
 ---
 
