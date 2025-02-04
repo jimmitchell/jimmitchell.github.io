@@ -1,7 +1,7 @@
 :root {
     --background-color: #2c303a;
     --text-main-color: #f8f8f8;
-    --link-color: #45c8f7;
+    --link-color: #d16174;
     --link-color-hover: #fff;
     --accent-color-1: #3d4149;
     --accent-color-2: #4c4c4c;
@@ -14,5 +14,5 @@
     --font-weight-normal: 400;
     --font-weight-bold: 700;
     --max-width: 60rem;
-    --base-line-height: 1.6667;
+    --base-line-height: 1.6;
 }
