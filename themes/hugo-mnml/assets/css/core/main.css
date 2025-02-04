@@ -40,7 +40,7 @@ blockquote {
   border-radius: 1rem;
 }
 code, pre {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   background: var(--accent-color-2);
   font-family: var(--mono-space-font);
 }
@@ -108,7 +108,7 @@ header a:active {
 header .site-title {
   margin: 0;
   line-height: 2;
-  font-size: 2.4rem;
+  font-size: 2rem;
 }
 header .site-title a {
   color: var(--accent-color-5);
@@ -133,13 +133,13 @@ header .site-title a:active {
   justify-content: space-between;
   align-items: center;
 }
+.social {
+  margin: 0;
+  font-size: 2rem;
+}
 .social li {
   display: inline;
   margin: 0;
-}
-.social {
-  margin: 0;
-  font-size: 2.4rem;
 }
 .social a:link,
 .social a:visited {
@@ -162,12 +162,11 @@ article {
   margin: 0 0 8rem;
 }
 article:last-of-type {
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 .page-title,
 .post-title {
-  font-size: 2.8rem;
-  margin-bottom: 3rem;
+  font-size: 2.4rem;
 }
 .post-title a:link,
 .post-title a:visited {
@@ -219,7 +218,7 @@ main ol, main ul {
 
 .main-nav {
   margin: 0;
-  padding: 1rem 0 2rem 0;
+  padding: 1rem 0 0 0;
 }
 
 .main-nav ul {

@@ -5,7 +5,7 @@
     <div class="latest-post">
         {{- with index $sortedPages 0 }}
             <article class="full-post">
-                <h1>{{ .Title }}</h1>
+                <h1 class="page-title">{{ .Title }}</h1>
                 <div class="post-meta">
                     <time datetime="{{ .Date.Format "2006-01-02" }}">
                         {{ .Date.Format "01/02/2006" }}
