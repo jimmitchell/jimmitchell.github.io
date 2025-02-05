@@ -2,20 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/2025/02/a-fresh-start/</loc>
-    <lastmod>2025-02-01T09:51:00-08:00</lastmod>
+    <loc>http://localhost:1313/tags/applescript/</loc>
+    <lastmod>2025-01-07T09:24:47-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/general/</loc>
-    <lastmod>2025-02-01T09:51:00-08:00</lastmod>
+    <loc>http://localhost:1313/posts/2025/01/07/applescript-to-generate-strong-passwords/</loc>
+    <lastmod>2025-01-07T09:24:47-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/code/</loc>
+    <lastmod>2025-01-07T09:24:47-08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-02-01T09:51:00-08:00</lastmod>
+    <lastmod>2025-01-07T09:24:47-08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-02-01T09:51:00-08:00</lastmod>
+    <lastmod>2025-01-07T09:24:47-08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-02-01T09:51:00-08:00</lastmod>
+    <lastmod>2025-01-07T09:24:47-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2024/12/07/app-defaults-2024/</loc>
+    <lastmod>2024-12-07T14:33:31-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/apple/</loc>
+    <lastmod>2024-12-07T14:33:31-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/apps/</loc>
+    <lastmod>2024-12-07T14:33:31-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ios/</loc>
+    <lastmod>2024-12-07T14:33:31-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/macos/</loc>
+    <lastmod>2024-12-07T14:33:31-08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2024/11/28/giving-thanks/</loc>
     <lastmod>2024-11-28T09:10:32-08:00</lastmod>
@@ -50,13 +68,10 @@
     <loc>http://localhost:1313/tags/reflection/</loc>
     <lastmod>2024-03-06T08:57:05-08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/2023/11/21/my-app-defaults/</loc>
+    <lastmod>2023-11-21T08:06:50-08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/2023/04/14/better-applescript-to-compress-files-or-folders/</loc>
-    <lastmod>2023-04-14T13:34:05-08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/applescript/</loc>
-    <lastmod>2023-04-14T13:34:05-08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/code/</loc>
     <lastmod>2023-04-14T13:34:05-08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2019/12/10/trees/</loc>
@@ -76,9 +91,6 @@
   </url><url>
     <loc>http://localhost:1313/posts/2017/03/07/spin/</loc>
     <lastmod>2017-03-07T16:02:25-08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/apple/</loc>
-    <lastmod>2014-08-02T15:59:31-08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2014/08/02/applescript-to-compress-files-and-folders/</loc>
     <lastmod>2014-08-02T15:59:31-08:00</lastmod>
