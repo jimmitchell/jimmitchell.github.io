@@ -36,7 +36,7 @@ blockquote {
   font-style: italic;
   color: var(--text-main-color);
   background: var(--accent-color-1);
-  border-radius: 1rem;
+  border-radius: 6px;
 }
 code, pre {
   font-size: 1.5rem;
@@ -45,7 +45,7 @@ code, pre {
 }
 code {
   padding: 3px 6px;
-  border-radius: 1rem;
+  border-radius: 6px;
   color: var(--text-main-color);
   background: var(--accent-color-1);
 }
@@ -183,12 +183,15 @@ time {
   color: var(--accent-color-5);
 }
 main p, main ol, main ul {
-  margin: 2rem 0;
+  margin: 3rem 0;
 }
 main ol, main ul {
   padding: 0;
   margin-left: 2rem;
   margin-right: 2rem;
+}
+main img {
+  border-radius: 6px;
 }
 
 .post-date {
@@ -217,7 +220,7 @@ main ol, main ul {
 }
 .tags a:hover,
 .tags a:active {
-  background: var(--link-color);
+  background: var(--accent-color-3);
   color: var(--text-main-color);
   text-decoration: none;
 }

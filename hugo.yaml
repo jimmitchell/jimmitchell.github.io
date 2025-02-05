@@ -52,7 +52,7 @@ module:
     
 markup:
   highlight:
-    style: native
+    style: nord
     codeFences: true
     tabWidth: 4
     noHl: false
