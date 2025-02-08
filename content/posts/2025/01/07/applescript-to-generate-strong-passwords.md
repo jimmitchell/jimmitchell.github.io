@@ -3,15 +3,13 @@ title: 'Applescript to Generate Strong Passwords'
 date: 2025-01-07T09:24:47-08:00
 tags: ["Code","AppleScript"]
 type: post
-summary: "You're not using the same password over and over, right? If you're a Mac user and need an easy way to generate unique strong passwords, give this AppleScript a try."
+summary: "If you're a Mac user and need an easy way to generate unique strong passwords, give this AppleScript a try. You're not using the same password over and over, right?"
 description: "If you're a Mac user and need to generate unique strong passwords, give this AppleScript a try."
 ---
 
 I'd totally forgotten about this resource until I needed to create a strong password this morning.
 
 If you're a Mac user and need to generate unique strong passwords, give this AppleScript a try.
-
-You're not using the same password over and over, right? RIGHT!?!
 
 It works especially well with [FastScripts](https://redsweater.com/fastscripts/) by [Daniel Jaklut](https://micro.blog/danielpunkass).
 

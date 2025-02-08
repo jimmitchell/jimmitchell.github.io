@@ -28,22 +28,6 @@ redirects:
   from: /**
   status: 404
   to: /404.html
-  
-menus:
-  main:
-    - name: Home
-      pageRef: /
-      weight: 1
-    - name: Archives
-      pageRef: archives
-      weight: 3
-    - name: About
-      pageRef: /pages/about
-      weight: 4
-    - name: Mastodon
-      url: https://social.jimmitchell.org/
-      weight: 5
-    
 
 module:
   hugoVersion:
@@ -62,4 +46,16 @@ pagination:
   pagerSize: 10
   path: page
 
+outputs:
+    home: 
+      - HTML
+      - RSS
+      - JSON
+
+outputFormats:
+  JSON:
+    mediaType: application/json
+    baseName: index
+    isPlainText: true
+    notAlternative: true
 

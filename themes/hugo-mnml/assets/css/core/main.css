@@ -182,7 +182,12 @@ article:last-of-type {
 .post-title a:active {
   color: var(--link-color);
 }
-
+.post-date {
+  font-size: 1.6rem;
+  color: var(--accent-color-5);
+  flex-shrink: 0;
+  margin-left: 1rem;
+}
 time {
   margin: 0 0 3rem 0;
   display: block;
@@ -199,13 +204,6 @@ main ol, main ul {
 }
 main img {
   border-radius: 6px;
-}
-
-.post-date {
-  font-size: 1.6rem;
-  color: var(--accent-color-5);
-  flex-shrink: 0;
-  margin-left: 1rem;
 }
 
 .tags {
@@ -239,7 +237,6 @@ main img {
   margin: 0;
   padding: 1rem 0 0 0;
 }
-
 .main-nav ul {
   list-style: none;
   margin: 0;
@@ -248,7 +245,6 @@ main img {
   justify-content: space-between;
   align-items: center;
 }
-
 .main-nav li {
   margin: 0;
   padding: 0;
@@ -279,24 +275,34 @@ h4.post-group {
   margin-top: 3rem;
 }
 
-/*
-.pagination {
-  margin: 0;
-  padding: 1rem 0;
+#search-input {
+  background: var(--accent-color-1);
+  border: 1px solid var(--accent-color-2);
+  width: 100%;
+  padding: 9px;
+  border-radius: 6px;
+  color: var(--text-main-color);
+  outline: none;
 }
-.pagination ul {
+#search-input:active,
+#search-input:focus {
+  border-color: var(--accent-color-3);
+}
+.search-results {
+  margin-top: 6rem;
+}
+ul.search-list {
   list-style: none;
-  margin: 0;
+  margin: 2rem 0;
   padding: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  border-top: 1px solid var(--accent-color-2);
 }
-.pagination li {
+ul.search-list li {
   margin: 0;
-  padding: 0;
+  border-bottom: 1px solid var(--accent-color-2);
+  line-height: 1.2;
+  padding: 1.2rem .2rem;
 }
-*/
 
 footer {
   max-width: var(--max-width);
