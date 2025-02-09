@@ -9,8 +9,15 @@
     <managingEditor>hello@jimmitchell.dev (Jim Mitchell)</managingEditor>
     <webMaster>hello@jimmitchell.dev (Jim Mitchell)</webMaster>
     <copyright>©Jim Mitchell</copyright>
-    <lastBuildDate>Tue, 07 Jan 2025 09:24:47 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 08 Feb 2025 17:29:46 -0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Change of Scenery</title>
+      <link>http://localhost:1313/posts/2025/02/a-change-of-scenery/</link>
+      <pubDate>Sat, 08 Feb 2025 17:29:46 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
+      <guid>http://localhost:1313/posts/2025/02/a-change-of-scenery/</guid>
+      <description>This is a quick test</description>
+    </item>
     <item>
       <title>Applescript to Generate Strong Passwords</title>
       <link>http://localhost:1313/posts/2025/01/07/applescript-to-generate-strong-passwords/</link>
@@ -108,13 +115,6 @@
       <pubDate>Sun, 12 Mar 2017 16:07:43 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
       <guid>http://localhost:1313/posts/2017/03/12/no/</guid>
       <description>Saying no can be one of the hardest things to do.</description>
-    </item>
-    <item>
-      <title>Spin Cycle</title>
-      <link>http://localhost:1313/posts/2017/03/07/spin/</link>
-      <pubDate>Tue, 07 Mar 2017 16:02:25 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
-      <guid>http://localhost:1313/posts/2017/03/07/spin/</guid>
-      <description>&lt;p&gt;I’ve been around long enough to know life moves in cycles.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
