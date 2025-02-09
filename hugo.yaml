@@ -1,4 +1,4 @@
-baseURL: "https://jimmitchell.dev/"
+baseURL: "https://jimmitchell.org/"
 languageCode: 'en-us'
 title: 'Jim Mitchell'
 theme: 'hugo-mnml'
@@ -17,7 +17,7 @@ params:
   env: production
   author:
     name: Jim Mitchell
-    email: hello@jimmitchell.dev
+    email: hello@jimmitchell.org
   siteDescription: "Salesforce guy. I wrangle nerds, herd cats, and sometimes write code that works. Somewhat sarcastic, but mostly harmless. Prolific abuser of ellipses…"
 
 services:
