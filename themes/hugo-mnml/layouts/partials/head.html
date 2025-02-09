@@ -2,12 +2,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="description" content="{{ .Description | default .Site.Params.SiteDescription}}" />
-<meta name="fediverse:creator" content="@jim@social.jimmitchell.org" />
-<link rel="me" href="https://social.jimmitchell.org/@jim">
-<link rel="preload" href="/fonts/gw/GT-W-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
-<link rel="preload" href="/fonts/gw/GT-W-Regular-Oblique.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
-<link rel="preload" href="/fonts/gw/GT-W-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
-<link rel="preload" href="/fonts/gw/GT-W-Bold-Oblique.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+<meta name="fediverse:creator" content="@jimmitchell@mastodon.social" />
+<link rel="me" href="https://mastodon.social/@jimmitchell" />
+<link rel="preload" href="/fonts/gw/GT-W-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+<link rel="preload" href="/fonts/gw/GT-W-Regular-Oblique.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+<link rel="preload" href="/fonts/gw/GT-W-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+<link rel="preload" href="/fonts/gw/GT-W-Bold-Oblique.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
 {{ partial "opengraph.html" . }}
 {{- with .OutputFormats.Get "rss" -}}
   {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
