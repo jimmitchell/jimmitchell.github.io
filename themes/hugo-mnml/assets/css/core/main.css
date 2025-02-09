@@ -279,7 +279,7 @@ h4.post-group {
   background: var(--accent-color-1);
   border: 1px solid var(--accent-color-2);
   width: 100%;
-  padding: 9px;
+  padding: 12px;
   border-radius: 6px;
   color: var(--text-main-color);
   outline: none;
@@ -301,7 +301,7 @@ ul.search-list li {
   margin: 0;
   border-bottom: 1px solid var(--accent-color-2);
   line-height: 1.2;
-  padding: 1.2rem .2rem;
+  padding: 1.2rem .2rem 0;
 }
 
 footer {
