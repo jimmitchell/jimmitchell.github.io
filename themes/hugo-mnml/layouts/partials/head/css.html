@@ -8,11 +8,9 @@
 {{- $fontawesome := (slice $faBase $faSolid $faBrands) | resources.Concat "css/fontawesome.css" | resources.Minify  }}
 {{- $stylesheet  := (slice $vars $reset $fonts $main) | resources.Concat "css/styles.css" | resources.Minify  }}
 {{- if eq hugo.Environment "development" }}
-  <link crossorigin="anonymous" href="{{ $fontawesome.RelPermalink }}" rel="preload stylesheet preconnect" as="style">
-  <link crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" rel="preload stylesheet preconnect" as="style">
+  <link crossorigin="anonymous" href="{{ $fontawesome.RelPermalink }}" rel="preload stylesheet preconnect" as="style"><link crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" rel="preload stylesheet preconnect" as="style">
 {{- else }}
   {{- $secureFontawesome := $fontawesome | resources.Fingerprint "sha512" }}
   {{- $secureStylesheet  := $stylesheet | resources.Fingerprint "sha512" }}
-  <link crossorigin="anonymous" href="{{ $secureFontawesome.RelPermalink }}" integrity="{{ $secureFontawesome.Data.Integrity }}" crossorigin="anonymous" rel="preload stylesheet preconnect" as="style">
-  <link crossorigin="anonymous" href="{{ $secureStylesheet.RelPermalink }}" integrity="{{ $secureStylesheet.Data.Integrity }}" crossorigin="anonymous" rel="preload stylesheet preconnect" as="style">
+  <link crossorigin="anonymous" href="{{ $secureFontawesome.RelPermalink }}" integrity="{{ $secureFontawesome.Data.Integrity }}" crossorigin="anonymous" rel="preload stylesheet preconnect" as="style"><link crossorigin="anonymous" href="{{ $secureStylesheet.RelPermalink }}" integrity="{{ $secureStylesheet.Data.Integrity }}" crossorigin="anonymous" rel="preload stylesheet preconnect" as="style">
 {{- end }}
