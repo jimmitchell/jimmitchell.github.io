@@ -3,10 +3,7 @@
   {{ .Content }}
   <ul class="archive-list">
   {{- range .Pages }}
-      <li>
-        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-        <span class="post-date">{{ .Date.Format "01/02/06" }}</span>
-      </li>
+      <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a><span class="post-date">{{ .Date.Format "01/02/06" }}</span></li>
   {{- end }}
   </ul>
 {{- end }}
