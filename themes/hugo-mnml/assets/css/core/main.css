@@ -83,7 +83,7 @@ th {
 hr {
   border: none;
   height: 1px;
-  background: var(--accent-color-1);
+  background: var(--accent-color-2);
   margin: 4rem 0;
 }
 
@@ -124,14 +124,7 @@ header .site-title a:active {
   text-decoration: none;
   color: var(--link-color);
 }
-.nav-links {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  font-size: 1.6rem;
-  line-height: 1.8;
-  /* text-transform: uppercase; */
-}
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -159,6 +152,29 @@ header .site-title a:active {
   text-decoration: none;
 }
 
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 2rem 0 2rem;
+  font-size: 1.8rem;
+  line-height: 1;
+  border-bottom: 1px solid var(--accent-color-2);
+}
+.nav-item {
+  display: inline;
+  margin-right: 2.5rem;
+}
+.nav-item:last-of-type {
+  margin-right: 0;
+}
+.nav-links a:link,
+.nav-links a:visited {
+  color: var(--text-main-color);
+}
+.nav-links a:hover,
+.nav-links a:active {
+  color: var(--link-color);
+}
 
 main {
   max-width: var(--max-width);
