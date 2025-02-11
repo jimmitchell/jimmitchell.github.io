@@ -22,9 +22,6 @@ params:
   
 menus:
   main:
-    - name: Home
-      pageRef: /
-      weight: 10
     - name: Projects
       pageRef: /pages/projects
       weight: 20
