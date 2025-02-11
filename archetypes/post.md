@@ -1,9 +1,10 @@
 ---
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 date: {{ .Date }}
-tags: [""]
-type: post
-url: "/{{ .File.ContentBaseName }}/"
 summary: ""
 description: ""
+tags: [""]
+url: "/{{ .File.ContentBaseName }}/"
+type: post
+draft: true
 ---
