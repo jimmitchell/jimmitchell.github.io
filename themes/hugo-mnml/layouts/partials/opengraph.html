@@ -24,16 +24,16 @@
   {{ $boldFont := resources.Get "/GT-W-Bold.ttf"}}
   {{ $mediumFont := resources.Get "/GT-W-Regular.ttf"}}
   {{ $img := $base.Filter (images.Text .Site.Title (dict
-    "color" "#8e97a9"
-    "size" 48
+    "color" "#f8f8f8"
+    "size" 36
     "linespacing" 2
     "x" 110
-    "y" 110
+    "y" 175
     "font" $boldFont
   ))}}
   {{ $img = $img.Filter (images.Text .Page.Title (dict
     "color" "#f8f8f8"
-    "size" 64
+    "size" 54
     "linespacing" 3
     "x" 110
     "y" 250
