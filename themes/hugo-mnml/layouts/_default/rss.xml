@@ -53,7 +53,6 @@
       {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Content | html }}</description>
-      <description><hr/><p>Thanks for choosing RSS | Join the <a href="">Buck a Month Club</a> | <a href="https://mastodon.social/@jimmitchell">Mastodon</a></p></description>
     </item>
     {{- end }}
   </channel>
