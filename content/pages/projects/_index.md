@@ -27,12 +27,6 @@ These are the little projects I'm working on for both Micro.blog and WordPress. 
 
 ---
 
-### Micro.Recommends
-
-[Micro.Recommends](https://github.com/jimmitchell/micro-recommends) (still a work in progress) is a fork of [@Manton's](https://micro.blog/manton) nifty [Blogroll shortcode](https://micro.blog/account/plugins/view/119) plugin. My plugin will output your Recommendations in tabular format rather than an unordered list, like I've done on my own [Recommends](/recommends/) page. I still have some work to do on it.
-
----
-
 ### The Micro.blog T-Shirt
 
 With Manton's blessing, I've published a [Micro.blog t-shirt](https://cottonbureau.com/p/ZJUKRZ/shirt/microblog-tee#/27062466/tee-men-premium-lightweight-vintage-black-tri-blend-s) design on Cotton Bureau. If you'd like a wearable to show your support for Micro.blog, this one's for you. There are [phone cases](https://cottonbureau.com/p/P3KM3N/phonecase/microblog-phone-case#/27065688/iphone-16-iphone-16-pro-tough-magsafe-charcoal) too!
