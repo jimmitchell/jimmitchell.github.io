@@ -3,6 +3,7 @@ title: 'Rebuilding the Apple Mail Envelope Index'
 date: 2008-02-20T11:00:00-08:00
 tags: ["Apple","How To"]
 type: post
+url: "/2008/02/20/rebuilding-the-apple-mail-envelope-index/"
 summary: "Some time ago, I set up my Gmail account in Apple Mail to copy over messages which were not sent to my jimmitchell.org account. I’m one of those guys who likes to have everything all in one place at my finger tips when I need it."
 description: "A sure-fire way to fix an Apple Mail problem."
 ---

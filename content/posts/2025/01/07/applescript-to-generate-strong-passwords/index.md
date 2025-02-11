@@ -2,6 +2,7 @@
 title: 'Applescript to Generate Strong Passwords'
 date: 2025-01-07T09:24:47-08:00
 tags: ["Code","AppleScript"]
+url: "/2025/01/07/applescript-to-generate-strong-passwords/"
 type: post
 summary: "If you're a Mac user and need an easy way to generate unique strong passwords, give this AppleScript a try. You're not using the same password over and over, right?"
 description: "If you're a Mac user and need to generate unique strong passwords, give this AppleScript a try."

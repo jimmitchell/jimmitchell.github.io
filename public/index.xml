@@ -13,9 +13,9 @@
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Applescript to Generate Strong Passwords</title>
-      <link>http://localhost:1313/posts/2025/01/07/applescript-to-generate-strong-passwords/</link>
+      <link>http://localhost:1313/2025/01/07/applescript-to-generate-strong-passwords/</link>
       <pubDate>Tue, 07 Jan 2025 09:24:47 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/posts/2025/01/07/applescript-to-generate-strong-passwords/</guid>
+      <guid>http://localhost:1313/2025/01/07/applescript-to-generate-strong-passwords/</guid>
       <description>&lt;p&gt;I&amp;rsquo;d totally forgotten about this resource until I needed to create a strong password this morning.&lt;/p&gt;
 &lt;p&gt;If you&amp;rsquo;re a Mac user and need to generate unique strong passwords, give this AppleScript a try.&lt;/p&gt;
 &lt;p&gt;It works especially well with &lt;a href=&#34;https://redsweater.com/fastscripts/&#34;&gt;FastScripts&lt;/a&gt; by &lt;a href=&#34;https://micro.blog/danielpunkass&#34;&gt;Daniel Jaklut&lt;/a&gt;.&lt;/p&gt;
