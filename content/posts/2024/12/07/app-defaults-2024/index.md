@@ -3,6 +3,7 @@ title: 'App Defaults 2024'
 date: 2024-12-07T14:33:31-08:00
 tags: ["Apple","Apps","macOS","iOS"]
 type: post
+url: "/2024/12/07/app-defaults-2024/"
 summary: "Since these are making the rounds again... I made more changes to my app defaults in the last year than I first thought."
 description: "I made more changes to my app defaults in the last year than I first thought."
 ---

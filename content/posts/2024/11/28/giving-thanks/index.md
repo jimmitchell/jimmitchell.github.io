@@ -3,6 +3,7 @@ title: 'Giving Thanks'
 date: 2024-11-28T09:10:32-08:00
 tags: ["Intentional Living"]
 type: post
+url: "/2024/11/28/giving-thanks/"
 summary: "I'm up early this morning. My plan was to get up at 4:00 am, put the turkey in brine and then go back to bed for a few hours. But as my mind is prone to do, I began pondering all the things in my life I'm thankful for. So I thought I'd share some of them."
 description: "As my mind is prone to do, I began pondering all the things in my life I'm thankful for."
 ---

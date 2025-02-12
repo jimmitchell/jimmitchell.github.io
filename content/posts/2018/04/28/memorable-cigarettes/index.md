@@ -3,6 +3,7 @@ title: 'Memorable Cigarettes'
 date: 2018-04-28T10:48:13-08:00
 tags: ["Memories"]
 type: post
+url: "/2018/04/28/memorable-cigarettes/"
 summary: "After nearly fifty years, I can still remember the first time I smoked a cigarette. It was early spring and my family lived on a farm in a semi-rural part of Colorado, a little north of Denver, at the foot of the Rocky Mountains."
 description: "After nearly fifty years, I can still remember the first time I smoked a cigarette."
 ---

@@ -3,6 +3,7 @@ title: 'Saying No'
 date: 2017-03-12T16:07:43-08:00
 tags: ["Intentional Living"]
 type: post
+url: "/2017/03/12/no/"
 summary: "Saying no can be one of the hardest things to do."
 description: "Saying no can be one of the hardest things to do."
 ---

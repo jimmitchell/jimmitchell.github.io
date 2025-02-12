@@ -2,6 +2,7 @@
 title: 'Eliminating Digital Distractions'
 date: 2017-04-13T09:07:10-08:00
 tags: ["Intentional Living"]
+url: "/2017/04/13/eliminating-digital-distractions/"
 type: post
 summary: "Life is so full of distractions. It seems everything is vying for our attention in one way or another these days, with most of it coming from our electronic gadgets."
 description: "Life is full of distractions. It seems everything is vying for our attention in one way or another these days."

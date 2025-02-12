@@ -3,6 +3,7 @@ title: 'My Internet Journey'
 date: 2024-08-04T08:53:24-08:00
 tags: ["Internet","Tech","Memories"]
 type: post
+url: "/2024/08/04/my-internet-journey/"
 summary: "I remember the first time I touched a computer. I was in my early twenties and worked as a customer service rep for the local water company, which is a fancy way of saying I played in the mud on an almost daily basis."
 description: "Memories of the first time I touched a computer."
 ---

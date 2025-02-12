@@ -3,6 +3,7 @@ title: 'On the Fragility of Life'
 date: 2024-03-06T08:57:05-08:00
 tags: ["Health","Reflection","Intentional Living"]
 type: post
+url: "/2024/03/06/fragility-of-life/"
 summary: "Events happen in our lives that make us do a full stop and give a long, hard look at how things are. This was one of those events that slapped me in the face so hard I'm still having a hard time grasping it."
 description: "Events happen in our lives that make us do a full stop and give a long, hard look at how things are."
 ---

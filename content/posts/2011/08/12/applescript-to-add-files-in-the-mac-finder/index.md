@@ -3,6 +3,7 @@ title: 'Applescript to Add Files in the Mac Finder'
 date: 2011-08-12T15:56:26-08:00
 tags: ["Apple","AppleScript","Code"]
 type: post
+url: "/2011/08/12/applescript-to-add-files-in-the-mac-finder/"
 summary: "Today I had the need to add a bunch of named text files to a folder in the Finder on my Mac."
 description: "Today I had the need to add a bunch of named text files to a folder in the Finder on my Mac."
 ---

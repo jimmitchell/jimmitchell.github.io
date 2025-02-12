@@ -3,6 +3,7 @@ title: 'Spin Cycle'
 date: 2017-03-07T16:02:25-08:00
 tags: ["Intentional Living"]
 type: post
+url: "/2017/03/07/spin/"
 summary: "I’ve been around long enough to know life moves in cycles."
 description: "I’ve been around long enough to know life moves in cycles."
 ---

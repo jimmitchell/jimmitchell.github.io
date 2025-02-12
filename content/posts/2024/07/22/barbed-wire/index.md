@@ -3,6 +3,7 @@ title: 'A Bicycle and Barbed Wire'
 date: 2024-07-22T12:56:39-08:00
 tags: ["Memories"]
 type: post
+url: "/2024/07/22/barbed-wire/"
 summary: "Here’s another one of those childhood memories that left a scar; literally. This one is about the time I tried to stop my out of control bicycle using a barbed wire fence."
 description: "Here’s another one of those childhood memories that left a scar; literally. This one is about the time I tried to stop my out of control bicycle using a barbed wire fence."
 ---

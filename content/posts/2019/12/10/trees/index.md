@@ -3,6 +3,7 @@ title: 'Seeing the Forest for the Trees'
 date: 2019-12-10T09:01:21-08:00
 tags: ["Intentional Living"]
 type: post
+url: "/2019/12/10/trees/"
 summary: "No matter how well-intentioned we are, sometimes we allow things to sneak into our lives under the guise of it being something important."
 description: "No matter how well-intentioned we are, sometimes we allow things to sneak into our lives under the guise of it being something important."
 ---

@@ -3,6 +3,7 @@ title: 'Social Media Hasnt Killed the Personal Blog Just Yet'
 date: 2024-09-21T09:24:34-08:00
 tags: ["Social Media","Blogging"]
 type: post
+url: "/2024/09/21/social-media-hasnt-killed-the-personal-blog-just-yet/"
 summary: "Remember the late 90s and early 2000s when personal blogs were the thing? Everybody had one and they were like online journals; authentic, raw, and an outlet for personal thoughts, ideas, and sometimes questionable opinions. It kind of feels like those days are behind us, buried under the avalanche of social media. But are they really?"
 description: "It kind of feels like those days of blogging are behind us, buried under the avalanche of social media. But are they really?"
 ---

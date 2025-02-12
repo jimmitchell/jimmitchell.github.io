@@ -3,6 +3,7 @@ title: 'My App Defaults'
 date: 2023-11-21T08:06:50-08:00
 tags: ["Apple","Apps"]
 type: post
+url: "/2023/11/21/my-app-defaults/"
 summary: "The default apps thing is pretty popular right now. These are mine."
 description: "The default apps thing is pretty popular right now. These are mine."
 ---

@@ -3,11 +3,12 @@ title: 'Start Somewhere'
 date: 2018-07-27T09:03:52-08:00
 tags: ["Intentional Living"]
 type: post
-summary: ""
-description: ""
+url: "/2018/07/27/start-somewhere/"
+summary: "Eventually you use up every excuse in your book for not doing the thing you keep saying you’re going to do. You’ve procrastinated yourself into a corner and realize it’s either time to just do it, or finally forget about it and move on."
+description: "Eventually you use up every excuse in your book for not doing the thing you keep saying you’re going to do."
 ---
 
-Eventually you use up every excuse in your book for not doing the thing you keep saying you’re going to do. You’ve procrastinated yourself into a corner and realize it’s either time to just do it, or finally forget about it and move on.<!--more-->
+Eventually you use up every excuse in your book for not doing the thing you keep saying you’re going to do. You’ve procrastinated yourself into a corner and realize it’s either time to just do it, or finally forget about it and move on.
 
 That’s me, sometimes…
 

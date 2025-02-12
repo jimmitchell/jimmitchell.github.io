@@ -3,6 +3,7 @@ title: 'No to Everything Else'
 date: 2024-11-26T09:15:51-08:00
 tags: ["Intentional Living"]
 type: post
+url: "/2024/11/26/no-to-everything-else/"
 summary: "I took some time off work during the Thanksgiving holiday after grinding on a work project for a really long time. I've found myself at a point over the last six months where I just don't feel effective and needed to figure out why."
 description: "I've found myself at a point over the last six months where I just don't feel effective and needed to figure out why."
 ---

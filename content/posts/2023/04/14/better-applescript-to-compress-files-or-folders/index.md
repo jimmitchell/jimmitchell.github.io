@@ -3,6 +3,7 @@ title: 'A Better Applescript to Compress Files or Folders'
 date: 2023-04-14T13:34:05-08:00
 tags: ["AppleScript","Code"]
 type: post
+url: "/2023/04/14/better-applescript-to-compress-files-or-folders/"
 summary: "A while ago, I created an AppleScript that allows you to compress files and folders by simply dropping them onto the applet."
 description: "A while ago, I created an AppleScript that allows you to compress files and folders by simply dropping them onto the applet."
 ---
