@@ -18,19 +18,22 @@ params:
   author:
     name: Jim Mitchell
     email: hello@jimmitchell.org
-  siteDescription: "Salesforce guy. I wrangle nerds, herd cats, and sometimes write code that works. Somewhat sarcastic, but mostly harmless. Prolific abuser of ellipses…"
+  siteDescription: "I wrangle nerds, herd cats, and sometimes write code that works. Somewhat sarcastic, but mostly harmless. Prolific abuser of ellipses…"
   
 menus:
   main:
     - name: Projects
       pageRef: /pages/projects
-      weight: 20
+      weight: 10
     - name: Archives
       pageRef: /pages/archives
-      weight: 30
+      weight: 20
+    - name: Now
+      pageRef: /pages/now
+      weight: 20
     - name: About
       pageRef: /pages/about
-      weight: 40
+      weight: 30
 
 services:
   rss:
