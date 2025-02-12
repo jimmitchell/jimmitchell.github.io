@@ -13,9 +13,9 @@
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Applescript to Generate Strong Passwords</title>
-      <link>http://localhost:1313/posts/2025/01/07/applescript-to-generate-strong-passwords/</link>
+      <link>http://localhost:1313/2025/01/07/applescript-to-generate-strong-passwords/</link>
       <pubDate>Tue, 07 Jan 2025 09:24:47 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/posts/2025/01/07/applescript-to-generate-strong-passwords/</guid>
+      <guid>http://localhost:1313/2025/01/07/applescript-to-generate-strong-passwords/</guid>
       <description>&lt;p&gt;I&amp;rsquo;d totally forgotten about this resource until I needed to create a strong password this morning.&lt;/p&gt;
 &lt;p&gt;If you&amp;rsquo;re a Mac user and need to generate unique strong passwords, give this AppleScript a try.&lt;/p&gt;
 &lt;p&gt;It works especially well with &lt;a href=&#34;https://redsweater.com/fastscripts/&#34;&gt;FastScripts&lt;/a&gt; by &lt;a href=&#34;https://micro.blog/danielpunkass&#34;&gt;Daniel Jaklut&lt;/a&gt;.&lt;/p&gt;
@@ -58,13 +58,13 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;end&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;repeat&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#8fbcbb&#34;&gt;return&lt;/span&gt; generatedPassword
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;end&lt;/span&gt; generatePassword
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://mastodon.social/@jimmitchell">Mastodon</a></p>]]></description>
     </item>
     <item>
       <title>App Defaults 2024</title>
-      <link>http://localhost:1313/posts/2024/12/07/app-defaults-2024/</link>
+      <link>http://localhost:1313/2024/12/07/app-defaults-2024/</link>
       <pubDate>Sat, 07 Dec 2024 14:33:31 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/posts/2024/12/07/app-defaults-2024/</guid>
+      <guid>http://localhost:1313/2024/12/07/app-defaults-2024/</guid>
       <description>&lt;p&gt;Since these are making the rounds again&amp;hellip; I made more changes to my app defaults in the last year than I first thought.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Mail Client&lt;/strong&gt;: Apple Mail&lt;/li&gt;
@@ -95,13 +95,13 @@
 &lt;li&gt;&lt;strong&gt;Code Editor&lt;/strong&gt;: &lt;del&gt;Nova&lt;/del&gt; Visual Studio Code&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;App Launcher&lt;/strong&gt;: &lt;del&gt;Launchbar&lt;/del&gt; Raycast&lt;/li&gt;
 &lt;/ul&gt;
-</description>
+<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://mastodon.social/@jimmitchell">Mastodon</a></p>]]></description>
     </item>
     <item>
       <title>Giving Thanks</title>
-      <link>http://localhost:1313/posts/2024/11/28/giving-thanks/</link>
+      <link>http://localhost:1313/2024/11/28/giving-thanks/</link>
       <pubDate>Thu, 28 Nov 2024 09:10:32 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/posts/2024/11/28/giving-thanks/</guid>
+      <guid>http://localhost:1313/2024/11/28/giving-thanks/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m up early this morning. My plan was to get up at 4:00 am, put the turkey in brine and then go back to bed for a few hours. But as my mind is prone to do, I began pondering all the things in my life I&amp;rsquo;m thankful for. So I thought I&amp;rsquo;d share some of them.&lt;/p&gt;
 &lt;p&gt;The greatest thing that ever happened in my life is my spouse and life partner. Our meeting was totally by chance thanks to circumstances that aligned perfectly and a single photograph. Had one of them been just a little bit different, we would have never crossed paths. We married after a nine-month courtship &amp;ndash; and not for the reason you may be thinking. We were young and foolish and rushed into the permanence of marriage. A lot of people said we wouldn&amp;rsquo;t make it past three years, and there were challenges that took hard work, but after more than 31 years, I can&amp;rsquo;t imagine having spent them with anyone else. She&amp;rsquo;s the rock that keeps me grounded and my inspiration to keep moving forward.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m grateful for my kids and the impact they&amp;rsquo;ve had in my life. When my wife and I met, she had two young children from a prior marriage. I took them on as my own since their father chose not to be part of the picture. Then we had our own child together. Raising children humbles a man &amp;ndash; especially when raising step-children. I won&amp;rsquo;t lie; there were hard times and challenges with them over the last three decades, but all three turned out to be level-headed moral adults. I&amp;rsquo;m proud of the individual each of them have become and am humbled to see a tiny reflection of me in them.&lt;/p&gt;
@@ -111,13 +111,13 @@
 &lt;p&gt;Then, I&amp;rsquo;m thankful for the little things. Life is magical when you take the time to step back and look at it. Every moment in your life, good or bad, has lead to this moment, whether it&amp;rsquo;s good or bad. This good or bad moment will lead to other good and bad moments. It&amp;rsquo;s a godsend to be able to look back and see how it&amp;rsquo;s unfolded over a lifetime. I&amp;rsquo;m truly a very lucky man.&lt;/p&gt;
 &lt;p&gt;Of course, I&amp;rsquo;m thankful for you and the fact you took the time to read what I&amp;rsquo;ve just written. I&amp;rsquo;m fortunate to have connected with some awesome people online. Though you and I may never meet IRL, I&amp;rsquo;m glad you share the insight into your life by what you write, and that you care enough about my own life to engage back with me.&lt;/p&gt;
 &lt;p&gt;Happy Thanksgiving to those who celebrate&amp;hellip;&lt;/p&gt;
-</description>
+<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://mastodon.social/@jimmitchell">Mastodon</a></p>]]></description>
     </item>
     <item>
       <title>No to Everything Else</title>
-      <link>http://localhost:1313/posts/2024/11/26/no-to-everything-else/</link>
+      <link>http://localhost:1313/2024/11/26/no-to-everything-else/</link>
       <pubDate>Tue, 26 Nov 2024 09:15:51 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/posts/2024/11/26/no-to-everything-else/</guid>
+      <guid>http://localhost:1313/2024/11/26/no-to-everything-else/</guid>
       <description>&lt;p&gt;I took some time off work during the Thanksgiving holiday after grinding on a work project for a really long time. I&amp;rsquo;ve found myself at a point over the last six months where I just don&amp;rsquo;t feel effective and needed to figure out why.&lt;/p&gt;
 &lt;p&gt;During my quiet time this morning, I picked up &lt;em&gt;&amp;quot;&lt;a href=&#34;https://sive.rs/n&#34;&gt;Hell Yeah or No&lt;/a&gt;&amp;quot;&lt;/em&gt; by Derek Sivers again. I bought the physical book a couple months ago with a plan to finish it quickly. But, as I tend to do, I read about 10 pages and then set it aside, telling myself I&amp;rsquo;ll get back to it eventually.&lt;/p&gt;
 &lt;p&gt;As I was powering through the book&amp;rsquo;s anecdotes, one jumped &lt;a href=&#34;https://sive.rs/no2&#34;&gt;off the page&lt;/a&gt; and grabbed my attention.&lt;/p&gt;
@@ -127,13 +127,13 @@
 &lt;p&gt;There are also commitments to others I&amp;rsquo;ve said yes to that I don&amp;rsquo;t want to show up for anymore. I have a bad habit of volunteering for something without thinking it through and it eventually becomes a drain on my energy.&lt;/p&gt;
 &lt;p&gt;What I need to do is focus on the &amp;ldquo;one big thing for now,&amp;rdquo; and only that thing until it&amp;rsquo;s finished. Everything else new is a hard no. There are still those commitments I have to show up for, but I don&amp;rsquo;t have to put 100% effort into them until the one big thing is done.&lt;/p&gt;
 &lt;p&gt;The challenge now is to figure out what that one big thing is.&lt;/p&gt;
-</description>
+<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://mastodon.social/@jimmitchell">Mastodon</a></p>]]></description>
     </item>
     <item>
-      <title>Social Media Hasnt Killed the Personal Blog Just Yet</title>
-      <link>http://localhost:1313/posts/2024/09/21/social-media-hasnt-killed-the-personal-blog-just-yet/</link>
+      <title>Social Media Hasn&#39;t Killed the Personal Blog Just Yet</title>
+      <link>http://localhost:1313/2024/09/21/social-media-hasnt-killed-the-personal-blog-just-yet/</link>
       <pubDate>Sat, 21 Sep 2024 09:24:34 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/posts/2024/09/21/social-media-hasnt-killed-the-personal-blog-just-yet/</guid>
+      <guid>http://localhost:1313/2024/09/21/social-media-hasnt-killed-the-personal-blog-just-yet/</guid>
       <description>&lt;p&gt;Remember the late 90s and early 2000s when personal blogs were &lt;em&gt;the&lt;/em&gt; thing? Everybody had one and they were like online journals; authentic, raw, and an outlet for personal thoughts, ideas, and sometimes questionable opinions.&lt;/p&gt;
 &lt;p&gt;It kind of feels like those days are behind us, buried under the avalanche of social media. But are they really?&lt;/p&gt;
 &lt;h3 id=&#34;social-media-and-the-decline-of-the-blog&#34;&gt;Social Media and the Decline of the Blog&lt;/h3&gt;
@@ -155,13 +155,13 @@
 &lt;p&gt;Is social media the death of the personal blog? Not quite. It may have nearly killed it, yes. But for those of us willing to carve out our own space in the digital landscape, personal blogs still have a heartbeat. It just takes more effort to keep it alive.&lt;/p&gt;
 &lt;p&gt;What do you think? Is blogging a lost art, or is there hope for a revival? Write about it on your own blog if you still have one and link back to this post. My site will automatically link back to yours – just like in the old days.&lt;/p&gt;
 &lt;p&gt;It’s time to get meaningful conversations happening again. Personal blogs are the perfect place for it.&lt;/p&gt;
-</description>
+<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://mastodon.social/@jimmitchell">Mastodon</a></p>]]></description>
     </item>
     <item>
       <title>My Internet Journey</title>
-      <link>http://localhost:1313/posts/2024/08/04/my-internet-journey/</link>
+      <link>http://localhost:1313/2024/08/04/my-internet-journey/</link>
       <pubDate>Sun, 04 Aug 2024 08:53:24 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/posts/2024/08/04/my-internet-journey/</guid>
+      <guid>http://localhost:1313/2024/08/04/my-internet-journey/</guid>
       <description>&lt;p&gt;I remember the first time I touched a computer. I was in my early twenties and worked as a customer service rep for the local water company, which is a fancy way of saying I played in the mud on an almost daily basis.&lt;/p&gt;
 &lt;p&gt;I was in the main office and the company had just switched over from a paper and pencil method of recording meter readings to a hand-held reader, which got connected to the computer after reading a route for the day to upload results. It was definitely a lot faster and saved the meter readers from having to take a bunch of books out on their routes each day.&lt;/p&gt;
 &lt;p&gt;As a CSR, I had to be able to lookup a customer information, such as when they last paid their bill, the meter readings for the last number of months and so on.&lt;/p&gt;
@@ -179,13 +179,13 @@
 &lt;p&gt;Somewhere in those years, I developed a Mac utility app named &lt;a href=&#34;https://yasuformac.com&#34;&gt;Yasu&lt;/a&gt;, which was short for “Yet another system utility.” I’ll have to write a story about that time one day. Being an indie Mac developer were some of the best years of my life.&lt;/p&gt;
 &lt;p&gt;My journey has been a series of right place, right time moments. I wouldn’t change any of them to be where I am today. I sometimes think back to that time I was so afraid to touch a keyboard at the water company. I can’t imagine a life without technology now. It’s allowed me some of my most creatively explosive growth and connections with people that mean a lot to me.&lt;/p&gt;
 &lt;p&gt;I’ve been blessed by my time on the internet to say the least.&lt;/p&gt;
-</description>
+<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://mastodon.social/@jimmitchell">Mastodon</a></p>]]></description>
     </item>
     <item>
       <title>A Bicycle and Barbed Wire</title>
-      <link>http://localhost:1313/posts/2024/07/22/barbed-wire/</link>
+      <link>http://localhost:1313/2024/07/22/barbed-wire/</link>
       <pubDate>Mon, 22 Jul 2024 12:56:39 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/posts/2024/07/22/barbed-wire/</guid>
+      <guid>http://localhost:1313/2024/07/22/barbed-wire/</guid>
       <description>&lt;p&gt;Here’s another one of those childhood memories that left a scar; literally. This one is about the time I tried to stop my out of control bicycle using a barbed wire fence.&lt;/p&gt;
 &lt;p&gt;It was probably as painful as it sounds. Honestly, I can’t remember much about it.&lt;/p&gt;
 &lt;p&gt;Around the time I was &lt;a href=&#34;http://localhost:1313/posts/2018/04/28/memorable-cigarettes/&#34;&gt;stealing cigarettes from my mother&lt;/a&gt;, I was also learning how to ride a bicycle. Wicked step-father and mom didn’t want to teach me. I was simply handed a bike and left to figure it out on my own.&lt;/p&gt;
@@ -201,13 +201,13 @@
 &lt;p&gt;When I got to my mother, she inspected it, washed the cut, put Neosporin on it and wrapped it with a couple Kleenex and the funky pink paper tape she wore at night to keep the curls at her temples in place while she slept. I wouldn’t call it a good field dressing by any means. There was no tetanus shot, and there definitely wasn’t a doctor visit.&lt;/p&gt;
 &lt;p&gt;I don’t remember anything about the incident after that or how my hand went on to heal, but it did. I think I’ve blocked all of it out. I did go on to ride the blue Schwinn girl’s bike without hitting any more fences.&lt;/p&gt;
 &lt;p&gt;It’s been more than 50 years since this happened and I can still make out the very faint long scar in the palm of my left hand. I always go back to this memory when I see any barbed wire fence. It’s left both a physical and mental scar that has lasted a lifetime.&lt;/p&gt;
-</description>
+<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://mastodon.social/@jimmitchell">Mastodon</a></p>]]></description>
     </item>
     <item>
       <title>On the Fragility of Life</title>
-      <link>http://localhost:1313/posts/2024/03/06/fragility-of-life/</link>
+      <link>http://localhost:1313/2024/03/06/fragility-of-life/</link>
       <pubDate>Wed, 06 Mar 2024 08:57:05 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/posts/2024/03/06/fragility-of-life/</guid>
+      <guid>http://localhost:1313/2024/03/06/fragility-of-life/</guid>
       <description>&lt;p&gt;Events happen in our lives that make us do a full stop and give a long, hard look at how things are. This was one of those events that slapped me in the face so hard I&amp;rsquo;m still having a hard time grasping it.&lt;/p&gt;
 &lt;p&gt;About a week ago, I had a heart related event that sent me to the emergency room. It was serious enough that the doctor point blank told me it could have been deadly had I not paid attention to it.&lt;/p&gt;
 &lt;p&gt;When I woke up at 3:30 am last Thursday, my heart was palpitating and racing at over 150 bpm. I thought for sure I was having a heart attack. I woke my wife and we sped to the closest ER (she drove).&lt;/p&gt;
@@ -218,13 +218,13 @@
 &lt;p&gt;Life is &lt;em&gt;really&lt;/em&gt; fucking short and can be taken from you in a heartbeat &amp;ndash; literally.&lt;/p&gt;
 &lt;p&gt;I should not be living to work. I should be working to live a full life with &amp;ndash; and for &amp;ndash; those most important to me. It&amp;rsquo;s easy to get wrapped up in a career. To hell with that now! Family and friends are what matter. And so does living a life that makes a difference to them. It took nearly six decades to see it clearly. I&amp;rsquo;m grateful I was shown the lesson with enough time to do something about it.&lt;/p&gt;
 &lt;p&gt;No matter what, hold your loved ones close. Let them know you love them every day. Patch the broken relationships even though it&amp;rsquo;s hard. Live each day with gratitude and wonder, because you could be gone in a matter of moments.&lt;/p&gt;
-</description>
+<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://mastodon.social/@jimmitchell">Mastodon</a></p>]]></description>
     </item>
     <item>
       <title>My App Defaults</title>
-      <link>http://localhost:1313/posts/2023/11/21/my-app-defaults/</link>
+      <link>http://localhost:1313/2023/11/21/my-app-defaults/</link>
       <pubDate>Tue, 21 Nov 2023 08:06:50 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/posts/2023/11/21/my-app-defaults/</guid>
+      <guid>http://localhost:1313/2023/11/21/my-app-defaults/</guid>
       <description>&lt;p&gt;I wasn’t going to do a &lt;a href=&#34;https://defaults.rknight.me/&#34;&gt;post like this&lt;/a&gt;… But what the heck, all the &lt;a href=&#34;https://canion.blog/2023/11/04/duel-of-the.html&#34;&gt;popular&lt;/a&gt; &lt;a href=&#34;https://grepjason.sh/2023/duel-of-the-defaults&#34;&gt;kids&lt;/a&gt; are &lt;a href=&#34;https://loungeruminator.net/2023/11/17/mr-default/&#34;&gt;doing it&lt;/a&gt; this week, so why shouldn’t I, right? I’m not really much of a defaults guy. I’ve always preferred to support indie developers, so will usually go that route if their app is as good or better than the Apple default.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Mail Client&lt;/strong&gt;: Apple Mail&lt;/li&gt;
@@ -263,13 +263,13 @@
 &lt;li&gt;&lt;a href=&#34;https://shottr.cc/&#34;&gt;&lt;strong&gt;Shottr&lt;/strong&gt;&lt;/a&gt;: For taking screenshots. The price can’t be beat and it does a great job.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://magnet.crowdcafe.com/&#34;&gt;&lt;strong&gt;Magnet&lt;/strong&gt;&lt;/a&gt;: Resize and arrange windows with a keystroke. Obviously, I hate taking my hands off the keyboard.&lt;/li&gt;
 &lt;/ul&gt;
-</description>
+<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://mastodon.social/@jimmitchell">Mastodon</a></p>]]></description>
     </item>
     <item>
       <title>A Better Applescript to Compress Files or Folders</title>
-      <link>http://localhost:1313/posts/2023/04/14/better-applescript-to-compress-files-or-folders/</link>
+      <link>http://localhost:1313/2023/04/14/better-applescript-to-compress-files-or-folders/</link>
       <pubDate>Fri, 14 Apr 2023 13:34:05 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/posts/2023/04/14/better-applescript-to-compress-files-or-folders/</guid>
+      <guid>http://localhost:1313/2023/04/14/better-applescript-to-compress-files-or-folders/</guid>
       <description>&lt;p&gt;A while ago, I created an AppleScript that allows you to &lt;a href=&#34;http://localhost:1313/posts/2014/08/02/applescript-to-compress-files-and-folders/&#34;&gt;compress files and folders&lt;/a&gt; by simply dropping them onto the applet. One of the readers left a comment asking for a way to achieve the following tasks:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ol&gt;
@@ -341,13 +341,13 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;end&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;repeat&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;end&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;if&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;end&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;if&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://mastodon.social/@jimmitchell">Mastodon</a></p>]]></description>
     </item>
     <item>
       <title>Seeing the Forest for the Trees</title>
-      <link>http://localhost:1313/posts/2019/12/10/trees/</link>
+      <link>http://localhost:1313/2019/12/10/trees/</link>
       <pubDate>Tue, 10 Dec 2019 09:01:21 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/posts/2019/12/10/trees/</guid>
+      <guid>http://localhost:1313/2019/12/10/trees/</guid>
       <description>&lt;p&gt;No matter how well-intentioned we are, sometimes we allow things to sneak into our lives under the guise of it being something important.&lt;/p&gt;
 &lt;p&gt;We ask “&lt;em&gt;Who else can do this?&lt;/em&gt;” Or maybe we tell ourselves “&lt;em&gt;No one else is qualified enough, so I’m the one who has to do it.&lt;/em&gt;”&lt;/p&gt;
 &lt;p&gt;When we start thinking like this, it’s our ego calling the shots. Maybe we want to be the hero, or we worry those who needed us in the past no longer will and that we won’t be their go-to person anymore.&lt;/p&gt;
@@ -374,13 +374,13 @@
 &lt;p&gt;But I also have be ready to share how the commitment is affecting important areas of my life. Maybe it’s even hurting the relationship between me and this person. I share this so the friendship doesn’t take a turn for the worst.&lt;/p&gt;
 &lt;p&gt;Most people will understand and be sympathetic to a plight if you’re stretched too thin, though some may not. Which ever the case, hold your ground. If you know you need to step down to protect yourself, do it with a clear conscience.&lt;/p&gt;
 &lt;p&gt;In the end, it’s important to guard our relationships and health closely. Once we’ve lightened the load, we need to start working on ways to say no when our ego tells us to say yes.&lt;/p&gt;
-</description>
+<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://mastodon.social/@jimmitchell">Mastodon</a></p>]]></description>
     </item>
     <item>
       <title>Start Somewhere</title>
-      <link>http://localhost:1313/posts/2018/07/27/start-somewhere/</link>
+      <link>http://localhost:1313/2018/07/27/start-somewhere/</link>
       <pubDate>Fri, 27 Jul 2018 09:03:52 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/posts/2018/07/27/start-somewhere/</guid>
+      <guid>http://localhost:1313/2018/07/27/start-somewhere/</guid>
       <description>&lt;p&gt;Eventually you use up every excuse in your book for not doing the thing you keep saying you’re going to do. You’ve procrastinated yourself into a corner and realize it’s either time to just do it, or finally forget about it and move on.&lt;/p&gt;
 &lt;p&gt;That’s me, sometimes…&lt;/p&gt;
 &lt;p&gt;I’ve had this blog for nearly 14 years. In all that time, I only have 11 posts to show for it. That’s less than one post per year, with the newest one being more than a year old. At one point, I had written dozens of posts. But like any good artist is prone to doing, I trashed most of them because I felt like they were fodder. I regret making that choice.&lt;/p&gt;
@@ -392,13 +392,14 @@
 &lt;p&gt;Just write.&lt;/p&gt;
 &lt;p&gt;Now is the time to stop procrastinating and make something. It doesn’t require perfection. My work will get better with practice. It doesn’t need to have meaning or impart some deep zen-like wisdom to the reader. I just need to start getting the stuff in my head out into written word.&lt;/p&gt;
 &lt;p&gt;Here and now is the best place for it, so this is where I’ve decided to begin again.&lt;/p&gt;
-&lt;p&gt;What have you been putting off? Is now the time for you to start again too?&lt;/p&gt;</description>
+&lt;p&gt;What have you been putting off? Is now the time for you to start again too?&lt;/p&gt;
+<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://mastodon.social/@jimmitchell">Mastodon</a></p>]]></description>
     </item>
     <item>
       <title>Memorable Cigarettes</title>
-      <link>http://localhost:1313/posts/2018/04/28/memorable-cigarettes/</link>
+      <link>http://localhost:1313/2018/04/28/memorable-cigarettes/</link>
       <pubDate>Sat, 28 Apr 2018 10:48:13 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/posts/2018/04/28/memorable-cigarettes/</guid>
+      <guid>http://localhost:1313/2018/04/28/memorable-cigarettes/</guid>
       <description>&lt;p&gt;After nearly fifty years, I can still remember the first time I smoked a cigarette. It was early spring and my family lived on a farm in a semi-rural part of Colorado, a little north of Denver, at the foot of the Rocky Mountains.&lt;/p&gt;
 &lt;p&gt;I lived there with my mother, wicked step-father (I&amp;rsquo;m not even sure they were married, to be honest) and little half-sister. The closest kid my age lived more than five miles away, so I had no one to play with. This meant I had to find ways to keep myself entertained. Most of them ended up being things little boys are not supposed to do. Left to my own devices, it&amp;rsquo;s a wonder I lived through all of my escapades.&lt;/p&gt;
 &lt;p&gt;I was seven years old and had stolen a pack of my mom&amp;rsquo;s Kool Menthol 100s. I had a pack of matches from somewhere (yes, I was a pyro too, but that&amp;rsquo;s a post for another time) and thought I could smoke just like mom and wicked step-father did. After taking a pack from her carton in the refrigerator, I snuck outside and hid behind the juniper trees where I wouldn&amp;rsquo;t be seen. I opened the pack, took the long cigarette out, put it between my lips, struck a match, lit up and took a big puff like I&amp;rsquo;d seen the adults do.&lt;/p&gt;
@@ -413,13 +414,13 @@
 &lt;p&gt;I still see the moment from our very first date in my mind&amp;rsquo;s eye. We were running across a busy street in downtown Santa Monica to get to the club where we were headed to see a band. In the middle of the street, the hard pack of Marlboro Lights fell to the ground from my shirt pocket with a loud &lt;em&gt;plop&lt;/em&gt; sound. I bent down and picked them up. When we got to the sidewalk on the other side, she immediately told me &amp;ldquo;&lt;em&gt;I don&amp;rsquo;t date people who smoke.&lt;/em&gt;&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;That was a punch to the face, but one I&amp;rsquo;m glad I took. Naturally, I didn&amp;rsquo;t light up on that date, or any other we had after that. We&amp;rsquo;re still married 25 years later and she&amp;rsquo;s my best friend. I made the choice to quit because of her and I&amp;rsquo;m proud to say I haven&amp;rsquo;t smoked a cigarette since before we were engaged.&lt;/p&gt;
 &lt;p&gt;I can remember a bunch of different cigarettes I smoked through my life, but thanks to someone who is very special to me, I can&amp;rsquo;t remember the very last one. For that, I&amp;rsquo;m forever grateful.&lt;/p&gt;
-</description>
+<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://mastodon.social/@jimmitchell">Mastodon</a></p>]]></description>
     </item>
     <item>
       <title>Eliminating Digital Distractions</title>
-      <link>http://localhost:1313/posts/2017/04/13/eliminating-digital-distractions/</link>
+      <link>http://localhost:1313/2017/04/13/eliminating-digital-distractions/</link>
       <pubDate>Thu, 13 Apr 2017 09:07:10 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/posts/2017/04/13/eliminating-digital-distractions/</guid>
+      <guid>http://localhost:1313/2017/04/13/eliminating-digital-distractions/</guid>
       <description>&lt;p&gt;Life is so full of distractions. It seems everything is vying for our attention in one way or another these days, with most of it coming from our electronic gadgets.&lt;/p&gt;
 &lt;p&gt;If you take time to look up from your phone for a few minutes, you’ll find a sea of humanity with faces buried in their own device. It’s painful to watch.&lt;/p&gt;
 &lt;p&gt;Personally, I’ve come to a point where I’ve had it with the digital distractions in my life, so this is what I’ve done about it.&lt;/p&gt;
@@ -442,13 +443,13 @@
 &lt;p&gt;As a family, we’ve agreed to set limits on when and where electronic devices are acceptable. Never, ever can any one of us bring a phone to the table during a meal. This rule extends to restaurant outings too. Once a meal is on the table, all gadgets go away until after the last person finishes their meal.&lt;/p&gt;
 &lt;p&gt;If we’re in a family setting for the holidays or a birthday, all devices get put away in pockets and purses so we can spend time socializing face-to-face. It’s okay if a phone comes out for a photo or two, but if any family member gets caught zoning out on their phone, everyone else reminds them of the rule. It’s worked pretty well so far.&lt;/p&gt;
 &lt;p&gt;These are some of the ways I’ve started breaking the twitch to reach for my phone and check it. Sometimes I forget, but I find every day gets a little easier. If you’re looking to lessen your own digital distractions, give some of these a try yourself. You might find there’s a lot more going on around you than you realized.&lt;/p&gt;
-</description>
+<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://mastodon.social/@jimmitchell">Mastodon</a></p>]]></description>
     </item>
     <item>
       <title>Saying No</title>
-      <link>http://localhost:1313/posts/2017/03/12/no/</link>
+      <link>http://localhost:1313/2017/03/12/no/</link>
       <pubDate>Sun, 12 Mar 2017 16:07:43 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/posts/2017/03/12/no/</guid>
+      <guid>http://localhost:1313/2017/03/12/no/</guid>
       <description>&lt;p&gt;Saying no can be one of the hardest things to do.&lt;/p&gt;
 &lt;p&gt;No to an exciting new project. No to a volunteer opportunity in the community or at church; no to the extra helping of food at a meal; no to bad habits we’ve carried around with us all our lives.&lt;/p&gt;
 &lt;p&gt;There’s tremendous power in saying no. When we have the courage to do it, we stop stretching ourselves too thin. We make more time for our families. We become healthier by defeating the temptation to eat the extra cookie. We break bad habits that have held us captive all our lives.&lt;/p&gt;
@@ -459,7 +460,7 @@
 &lt;p&gt;I’ve found it’s not easy. The temptation to give in is always there. I have to remind myself almost every day: “&lt;em&gt;Is this thing worth what it’s going to take away from something else?&lt;/em&gt;”&lt;/p&gt;
 &lt;p&gt;When I’m able to stay the course, I make room for plenty of yes in my life. Yes to spending time with family and friends; yes to being more focused and in the moment; yes to being mindful of those around me; yes to being tolerant of others; yes to making my health a priority.&lt;/p&gt;
 &lt;p&gt;It takes a lot of effort to say no. But in the end the good that comes from it far outweighs the bad we’re able to leave behind.&lt;/p&gt;
-</description>
+<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://mastodon.social/@jimmitchell">Mastodon</a></p>]]></description>
     </item>
   </channel>
 </rss>

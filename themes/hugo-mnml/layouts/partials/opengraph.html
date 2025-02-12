@@ -21,22 +21,22 @@
 {{/* Generate opengraph image */}}
 {{- if .IsPage -}}
   {{ $base := resources.Get "og_base.png" }}
-  {{ $boldFont := resources.Get "/GT-W-Bold.ttf"}}
-  {{ $mediumFont := resources.Get "/GT-W-Regular.ttf"}}
+  {{ $boldFont := resources.Get "/proxima_nova_bold.ttf"}}
+  {{ $mediumFont := resources.Get "/proxima_nova_regular.ttf"}}
   {{ $img := $base.Filter (images.Text .Site.Title (dict
-    "color" "#f8f8f8"
+    "color" "#ffffff"
     "size" 36
     "linespacing" 2
-    "x" 110
+    "x" 75
     "y" 175
     "font" $boldFont
   ))}}
   {{ $img = $img.Filter (images.Text .Page.Title (dict
-    "color" "#f8f8f8"
+    "color" "#ffffff"
     "size" 54
-    "linespacing" 3
-    "x" 110
-    "y" 250
+    "linespacing" 2
+    "x" 75
+    "y" 275
     "font" $mediumFont
   ))}} 
   {{ $img = resources.Copy (path.Join .Page.RelPermalink "og.png") $img }}

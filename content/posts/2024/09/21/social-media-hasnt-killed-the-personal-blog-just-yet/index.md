@@ -1,5 +1,5 @@
 ---
-title: 'Social Media Hasnt Killed the Personal Blog Just Yet'
+title: "Social Media Hasn't Killed the Personal Blog Just Yet"
 date: 2024-09-21T09:24:34-08:00
 tags: ["Social Media","Blogging"]
 type: post
