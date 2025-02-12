@@ -27,7 +27,7 @@ If nothing else, you can at least read about Yasu's history and where it stands 
 
 [Micro.Masonry](https://micro.blog/account/plugins/view/137) is a Micro.blog plugin to display your Micro.blog [photos](https://micro.jimmitchell.org/photos) page in a mobile responsive masonry style layout.
 
-The Micro.blog t-shirt, phone case and mug. With Manton's blessing, I've published a [Micro.blog t-shirt](https://cottonbureau.com/p/ZJUKRZ/shirt/microblog-tee#/27062466/tee-men-premium-lightweight-vintage-black-tri-blend-s) design on Cotton Bureau. If you'd like a wearable to show your support for Micro.blog, this one's for you. There are [phone cases](https://cottonbureau.com/p/P3KM3N/phonecase/microblog-phone-case#/27065688/iphone-16-iphone-16-pro-tough-magsafe-charcoal) and [mugs](https://cottonbureau.com/p/TCA4JV/drinkware/microblog-mug#/27710595/mug-everyday-mug-white-ceramic-11-oz.) too!
+Micro.blog t-shirt, phone case and mug... With Manton's blessing, I've published a [Micro.blog t-shirt](https://cottonbureau.com/p/ZJUKRZ/shirt/microblog-tee#/27062466/tee-men-premium-lightweight-vintage-black-tri-blend-s) design on Cotton Bureau. If you'd like a wearable to show your support for Micro.blog, this one's for you. There are [phone cases](https://cottonbureau.com/p/P3KM3N/phonecase/microblog-phone-case#/27065688/iphone-16-iphone-16-pro-tough-magsafe-charcoal) and [mugs](https://cottonbureau.com/p/TCA4JV/drinkware/microblog-mug#/27710595/mug-everyday-mug-white-ceramic-11-oz.) too!
 
 ---
 
