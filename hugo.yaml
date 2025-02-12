@@ -33,7 +33,7 @@ menus:
       weight: 20
     - name: Now
       pageRef: /pages/now
-      weight: 20
+      weight: 40
     - name: About
       pageRef: /pages/about
       weight: 30
