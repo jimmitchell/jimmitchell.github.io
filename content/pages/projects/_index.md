@@ -23,7 +23,7 @@ These are the little projects I'm working on for both Micro.blog and WordPress. 
 
 ### Micro.Masonry
 
-[Micro.Masonry](https://micro.blog/account/plugins/view/137) is a Micro.blog plugin to display your Micro.blog [photos](/photos) page in a mobile responsive masonry style layout.
+[Micro.Masonry](https://micro.blog/account/plugins/view/137) is a Micro.blog plugin to display your Micro.blog [photos](https://micro.jimmitchell.org/photos) page in a mobile responsive masonry style layout.
 
 ---
 
