@@ -52,7 +52,7 @@
       <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
       <guid>{{ .Permalink }}</guid>
-      <description>{{ .Content | html }}{{ printf "<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href=\"https://buymeacoffee.com/jim.mitchell/membership\">Buck a Month Club</a> :: Follow me on <a href=\"https://mastodon.social/@jimmitchell\">Mastodon</a></p>]]>" | safeHTML }}</description>
+      <description>{{ .Content | html }}{{ printf "<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href=\"https://buymeacoffee.com/jim.mitchell/membership\">Buck a Month Club</a> :: Follow me on <a href=\"https://social.jimmitchell.org/@jim\">Mastodon</a></p>]]>" | safeHTML }}</description>
     </item>
     {{- end }}
   </channel>

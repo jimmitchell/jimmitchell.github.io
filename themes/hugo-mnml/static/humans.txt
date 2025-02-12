@@ -3,7 +3,7 @@
 Name: Jim Mitchell
 Web: https://jimmitchell.org
 Contact: hello [at] jimmitchell [dot] org
-Mastodon: https://mastodon.social/@jim
+Mastodon: https://social.jimmitchell.org/@jim
 Github: https://github.com/jimmitchell
 From: Huntington Beach, CA, USA
 
