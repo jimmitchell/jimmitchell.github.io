@@ -158,7 +158,7 @@ header .site-title a:active {
   padding: 2rem 0 2rem;
   font-size: 1.8rem;
   line-height: 1;
-  border-bottom: 1px solid var(--accent-color-2);
+  /* border-bottom: 1px solid var(--accent-color-2); */
 }
 .nav-item {
   display: inline;
