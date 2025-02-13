@@ -5,9 +5,7 @@ layout: "page"
 type: "page"
 ---
 
-These are the various projects I'm working on. If you get joy out any of them, join the exclusive "[Buck a Month Club](https://buymeacoffee.com/jim.mitchell/membership)" to show your support.
-
-✌🏻❤️
+These are the various projects I'm working on. If you get joy out any of them, join the exclusive "[Buck a Month Club](https://buymeacoffee.com/jim.mitchell/membership)" to show your support. ✌🏻❤️
 
 ---
 
