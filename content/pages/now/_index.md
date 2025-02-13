@@ -21,8 +21,9 @@ I see potential for changes at the day job over the coming year or two, so I'm p
 
 ### Projects
 
-* Putting the finishing touches to my "**[mnml](https://github.com/jimmitchell/mnml)**" Micro.blog theme.
-* Stubbing out some potential Micro.blog plugins.
+- [ ] [Yasu](/yasu/). This is it. No other projects.
+- [x] ~~Putting the finishing touches to my "**[mnml](https://github.com/jimmitchell/mnml)**" Micro.blog theme.~~
+- [x] ~~Stubbing out some potential Micro.blog plugins.~~
 
 More information about these and others can be found on my [projects](/projects/) page.
 
