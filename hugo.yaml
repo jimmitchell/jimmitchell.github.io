@@ -1,6 +1,6 @@
 baseURL: "https://jimmitchell.org/"
 languageCode: 'en-us'
-title: 'Jim Mitchell'
+title: 'jimmitchell.org'
 theme: 'hugo-mnml'
 
 enableRobotsTXT: true
