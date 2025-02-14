@@ -24,10 +24,10 @@ menus:
   main:
     - name: Projects
       pageRef: /pages/projects
-      weight: 10
+      weight: 15
     - name: Yasu
       pageRef: /pages/projects/yasu
-      weight: 15
+      weight: 10
     - name: Archives
       pageRef: /pages/archives
       weight: 20
