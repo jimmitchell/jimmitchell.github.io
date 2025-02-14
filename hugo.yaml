@@ -24,19 +24,16 @@ menus:
   main:
     - name: Projects
       pageRef: /pages/projects
-      weight: 15
-    - name: Yasu
-      pageRef: /pages/projects/yasu
       weight: 10
     - name: Archives
       pageRef: /pages/archives
       weight: 20
-    - name: Now
-      pageRef: /pages/now
-      weight: 40
     - name: About
       pageRef: /pages/about
       weight: 30
+    - name: Now
+      pageRef: /pages/now
+      weight: 40
 
 services:
   rss:
