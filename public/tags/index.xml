@@ -1,119 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on jimmitchell.org</title>
+    <title>Tags on jimmitchell.dev</title>
     <link>http://localhost:1313/tags/</link>
-    <description>Recent posts in Tags from jimmitchell.org</description>
+    <description>Recent posts in Tags from jimmitchell.dev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <managingEditor>hello@jimmitchell.org (Jim Mitchell)</managingEditor>
-    <webMaster>hello@jimmitchell.org (Jim Mitchell)</webMaster>
+    <managingEditor>hello@jimmitchell.dev (Jim Mitchell)</managingEditor>
+    <webMaster>hello@jimmitchell.dev (Jim Mitchell)</webMaster>
     <copyright>©Jim Mitchell</copyright>
     <lastBuildDate>Tue, 07 Jan 2025 09:24:47 -0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AppleScript</title>
       <link>http://localhost:1313/tags/applescript/</link>
-      <pubDate>Tue, 07 Jan 2025 09:24:47 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
+      <pubDate>Tue, 07 Jan 2025 09:24:47 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
       <guid>http://localhost:1313/tags/applescript/</guid>
       <description><![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
     </item>
     <item>
       <title>Code</title>
       <link>http://localhost:1313/tags/code/</link>
-      <pubDate>Tue, 07 Jan 2025 09:24:47 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
+      <pubDate>Tue, 07 Jan 2025 09:24:47 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
       <guid>http://localhost:1313/tags/code/</guid>
       <description><![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
     </item>
     <item>
       <title>Apple</title>
       <link>http://localhost:1313/tags/apple/</link>
-      <pubDate>Sat, 07 Dec 2024 14:33:31 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
+      <pubDate>Sat, 02 Aug 2014 15:59:31 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
       <guid>http://localhost:1313/tags/apple/</guid>
-      <description><![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
-    </item>
-    <item>
-      <title>Apps</title>
-      <link>http://localhost:1313/tags/apps/</link>
-      <pubDate>Sat, 07 Dec 2024 14:33:31 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/tags/apps/</guid>
-      <description><![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
-    </item>
-    <item>
-      <title>IOS</title>
-      <link>http://localhost:1313/tags/ios/</link>
-      <pubDate>Sat, 07 Dec 2024 14:33:31 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/tags/ios/</guid>
-      <description><![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
-    </item>
-    <item>
-      <title>MacOS</title>
-      <link>http://localhost:1313/tags/macos/</link>
-      <pubDate>Sat, 07 Dec 2024 14:33:31 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/tags/macos/</guid>
-      <description><![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
-    </item>
-    <item>
-      <title>Intentional Living</title>
-      <link>http://localhost:1313/tags/intentional-living/</link>
-      <pubDate>Thu, 28 Nov 2024 09:10:32 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/tags/intentional-living/</guid>
-      <description><![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
-    </item>
-    <item>
-      <title>Blogging</title>
-      <link>http://localhost:1313/tags/blogging/</link>
-      <pubDate>Sat, 21 Sep 2024 09:24:34 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/tags/blogging/</guid>
-      <description><![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
-    </item>
-    <item>
-      <title>Social Media</title>
-      <link>http://localhost:1313/tags/social-media/</link>
-      <pubDate>Sat, 21 Sep 2024 09:24:34 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/tags/social-media/</guid>
-      <description><![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
-    </item>
-    <item>
-      <title>Internet</title>
-      <link>http://localhost:1313/tags/internet/</link>
-      <pubDate>Sun, 04 Aug 2024 08:53:24 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/tags/internet/</guid>
-      <description><![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
-    </item>
-    <item>
-      <title>Memories</title>
-      <link>http://localhost:1313/tags/memories/</link>
-      <pubDate>Sun, 04 Aug 2024 08:53:24 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/tags/memories/</guid>
-      <description><![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
-    </item>
-    <item>
-      <title>Tech</title>
-      <link>http://localhost:1313/tags/tech/</link>
-      <pubDate>Sun, 04 Aug 2024 08:53:24 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/tags/tech/</guid>
-      <description><![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
-    </item>
-    <item>
-      <title>Health</title>
-      <link>http://localhost:1313/tags/health/</link>
-      <pubDate>Wed, 06 Mar 2024 08:57:05 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/tags/health/</guid>
-      <description><![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
-    </item>
-    <item>
-      <title>Reflection</title>
-      <link>http://localhost:1313/tags/reflection/</link>
-      <pubDate>Wed, 06 Mar 2024 08:57:05 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/tags/reflection/</guid>
-      <description><![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
-    </item>
-    <item>
-      <title>How To</title>
-      <link>http://localhost:1313/tags/how-to/</link>
-      <pubDate>Wed, 20 Feb 2008 11:00:00 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/tags/how-to/</guid>
       <description><![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
     </item>
   </channel>

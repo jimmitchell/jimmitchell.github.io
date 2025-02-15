@@ -1,6 +1,6 @@
-baseURL: "https://jimmitchell.org/"
+baseURL: "https://jimmitchell.dev/"
 languageCode: 'en-us'
-title: 'Jim Mitchell'
+title: 'jimmitchell.dev'
 theme: 'hugo-mnml'
 
 enableRobotsTXT: true
@@ -17,23 +17,23 @@ params:
   env: production
   author:
     name: Jim Mitchell
-    email: hello@jimmitchell.org
+    email: hello@jimmitchell.dev
   siteDescription: "I wrangle nerds, herd cats, and sometimes write code that works. Somewhat sarcastic, but mostly harmless. Prolific abuser of ellipses…"
   
 menus:
   main:
+    - name: Yasu
+      pageRef: /pages/projects/yasu
+      weight: 10
     - name: Projects
       pageRef: /pages/projects
-      weight: 10
+      weight: 15
     - name: Archives
       pageRef: /pages/archives
       weight: 20
     - name: About
       pageRef: /pages/about
       weight: 30
-    - name: Now
-      pageRef: /pages/now
-      weight: 40
 
 services:
   rss:

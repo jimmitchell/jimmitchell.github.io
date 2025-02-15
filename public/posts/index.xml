@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on jimmitchell.org</title>
+    <title>Posts on jimmitchell.dev</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent posts in Posts from jimmitchell.org</description>
+    <description>Recent posts in Posts from jimmitchell.dev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <managingEditor>hello@jimmitchell.org (Jim Mitchell)</managingEditor>
-    <webMaster>hello@jimmitchell.org (Jim Mitchell)</webMaster>
+    <managingEditor>hello@jimmitchell.dev (Jim Mitchell)</managingEditor>
+    <webMaster>hello@jimmitchell.dev (Jim Mitchell)</webMaster>
     <copyright>©Jim Mitchell</copyright>
     <lastBuildDate>Tue, 07 Jan 2025 09:24:47 -0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Applescript to Generate Strong Passwords</title>
       <link>http://localhost:1313/2025/01/07/applescript-to-generate-strong-passwords/</link>
-      <pubDate>Tue, 07 Jan 2025 09:24:47 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
+      <pubDate>Tue, 07 Jan 2025 09:24:47 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
       <guid>http://localhost:1313/2025/01/07/applescript-to-generate-strong-passwords/</guid>
       <description>&lt;p&gt;I&amp;rsquo;d totally forgotten about this resource until I needed to create a strong password this morning. If you&amp;rsquo;re a Mac user and need to generate unique strong passwords, give this AppleScript a try.&lt;/p&gt;
 &lt;p&gt;It works especially well with &lt;a href=&#34;https://redsweater.com/fastscripts/&#34;&gt;FastScripts&lt;/a&gt; by &lt;a href=&#34;https://micro.blog/danielpunkass&#34;&gt;Daniel Jaklut&lt;/a&gt;.&lt;/p&gt;
@@ -60,214 +60,9 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
     </item>
     <item>
-      <title>App Defaults 2024</title>
-      <link>http://localhost:1313/2024/12/07/app-defaults-2024/</link>
-      <pubDate>Sat, 07 Dec 2024 14:33:31 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/2024/12/07/app-defaults-2024/</guid>
-      <description>&lt;p&gt;Since these are making the rounds again&amp;hellip; I made more changes to my app defaults in the last year than I first thought.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Mail Client&lt;/strong&gt;: Apple Mail&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mail Server&lt;/strong&gt;: iCloud Mail with custom email domains&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Notes&lt;/strong&gt;: &lt;del&gt;Bear&lt;/del&gt; Obsidian (with sync)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;To-Do&lt;/strong&gt;: Things&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photo Shooting&lt;/strong&gt;: Apple Camera&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photo Management&lt;/strong&gt;: Apple Photos&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photo Editing&lt;/strong&gt;: Pixelmator Pro&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Calendar&lt;/strong&gt;: &lt;del&gt;Fantastical&lt;/del&gt; Apple Calendar (this move was forced 😥)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cloud File Storage&lt;/strong&gt;: iCloud &amp;amp; OneDrive&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;RSS&lt;/strong&gt;: &lt;del&gt;Reeder (with Feedbin)&lt;/del&gt; NetNewsWire (iCloud sync)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Contacts&lt;/strong&gt;: Apple Contacts&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Browser&lt;/strong&gt;: &lt;del&gt;Safari&lt;/del&gt; Zen Browser&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Chat&lt;/strong&gt;: Apple Messages&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Bookmarks&lt;/strong&gt;: &lt;del&gt;Things&lt;/del&gt; Anybox/Micro.blog&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Read It Later&lt;/strong&gt;: &lt;del&gt;Things&lt;/del&gt; Anybox&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Word Processing&lt;/strong&gt;: Microsoft Word&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Spreadsheets&lt;/strong&gt;: Microsoft Excel&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Presentations&lt;/strong&gt;: Microsoft Powerpoint&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Shopping Lists&lt;/strong&gt;: &lt;del&gt;Bear&lt;/del&gt; Obsidian (with sync)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Budgeting and Personal Finance&lt;/strong&gt;: Microsoft Excel/Bank Mobile App&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;News&lt;/strong&gt;: &lt;del&gt;Safari/Reeder&lt;/del&gt; NetNewsWire (iCloud sync)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Music&lt;/strong&gt;: Apple Music&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Podcasts&lt;/strong&gt;: Overcast&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mastodon&lt;/strong&gt;: Mona (and sometimes Ivory)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Password Management&lt;/strong&gt;: 1Password&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Code Editor&lt;/strong&gt;: &lt;del&gt;Nova&lt;/del&gt; Visual Studio Code&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;App Launcher&lt;/strong&gt;: &lt;del&gt;Launchbar&lt;/del&gt; Raycast&lt;/li&gt;
-&lt;/ul&gt;
-<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
-    </item>
-    <item>
-      <title>Giving Thanks</title>
-      <link>http://localhost:1313/2024/11/28/giving-thanks/</link>
-      <pubDate>Thu, 28 Nov 2024 09:10:32 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/2024/11/28/giving-thanks/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m up early this morning. My plan was to get up at 4:00 am, put the turkey in brine and then go back to bed for a few hours. But as my mind is prone to do, I began pondering all the things in my life I&amp;rsquo;m thankful for. So I thought I&amp;rsquo;d share some of them.&lt;/p&gt;
-&lt;p&gt;The greatest thing that ever happened in my life is my spouse and life partner. Our meeting was totally by chance thanks to circumstances that aligned perfectly and a single photograph. Had one of them been just a little bit different, we would have never crossed paths. We married after a nine-month courtship &amp;ndash; and not for the reason you may be thinking. We were young and foolish and rushed into the permanence of marriage. A lot of people said we wouldn&amp;rsquo;t make it past three years, and there were challenges that took hard work, but after more than 31 years, I can&amp;rsquo;t imagine having spent them with anyone else. She&amp;rsquo;s the rock that keeps me grounded and my inspiration to keep moving forward.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m grateful for my kids and the impact they&amp;rsquo;ve had in my life. When my wife and I met, she had two young children from a prior marriage. I took them on as my own since their father chose not to be part of the picture. Then we had our own child together. Raising children humbles a man &amp;ndash; especially when raising step-children. I won&amp;rsquo;t lie; there were hard times and challenges with them over the last three decades, but all three turned out to be level-headed moral adults. I&amp;rsquo;m proud of the individual each of them have become and am humbled to see a tiny reflection of me in them.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m thankful I was given the chance to recover my health. This year was a wake up call. It&amp;rsquo;s been nearly ten months since &amp;ldquo;&lt;a href=&#34;http://localhost:1313/posts/2024/03/06/fragility-of-life/&#34;&gt;the episode&lt;/a&gt;&amp;rdquo; and it still rattles me that it could have been the end of it all. I see life differently now and am grateful for every morning I open my eyes, even when I don&amp;rsquo;t seem like it.&lt;/p&gt;
-&lt;p&gt;I appreciate that someone who is now a very close friend took the time to mentor me in my darkest hour and when my outlook of the future was grim. He listened to me bitch about a lot of stupid stuff for almost ten years, but always challenged me to look at it from a different angle. I&amp;rsquo;m a completely different person thanks to his wisdom. I&amp;rsquo;ll forever be in his debt for the change he made in me.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m glad for my job and the career path I landed in totally by mistake. I may gripe about the grind of it sometimes, but I love that I&amp;rsquo;m challenged by the work. It allows me to be creative and bring something to life that makes the lives of others a little better. I&amp;rsquo;m blessed to enjoy doing what I do for a living.&lt;/p&gt;
-&lt;p&gt;Then, I&amp;rsquo;m thankful for the little things. Life is magical when you take the time to step back and look at it. Every moment in your life, good or bad, has lead to this moment, whether it&amp;rsquo;s good or bad. This good or bad moment will lead to other good and bad moments. It&amp;rsquo;s a godsend to be able to look back and see how it&amp;rsquo;s unfolded over a lifetime. I&amp;rsquo;m truly a very lucky man.&lt;/p&gt;
-&lt;p&gt;Of course, I&amp;rsquo;m thankful for you and the fact you took the time to read what I&amp;rsquo;ve just written. I&amp;rsquo;m fortunate to have connected with some awesome people online. Though you and I may never meet IRL, I&amp;rsquo;m glad you share the insight into your life by what you write, and that you care enough about my own life to engage back with me.&lt;/p&gt;
-&lt;p&gt;Happy Thanksgiving to those who celebrate&amp;hellip;&lt;/p&gt;
-<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
-    </item>
-    <item>
-      <title>No to Everything Else</title>
-      <link>http://localhost:1313/2024/11/26/no-to-everything-else/</link>
-      <pubDate>Tue, 26 Nov 2024 09:15:51 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/2024/11/26/no-to-everything-else/</guid>
-      <description>&lt;p&gt;I took some time off work during the Thanksgiving holiday after grinding on a work project for a really long time. I&amp;rsquo;ve found myself at a point over the last six months where I just don&amp;rsquo;t feel effective and needed to figure out why.&lt;/p&gt;
-&lt;p&gt;During my quiet time this morning, I picked up &lt;em&gt;&amp;quot;&lt;a href=&#34;https://sive.rs/n&#34;&gt;Hell Yeah or No&lt;/a&gt;&amp;quot;&lt;/em&gt; by Derek Sivers again. I bought the physical book a couple months ago with a plan to finish it quickly. But, as I tend to do, I read about 10 pages and then set it aside, telling myself I&amp;rsquo;ll get back to it eventually.&lt;/p&gt;
-&lt;p&gt;As I was powering through the book&amp;rsquo;s anecdotes, one jumped &lt;a href=&#34;https://sive.rs/no2&#34;&gt;off the page&lt;/a&gt; and grabbed my attention.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Hell yeah or no&amp;rdquo; is a filter you can use to decide what&amp;rsquo;s worth doing. But this is simpler and more serious. &lt;strong&gt;This is a decision to stop deciding.&lt;/strong&gt; It&amp;rsquo;s one decision, in advance, that the answer to all future distractions is &amp;ldquo;no&amp;rdquo; until you finish what you started. &lt;strong&gt;It&amp;rsquo;s saying yes to one thing, and no to absolutely everything else.&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;It struck me that I&amp;rsquo;ve been saying yes far too often again. I&amp;rsquo;ll get a great idea for a project and dive head first into it, while having a half-dozen similar projects already in the works.&lt;/p&gt;
-&lt;p&gt;There are also commitments to others I&amp;rsquo;ve said yes to that I don&amp;rsquo;t want to show up for anymore. I have a bad habit of volunteering for something without thinking it through and it eventually becomes a drain on my energy.&lt;/p&gt;
-&lt;p&gt;What I need to do is focus on the &amp;ldquo;one big thing for now,&amp;rdquo; and only that thing until it&amp;rsquo;s finished. Everything else new is a hard no. There are still those commitments I have to show up for, but I don&amp;rsquo;t have to put 100% effort into them until the one big thing is done.&lt;/p&gt;
-&lt;p&gt;The challenge now is to figure out what that one big thing is.&lt;/p&gt;
-<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
-    </item>
-    <item>
-      <title>Social Media Hasn&#39;t Killed the Personal Blog Just Yet</title>
-      <link>http://localhost:1313/2024/09/21/social-media-hasnt-killed-the-personal-blog-just-yet/</link>
-      <pubDate>Sat, 21 Sep 2024 09:24:34 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/2024/09/21/social-media-hasnt-killed-the-personal-blog-just-yet/</guid>
-      <description>&lt;p&gt;Remember the late 90s and early 2000s when personal blogs were &lt;em&gt;the&lt;/em&gt; thing? Everybody had one and they were like online journals; authentic, raw, and an outlet for personal thoughts, ideas, and sometimes questionable opinions.&lt;/p&gt;
-&lt;p&gt;It kind of feels like those days are behind us, buried under the avalanche of social media. But are they really?&lt;/p&gt;
-&lt;h3 id=&#34;social-media-and-the-decline-of-the-blog&#34;&gt;Social Media and the Decline of the Blog&lt;/h3&gt;
-&lt;p&gt;It didn’t happen overnight. Personal blogs didn’t just disappear in one big poof. It was more like a slow fade. As Facebook, Instagram, and Twitter took off, people – me included – found it easier to share bite-sized pieces of life. Why write a long, reflective post to publish on your personal site when you could sum it up in a quick status update that some “friend” you don’t really even know could give you a mindless like?&lt;/p&gt;
-&lt;p&gt;Therein lies the rub. Social media is all about convenience – fast, visual, and designed for quick consumption – like fast food for the mind. Scroll, like, move on. Blogs, on the other hand, ask for your time and thought. They’re like the home-cooked meals we don’t have time for anymore.&lt;/p&gt;
-&lt;h3 id=&#34;loss-of-depth&#34;&gt;Loss of Depth&lt;/h3&gt;
-&lt;p&gt;Blogs were once a place for people to dive deep into ideas, emotions, and experiences. It wasn’t about only broadcasting the best parts of your life, but reflecting on the messiness, struggles, and painful lessons. You could get to know someone through their writing – see how they think, feel, and evolve over time.&lt;/p&gt;
-&lt;p&gt;Social media, on the other hand, with its character limits and algorithms pushing sensational, click-worthy content, doesn’t offer the same depth. Everything is a sizzle reel. You can still share long posts or threads, but how often do people really read them? We’ve learned to skim content, always hungry for the next hit of dopamine from a new notification or like.&lt;/p&gt;
-&lt;h3 id=&#34;why-blogs-mattered-and-still-do&#34;&gt;Why Blogs Mattered… And Still Do&lt;/h3&gt;
-&lt;p&gt;There’s something about the personal blog that social media can’t replace. It’s not just about the writing. It’s about ownership. On a blog, you control the narrative. There’s no algorithm deciding whether a post will be seen or buried. Your thoughts are out there for whoever chooses to engage with them, free from the noise of sponsored or promoted posts and trending hashtags.&lt;/p&gt;
-&lt;p&gt;While social media offers instant gratification – likes, short comments, shares – a blog provides something deeper: connection. Real connection, with people who take the time to engage with your words because they want to, not because a platform nudged them into it.&lt;/p&gt;
-&lt;h3 id=&#34;the-shift-to-niche-and-professional-blogging&#34;&gt;The Shift to Niche and Professional Blogging&lt;/h3&gt;
-&lt;p&gt;Blogs were never really dead, but they’ve changed a lot since the early days. A good personal blog is hard to find now. Instead, we see more niche or professional blogs, where people share expert advice, reviews, or tutorials. These are useful, but often lack a personal touch that made blogging feel intimate back in the day.&lt;/p&gt;
-&lt;p&gt;Many of those people have turned their personal blogs into a business, focusing on SEO and monetization rather than genuine self-expression. While there’s nothing wrong with making money, it’s a far cry from the humble beginnings of blogging as a space for pure, unfiltered thoughts.&lt;/p&gt;
-&lt;p&gt;To be clear; you will never see an ad on my blog. This space is purely for my rumination – be it good or bad – and interactions with those who read.&lt;/p&gt;
-&lt;h3 id=&#34;can-personal-blogging-make-a-comeback&#34;&gt;Can Personal Blogging Make a Comeback?&lt;/h3&gt;
-&lt;p&gt;Maybe. There’s a growing disdain against the superficiality of social media. People are beginning to tire of the endless scrolling, filtered versions of someone else’s perfect life, and the pressure to perform. People are coming back around to authenticity and real conversations. There’s no better place for that than a personal blog.&lt;/p&gt;
-&lt;p&gt;For those of us who still love the art of long-form writing, and who crave meaningful connections over mindless scrolling, personal blogs offer a haven. My site may not get the instant attention or the engagement of a social post, but that’s the point – it’s meant for something deeper.&lt;/p&gt;
-&lt;p&gt;Is social media the death of the personal blog? Not quite. It may have nearly killed it, yes. But for those of us willing to carve out our own space in the digital landscape, personal blogs still have a heartbeat. It just takes more effort to keep it alive.&lt;/p&gt;
-&lt;p&gt;What do you think? Is blogging a lost art, or is there hope for a revival? Write about it on your own blog if you still have one and link back to this post. My site will automatically link back to yours – just like in the old days.&lt;/p&gt;
-&lt;p&gt;It’s time to get meaningful conversations happening again. Personal blogs are the perfect place for it.&lt;/p&gt;
-<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
-    </item>
-    <item>
-      <title>My Internet Journey</title>
-      <link>http://localhost:1313/2024/08/04/my-internet-journey/</link>
-      <pubDate>Sun, 04 Aug 2024 08:53:24 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/2024/08/04/my-internet-journey/</guid>
-      <description>&lt;p&gt;I remember the first time I touched a computer. I was in my early twenties and worked as a customer service rep for the local water company, which is a fancy way of saying I played in the mud on an almost daily basis.&lt;/p&gt;
-&lt;p&gt;I was in the main office and the company had just switched over from a paper and pencil method of recording meter readings to a hand-held reader, which got connected to the computer after reading a route for the day to upload results. It was definitely a lot faster and saved the meter readers from having to take a bunch of books out on their routes each day.&lt;/p&gt;
-&lt;p&gt;As a CSR, I had to be able to lookup a customer information, such as when they last paid their bill, the meter readings for the last number of months and so on.&lt;/p&gt;
-&lt;p&gt;Lou Plummer’s post about a &lt;a href=&#34;https://louplummer.lol/a-computer-is-a-hammer/&#34;&gt;computer being a hammer&lt;/a&gt; reminded me of how scared I was to touch the thing, worried I would somehow mess something up and cause everything to crash. But I learned it, and soon found it to be a useful tool.&lt;/p&gt;
-&lt;p&gt;Fast forward a few years. I realized that playing in the mud was not something I wanted to do for the rest of my life, so I pursued learning accounting at one of those fly-by-night technical colleges that were prolific in the early nineties. This is where I learned to type by touch – a skill a lot of people could still use to learn.&lt;/p&gt;
-&lt;p&gt;After graduating the tech college, I landed an accounting job at Guitar Center corporate, which you’d think would be a musician’s dream. I found it to be boring with little opportunity for creative expression. After moving from accounting to the inventory management team, I first got my hands on a Mac SE.&lt;/p&gt;
-&lt;p&gt;I would travel to the stores across the country and inventory their hardware and accessories. The Mac SE was used to reconcile the serialized product they kept on 3“ x 5” index cards to our inventory sheets. This is where I learned 10-key by touch. I also learned how to use MacPaint and Excel to create flyers for the band I was in.&lt;/p&gt;
-&lt;p&gt;I went on to another company doing clerical that also gave me access to a Mac. This is where I started helping others with their Mac problems. What they didn’t know is I was figuring it out on the fly, learning as I fixed their computer. I have a mind for problem solving, so I looked like a hero to my coworkers. I was still doing band flyers with MacPaint and Excel too.&lt;/p&gt;
-&lt;p&gt;The staff design artist decided he wanted to move on. He and I had established a rapport with each other as Mac bros, and when he left, I just sort of fell into his position. This is how I moved from accounting to design. The company was generous enough to send me to school where I got my degree in design. My new career path gave me full-time access to a Mac. I was in heaven. This is when learned the fine art of FTP.&lt;/p&gt;
-&lt;p&gt;I started hearing about this thing called the internet, which led me to sign up for AOL for a while. I moved on to &lt;a href=&#34;https://en.wikipedia.org/wiki/EWorld&#34;&gt;eWorld&lt;/a&gt; shortly after. I still think eWorld was way better than AOL.&lt;/p&gt;
-&lt;p&gt;I somehow stumbled on this thing called &lt;a href=&#34;https://en.wikipedia.org/wiki/FidoNet&#34;&gt;FidoNet&lt;/a&gt; that is a network of individual computers. I began running my own &lt;a href=&#34;https://hermesbbs.com/about/&#34;&gt;Heremes BBS&lt;/a&gt; on a discarded Mac SE and put it up as a node the FidoNet network. I was finally online and had access to my own personal email. I’d tweak settings endlessly, learning about communication protocols. The year I ran that BBS was one of the most enlightening in my tech journey.&lt;/p&gt;
-&lt;p&gt;After that, I moved to an online internet provider named Z4 Internet that gave me a place to host my own web pages. This is how I taught myself to code html by hand using BBEdit. No WYSIWYG editors for this guy.&lt;/p&gt;
-&lt;p&gt;The years between then and now are a blur, but from then on, I was forever a traveler of the “internet super-highway” as I once put it to my wife. She thought I was a dork when I said it, but she gets it now.&lt;/p&gt;
-&lt;p&gt;At my next employer, I moved from design into database and web development where I learned to code Java, Javascript, and PHP while honing my html and css skills. By a stroke of luck, I landed in the &lt;a href=&#34;https://www.salesforce.com&#34;&gt;Salesforce&lt;/a&gt; ecosystem nearly 15 years ago and have remained there ever since.&lt;/p&gt;
-&lt;p&gt;Somewhere in those years, I developed a Mac utility app named &lt;a href=&#34;https://yasuformac.com&#34;&gt;Yasu&lt;/a&gt;, which was short for “Yet another system utility.” I’ll have to write a story about that time one day. Being an indie Mac developer were some of the best years of my life.&lt;/p&gt;
-&lt;p&gt;My journey has been a series of right place, right time moments. I wouldn’t change any of them to be where I am today. I sometimes think back to that time I was so afraid to touch a keyboard at the water company. I can’t imagine a life without technology now. It’s allowed me some of my most creatively explosive growth and connections with people that mean a lot to me.&lt;/p&gt;
-&lt;p&gt;I’ve been blessed by my time on the internet to say the least.&lt;/p&gt;
-<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
-    </item>
-    <item>
-      <title>A Bicycle and Barbed Wire</title>
-      <link>http://localhost:1313/2024/07/22/barbed-wire/</link>
-      <pubDate>Mon, 22 Jul 2024 12:56:39 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/2024/07/22/barbed-wire/</guid>
-      <description>&lt;p&gt;Here’s another one of those childhood memories that left a scar; literally. This one is about the time I tried to stop my out of control bicycle using a barbed wire fence.&lt;/p&gt;
-&lt;p&gt;It was probably as painful as it sounds. Honestly, I can’t remember much about it.&lt;/p&gt;
-&lt;p&gt;Around the time I was &lt;a href=&#34;http://localhost:1313/posts/2018/04/28/memorable-cigarettes/&#34;&gt;stealing cigarettes from my mother&lt;/a&gt;, I was also learning how to ride a bicycle. Wicked step-father and mom didn’t want to teach me. I was simply handed a bike and left to figure it out on my own.&lt;/p&gt;
-&lt;p&gt;Self-reliance ended up being a theme throughout my childhood, and is a big reason for my reluctance to rely on others to this day. Mom thought she was doing me a favor, but I’m not too sure about that decision…&lt;/p&gt;
-&lt;p&gt;Anyway, the bike mom and wicked step-father brought home for me was a &lt;a href=&#34;https://i.pinimg.com/originals/b5/c6/f5/b5c6f5889ee84685949bfa1b001df6e4.jpg&#34;&gt;blue and white Schwinn girl’s model&lt;/a&gt;. I recall that it &lt;em&gt;looked&lt;/em&gt; fairly new, so they must’ve spent some amount of money on it – but dammit, it was a &lt;em&gt;girl’s&lt;/em&gt; bike. Thank god we lived on a farm with no other kids around. I would have been the laughing stock of my peers otherwise.&lt;/p&gt;
-&lt;p&gt;To teach myself how to ride, I would run along beside the bike, and once I was running fast enough, I would let the bike go so it would “ride” along by itself. I have no idea why my seven year-old boy brain thought this was the way to learn, but it just seemed right at the time.&lt;/p&gt;
-&lt;p&gt;This went on for a while with me losing and gaining interest in the bike. Eventually, I somehow learned how to balance and pedal. I can’t remember how, but it happened because I’m able to ride a bike today. I have a vague recollection that maybe one of wicked step-father’s adult sons had pity on me and took it on himself to teach me.&lt;/p&gt;
-&lt;p&gt;Not long after figuring out how to pedal without falling, I got daring and chose to ride down the quarter-mile long dirt driveway. On the left side was a barbed wire fence, on the right side was a big open wheat field.&lt;/p&gt;
-&lt;p&gt;Since I hadn’t mastered the art of using friction brakes, which way do you think I ended up steering when I lost control? You guessed it. I steered towards the barbed wire fence.&lt;/p&gt;
-&lt;p&gt;As I got close to it, I instinctively reached out for the fence to slow myself down. I quickly learned that one does not simply stop when grabbing barbed wire. Nope. One continues on for a bit as the rusty barbs tear into the palm of your hand before you wind up stopping.&lt;/p&gt;
-&lt;p&gt;I can’t recall the pain, but I do remember the blood. Lots of blood. Did I end up getting stitches? No. Should I have? Probably.&lt;/p&gt;
-&lt;p&gt;After ditching the bike on the side of the driveway, I ran back to the house screaming hysterically, clutching my left wrist while the blood ran down my forearm. My hand looked like hamburger and I was freaked out.&lt;/p&gt;
-&lt;p&gt;When I got to my mother, she inspected it, washed the cut, put Neosporin on it and wrapped it with a couple Kleenex and the funky pink paper tape she wore at night to keep the curls at her temples in place while she slept. I wouldn’t call it a good field dressing by any means. There was no tetanus shot, and there definitely wasn’t a doctor visit.&lt;/p&gt;
-&lt;p&gt;I don’t remember anything about the incident after that or how my hand went on to heal, but it did. I think I’ve blocked all of it out. I did go on to ride the blue Schwinn girl’s bike without hitting any more fences.&lt;/p&gt;
-&lt;p&gt;It’s been more than 50 years since this happened and I can still make out the very faint long scar in the palm of my left hand. I always go back to this memory when I see any barbed wire fence. It’s left both a physical and mental scar that has lasted a lifetime.&lt;/p&gt;
-<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
-    </item>
-    <item>
-      <title>On the Fragility of Life</title>
-      <link>http://localhost:1313/2024/03/06/fragility-of-life/</link>
-      <pubDate>Wed, 06 Mar 2024 08:57:05 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/2024/03/06/fragility-of-life/</guid>
-      <description>&lt;p&gt;Events happen in our lives that make us do a full stop and give a long, hard look at how things are. This was one of those events that slapped me in the face so hard I&amp;rsquo;m still having a hard time grasping it.&lt;/p&gt;
-&lt;p&gt;About a week ago, I had a heart related event that sent me to the emergency room. It was serious enough that the doctor point blank told me it could have been deadly had I not paid attention to it.&lt;/p&gt;
-&lt;p&gt;When I woke up at 3:30 am last Thursday, my heart was palpitating and racing at over 150 bpm. I thought for sure I was having a heart attack. I woke my wife and we sped to the closest ER (she drove).&lt;/p&gt;
-&lt;p&gt;When the doctor examined me, my heart was in an state of Afib (&lt;a href=&#34;https://www.mayoclinic.org/diseases-conditions/atrial-fibrillation/symptoms-causes/syc-20350624&#34;&gt;atrial fibrillation&lt;/a&gt;). They pumped me full of drugs to bring my heart below 100 bpm and hopefully put me back into a sinus rhythm. They were able to get the heart rate down a little, but it fluctuated between 90 and 120 bpm for hours. They weren&amp;rsquo;t able to get me back into a sinus rhythm either.&lt;/p&gt;
-&lt;p&gt;Ultimately, I was admitted to the hospital. My heart finally went back into a sinus rhythm after 19 very exhausting hours. After several tests, the cardiologist was able to determine this is a defect I&amp;rsquo;ve had all my life. I&amp;rsquo;d had small episodes as long as I can remember, but never thought anything of it. It&amp;rsquo;s forcing some big changes to my lifestyle. Thankfully, I&amp;rsquo;m still here to write about it.&lt;/p&gt;
-&lt;p&gt;The most terrible and heartbreaking part of this story is that another man, just a year younger than me (having overheard his age), was put into the ER bed right next to me complaining of excruciating back pain. Like me, he walked in under his own power. Within 30 minutes of arrival, he went unresponsive and ultimately passed away from heart failure. The ER staff worked furiously to bring him back for a long time. At one point he did resuscitate, but before they could get him to the ICU, he crashed again. There was nothing they could do for this man. So tragic.&lt;/p&gt;
-&lt;p&gt;This all happened right next to my wife and I before we knew what was going on with my own heart. It scared the living shit out of both of us, and I&amp;rsquo;ll never, ever forget it.&lt;/p&gt;
-&lt;p&gt;Life is &lt;em&gt;really&lt;/em&gt; fucking short and can be taken from you in a heartbeat &amp;ndash; literally.&lt;/p&gt;
-&lt;p&gt;I should not be living to work. I should be working to live a full life with &amp;ndash; and for &amp;ndash; those most important to me. It&amp;rsquo;s easy to get wrapped up in a career. To hell with that now! Family and friends are what matter. And so does living a life that makes a difference to them. It took nearly six decades to see it clearly. I&amp;rsquo;m grateful I was shown the lesson with enough time to do something about it.&lt;/p&gt;
-&lt;p&gt;No matter what, hold your loved ones close. Let them know you love them every day. Patch the broken relationships even though it&amp;rsquo;s hard. Live each day with gratitude and wonder, because you could be gone in a matter of moments.&lt;/p&gt;
-<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
-    </item>
-    <item>
-      <title>My App Defaults</title>
-      <link>http://localhost:1313/2023/11/21/my-app-defaults/</link>
-      <pubDate>Tue, 21 Nov 2023 08:06:50 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/2023/11/21/my-app-defaults/</guid>
-      <description>&lt;p&gt;I wasn’t going to do a &lt;a href=&#34;https://defaults.rknight.me/&#34;&gt;post like this&lt;/a&gt;… But what the heck, all the &lt;a href=&#34;https://canion.blog/2023/11/04/duel-of-the.html&#34;&gt;popular&lt;/a&gt; &lt;a href=&#34;https://grepjason.sh/2023/duel-of-the-defaults&#34;&gt;kids&lt;/a&gt; are &lt;a href=&#34;https://loungeruminator.net/2023/11/17/mr-default/&#34;&gt;doing it&lt;/a&gt; this week, so why shouldn’t I, right? I’m not really much of a defaults guy. I’ve always preferred to support indie developers, so will usually go that route if their app is as good or better than the Apple default.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Mail Client&lt;/strong&gt;: Apple Mail&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mail Server&lt;/strong&gt;: iCloud Mail with custom email domains&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Obsidian&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;To-Do&lt;/strong&gt;: Things&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photo Shooting&lt;/strong&gt;: Apple Camera&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photo Management&lt;/strong&gt;: Apple Photos&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Photo Editing&lt;/strong&gt;: Pixelmator Pro&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Calendar&lt;/strong&gt;: Fantastical&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cloud File Storage&lt;/strong&gt;: iCloud&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;RSS&lt;/strong&gt;: Reeder (with Feedbin)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Contacts&lt;/strong&gt;: Apple Contacts&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Browser&lt;/strong&gt;: Safari (Chrome and Firefox for dev work)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Chat&lt;/strong&gt;: Apple Messages (Teams 🤮 and Slack at work)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Bookmarks&lt;/strong&gt;: Things&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Read It Later&lt;/strong&gt;: Things&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Word Processing&lt;/strong&gt;: Microsoft Word&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Spreadsheets&lt;/strong&gt;: Microsoft Excel&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Presentations&lt;/strong&gt;: Microsoft Powerpoint&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Shopping Lists&lt;/strong&gt;: Bear&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Meal Planning&lt;/strong&gt;: Don’t do meal planning&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Budgeting and Personal Finance&lt;/strong&gt;: Microsoft Excel/Bank Mobile App&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;News&lt;/strong&gt;: Safari/Reeder&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Music&lt;/strong&gt;: Apple Music&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Podcasts&lt;/strong&gt;: Overcast&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mastodon&lt;/strong&gt;: Mona&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Password Management&lt;/strong&gt;: 1Password&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Code Editor&lt;/strong&gt;: Nova (VS Code when I have to)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Some extra utility apps in my toolbox I can’t live without…&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://obdev.at/products/launchbar/index.html&#34;&gt;&lt;strong&gt;Launchbar&lt;/strong&gt;&lt;/a&gt;: It’s the first app I install on any new Mac. I’m lost without it.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.macbartender.com/&#34;&gt;&lt;strong&gt;Bartender&lt;/strong&gt;&lt;/a&gt;: To hide menubar icons that are pointless.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://redsweater.com/fastscripts/&#34;&gt;&lt;strong&gt;FastScripts&lt;/strong&gt;&lt;/a&gt;: Assign a keystroke to AppleScripts to do various things.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://shottr.cc/&#34;&gt;&lt;strong&gt;Shottr&lt;/strong&gt;&lt;/a&gt;: For taking screenshots. The price can’t be beat and it does a great job.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://magnet.crowdcafe.com/&#34;&gt;&lt;strong&gt;Magnet&lt;/strong&gt;&lt;/a&gt;: Resize and arrange windows with a keystroke. Obviously, I hate taking my hands off the keyboard.&lt;/li&gt;
-&lt;/ul&gt;
-<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
-    </item>
-    <item>
       <title>A Better Applescript to Compress Files or Folders</title>
       <link>http://localhost:1313/2023/04/14/better-applescript-to-compress-files-or-folders/</link>
-      <pubDate>Fri, 14 Apr 2023 13:34:05 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
+      <pubDate>Fri, 14 Apr 2023 13:34:05 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
       <guid>http://localhost:1313/2023/04/14/better-applescript-to-compress-files-or-folders/</guid>
       <description>&lt;p&gt;A while ago, I created an AppleScript that allows you to &lt;a href=&#34;http://localhost:1313/posts/2014/08/02/applescript-to-compress-files-and-folders/&#34;&gt;compress files and folders&lt;/a&gt; by simply dropping them onto the applet. One of the readers left a comment asking for a way to achieve the following tasks:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -343,122 +138,77 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
     </item>
     <item>
-      <title>Seeing the Forest for the Trees</title>
-      <link>http://localhost:1313/2019/12/10/trees/</link>
-      <pubDate>Tue, 10 Dec 2019 09:01:21 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/2019/12/10/trees/</guid>
-      <description>&lt;p&gt;No matter how well-intentioned we are, sometimes we allow things to sneak into our lives under the guise of it being something important.&lt;/p&gt;
-&lt;p&gt;We ask “&lt;em&gt;Who else can do this?&lt;/em&gt;” Or maybe we tell ourselves “&lt;em&gt;No one else is qualified enough, so I’m the one who has to do it.&lt;/em&gt;”&lt;/p&gt;
-&lt;p&gt;When we start thinking like this, it’s our ego calling the shots. Maybe we want to be the hero, or we worry those who needed us in the past no longer will and that we won’t be their go-to person anymore.&lt;/p&gt;
-&lt;p&gt;Our ego persuades us take on more and more, forcing us to say yes when our heart is telling us we should be saying no. Before we know it, the commitments have piled up on us again.&lt;/p&gt;
-&lt;p&gt;We wake up one day and realize we’ve allowed so many things back into our lives that we dread getting out of bed and facing them. We’re over-committed again and can no longer see the forest for the trees in our lives.&lt;/p&gt;
-&lt;p&gt;When this happens to me, I make a day of solitude away from distractions and reflect on how I got to this point again. Then I figure out what I need to do to get life back on track.&lt;/p&gt;
-&lt;p&gt;I accept I won’t always be able to say no when I should. The only thing I can do is learn from caving in to my ego and grow from it.&lt;/p&gt;
-&lt;p&gt;When I’m stretched thin, these are some of the things I do to start cutting out the commitments that I should have said no to from the beginning.&lt;/p&gt;
-&lt;h3 id=&#34;whos-affected&#34;&gt;Who&amp;rsquo;s Affected?&lt;/h3&gt;
-&lt;p&gt;I ask myself who’s affected most?&lt;/p&gt;
-&lt;p&gt;Naturally, the person I’ll be letting down will be disappointed, but I ask myself who else has been neglected because I have so much on my plate?&lt;/p&gt;
-&lt;p&gt;Usually it’s my family that suffers most when I allow distractions. It’s easy to forget these are the important relationships to nurture. They’re the ones that are always the closest, so it’s easy to put them on the back burner. I learn more and more when I overcommit that I should be guarding these relationships fiercely.&lt;/p&gt;
-&lt;p&gt;Not only does my family suffer, but so does my health. I end up having so much going on that I don’t get proper sleep, exercise and I don’t eat well enough.&lt;/p&gt;
-&lt;p&gt;In the end, I wind up feeling burnt-out on life as a whole and get cranky with everyone around me. The most important relationships have wound up paying the price because I said yes when I should have said no.&lt;/p&gt;
-&lt;h3 id=&#34;can-someone-else-do-it&#34;&gt;Can Someone Else Do It?&lt;/h3&gt;
-&lt;p&gt;I have to let go of my ego and turn the work over to someone else who can do the job just as well as I would have, if not better.&lt;/p&gt;
-&lt;p&gt;I remind myself I’m not the only person in the world who has the talents to tackle a particular project. In fact, there may even be someone else who’s much more qualified than I ever was. This helps to remind me it’s okay to step aside.&lt;/p&gt;
-&lt;p&gt;It might even be good to let someone who isn’t as capable handle it. Allowing people to be challenged is usually when they grow the most.&lt;/p&gt;
-&lt;h3 id=&#34;is-it-important&#34;&gt;Is it Important?&lt;/h3&gt;
-&lt;p&gt;Sometimes the thing someone asked from me really isn’t as important to them as I think it is. I have to ask them how important it is that I be the one to do it for them.&lt;/p&gt;
-&lt;p&gt;Maybe they don’t even care about it anymore, or know of someone else who can do it in my place. I’ll never know unless I ask.&lt;/p&gt;
-&lt;h3 id=&#34;hold-your-ground&#34;&gt;Hold Your Ground&lt;/h3&gt;
-&lt;p&gt;Of course, backing out of a commitment is akin to lighting a match that’ll burn a bridge. I have to be open to being the target for disappointment and hurt feelings.&lt;/p&gt;
-&lt;p&gt;But I also have be ready to share how the commitment is affecting important areas of my life. Maybe it’s even hurting the relationship between me and this person. I share this so the friendship doesn’t take a turn for the worst.&lt;/p&gt;
-&lt;p&gt;Most people will understand and be sympathetic to a plight if you’re stretched too thin, though some may not. Which ever the case, hold your ground. If you know you need to step down to protect yourself, do it with a clear conscience.&lt;/p&gt;
-&lt;p&gt;In the end, it’s important to guard our relationships and health closely. Once we’ve lightened the load, we need to start working on ways to say no when our ego tells us to say yes.&lt;/p&gt;
+      <title>Applescript to Compress Files and Folders</title>
+      <link>http://localhost:1313/2014/08/02/applescript-to-compress-files-and-folders/</link>
+      <pubDate>Sat, 02 Aug 2014 15:59:31 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
+      <guid>http://localhost:1313/2014/08/02/applescript-to-compress-files-and-folders/</guid>
+      <description>&lt;p&gt;I had the need to select several folders at once in the Mac OS Finder and zip them up as individual archives. This AppleScript to compress files and folders was the solution I came up with.&lt;/p&gt;
+&lt;p&gt;The script compresses each item selected into its own archive, and works with both folders and files.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-applescript&#34; data-lang=&#34;applescript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;tell&lt;/span&gt; &lt;span style=&#34;color:#81a1c1&#34;&gt;application&lt;/span&gt; &lt;span style=&#34;color:#a3be8c&#34;&gt;&amp;#34;Finder&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;set&lt;/span&gt; theList &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;to&lt;/span&gt; selection
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;repeat&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;with&lt;/span&gt; i &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#b48ead&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#eceff4&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#81a1c1&#34;&gt;count&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;of&lt;/span&gt; theList&lt;span style=&#34;color:#eceff4&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;set&lt;/span&gt; theItem &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#eceff4&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#81a1c1&#34;&gt;item&lt;/span&gt; i &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;of&lt;/span&gt; theList&lt;span style=&#34;color:#eceff4&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;as&lt;/span&gt; alias
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;set&lt;/span&gt; itemPath &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#81a1c1&#34;&gt;quoted form&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;of&lt;/span&gt; POSIX &lt;span style=&#34;color:#8fbcbb&#34;&gt;path&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;of&lt;/span&gt; theItem
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;set&lt;/span&gt; fileName &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#8fbcbb&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;of&lt;/span&gt; theItem
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;set&lt;/span&gt; theFolder &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;to&lt;/span&gt; POSIX &lt;span style=&#34;color:#8fbcbb&#34;&gt;path&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#eceff4&#34;&gt;(&lt;/span&gt;container &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;of&lt;/span&gt; theItem &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;as&lt;/span&gt; alias&lt;span style=&#34;color:#eceff4&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;set&lt;/span&gt; zipFile &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#81a1c1&#34;&gt;quoted form&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#eceff4&#34;&gt;(&lt;/span&gt;theFolder &lt;span style=&#34;color:#81a1c1&#34;&gt;&amp;amp;&lt;/span&gt; fileName &lt;span style=&#34;color:#81a1c1&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#a3be8c&#34;&gt;&amp;#34;.zip&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#eceff4&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#81a1c1&#34;&gt;do shell script&lt;/span&gt; &lt;span style=&#34;color:#a3be8c&#34;&gt;&amp;#34;zip -jr &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#81a1c1&#34;&gt;&amp;amp;&lt;/span&gt; zipFile &lt;span style=&#34;color:#81a1c1&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#a3be8c&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#81a1c1&#34;&gt;&amp;amp;&lt;/span&gt; itemPath
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;end&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;repeat&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;end&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;tell&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;As always, you’ll get the best results when used with &lt;a href=&#34;http://www.red-sweater.com/fastscripts/&#34;&gt;FastScripts&lt;/a&gt; by &lt;a href=&#34;http://www.red-sweater.com/&#34;&gt;Red Sweater Software&lt;/a&gt;.&lt;/p&gt;
 <![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
     </item>
     <item>
-      <title>Start Somewhere</title>
-      <link>http://localhost:1313/2018/07/27/start-somewhere/</link>
-      <pubDate>Fri, 27 Jul 2018 09:03:52 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/2018/07/27/start-somewhere/</guid>
-      <description>&lt;p&gt;Eventually you use up every excuse in your book for not doing the thing you keep saying you’re going to do. You’ve procrastinated yourself into a corner and realize it’s either time to just do it, or finally forget about it and move on.&lt;/p&gt;
-&lt;p&gt;That’s me, sometimes…&lt;/p&gt;
-&lt;p&gt;I’ve had this blog for nearly 14 years. In all that time, I only have 11 posts to show for it. That’s less than one post per year, with the newest one being more than a year old. At one point, I had written dozens of posts. But like any good artist is prone to doing, I trashed most of them because I felt like they were fodder. I regret making that choice.&lt;/p&gt;
-&lt;p&gt;I’ve seriously slacked in my writing since, which is sad, because I’ve always enjoyed the process. To me, putting words down, then moving them around to communicate an idea is fun. When I get into a flow, the words come out and land on the page. I don’t have to struggle with what I’m trying to say. They’re just there all of a sudden. When I tell a story through my writing, I feel like I’ve created this thing that lives and breathes on its own.&lt;/p&gt;
-&lt;p&gt;To be truthful, I made a fatal mistake a few years back. Struggling to find my own voice, I began modeling my work after what other people were doing. However, since it wasn’t &lt;em&gt;my&lt;/em&gt; voice, I began to believe what I had to say didn’t make a difference, so why should I even bother? This grew into the worst case of writer’s block there ever was in the history of man.&lt;/p&gt;
-&lt;p&gt;Well, probably not. I’m sure there have been worse cases by far better writers, but I became so utterly uninspired to write during the last five years that it literally hurt to even &lt;em&gt;think&lt;/em&gt; about putting words down. The three posts I made in 2018 were not easy.&lt;/p&gt;
-&lt;p&gt;To make up for my lack of creativity, I found a great way to procrastinate – tweaking my WordPress theme about a hundred-gazillion times. It became all-consuming to get things just pixel perfect and then start over from scratch again. I’ve written and tweaked more CSS code than I’m willing to admit, though I have gotten pretty good at it. My site theme is practically everything I’ve ever imagined in my head at this point. I can’t improve on it much more, if at all.&lt;/p&gt;
-&lt;p&gt;So what do I do now?&lt;/p&gt;
-&lt;p&gt;Just write.&lt;/p&gt;
-&lt;p&gt;Now is the time to stop procrastinating and make something. It doesn’t require perfection. My work will get better with practice. It doesn’t need to have meaning or impart some deep zen-like wisdom to the reader. I just need to start getting the stuff in my head out into written word.&lt;/p&gt;
-&lt;p&gt;Here and now is the best place for it, so this is where I’ve decided to begin again.&lt;/p&gt;
-&lt;p&gt;What have you been putting off? Is now the time for you to start again too?&lt;/p&gt;
-<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
+      <title>Applescript to Add Files in the Mac Finder</title>
+      <link>http://localhost:1313/2011/08/12/applescript-to-add-files-in-the-mac-finder/</link>
+      <pubDate>Fri, 12 Aug 2011 15:56:26 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
+      <guid>http://localhost:1313/2011/08/12/applescript-to-add-files-in-the-mac-finder/</guid>
+      <description>&lt;p&gt;Today I had the need to add a bunch of named text files to a folder in the Finder on my Mac.&lt;/p&gt;
+&lt;p&gt;I found it a major pain to open BBEdit, make a new document, save it to where I wanted it, and then manually copy &amp;amp; rename the file back in the Finder. A lot of effort just to get 7 or 8 empty files with different names.&lt;/p&gt;
+&lt;p&gt;So, I threw together this little AppleScript to add empty files instead. The gist is once launched in the Finder (using &lt;a href=&#34;http://www.red-sweater.com/fastscripts/&#34;&gt;FastScripts&lt;/a&gt; by &lt;a href=&#34;http://www.red-sweater.com/&#34;&gt;Red Sweater&lt;/a&gt; naturally. Keystroke: cmd+option+shift+N), a dialog pops up that lets you enter a file title. Then the Finder creates that file in the front-most window. If no window is open, the file is added to your Desktop.&lt;/p&gt;
+&lt;p&gt;I found this to be more than twice as fast as the “traditional” method of making several files. Hopefully, it can help you out too. Remember, use it with &lt;a href=&#34;http://www.red-sweater.com/fastscripts/&#34;&gt;FastScripts&lt;/a&gt; for quick keystroke access. Save as a script in the “Finder” scripts folder &lt;code&gt;(“~/Library/Scripts/Applications/Finder/”)&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-applescript&#34; data-lang=&#34;applescript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;property&lt;/span&gt; defaultFileName &lt;span style=&#34;color:#eceff4&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a3be8c&#34;&gt;&amp;#34;newFile.txt&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;tell&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;me&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#81a1c1&#34;&gt;activate&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;set&lt;/span&gt; theFileName &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#8fbcbb&#34;&gt;text returned&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#eceff4&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#81a1c1&#34;&gt;display dialog&lt;/span&gt; &lt;span style=&#34;color:#a3be8c&#34;&gt;&amp;#34;Enter a file name:&amp;#34;&lt;/span&gt; default answer defaultFileName&lt;span style=&#34;color:#eceff4&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;tell&lt;/span&gt; &lt;span style=&#34;color:#81a1c1&#34;&gt;application&lt;/span&gt; &lt;span style=&#34;color:#a3be8c&#34;&gt;&amp;#34;Finder&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#81a1c1&#34;&gt;activate&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#81a1c1&#34;&gt;the&lt;/span&gt; &lt;span style=&#34;color:#eceff4&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#81a1c1&#34;&gt;count&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#81a1c1&#34;&gt;windows&lt;/span&gt;&lt;span style=&#34;color:#eceff4&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;is not&lt;/span&gt; &lt;span style=&#34;color:#b48ead&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;set&lt;/span&gt; theFolder &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#eceff4&#34;&gt;(&lt;/span&gt;folder &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#81a1c1&#34;&gt;the&lt;/span&gt; &lt;span style=&#34;color:#81a1c1&#34;&gt;front&lt;/span&gt; &lt;span style=&#34;color:#8fbcbb&#34;&gt;window&lt;/span&gt;&lt;span style=&#34;color:#eceff4&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;as &lt;/span&gt;&lt;span style=&#34;color:#8fbcbb&#34;&gt;text&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;set&lt;/span&gt; theFolder &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;to&lt;/span&gt; POSIX &lt;span style=&#34;color:#8fbcbb&#34;&gt;path&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;of&lt;/span&gt; theFolder
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;else&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;set&lt;/span&gt; theFolder &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;to&lt;/span&gt; POSIX &lt;span style=&#34;color:#8fbcbb&#34;&gt;path&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#eceff4&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;get&lt;/span&gt; &lt;span style=&#34;color:#81a1c1&#34;&gt;path to&lt;/span&gt; desktop&lt;span style=&#34;color:#eceff4&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;end&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;if&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;set&lt;/span&gt; addedFile &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#eceff4&#34;&gt;(&lt;/span&gt;theFolder &lt;span style=&#34;color:#81a1c1&#34;&gt;&amp;amp;&lt;/span&gt; theFileName&lt;span style=&#34;color:#eceff4&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#81a1c1&#34;&gt;do shell script&lt;/span&gt; &lt;span style=&#34;color:#a3be8c&#34;&gt;&amp;#34;touch &amp;#39;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#81a1c1&#34;&gt;&amp;amp;&lt;/span&gt; addedFile &lt;span style=&#34;color:#81a1c1&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#a3be8c&#34;&gt;&amp;#34;&amp;#39;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#81a1c1&#34;&gt;the&lt;/span&gt; &lt;span style=&#34;color:#eceff4&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#81a1c1&#34;&gt;count&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#81a1c1&#34;&gt;windows&lt;/span&gt;&lt;span style=&#34;color:#eceff4&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;is not&lt;/span&gt; &lt;span style=&#34;color:#b48ead&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;set&lt;/span&gt; addedFile &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#eceff4&#34;&gt;(&lt;/span&gt;POSIX file addedFile&lt;span style=&#34;color:#eceff4&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;as&lt;/span&gt; alias
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#81a1c1&#34;&gt;select&lt;/span&gt; addedFile
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;end&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;if&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;end&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;tell&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
     </item>
     <item>
-      <title>Memorable Cigarettes</title>
-      <link>http://localhost:1313/2018/04/28/memorable-cigarettes/</link>
-      <pubDate>Sat, 28 Apr 2018 10:48:13 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/2018/04/28/memorable-cigarettes/</guid>
-      <description>&lt;p&gt;After nearly fifty years, I can still remember the first time I smoked a cigarette. It was early spring and my family lived on a farm in a semi-rural part of Colorado, a little north of Denver, at the foot of the Rocky Mountains.&lt;/p&gt;
-&lt;p&gt;I lived there with my mother, wicked step-father (I&amp;rsquo;m not even sure they were married, to be honest) and little half-sister. The closest kid my age lived more than five miles away, so I had no one to play with. This meant I had to find ways to keep myself entertained. Most of them ended up being things little boys are not supposed to do. Left to my own devices, it&amp;rsquo;s a wonder I lived through all of my escapades.&lt;/p&gt;
-&lt;p&gt;I was seven years old and had stolen a pack of my mom&amp;rsquo;s Kool Menthol 100s. I had a pack of matches from somewhere (yes, I was a pyro too, but that&amp;rsquo;s a post for another time) and thought I could smoke just like mom and wicked step-father did. After taking a pack from her carton in the refrigerator, I snuck outside and hid behind the juniper trees where I wouldn&amp;rsquo;t be seen. I opened the pack, took the long cigarette out, put it between my lips, struck a match, lit up and took a big puff like I&amp;rsquo;d seen the adults do.&lt;/p&gt;
-&lt;p&gt;Oddly enough, I wasn&amp;rsquo;t repulsed by the taste. In fact, I actually liked it. I still remember the menthol sensation on my tongue. It had a little bit of burn to it, but the taste wasn&amp;rsquo;t that bad. I felt very grown up.&lt;/p&gt;
-&lt;p&gt;Of course, my little boy brain didn&amp;rsquo;t know you should inhale the smoke from a cigarette, which is probably good because I&amp;rsquo;m sure if I had, I would have wound up puking my guts out behind the trees. Sometimes I wonder; if I had inhaled, would I have ended up picking up the habit nine years later, or would I have been turned off completely?&lt;/p&gt;
-&lt;p&gt;There were other experiments with smoking through my childhood, but none really stuck. I&amp;rsquo;d smoke here and there and eventually lose interest.&lt;/p&gt;
-&lt;p&gt;Until the day I met Tracy. He had just moved into the neighborhood where my mother, step-sister and I were living (wicked step-father was long-gone now). I think he said he was from New York. He was my age but had already become a pack-a-day smoker. I vividly recall the summer evening he offered me a Marlboro Red from his hard pack box. You weren&amp;rsquo;t cool if you smoked soft pack, you know. It had to be hard pack and it had to be Marlboro Reds.&lt;/p&gt;
-&lt;p&gt;I began taking him up on his offers of free cigarettes. Before I knew it, I was smoking every day, bumming cigarettes from friends whenever I could. Then the moment I knew I was hooked came: I wanted to smoke while I was alone.&lt;/p&gt;
-&lt;p&gt;My mother, being the spectacular parent she was, started buying my smokes for me, so I had a steady supply of my own stashed in the refrigerator. Her rationale was that she&amp;rsquo;d rather I smoke openly instead of hiding it. I think she hoped I&amp;rsquo;d come to hate the habit and give up. Well, thanks mom, that didn&amp;rsquo;t quite work out as planned.&lt;/p&gt;
-&lt;p&gt;So at the tender age of sixteen, I became a confirmed pack-a-day smoker. All the other kids my age were doing it, so why not me too? The problem was, I really liked smoking. I knew I wasn&amp;rsquo;t going to stop. Other kids did it to be cool. I did it to feed the nicotine addiction.&lt;/p&gt;
-&lt;p&gt;Twelve years went by, and then I met Pam.&lt;/p&gt;
-&lt;p&gt;I still see the moment from our very first date in my mind&amp;rsquo;s eye. We were running across a busy street in downtown Santa Monica to get to the club where we were headed to see a band. In the middle of the street, the hard pack of Marlboro Lights fell to the ground from my shirt pocket with a loud &lt;em&gt;plop&lt;/em&gt; sound. I bent down and picked them up. When we got to the sidewalk on the other side, she immediately told me &amp;ldquo;&lt;em&gt;I don&amp;rsquo;t date people who smoke.&lt;/em&gt;&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;That was a punch to the face, but one I&amp;rsquo;m glad I took. Naturally, I didn&amp;rsquo;t light up on that date, or any other we had after that. We&amp;rsquo;re still married 25 years later and she&amp;rsquo;s my best friend. I made the choice to quit because of her and I&amp;rsquo;m proud to say I haven&amp;rsquo;t smoked a cigarette since before we were engaged.&lt;/p&gt;
-&lt;p&gt;I can remember a bunch of different cigarettes I smoked through my life, but thanks to someone who is very special to me, I can&amp;rsquo;t remember the very last one. For that, I&amp;rsquo;m forever grateful.&lt;/p&gt;
-<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
-    </item>
-    <item>
-      <title>Eliminating Digital Distractions</title>
-      <link>http://localhost:1313/2017/04/13/eliminating-digital-distractions/</link>
-      <pubDate>Thu, 13 Apr 2017 09:07:10 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/2017/04/13/eliminating-digital-distractions/</guid>
-      <description>&lt;p&gt;Life is so full of distractions. It seems everything is vying for our attention in one way or another these days, with most of it coming from our electronic gadgets.&lt;/p&gt;
-&lt;p&gt;If you take time to look up from your phone for a few minutes, you’ll find a sea of humanity with faces buried in their own device. It’s painful to watch.&lt;/p&gt;
-&lt;p&gt;Personally, I’ve come to a point where I’ve had it with the digital distractions in my life, so this is what I’ve done about it.&lt;/p&gt;
-&lt;h3 id=&#34;i-removed-the-useless-apps-from-my-phone&#34;&gt;I Removed the Useless Apps from My Phone&lt;/h3&gt;
-&lt;p&gt;There was a time I had more than four screens of apps on my iPhone. I know many people who have far more than that. I don’t know how they manage all those screens since I could barely cope with the number I had. I’d regularly forget where an app was, which would usually be somewhere on the third screen, beyond two other screens of mostly unused apps.&lt;/p&gt;
-&lt;p&gt;Though I wasn’t aware of it, I’d made a game out of shuffling apps around on my home screens, hoping to one day land on the perfect combination that made perfect sense and put the universe back in order. Honestly, I think most of the apps on my phone back then got moved around more often than they were ever used.&lt;/p&gt;
-&lt;p&gt;Once this dawned on me, I decided it was time to purge. The first order of business was to get rid of the useless time-wasting “social” apps. I removed them from my phone without hesitation, deciding if I want to spend time on Facebook, I’ll make time specifically for it. Now, I’m lucky if I look at the site more than three or four times a month. I don’t miss Facebook and could probably go without it entirely if I decided to. I only keep it around to stay in touch with extended family and old friends. I intentionally pared my “friend” list down to less than 50 people that I actually know too.&lt;/p&gt;
-&lt;p&gt;After nuking the useless apps, I started an experiment with the remaining by moving the ones I didn’t absolutely need to a “folder” on the second home screen. If I used an app more than a few times in a week, it got “unpacked” and promoted back to the first home screen. After a month of this, I ended up with just 16 apps on my first screen – including the four I’d left in the dock as “must-have” when I started.&lt;/p&gt;
-&lt;p&gt;For apps that I didn’t touch after two months, I completely removed them from the phone. I know if I ever need a particular app, I can download it again — where it will find its rightful place on the second screen with all of the other lesser-used apps.&lt;/p&gt;
-&lt;p&gt;I evaluate my home screen every few weeks now to demote or remove apps if I feel they’re not serving a purpose. This has helped me stay laser-focused when I’m using my phone.&lt;/p&gt;
-&lt;h3 id=&#34;i-set-all-but-the-most-important-apps-to-a-badge-notification&#34;&gt;I Set All But the Most Important Apps to a Badge Notification&lt;/h3&gt;
-&lt;p&gt;For the apps I keep on my phone, if I need to see a notification of some kind, I’ll set it to badge only. No sounds, vibrations, banners or alerts to distract me. I’ll check it on my schedule, thank you very much.&lt;/p&gt;
-&lt;p&gt;This includes email — both personal and work. I purposely decided I didn’t want up to the moment email notifications, and I’ve found it quite liberating. Now, when I see a badge on an app, maybe I’ll look at it, maybe I won’t. It pretty much depends on the number displayed on the badge whether I decide to act.&lt;/p&gt;
-&lt;p&gt;Of course, there are exceptions to this rule, but they are few. The Phone app obviously needs notifications — otherwise, my phone isn’t a phone. Same for goes for Messages. I communicate with my immediate family by text a lot, so I leave this notification enabled.&lt;/p&gt;
-&lt;p&gt;The only other notifications I allow are OmniFocus for task management and Fantastical for calendars. I definitely need to be on time for meetings and appointments, and I must complete my tasks on time too.&lt;/p&gt;
-&lt;p&gt;Finally, I turned on “Do Not Disturb” mode between the hours of 10pm and 6am — which is when I go to bed, and an hour after I get up. That first hour in the morning with no distractions helps me get focused on my day ahead.&lt;/p&gt;
-&lt;p&gt;If you’re a notification junkie like I was, it’s hard to get used to working this way. But if you give it some time, you’ll find you’re picking your phone up a lot less and getting a lot more done during the day.&lt;/p&gt;
-&lt;p&gt;Give it a try. You’ll feel less tethered to your phone, I promise.&lt;/p&gt;
-&lt;h3 id=&#34;i-set-limits-on-use&#34;&gt;I Set Limits on Use&lt;/h3&gt;
-&lt;p&gt;As a family, we’ve agreed to set limits on when and where electronic devices are acceptable. Never, ever can any one of us bring a phone to the table during a meal. This rule extends to restaurant outings too. Once a meal is on the table, all gadgets go away until after the last person finishes their meal.&lt;/p&gt;
-&lt;p&gt;If we’re in a family setting for the holidays or a birthday, all devices get put away in pockets and purses so we can spend time socializing face-to-face. It’s okay if a phone comes out for a photo or two, but if any family member gets caught zoning out on their phone, everyone else reminds them of the rule. It’s worked pretty well so far.&lt;/p&gt;
-&lt;p&gt;These are some of the ways I’ve started breaking the twitch to reach for my phone and check it. Sometimes I forget, but I find every day gets a little easier. If you’re looking to lessen your own digital distractions, give some of these a try yourself. You might find there’s a lot more going on around you than you realized.&lt;/p&gt;
-<![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
-    </item>
-    <item>
-      <title>Saying No</title>
-      <link>http://localhost:1313/2017/03/12/no/</link>
-      <pubDate>Sun, 12 Mar 2017 16:07:43 -0800</pubDate><author>hello@jimmitchell.org (Jim Mitchell)</author>
-      <guid>http://localhost:1313/2017/03/12/no/</guid>
-      <description>&lt;p&gt;Saying no can be one of the hardest things to do.&lt;/p&gt;
-&lt;p&gt;No to an exciting new project. No to a volunteer opportunity in the community or at church; no to the extra helping of food at a meal; no to bad habits we’ve carried around with us all our lives.&lt;/p&gt;
-&lt;p&gt;There’s tremendous power in saying no. When we have the courage to do it, we stop stretching ourselves too thin. We make more time for our families. We become healthier by defeating the temptation to eat the extra cookie. We break bad habits that have held us captive all our lives.&lt;/p&gt;
-&lt;p&gt;These small wins add up over time and give us the courage to say no when we should more often.&lt;/p&gt;
-&lt;p&gt;It’s okay to say no. It doesn’t mean you’re weak. It says you’re strong and willing to sacrifice for the important stuff.&lt;/p&gt;
-&lt;p&gt;It takes guts to say no.&lt;/p&gt;
-&lt;p&gt;I’m working hard to learn this habit. No extra projects; no outside distractions and commitments that burn me out and take me away from the family; no to using food to deal with stress; no to procrastination; no wasting time on things that don’t matter.&lt;/p&gt;
-&lt;p&gt;I’ve found it’s not easy. The temptation to give in is always there. I have to remind myself almost every day: “&lt;em&gt;Is this thing worth what it’s going to take away from something else?&lt;/em&gt;”&lt;/p&gt;
-&lt;p&gt;When I’m able to stay the course, I make room for plenty of yes in my life. Yes to spending time with family and friends; yes to being more focused and in the moment; yes to being mindful of those around me; yes to being tolerant of others; yes to making my health a priority.&lt;/p&gt;
-&lt;p&gt;It takes a lot of effort to say no. But in the end the good that comes from it far outweighs the bad we’re able to leave behind.&lt;/p&gt;
+      <title>Applescript to Toggle the Mac Desktop</title>
+      <link>http://localhost:1313/2010/10/16/applescript-to-toggle-the-mac-desktop/</link>
+      <pubDate>Sat, 16 Oct 2010 15:32:43 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
+      <guid>http://localhost:1313/2010/10/16/applescript-to-toggle-the-mac-desktop/</guid>
+      <description>&lt;p&gt;Here’s an AppleScript I use to quickly toggle desktop visibility for taking screenshots and recording screencasts that I thought might be useful for others.&lt;/p&gt;
+&lt;p&gt;Copy the source and paste the code into AppleScript Editor, or your editor of choice, compile and save. As always, scripts like this work best using &lt;a href=&#34;http://www.red-sweater.com/fastscripts/&#34;&gt;FastScripts&lt;/a&gt; from Red Sweater Software.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-applescript&#34; data-lang=&#34;applescript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;tell&lt;/span&gt; &lt;span style=&#34;color:#81a1c1&#34;&gt;application&lt;/span&gt; &lt;span style=&#34;color:#a3be8c&#34;&gt;&amp;#34;System Events&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;set&lt;/span&gt; frontMostApp &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#8fbcbb&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#81a1c1&#34;&gt;the&lt;/span&gt; &lt;span style=&#34;color:#81a1c1&#34;&gt;first&lt;/span&gt; process &lt;span style=&#34;color:#81a1c1&#34;&gt;whose&lt;/span&gt; &lt;span style=&#34;color:#8fbcbb&#34;&gt;frontmost&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;is&lt;/span&gt; &lt;span style=&#34;color:#8fbcbb&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;end&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;tell&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;try&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;set&lt;/span&gt; theDefault &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#eceff4&#34;&gt;((&lt;/span&gt;&lt;span style=&#34;color:#81a1c1&#34;&gt;do shell script&lt;/span&gt; &lt;span style=&#34;color:#a3be8c&#34;&gt;&amp;#34;defaults read com.apple.finder CreateDesktop&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#eceff4&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;as&lt;/span&gt; integer&lt;span style=&#34;color:#eceff4&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;as&lt;/span&gt; boolean
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;on&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;error&lt;/span&gt; &lt;span style=&#34;color:#616e87;font-style:italic&#34;&gt;-- if the default value doesn&amp;#39;t already exist, create it.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#81a1c1&#34;&gt;do shell script&lt;/span&gt; &lt;span style=&#34;color:#a3be8c&#34;&gt;&amp;#34;defaults write com.apple.finder CreateDesktop 1&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;set&lt;/span&gt; theDefault &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#eceff4&#34;&gt;((&lt;/span&gt;&lt;span style=&#34;color:#81a1c1&#34;&gt;do shell script&lt;/span&gt; &lt;span style=&#34;color:#a3be8c&#34;&gt;&amp;#34;defaults read com.apple.finder CreateDesktop&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#eceff4&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;as&lt;/span&gt; integer&lt;span style=&#34;color:#eceff4&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;as&lt;/span&gt; boolean
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;end&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;try&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#81a1c1&#34;&gt;do shell script&lt;/span&gt; &lt;span style=&#34;color:#a3be8c&#34;&gt;&amp;#34;defaults write com.apple.finder CreateDesktop &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#81a1c1&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#eceff4&#34;&gt;(((&lt;/span&gt;&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;not&lt;/span&gt; theDefault&lt;span style=&#34;color:#eceff4&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;as&lt;/span&gt; integer&lt;span style=&#34;color:#eceff4&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;as &lt;/span&gt;&lt;span style=&#34;color:#8fbcbb&#34;&gt;string&lt;/span&gt;&lt;span style=&#34;color:#eceff4&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;tell&lt;/span&gt; &lt;span style=&#34;color:#81a1c1&#34;&gt;application&lt;/span&gt; &lt;span style=&#34;color:#a3be8c&#34;&gt;&amp;#34;Finder&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#81a1c1&#34;&gt;quit&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#81a1c1&#34;&gt;delay&lt;/span&gt; &lt;span style=&#34;color:#b48ead&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;tell&lt;/span&gt; &lt;span style=&#34;color:#81a1c1&#34;&gt;application&lt;/span&gt; &lt;span style=&#34;color:#a3be8c&#34;&gt;&amp;#34;Finder&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#81a1c1&#34;&gt;launch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;tell&lt;/span&gt; &lt;span style=&#34;color:#81a1c1&#34;&gt;application&lt;/span&gt; frontMostApp &lt;span style=&#34;color:#81a1c1;font-weight:bold&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#81a1c1&#34;&gt;activate&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;em&gt;Note: This single script turns off the desktop if it’s on, and turns it on if it’s off - just to clear up the question should it need to be asked.&lt;/em&gt;&lt;/p&gt;
 <![CDATA[<hr /><p>Thank you for choosing RSS :: Join the <a href="https://buymeacoffee.com/jim.mitchell/membership">Buck a Month Club</a> :: Follow me on <a href="https://social.jimmitchell.org/@jim">Mastodon</a></p>]]></description>
     </item>
   </channel>
