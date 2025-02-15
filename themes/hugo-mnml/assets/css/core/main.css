@@ -155,10 +155,9 @@ header .site-title a:active {
 .nav-links {
   list-style: none;
   margin: 0;
-  padding: 2rem 0 2rem;
+  padding: 5rem 0 2rem;
   font-size: 1.8rem;
   line-height: 1;
-  /* border-bottom: 1px solid var(--accent-color-2); */
 }
 .nav-item {
   display: inline;
