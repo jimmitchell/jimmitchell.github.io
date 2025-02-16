@@ -21,8 +21,8 @@
 {{/* Generate opengraph image */}}
 {{- if .IsPage -}}
   {{ $base := resources.Get "og_base.png" }}
-  {{ $boldFont := resources.Get "/proxima_nova_bold.ttf"}}
-  {{ $mediumFont := resources.Get "/proxima_nova_regular.ttf"}}
+  {{ $boldFont := resources.Get "/sfpro-bold.ttf"}}
+  {{ $mediumFont := resources.Get "/sfpro-regular.ttf"}}
   {{ $img := $base.Filter (images.Text .Site.Title (dict
     "color" "#ffffff"
     "size" 36

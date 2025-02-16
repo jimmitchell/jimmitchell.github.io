@@ -5,6 +5,10 @@ layout: "page"
 type: "page"
 ---
 
+These are the projects I'm currently putting effort into.
+
+---
+
 ### Yasu
 
 Short for "Yet another system utility," [Yasu](/yasu/) is my original macOS maintenance app from the early 2000s. I'm slowly working on resurrecting the app.
