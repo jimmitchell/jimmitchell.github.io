@@ -8,7 +8,7 @@ summary: "A while ago, I created an AppleScript that allows you to compress file
 description: "A while ago, I created an AppleScript that allows you to compress files and folders by simply dropping them onto the applet."
 ---
 
-A while ago, I created an AppleScript that allows you to [compress files and folders](/posts/2014/08/02/applescript-to-compress-files-and-folders/) by simply dropping them onto the applet. One of the readers left a comment asking for a way to achieve the following tasks:
+A while ago, I created an AppleScript that allows you to [compress files and folders](/2014/08/02/applescript-to-compress-files-and-folders/) by simply dropping them onto the applet. One of the readers left a comment asking for a way to achieve the following tasks:
 
 > 1.  Select a folder from Finder.
 > 2.  Store the folder name as “x”.
