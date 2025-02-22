@@ -1,5 +1,5 @@
 ---
-title: 'Applescript to Add Files in the Mac Finder'
+title: 'AppleScript to Add Files in the Mac Finder'
 date: 2011-08-12T15:56:26-08:00
 tags: ["Code","AppleScript"]
 type: post

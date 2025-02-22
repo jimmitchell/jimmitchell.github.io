@@ -1,5 +1,5 @@
 ---
-title: 'Applescript to Toggle the Mac Desktop'
+title: 'AppleScript to Toggle the Mac Desktop'
 date: 2010-10-16T15:32:43-08:00
 tags: ["Code","AppleScript"]
 type: post

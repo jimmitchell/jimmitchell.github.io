@@ -1,5 +1,5 @@
 ---
-title: 'A Better Applescript to Compress Files or Folders'
+title: 'A Better AppleScript to Compress Files or Folders'
 date: 2023-04-14T13:34:05-08:00
 tags: ["AppleScript","Code"]
 type: post

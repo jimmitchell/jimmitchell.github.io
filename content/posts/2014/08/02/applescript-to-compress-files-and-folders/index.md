@@ -1,5 +1,5 @@
 ---
-title: 'Applescript to Compress Files and Folders'
+title: 'AppleScript to Compress Files and Folders'
 date: 2014-08-02T15:59:31-08:00
 tags: ["AppleScript","Code"]
 type: post

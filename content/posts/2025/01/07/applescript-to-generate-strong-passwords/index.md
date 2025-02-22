@@ -1,5 +1,5 @@
 ---
-title: 'Applescript to Generate Strong Passwords'
+title: 'AppleScript to Generate Strong Passwords'
 date: 2025-01-07T09:24:47-08:00
 tags: ["Code","AppleScript"]
 url: "/2025/01/07/applescript-to-generate-strong-passwords/"
