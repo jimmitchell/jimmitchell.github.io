@@ -114,7 +114,7 @@ header a:active {
 header .site-title {
   margin: 0;
   line-height: 2;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 header .site-title a {
   color: var(--link-color-hover);
@@ -155,7 +155,7 @@ header .site-title a:active {
 .nav-links {
   list-style: none;
   margin: 0;
-  padding: 5rem 0 2rem;
+  padding: 2rem 0 2rem;
   font-size: 1.8rem;
   line-height: 1;
 }
@@ -184,6 +184,9 @@ article {
 }
 article:last-of-type {
   margin-bottom: 4rem;
+}
+.latest-post {
+  margin-bottom: 6rem;
 }
 .page-title,
 .post-title {

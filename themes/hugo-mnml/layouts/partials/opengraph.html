@@ -21,8 +21,8 @@
 {{/* Generate opengraph image */}}
 {{- if .IsPage -}}
   {{ $base := resources.Get "og_base.png" }}
-  {{ $boldFont := resources.Get "/sfpro-bold.ttf"}}
-  {{ $mediumFont := resources.Get "/sfpro-regular.ttf"}}
+  {{ $boldFont := resources.Get "/proxima_nova_bold.ttf"}}
+  {{ $mediumFont := resources.Get "/proxima_nova_regular.ttf"}}
   {{ $img := $base.Filter (images.Text .Site.Title (dict
     "color" "#ffffff"
     "size" 36
@@ -43,8 +43,6 @@
   <meta property="og:image" content="{{$img.Permalink}}">
   <meta property="og:image:width" content="{{$img.Width}}" />
   <meta property="og:image:height" content="{{$img.Height}}" />
-
-  <!-- Twitter metadata (used by other websites as well) -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="{{ .Title }}" />
   <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>

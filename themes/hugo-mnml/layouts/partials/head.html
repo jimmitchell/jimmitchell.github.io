@@ -10,6 +10,10 @@
 <meta name="description" content="{{ .Description | default .Site.Params.SiteDescription}}" />
 <meta name="fediverse:creator" content="@jim@social.jimmitchell.org" />
 <link rel="me" href="https://social.jimmitchell.org/@jim" />
+<link rel="preload" href="/fonts/proxima-nova/proxima_nova_regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/fonts/proxima-nova/proxima_nova_bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/fonts/proxima-nova/proxima_nova_italic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/fonts/proxima-nova/proxima_nova_bold_italic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 {{ partial "opengraph.html" . }}
 {{- with .OutputFormats.Get "rss" -}}
   {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
