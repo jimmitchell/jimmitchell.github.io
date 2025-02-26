@@ -8,9 +8,9 @@ summary: "If you're a Mac user and need an easy way to generate unique strong pa
 description: "If you're a Mac user and need to generate unique strong passwords, give this AppleScript a try."
 ---
 
-I'd totally forgotten about this resource until I needed to create a strong password this morning. If you're a Mac user and need to generate unique strong passwords, give this AppleScript a try.
+I'd totally forgotten I wrote this AppleScript until I needed to create a strong password this morning. If you're a Mac user and need to generate unique strong passwords, give this script a try.
 
-It works especially well with [FastScripts](https://redsweater.com/fastscripts/) by [Daniel Jaklut](https://micro.blog/danielpunkass).
+It works really well when used along with [FastScripts](https://redsweater.com/fastscripts/) by [Daniel Jaklut](https://mastodon.social/@danielpunkass).
 
 ```applescript
 property allowedCharacters : {33, 35, 36, 37, 38, 42, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 61, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122}
