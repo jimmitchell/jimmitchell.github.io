@@ -1,18 +1,18 @@
 :root {
-    --background-color: #23272e;
+    --background-color: #181b20;
     --text-main-color: #f8f8f8;
     --link-color: #84c3ff;
     --link-color-hover: #fff;
-    --accent-color-1: #363d48;
-    --accent-color-2: #4a5362;
+    --accent-color-1: #2c313a;
+    --accent-color-2: #404754;
     --accent-color-3: #6d7b91;
     --accent-color-5: #8e97a9;
     --accent-color-6: #d9dce2;
     --warning-color: #e00031;
-    --sans-serif-font: 'Proxima Nova', -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --sans-serif-font: 'DM Sans', -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --mono-space-font: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier, monospace;
     --font-weight-normal: 400;
     --font-weight-bold: 700;
-    --max-width: 66rem;
+    --max-width: 70rem;
     --base-line-height: 1.7;
 }
