@@ -5,12 +5,13 @@ summary: "I’ve been working on a force.com app with the requirement that a use
 date: 2012-10-19T13:00:29-0800
 lastmod: 2025-02-15T05:48:58-0800
 type: post
+draft: false
+url: /2012/10/19/making-a-field-appear-required/
 tags:
 - "Salesforce"
 - "Code"
 - "Visualforce"
 - "Apex"
-url: /2012/10/19/making-a-field-appear-required/
 ---
 
 I’ve been working on a force.com app with the requirement that a user must enter a valid email address on a Visualforce page before being able to save a record.

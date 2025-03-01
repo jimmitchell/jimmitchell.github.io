@@ -1,27 +1,16 @@
 ---
 layout: post
 title: "The Ant Mound"
-microblog: false
-guid: http://jimmitchell.micro.blog/2018/07/29/the-ant-mound/
-post_id: 4379860
-custom_summary: false
-summary: ""
+summary: "One of my earliest childhood memories is traumatic. At least it would seem traumatic to a three-and-a-half-year-old little boy."
 date: 2018-07-29T20:50:25-0800
 lastmod: 2025-02-15T05:48:58-0800
 type: post
-categories:
-- "Posts"
-- "Narrated"
-audio:
-- https://jimmitchell.org/uploads/2024/the-ant-mound.mp3
-audio_with_metadata:
-- url: https://jimmitchell.org/uploads/2024/the-ant-mound.mp3
-  size: 3155126
-  duration_display: "00:04:02"
-  duration_seconds: 242
-url: /2018/07/29/the-ant-mound/
+tags:
+- "Memories"
+url: /2018/07/29/ant-mound/
+draft: false
 ---
-One of my earliest childhood memories is traumatic. At least it would seem traumatic to a three-and-a-half-year-old little boy. Though it didn’t turn out to be the end of the world, it seemed like hell when it happened. I still carry the memory with me more than a half-century later, so it damaged me on some level.<!--more-->
+One of my earliest childhood memories is traumatic. At least it would seem traumatic to a three-and-a-half-year-old little boy. Though it didn’t turn out to be the end of the world, it seemed like hell when it happened. I still carry the memory with me more than a half-century later, so it damaged me on some level.
 
 My family – mother, wicked step-father, newborn baby sister and me – were living in an old two-story house in Lancaster, California, which in the late 1960s was still mostly desert scrub and Joshua trees. We were located far enough away from everything else that it could be called the middle of nowhere. Today, a strip mall stands where the house once did.
 
@@ -44,5 +33,3 @@ My mother and I reminisced about this many times over the years. We even talked 
 To this day, ants give me the heebie-jeebies – even the tiny black ones you see after leaving greasy or sugary food out. If I find even one ant crawling on me after sitting in the grass, I’ll start doing a very unmanly arm-flailing dance to get the critter off me as fast as I can.
 
 I learned a big lesson that day… Don’t sit on an ant mound without knowing the consequences, because you might get eaten alive. It was the last and only time I did.
-
-<audio class="hide" src="https://jimmitchell.org/uploads/2024/the-ant-mound.mp3" controls="controls" preload="metadata"></audio>

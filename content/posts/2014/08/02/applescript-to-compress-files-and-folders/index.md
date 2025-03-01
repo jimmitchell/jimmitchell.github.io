@@ -1,11 +1,14 @@
 ---
 title: 'AppleScript to Compress Files and Folders'
 date: 2014-08-02T15:59:31-08:00
-tags: ["AppleScript","Code"]
 type: post
+draft: false
 url: "/2014/08/02/applescript-to-compress-files-and-folders/"
 summary: "I had the need to select several folders at once in the Mac OS Finder and zip them up as individual archives. This AppleScript to compress files and folders was the solution I came up with."
 description: "I had the need to select several folders at once in the Mac OS Finder and zip them up as individual archives."
+tags:
+- "AppleScript"
+- "Code"
 ---
 
 I had the need to select several folders at once in the Mac OS Finder and zip them up as individual archives. This AppleScript to compress files and folders was the solution I came up with.

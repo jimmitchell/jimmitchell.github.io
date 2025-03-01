@@ -14,5 +14,7 @@
       {{ partial "footer.html" . }}
     </footer>
   </body>
+  {{- if eq hugo.Environment "production" }}
   <script src="https://tinylytics.app/embed/v5rR7Je1xQewVjndZghZ.js?hits" defer></script>
+  {{- end }}
 </html>

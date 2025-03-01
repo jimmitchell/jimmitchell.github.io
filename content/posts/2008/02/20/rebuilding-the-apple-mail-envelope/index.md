@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Rebuilding the Apple Mail Envelope Index"
-post_id: 4379864
-custom_summary: true
 summary: "To fix the issue of ghost emails in Apple Mail after removing a Gmail account, rename the \"Envelope Index\" file in the Library directory, relaunch Apple Mail to rebuild the index, and the phantom messages will disappear."
+description: "Instructions to fix an Apple Mail Envelope Index problem."
 date: 2008-02-20T12:45:41-0800
 lastmod: 2025-02-21T16:03:22-0800
 type: post
@@ -12,6 +11,7 @@ tags:
 - "How To"
 - "Mac Apps"
 url: /2008/02/20/rebuilding-the-apple-mail-envelope-index/
+draft: false
 ---
 
 Some time ago, I set up my Gmail account in Apple Mail to copy over messages which were not sent to my jimmitchell.org account. I’m one of those guys who likes to have everything all in one place at my finger tips when I need it.

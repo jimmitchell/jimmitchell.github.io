@@ -5,6 +5,7 @@ summary: "I was asked to find a solution for our field reps that would simplify 
 date: 2014-07-23T16:15:07-0800
 lastmod: 2025-02-15T05:48:58-0800
 type: post
+draft: false
 tags:
 - "Code"
 - "Visualforce"

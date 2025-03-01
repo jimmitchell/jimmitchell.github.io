@@ -1,19 +1,16 @@
 ---
 layout: post
 title: "Memorable Cigarettes"
-microblog: false
-guid: http://jimmitchell.micro.blog/2018/04/28/memorable-cigarettes/
-post_id: 4341302
-custom_summary: false
-summary: ""
+summary: "I can still remember the first time I smoked a cigarette. It was early spring and my family lived on a farm in a semi-rural part of Colorado, a little north of Denver, at the foot of the Rocky Mountains."
 date: 2018-04-28T09:48:05-0800
 lastmod: 2025-02-15T05:48:58-0800
 type: post
-categories:
-- "Posts"
-url: /2018/04/28/memorable-cigarettes/
+tags:
+- "Memories"
+url: /2018/04/28/cigarettes/
+draft: false
 ---
-After nearly fifty years, I can still remember the first time I smoked a cigarette. It was early spring and my family lived on a farm in a semi-rural part of Colorado, a little north of Denver, at the foot of the Rocky Mountains.<!--more-->
+After nearly fifty years, I can still remember the first time I smoked a cigarette. It was early spring and my family lived on a farm in a semi-rural part of Colorado, a little north of Denver, at the foot of the Rocky Mountains.
 
 I lived there with my mother, wicked step-father (I'm not even sure they were married, to be honest) and little half-sister. The closest kid my age lived more than five miles away, so I had no one to play with. This meant I had to find ways to keep myself entertained. Most of them ended up being things little boys are not supposed to do. Left to my own devices, it's a wonder I lived through all of my escapades.
 

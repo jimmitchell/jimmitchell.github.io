@@ -1,11 +1,14 @@
 ---
 title: 'AppleScript to Toggle the Mac Desktop'
 date: 2010-10-16T15:32:43-08:00
-tags: ["Code","AppleScript"]
 type: post
+draft: false
 url: "/2010/10/16/applescript-to-toggle-the-mac-desktop/"
 summary: "Here’s an AppleScript I use to quickly toggle desktop visibility for taking screenshots and recording screencasts that I thought might be useful for others."
 description: "Here’s an AppleScript I use to quickly toggle desktop visibility for taking screenshots and recording screencasts."
+tags: 
+- "Code"
+- "AppleScript"
 ---
 
 Here’s an AppleScript I use to quickly toggle desktop visibility for taking screenshots and recording screencasts that I thought might be useful for others.

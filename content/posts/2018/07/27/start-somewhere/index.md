@@ -1,19 +1,16 @@
 ---
 layout: post
 title: "Start Somewhere"
-microblog: false
-guid: http://jimmitchell.micro.blog/2018/07/27/start-somewhere/
-post_id: 4379859
-custom_summary: false
-summary: ""
+summary: "Eventually you use up every excuse in your book for not doing the thing you keep saying you’re going to do."
 date: 2018-07-27T22:50:42-0800
 lastmod: 2025-02-15T05:48:58-0800
 type: post
-categories:
-- "Posts"
-url: /2018/07/27/start-somewhere/
+tags:
+- "Intentional Living"
+url: /2018/07/27/start/
+draft: false
 ---
-Eventually you use up every excuse in your book for not doing the thing you keep saying you’re going to do. You’ve procrastinated yourself into a corner and realize it’s either time to just do it, or finally forget about it and move on.<!--more-->
+Eventually you use up every excuse in your book for not doing the thing you keep saying you’re going to do. You’ve procrastinated yourself into a corner and realize it’s either time to just do it, or finally forget about it and move on.
 
 That’s me, sometimes…
 
@@ -21,9 +18,9 @@ I’ve had this blog for nearly 14 years. In all that time, I only have 11 posts
 
 I’ve seriously slacked in my writing since, which is sad, because I’ve always enjoyed the process. To me, putting words down, then moving them around to communicate an idea is fun. When I get into a flow, the words come out and land on the page. I don’t have to struggle with what I’m trying to say. They’re just there all of a sudden. When I tell a story through my writing, I feel like I’ve created this thing that lives and breathes on its own.
 
-To be truthful, I made a fatal mistake a few years back. Struggling to find my own voice, I began modeling my work after what other people were doing. However, since it wasn’t <em>my</em> voice, I began to believe what I had to say didn’t make a difference, so why should I even bother? This grew into the worst case of writer’s block there ever was in the history of man.
+To be truthful, I made a fatal mistake a few years back. Struggling to find my own voice, I began modeling my work after what other people were doing. However, since it wasn’t _my_ voice, I began to believe what I had to say didn’t make a difference, so why should I even bother? This grew into the worst case of writer’s block there ever was in the history of man.
 
-Well, probably not. I’m sure there have been worse cases by far better writers, but I became so utterly uninspired to write during the last five years that it literally hurt to even <em>think</em> about putting words down. The three posts I made in 2018 were not easy.
+Well, probably not. I’m sure there have been worse cases by far better writers, but I became so utterly uninspired to write during the last five years that it literally hurt to even _think_ about putting words down. The three posts I made in 2018 were not easy.
 
 To make up for my lack of creativity, I found a great way to procrastinate – tweaking my WordPress theme about a hundred-gazillion times. It became all-consuming to get things just pixel perfect and then start over from scratch again. I’ve written and tweaked more CSS code than I’m willing to admit, though I have gotten pretty good at it. My site theme is practically everything I’ve ever imagined in my head at this point. I can’t improve on it much more, if at all.
 

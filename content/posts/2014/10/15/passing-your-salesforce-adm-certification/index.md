@@ -1,17 +1,15 @@
 ---
-layout: post
 title: "Passing Your Salesforce ADM201 Certification Exam"
-microblog: false
-guid: http://jimmitchell.micro.blog/2014/10/15/passing-your-salesforce-adm-certification/
-post_id: 4379850
-custom_summary: false
-summary: ""
+summary: "I thought it might be helpful to share the strategies that helped me be successful passing the ADM201 certification."
 date: 2014-10-15T14:00:22-0800
 lastmod: 2025-02-15T05:48:58-0800
+layout: post
 type: post
-categories:
-- "Posts"
-url: /2014/10/15/passing-your-salesforce-adm-certification/
+url: /2014/10/15/passing-your-salesforce-adm-certification-exam/
+draft: false
+tags:
+- "Salesforce"
+- "Certification"
 ---
 I passed the Salesforce ADM201 certification exam today. It’s been a five-year road to get here. From the first week I began working with Salesforce, I decided attaining certification was something I wanted to pursue.
 

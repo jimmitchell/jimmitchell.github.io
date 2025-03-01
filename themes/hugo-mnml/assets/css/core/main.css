@@ -143,13 +143,22 @@ header .site-title a:active {
 .social a:link,
 .social a:visited {
   margin: 0 0 0 1.5rem;
-  color: var(--accent-color-5);
+  color: var(--link-color-hover);
   line-height: 2;
 }
 .social a:hover,
 .social a:active {
   color: var(--link-color-hover);
   text-decoration: none;
+}
+.social a.mastodon:hover {
+  color: #858AFA;
+}
+.social a.github:hover {
+  color: #FF507A;
+}
+.social a.search:hover {
+  color: var(--accent-color-5);
 }
 
 .nav-links {
@@ -190,7 +199,7 @@ article:last-of-type {
 }
 .page-title,
 .post-title {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 .post-title a:link,
 .post-title a:visited {
