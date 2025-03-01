@@ -3,10 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-02-08T22:00:26-08:00</lastmod>
+    <lastmod>2025-02-21T16:03:22-08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-02-08T22:00:26-08:00</lastmod>
+    <lastmod>2025-02-21T16:03:22-08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/applescript/</loc>
     <lastmod>2025-01-07T09:24:47-08:00</lastmod>
@@ -15,16 +15,61 @@
     <lastmod>2025-01-07T09:24:47-08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/code/</loc>
-    <lastmod>2025-01-07T09:24:47-08:00</lastmod>
+    <lastmod>2025-02-15T05:48:58-08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-01-07T09:24:47-08:00</lastmod>
+    <lastmod>2025-02-21T16:03:22-08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/2023/04/14/better-applescript-to-compress-files-or-folders/</loc>
     <lastmod>2023-04-14T13:34:05-08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-02-15T05:48:58-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/posts/</loc>
+    <lastmod>2025-02-15T05:48:58-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/2019/12/10/seeing-the-forest-for-the/</loc>
+    <lastmod>2025-02-15T05:48:58-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/2019/11/09/its-your-first-dreamforce-what/</loc>
+    <lastmod>2025-02-15T05:48:58-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/narrated/</loc>
+    <lastmod>2025-02-15T05:48:58-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/2018/07/29/the-ant-mound/</loc>
+    <lastmod>2025-02-15T05:48:58-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/2018/07/27/start-somewhere/</loc>
+    <lastmod>2025-02-15T05:48:58-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/2018/04/28/memorable-cigarettes/</loc>
+    <lastmod>2025-02-15T05:48:58-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/2016/08/18/top-chrome-extensions-every-salesforce/</loc>
+    <lastmod>2025-02-15T05:48:58-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/2014/10/15/passing-your-salesforce-adm-certification/</loc>
+    <lastmod>2025-02-15T05:48:58-08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/2014/08/02/applescript-to-compress-files-and-folders/</loc>
     <lastmod>2014-08-02T15:59:31-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/apex/</loc>
+    <lastmod>2025-02-15T05:48:58-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/2014/07/23/salesforce-flows-visualforce-and-context/</loc>
+    <lastmod>2025-02-15T05:48:58-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/visualforce/</loc>
+    <lastmod>2025-02-15T05:48:58-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/2012/10/19/making-a-field-appear-required/</loc>
+    <lastmod>2025-02-15T05:48:58-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/salesforce/</loc>
+    <lastmod>2025-02-15T05:48:58-08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/2011/08/12/applescript-to-add-files-in-the-mac-finder/</loc>
     <lastmod>2011-08-12T15:56:26-08:00</lastmod>
@@ -32,11 +77,21 @@
     <loc>http://localhost:1313/2010/10/16/applescript-to-toggle-the-mac-desktop/</loc>
     <lastmod>2010-10-16T15:32:43-08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/apple/</loc>
+    <lastmod>2025-02-21T16:03:22-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/how-to/</loc>
+    <lastmod>2025-02-21T16:03:22-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/mac-apps/</loc>
+    <lastmod>2025-02-21T16:03:22-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/2008/02/20/rebuilding-the-apple-mail-envelope-index/</loc>
+    <lastmod>2025-02-21T16:03:22-08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/archives/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/pages/</loc>
   </url><url>
