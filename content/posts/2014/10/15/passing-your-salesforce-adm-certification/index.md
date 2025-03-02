@@ -15,7 +15,7 @@ I passed the Salesforce ADM201 certification exam today. It’s been a five-year
 
 Now that I’ve done it, I thought it might be good to share the things that helped me be successful with those looking to do the same.
 
-### Know Your Stuff
+## Know Your Stuff
 
 Your success or failure pretty much boils down to this… You’ve got to know your stuff or it’s never going to happen.
 
@@ -29,7 +29,7 @@ Learn it, live it, be it…
 
 Do everything in your power to wrap your head around the big picture of what Salesforce does and totally understand it. That’s what being a good admin is all about anyway — knowing what can or can’t be done.
 
-### Study With a Group
+## Study With a Group
 
 I can’t stress this one enough.
 
@@ -41,7 +41,7 @@ I joined the ~Salesforce Certification Study Group~ in the Salesforce Success Co
 
 Once you’re accepted into the private group, watch what goes on in the Chatter feed for a while, then when signups for the next round of sessions are announced, join the one that best suits your geographical region.
 
-### Make the Time
+## Make the Time
 
 Okay. You’ve been accepted into the study group. But if you aren’t totally serious about earning your certification, you’ll never be successful. Period. You’ve got to want it to happen. If you don’t give studying the attention it needs, you can forget about passing, and may as well stop reading now.
 
@@ -49,7 +49,7 @@ Make it what you think about when you’re sitting in traffic, brushing your tee
 
 If you end up joining the certification study group, make time to do the work you’re supposed to do before the next session — every single week. Commit to the 15 weeks the group is going to require from you. Be ready to demo your work for the online sessions. Know exactly what you did, why you did it, and have a reason for it. I promise you’ll learn incredible amounts if you commit to working this way.
 
-### Be Real with Yourself
+## Be Real with Yourself
 
 Be 100% honest with yourself. Ask yourself “Am I _really_ ready to pursue certification?” If you’ve only been working with Salesforce a few months, it’s going to be a tough row to hoe, even with the help and support of a study group — who may not be too keen helping you along while studying themselves.
 
@@ -57,7 +57,7 @@ Being part of a group requires commitment. People are depending on you to have i
 
 If you’re not ready, then wait until you are. You have a better chance of succeeding if you do. By joining the study group without enough experience, chances are you’ll fall behind fast, which is going to discourage you. Don’t set yourself up to fail. Be ready.
 
-### Use Good Resources
+## Use Good Resources
 
 I mentioned the online tests and flash cards earlier. Don’t rely on them at all. Salesforce adds lots of new features at each release. Flash cards and tests from the Spring ’11 release are full of misinformation now. If you rely on them to know your stuff, you might not know much at all.
 
@@ -69,7 +69,7 @@ Consider supporting John’s efforts and buying a lifetime membership. Use Certi
 
 The only other resource you need now is to watch the ~Dreamforce Get Started on the Certified Administrator Credential~ workshop video. It provides solid advice for being ready, how to take the Salesforce ADM201 certification exam, and knowing what you’re walking into.
 
-### Taking Your Exam
+## Taking Your Exam
 
 You’ve scheduled your test, and now it’s time to go take it.
 

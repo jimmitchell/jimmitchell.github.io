@@ -27,7 +27,7 @@ I accept I won’t always be able to say no when I should. The only thing I can 
 
 When I’m stretched thin, these are some of the things I do to start cutting out the commitments that I should have said no to from the beginning.
 
-### Who's Affected?
+## Who's Affected?
 
 I ask myself who’s affected most?
 
@@ -39,7 +39,7 @@ Not only does my family suffer, but so does my health. I end up having so much g
 
 In the end, I wind up feeling burnt-out on life as a whole and get cranky with everyone around me. The most important relationships have wound up paying the price because I said yes when I should have said no.
 
-### Can Someone Else Do It?
+## Can Someone Else Do It?
 
 I have to let go of my ego and turn the work over to someone else who can do the job just as well as I would have, if not better.
 
@@ -47,13 +47,13 @@ I remind myself I’m not the only person in the world who has the talents to ta
 
 It might even be good to let someone who isn’t as capable handle it. Allowing people to be challenged is usually when they grow the most.
 
-### Is it Important?
+## Is it Important?
 
 Sometimes the thing someone asked from me really isn’t as important to them as I think it is. I have to ask them how important it is that I be the one to do it for them.
 
 Maybe they don’t even care about it anymore, or know of someone else who can do it in my place. I’ll never know unless I ask.
 
-### Hold Your Ground
+## Hold Your Ground
 
 Of course, backing out of a commitment is akin to lighting a match that’ll burn a bridge. I have to be open to being the target for disappointment and hurt feelings.
 
