@@ -2,6 +2,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="theme-color" content="#1f2229">
+<meta name="fediverse:creator" content="@jim@social.jimmitchell.org" />
+<meta name="description" content="{{ .Description | default .Site.Params.SiteDescription}}" />
 <link rel="me" href="https://social.jimmitchell.org/@jim" />
 <link rel="icon" type="image/png" href="/favicons/favicon-96x96.png" sizes="96x96" />
 <link rel="icon" type="image/svg+xml" href="/favicons/favicon.svg" />
@@ -9,16 +11,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
 <meta name="apple-mobile-web-app-title" content="Jim Mitchell" />
 <link rel="manifest" href="/favicons/site.webmanifest" />
-<meta name="description" content="{{ .Description | default .Site.Params.SiteDescription}}" />
-<meta name="fediverse:creator" content="@jim@social.jimmitchell.org" />
-<link rel="preload preconnect" href="/fonts/dm-sans/DMSans-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
-<link rel="preload preconnect" href="/fonts/dm-sans/DMSans-Italic.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
-<link rel="preload preconnect" href="/fonts/dm-sans/DMSans-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
-<link rel="preload preconnect" href="/fonts/dm-sans/DMSans-BoldItalic.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
-<link rel="preload preconnect" href="/fonts/inter/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
-<link rel="preload preconnect" href="/fonts/inter/Inter-Italic.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
-<link rel="preload preconnect" href="/fonts/inter/Inter-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
-<link rel="preload preconnect" href="/fonts/inter/Inter-BoldItalic.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+{{ partial "preconnect.html" . }}
 {{ partial "opengraph.html" . }}
 {{- with .OutputFormats.Get "rss" -}}
   {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
