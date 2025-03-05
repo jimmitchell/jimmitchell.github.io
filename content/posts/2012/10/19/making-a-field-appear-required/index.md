@@ -6,7 +6,7 @@ date: 2012-10-19T13:00:29-0800
 lastmod: 2025-02-15T05:48:58-0800
 type: post
 draft: false
-url: /2012/10/19/making-a-field-appear-required/
+url: /2012/10/19/making-a-field-appear-required-on-visualforce-pages/
 tags:
 - "Salesforce"
 - "Code"

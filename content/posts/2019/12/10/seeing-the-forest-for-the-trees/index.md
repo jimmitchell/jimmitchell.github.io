@@ -7,7 +7,7 @@ lastmod: 2025-02-15T05:48:58-0800
 type: post
 tags:
 - "Intentional Living"
-url: /2019/12/10/seeing-the-forest-for-the/
+url: /2019/12/10/seeing-the-forest-for-the-trees/
 draft: false
 ---
 
