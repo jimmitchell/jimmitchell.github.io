@@ -1,11 +1,13 @@
 ---
 title: 'A Better AppleScript to Compress Files or Folders'
 date: 2023-04-14T13:34:05-08:00
-tags: ["AppleScript","Code"]
+tags:
+- "AppleScript"
+- "Code"
 type: post
-url: "/2023/04/14/better-applescript-to-compress-files-or-folders/"
-summary: "A while ago, I created an AppleScript that allows you to compress files and folders by simply dropping them onto the applet."
+summary: "Here's an AppleScript that allows you to compress files and folders by simply dropping them onto the applet."
 description: "A while ago, I created an AppleScript that allows you to compress files and folders by simply dropping them onto the applet."
+url: "/2023/04/14/better-applescript-to-compress-files-or-folders/"
 ---
 
 A while ago, I created an AppleScript that allows you to [compress files and folders](/2014/08/02/applescript-to-compress-files-and-folders/) by simply dropping them onto the applet. One of the readers left a comment asking for a way to achieve the following tasks:
@@ -16,7 +18,7 @@ A while ago, I created an AppleScript that allows you to [compress files and fol
 > 4.  Rename the resulting zip file as “x.zip”.
 > 5.  Delete all the files that were used to create the zip file.
 
-With the help of ChatGPT – and because I wanted to be lazy about it – I was able to come up with a solution to this challenge, which can be a great way to manage archives if that’s important to you.<!--more-->
+With the help of ChatGPT – and because I wanted to be lazy about it – I was able to come up with a solution to this challenge, which can be a great way to manage archives if that’s important to you.
 
 I must admit that ChatGPT did a decent job in generating the AppleScript, but there were some bugs that I had to fix manually. Nevertheless, it’s both scary and exciting to have a tool that can generate usable code.
 

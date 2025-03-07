@@ -373,9 +373,9 @@
     </item>
     <item>
       <title>Making a Field Appear Required on a Visualforce Page</title>
-      <link>http://localhost:1313/2012/10/19/making-a-field-appear-required/</link>
+      <link>http://localhost:1313/2012/10/19/making-a-field-appear-required-on-visualforce-pages/</link>
       <pubDate>Fri, 19 Oct 2012 13:00:29 -0800</pubDate><author>hello@jimmitchell.dev (Jim Mitchell)</author>
-      <guid>http://localhost:1313/2012/10/19/making-a-field-appear-required/</guid>
+      <guid>http://localhost:1313/2012/10/19/making-a-field-appear-required-on-visualforce-pages/</guid>
       <description>&lt;p&gt;I’ve been working on a force.com app with the requirement that a user must enter a valid email address on a Visualforce page before being able to save a record.&lt;/p&gt;
 &lt;p&gt;But they must also be able to insert the related contact’s email address by clicking a button instead of having to leave the edit page to go find it. That seemed simple enough, but it wasn’t. This is my solution for making a field appear required on a Visualforce page.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;916e8e3574.png&#34; alt=&#34;Auto-generated description: A digital form for editing a gift card order displays various fields such as customer details, order number, and email information.&#34;&gt;&lt;/p&gt;
