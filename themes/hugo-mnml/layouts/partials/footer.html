@@ -1,5 +1,7 @@
-{{ $posts := where .Site.Pages "Type" "in" (slice "post" "posts") }}
-{{ $validPosts := where $posts ".Date.Year" "!=" 0 }}
-{{ $earliest := (index (first 1 (sort $validPosts "Date" "asc")) 0).Date.Year }}
-
-<p>&copy; {{ $earliest }} - {{ now.Year }} <a href="/about/">Jim Mitchell</a><br /><span class="tinylytics_hits"></span></p>
+{{- $posts := where .Site.Pages "Type" "in" (slice "post" "posts") }}
+{{- $validPosts := where $posts ".Date.Year" "!=" 0 }}
+{{- $earliest := (index (first 1 (sort $validPosts "Date" "asc")) 0).Date.Year }}
+<p>
+	&copy; {{ $earliest }} &mdash; {{ now.Year }} <a href="/about/">Jim Mitchell</a><br />
+	<span class="tinylytics_hits"></span>
+</p>

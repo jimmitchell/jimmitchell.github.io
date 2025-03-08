@@ -1,7 +1,7 @@
 body {
-  color: var(--text-main-color);
-  background: var(--background-color);
-  padding: 1rem;
+  color: var(--text);
+  background: var(--background);
+  padding: 0 1rem;
   font-size: 1.8rem;
   font-family: var(--sans-serif-font);
   font-weight: var(--font-weight-normal);
@@ -21,7 +21,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 a:link, a:visited {
-  color: var(--link-color);
+  color: var(--link);
   text-decoration: none;
 }
 a:hover, a:active {
@@ -35,20 +35,20 @@ blockquote {
   padding: 1px 3rem;
   margin: 3rem 0;
   font-style: italic;
-  color: var(--text-main-color);
-  background: var(--accent-color-1);
+  color: var(--text);
+  background: var(--accent-1);
   border-radius: 6px;
 }
 code, pre {
   font-size: 1.5rem;
-  background: var(--accent-color-2);
+  background: var(--accent-2);
   font-family: var(--mono-space-font);
 }
 code {
   padding: 3px 6px;
   border-radius: 6px;
-  color: var(--text-main-color);
-  background: var(--accent-color-1);
+  color: var(--text);
+  background: var(--accent-1);
 }
 pre {
   padding: 2rem 2.5rem;
@@ -64,33 +64,33 @@ pre code {
   white-space: pre;
 }
 s, strike, del {
-  color: var(--accent-color-3);
+  color: var(--accent-3);
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
-  border: 1px solid var(--accent-color-3);
+  border: 1px solid var(--accent-3);
 }
 th, td {
-  border: 1px solid var(--accent-color-3);
+  border: 1px solid var(--accent-3);
   padding: 3px 9px;
 }
 th {
-  background-color: var(--accent-color-1);
+  background-color: var(--accent-1);
   text-align: center;
 }
 
 hr {
   border: none;
   height: 1px;
-  background: var(--accent-color-2);
+  background: var(--accent-2);
   margin: 4rem 0;
 }
 
 highlight,
 mark {
-  background-color: var(--accent-color-3);
+  background-color: var(--accent-3);
   color: var(--text);
   padding: 0 3px;
   margin-left: -3px;
@@ -98,12 +98,12 @@ mark {
 
 
 header {
-  margin: 2rem auto 6rem;
+  margin: 2rem auto 5rem;
   max-width: var(--max-width);
 }
 header a:link,
 header a:visited {
-  color: var(--link-color);
+  color: var(--link);
   text-decoration: none;
   margin: 0;
   padding: 0;
@@ -118,12 +118,12 @@ header .site-title {
   font-size: 2.2rem;
 }
 header .site-title a {
-  color: var(--link-color-hover);
+  color: var(--link-hover);
 }
 header .site-title a:hover,
 header .site-title a:active {
   text-decoration: none;
-  color: var(--link-color);
+  color: var(--link);
 }
 
 .navbar {
@@ -144,12 +144,12 @@ header .site-title a:active {
 .social a:link,
 .social a:visited {
   margin: 0 0 0 1.5rem;
-  color: var(--link-color-hover);
+  color: var(--link-hover);
   line-height: 2;
 }
 .social a:hover,
 .social a:active {
-  color: var(--link-color-hover);
+  color: var(--link-hover);
   text-decoration: none;
 }
 .social a.mastodon:hover {
@@ -159,7 +159,7 @@ header .site-title a:active {
   color: #FF507A;
 }
 .social a.search:hover {
-  color: var(--accent-color-5);
+  color: var(--accent-4);
 }
 
 .nav-links {
@@ -178,11 +178,11 @@ header .site-title a:active {
 }
 .nav-links a:link,
 .nav-links a:visited {
-  color: var(--text-main-color);
+  color: var(--text);
 }
 .nav-links a:hover,
 .nav-links a:active {
-  color: var(--link-color);
+  color: var(--link);
 }
 
 main {
@@ -204,15 +204,15 @@ article:last-of-type {
 }
 .post-title a:link,
 .post-title a:visited {
-  color: var(--text-main-color);
+  color: var(--text);
 }
 .post-title a:hover,
 .post-title a:active {
-  color: var(--link-color);
+  color: var(--link);
 }
 .post-date {
   font-size: 1.6rem;
-  color: var(--accent-color-5);
+  color: var(--accent-4);
   flex-shrink: 0;
   margin-left: 1rem;
 }
@@ -220,7 +220,7 @@ time {
   margin: 0 0 3rem 0;
   display: block;
   font-size: 1.6rem;
-  color: var(--accent-color-5);
+  color: var(--accent-4);
   font-family: var(--title-font);
 }
 main p, main ol, main ul {
@@ -249,18 +249,18 @@ main img {
 .tags a {
   font-size: 1.4rem;
   padding: 6px 9px;
-  background: var(--accent-color-1);
-  color: var(--accent-color-6);
+  background: var(--accent-1);
+  color: var(--accent-5);
   border-radius: 6px;
 }
 .tags a:hover,
 .tags a:active {
-  background: var(--accent-color-3);
-  color: var(--text-main-color);
+  background: var(--accent-3);
+  color: var(--text);
   text-decoration: none;
 }
 .tags span {
-  color: var(--accent-color-2);
+  color: var(--accent-2);
 }
 
 .main-nav {
@@ -284,11 +284,11 @@ main img {
   list-style: none;
   margin: 2rem 0;
   padding: 0;
-  border-top: 1px solid var(--accent-color-2);
+  border-top: 1px solid var(--accent-2);
 }
 .archive-list li {
   margin: 0;
-  border-bottom: 1px solid var(--accent-color-2);
+  border-bottom: 1px solid var(--accent-2);
   line-height: 1.2;
   padding: 1.2rem .2rem;
   display: flex;
@@ -298,7 +298,7 @@ main img {
 h4.post-group {
   margin-bottom: -1rem;
   margin-top: 4rem;
-  color: var(--accent-color-5);
+  color: var(--accent-4);
   font-size: 1.6rem;
 }
 .archives h4.post-group:first-of-type {
@@ -306,17 +306,17 @@ h4.post-group {
 }
 
 #search-input {
-  background: var(--accent-color-1);
-  border: 1px solid var(--accent-color-2);
+  background: var(--accent-1);
+  border: 1px solid var(--accent-2);
   width: 100%;
   padding: 12px;
   border-radius: 6px;
-  color: var(--text-main-color);
+  color: var(--text);
   outline: none;
 }
 #search-input:active,
 #search-input:focus {
-  border-color: var(--accent-color-3);
+  border-color: var(--accent-3);
 }
 .search-results {
   margin-top: 6rem;
@@ -325,11 +325,11 @@ ul.search-list {
   list-style: none;
   margin: 2rem 0;
   padding: 0;
-  border-top: 1px solid var(--accent-color-2);
+  border-top: 1px solid var(--accent-2);
 }
 ul.search-list li {
   margin: 0;
-  border-bottom: 1px solid var(--accent-color-2);
+  border-bottom: 1px solid var(--accent-2);
   line-height: 1.2;
   padding: 1.2rem .2rem 0;
 }
@@ -339,19 +339,19 @@ footer {
   margin: 4rem auto;
   font-size: 1.6rem;
   text-align: center;
-  color: var(--accent-color-5);
+  color: var(--accent-4);
   font-family: var(--title-font);
 }
 footer a:link,
 footer a:visited {
-  color: var(--accent-color-5);
+  color: var(--accent-4);
 }
 footer a:hover,
 footer a:active {
-  color: var(--link-color);
+  color: var(--link);
 }
 .tinylytics_hits {
   font-size: 1.2rem;
-  color: var(--accent-color-2);
+  color: var(--accent-2);
   font-family: var(--title-font);
 }

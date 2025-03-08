@@ -1,14 +1,16 @@
 :root {
-    --background-color: #1f2229;
-    --text-main-color: #f8f8f8;
-    --link-color: #84c3ff;
-    --link-color-hover: #fff;
-    --accent-color-1: #2c313a;
-    --accent-color-2: #404754;
-    --accent-color-3: #6d7b91;
-    --accent-color-5: #8e97a9;
-    --accent-color-6: #d9dce2;
-    --warning-color: #e00031;
+    color-scheme: light dark;
+    
+    --background: #1f2229;
+    --text: #f8f8f8;
+    --link: #84c3ff;
+    --link-hover: #fff;
+    --accent-1: #2c313a;
+    --accent-2: #404754;
+    --accent-3: #6d7b91;
+    --accent-4: #8e97a9;
+    --accent-5: #d9dce2;
+    --warning: #e00031;
     --sans-serif-font: Inter, -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --title-font: "DM Sans", -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --mono-space-font: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier, monospace;
