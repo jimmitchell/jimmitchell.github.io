@@ -164,15 +164,15 @@ header .site-title a:active {
 
 .nav-links {
   list-style: none;
-  margin: 4rem 0 6rem;
+  margin: 4rem 0;
   padding: 0;
   font-size: 1.4rem;
   line-height: 1;
   font-family: var(--title-font);
 }
 .nav-item {
-  display: inline;
-  margin: 0 .75rem 0 0;
+  display: inline-block;
+  margin: 0 .75rem .75rem 0;
 }
 .nav-links a:link,
 .nav-links a:visited {
@@ -180,7 +180,8 @@ header .site-title a:active {
   text-decoration: none;
   border: 1px solid var(--accent-2);
   padding: 5px 10px 6px;
-  border-radius: 24px;
+  border-radius: 6px;
+  display: inline-block;
 }
 .nav-links a:hover,
 .nav-links a:active {

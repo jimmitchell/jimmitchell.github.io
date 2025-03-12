@@ -1,11 +1,11 @@
 :root {
     color-scheme: light dark;
     
-    --background: #1f2229;
+    --background: #20242b;
     --text: #f8f8f8;
     --link: #84c3ff;
     --link-hover: #fff;
-    --accent-1: #2c313a;
+    --accent-1: #2e333c;
     --accent-2: #404754;
     --accent-3: #6d7b91;
     --accent-4: #8e97a9;
