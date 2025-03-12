@@ -200,12 +200,16 @@ article {
 article:last-of-type {
   margin-bottom: 4rem;
 }
+article h2,
+article h3 {
+  margin-top: 5rem;
+}
 .latest-post {
   margin-bottom: 6rem;
 }
 .page-title,
 .post-title {
-  font-size: 3rem;
+  font-size: 3.2rem;
 }
 .post-title a:link,
 .post-title a:visited {
