@@ -11,7 +11,7 @@ If you've landed on this page, you are either a Yasu user from long ago (👋�
 
 If you just landed here hoping to download the latest version for an old Mac you have, they're still available on the Yasu for Mac site. More on that in a bit.
 
-### The History
+## The History
 
 I first created Yasu (short for “Yet another system utility”) back in 2001 as an answer to Cocktail moving to a shareware model. I thought I'd be able to make something just as useful, so challenged myself to build a Mac maintenance utility app.
 
@@ -27,7 +27,7 @@ This led me to turn the app over to another developer back in 2017 who promised 
 
 I think the existing binaries are still usable on older Macs. To be honest, I haven't tried them lately myself. Give it a shot and let me know if you do.
 
-### The Future
+## The Future
 
 I've often toyed with the idea of taking Yasu back and resurrecting development. It would mean a complete rewrite in a completely different language which would be a challenge, but if there was enough interest, I might just be persuaded to give it a try. It would give me a passion project to work on again too.
 This is where you come in...
