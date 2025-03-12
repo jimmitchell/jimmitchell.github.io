@@ -179,7 +179,7 @@ header .site-title a:active {
   color: var(--text);
   text-decoration: none;
   border: 1px solid var(--accent-2);
-  padding: 6px 11px 7px;
+  padding: 6px 10px;
   border-radius: 6px;
   display: inline-block;
 }
