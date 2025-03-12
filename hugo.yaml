@@ -22,6 +22,9 @@ params:
   
 menus:
   main:
+    - name: Home
+      pageRef: /
+      weight: 5
     - name: Yasu
       pageRef: /pages/projects/yasu
       weight: 10

@@ -164,25 +164,29 @@ header .site-title a:active {
 
 .nav-links {
   list-style: none;
-  margin: 0;
-  padding: 2rem 0 2rem;
-  font-size: 1.8rem;
+  margin: 4rem 0 6rem;
+  padding: 0;
+  font-size: 1.4rem;
   line-height: 1;
+  font-family: var(--title-font);
 }
 .nav-item {
   display: inline;
-  margin-right: 2rem;
-}
-.nav-item:last-of-type {
-  margin-right: 0;
+  margin: 0 .75rem 0 0;
 }
 .nav-links a:link,
 .nav-links a:visited {
   color: var(--text);
+  text-decoration: none;
+  border: 1px solid var(--accent-2);
+  padding: 5px 10px 6px;
+  border-radius: 24px;
 }
 .nav-links a:hover,
 .nav-links a:active {
-  color: var(--link);
+  color: var(--text);
+  background: var(--accent-1);
+  border-color: var(--accent-3);
 }
 
 main {

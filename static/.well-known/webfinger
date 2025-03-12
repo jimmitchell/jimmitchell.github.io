@@ -1,28 +1,28 @@
 {
 	"subject": "acct:jim@jimmitchell.dev", 
 	"aliases": [
-		"https://social.jimmitchell.org/@jim", 
-		"https://social.jimmitchell.org/users/jim"
+		"https://jimmitchell.social/@jim", 
+		"https://jimmitchell.social/users/jim"
 	],
 	"links": [
 		{
 			"rel": "http://webfinger.net/rel/profile-page",
 			"type": "text/html",
-			"href": "https://social.jimmitchell.org/@jim"
+			"href": "https://jimmitchell.social/@jim"
 		},
 		{
 			"rel": "self",
 			"type": "application/activity+json",
-			"href": "https://social.jimmitchell.org/users/jim"
+			"href": "https://jimmitchell.social/users/jim"
 		},
 		{
 			"rel": "http://ostatus.org/schema/1.0/subscribe",
-			"template": "https://social.jimmitchell.org/authorize_interaction?uri={uri}"
+			"template": "https://jimmitchell.social/authorize_interaction?uri={uri}"
 		},
 		{
 			"rel": "http://webfinger.net/rel/avatar",
 			"type": "image/jpeg",
-			"href": "https://cdn.masto.host/socialjimmitchellorg/accounts/avatars/113/658/266/025/880/755/original/575c0ef79976d54a.webp"
+			"href": "https://cdn.masto.host/jimmitchellsocial/accounts/avatars/114/146/903/104/530/310/original/1be9a07867f33319.jpeg"
 		}
 	]
 }
