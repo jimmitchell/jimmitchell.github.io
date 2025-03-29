@@ -10,6 +10,8 @@ body {
   line-height: var(--base-line-height);
   -ms-word-wrap: break-word;
   word-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   text-rendering: geometricPrecision;
   -moz-font-feature-settings: "kern" 1;
   -ms-font-feature-settings: "kern" 1;
