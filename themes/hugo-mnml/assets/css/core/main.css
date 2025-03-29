@@ -19,7 +19,6 @@ body {
   -webkit-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
   font-kerning: normal;
-  letter-spacing: -.1px;
 }
 a:link, a:visited {
   color: var(--link);
@@ -31,6 +30,7 @@ a:hover, a:active {
 h1, h2, h3, h4, h5, h6 {
   font-weight: var(--font-weight-bold);
   font-family: var(--title-font);
+  letter-spacing: -.2px;
 }
 blockquote {
   padding: 1px 3rem;
