@@ -19,6 +19,7 @@ body {
   -webkit-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
   font-kerning: normal;
+  letter-spacing: -.1px;
 }
 a:link, a:visited {
   color: var(--link);
