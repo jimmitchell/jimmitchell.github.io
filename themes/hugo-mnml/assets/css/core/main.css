@@ -284,7 +284,7 @@ main img {
 
 .archive-list {
   list-style: none;
-  margin: 2rem 0;
+  margin: 4rem 0;
   padding: 0;
   border-top: 1px dotted var(--accent-2);
 }
