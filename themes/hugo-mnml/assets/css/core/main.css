@@ -169,7 +169,7 @@ header .site-title a:active {
 }
 .nav-item {
   display: inline-block;
-  margin: 0 2rem .5rem 0;
+  margin: 0 1.5rem .5rem 0;
 }
 .nav-links a:link,
 .nav-links a:visited {
