@@ -298,7 +298,7 @@ main img {
   align-items: center;
 }
 h4.post-group {
-  margin-bottom: -1rem;
+  margin-bottom: -3rem;
   margin-top: 4rem;
   color: var(--accent-4);
   font-size: 1.6rem;
