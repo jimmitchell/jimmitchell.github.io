@@ -54,7 +54,6 @@ pre {
   border-radius: 6px;
   font-size: 1.6rem;
   overflow: scroll;
-  background: #000 !important;
 }
 pre code {
   padding: 0;
