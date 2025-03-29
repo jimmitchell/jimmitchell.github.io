@@ -22,7 +22,7 @@ params:
   
 menus:
   main:
-    - name: Home
+    - name: Posts
       pageRef: /
       weight: 5
     - name: Yasu
