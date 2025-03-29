@@ -358,11 +358,7 @@ footer a:hover,
 footer a:active {
   color: var(--link);
 }
-.tinylytics_hits {
-  font-size: 1.2rem;
-  color: var(--accent-2);
-  font-family: var(--title-font);
-}
+
 @media only screen and (max-width: 768px) {
   .post-date {
     display: none;
