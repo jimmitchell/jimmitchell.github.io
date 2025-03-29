@@ -98,7 +98,7 @@ mark {
 
 
 header {
-  margin: 2rem auto 5rem;
+  margin: 2rem auto 4rem;
   max-width: var(--max-width);
 }
 header a:link,
