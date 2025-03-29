@@ -18,6 +18,6 @@ I’m a [Salesforce certified administrator, developer, and consultant](https://
 
 I’m fortunate enough to have found and married an extremely patient woman that I’d be completely lost without, and I have some pretty neat adult kids because of it. In my spare time, I like to write code, spend time with friends and family, play music, and enjoy getting outdoors on a hiking trail.
 
-I love hearing from visitors, so if you want to ask a question, share a thought, or just chit-chat about Yasu, connect with me on [Mastodon](https://social.jimmitchell.org/@jim), or [shoot me an email](mailto:hello@jimmitchell.dev).
+I love hearing from visitors, so if you want to ask a question, share a thought, or just chit-chat about Yasu, connect with me on [Mastodon](https://jimmitchell.social/@jim), or [shoot me an email](mailto:hello@jimmitchell.dev).
 
 Thanks for reading.

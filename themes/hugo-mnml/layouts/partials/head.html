@@ -11,7 +11,6 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
 <meta name="apple-mobile-web-app-title" content="Jim Mitchell" />
 <link rel="manifest" href="/favicons/site.webmanifest" />
-{{ partial "preconnect.html" . }}
 {{ partial "opengraph.html" . }}
 {{- with .OutputFormats.Get "rss" -}}
   {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}

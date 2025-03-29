@@ -1,11 +1,9 @@
 {{- $vars        := (resources.Get "css/core/theme-vars.css") }}
 {{- $reset       := (resources.Get "css/core/reset.css") }}
 {{- $main        := (resources.Get "css/core/main.css") }}
-{{- $font1       := (resources.Get "css/core/inter.css") }}
-{{- $font2       := (resources.Get "css/core/dm-sans.css") }}
 {{- $icons       := (resources.Get "css/phosphor/regular.css") }}
 {{- $phosphor    := (slice $icons) | resources.Concat "css/phosphor.css" | resources.Minify  }}
-{{- $stylesheet  := (slice $vars $reset $font1 $font2 $main) | resources.Concat "css/styles.css" | resources.Minify  }}
+{{- $stylesheet  := (slice $vars $reset $main) | resources.Concat "css/styles.css" | resources.Minify  }}
 {{- if eq hugo.Environment "development" }}
 <link crossorigin="anonymous" href="{{ $phosphor.RelPermalink }}" rel="preload stylesheet preconnect" as="style">
 <link crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" rel="preload stylesheet preconnect" as="style">

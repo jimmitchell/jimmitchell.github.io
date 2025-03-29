@@ -1,18 +1,16 @@
 :root {
-    color-scheme: light dark;
-    
-    --background: #20242b;
-    --text: #f8f8f8;
-    --link: #84c3ff;
-    --link-hover: #fff;
-    --accent-1: #2e333c;
-    --accent-2: #404754;
-    --accent-3: #6d7b91;
-    --accent-4: #8e97a9;
-    --accent-5: #d9dce2;
+    --background: #fff;
+    --text: #333;
+    --link: #0089e3;
+    --link-hover: #000;
+    --accent-1: #f4f4f4;
+    --accent-2: #ccc;
+    --accent-3: #aaa;
+    --accent-4: #777;
+    --accent-5: #555;
     --warning: #e00031;
-    --sans-serif-font: Inter, -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --title-font: "DM Sans", -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --sans-serif-font: -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --title-font: -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --mono-space-font: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier, monospace;
     --font-weight-normal: 400;
     --font-weight-bold: 700;
