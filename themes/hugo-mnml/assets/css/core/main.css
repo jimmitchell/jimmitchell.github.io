@@ -215,7 +215,7 @@ article h3 {
 }
 .post-date {
   font-size: 1.6rem;
-  color: var(--accent-4);
+  color: var(--accent-3);
   flex-shrink: 0;
   margin-left: 1rem;
 }
