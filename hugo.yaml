@@ -22,15 +22,9 @@ params:
   
 menus:
   main:
-    - name: Posts
+    - name: Home
       pageRef: /
       weight: 5
-    - name: Yasu
-      pageRef: /pages/projects/yasu
-      weight: 10
-    - name: Projects
-      pageRef: /pages/projects
-      weight: 15
     - name: Archives
       pageRef: /pages/archives
       weight: 20
@@ -54,7 +48,7 @@ module:
     
 markup:
   highlight:
-    style: xcode-dark
+    style: github-dark
     codeFences: true
     tabWidth: 4
     noHl: false

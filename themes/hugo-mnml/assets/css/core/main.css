@@ -48,7 +48,6 @@ code, pre {
 code {
   padding: 3px 6px;
   border-radius: 6px;
-  color: var(--text);
   background: var(--accent-1);
 }
 pre {
@@ -167,7 +166,7 @@ header .site-title a:active {
   margin: 4rem 0;
   padding: 0;
   line-height: 1;
-  font-family: var(--title-font);
+  display: none;
 }
 .nav-item {
   display: inline-block;

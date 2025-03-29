@@ -1,19 +1,18 @@
 :root {
     --background: #fff;
-    --text: #333;
-    --link: #06c;
+    --text: #363636;
+    --link: #0089e3;
     --link-hover: #000;
     --accent-1: #f4f4f4;
     --accent-2: #ccc;
-    --accent-3: #aaa;
-    --accent-4: #777;
-    --accent-5: #555;
+    --accent-3: #999;
+    --accent-4: #555;
     --warning: #e00031;
-    --sans-serif-font: -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --title-font: -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --sans-serif-font: "Atkinson Hyperlegible Next", -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --title-font: "Roboto Condensed", -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --mono-space-font: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier, monospace;
     --font-weight-normal: 400;
     --font-weight-bold: 700;
-    --max-width: 70rem;
+    --max-width: 68rem;
     --base-line-height: 1.7;
 }
