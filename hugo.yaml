@@ -25,6 +25,9 @@ menus:
     - name: Home
       pageRef: /
       weight: 5
+    - name: Yasu
+      pageRef: /pages/yasu
+      weight: 5
     - name: Archives
       pageRef: /pages/archives
       weight: 20

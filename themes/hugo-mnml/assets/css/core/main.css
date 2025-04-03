@@ -166,7 +166,6 @@ header .site-title a:active {
   margin: 4rem 0;
   padding: 0;
   line-height: 1;
-  display: none;
 }
 .nav-item {
   display: inline-block;
