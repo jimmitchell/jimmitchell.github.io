@@ -21,8 +21,8 @@
 {{/* Generate opengraph image */}}
 {{- if .IsPage -}}
   {{ $base := resources.Get "og_base.png" }}
-  {{ $boldFont := resources.Get "/RobotoCondensed-Bold.ttf"}}
-  {{ $mediumFont := resources.Get "/AtkinsonHyperlegibleNext-Regular.ttf"}}
+  {{ $boldFont := resources.Get "/fonts/RobotoCondensed-Bold.ttf"}}
+  {{ $mediumFont := resources.Get "/fonts/AtkinsonHyperlegibleNext-Regular.ttf"}}
   {{ $img := $base.Filter (images.Text .Site.Title (dict
     "color" "#ffffff"
     "size" 40

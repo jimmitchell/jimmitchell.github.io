@@ -12,7 +12,7 @@
 <meta name="apple-mobile-web-app-title" content="Jim Mitchell" />
 <link rel="manifest" href="/favicons/site.webmanifest" />
 {{ partial "opengraph.html" . }}
-{{ partial "google-fonts.html" . }}
+{{ partial "preconnect.html" . }}
 {{- with .OutputFormats.Get "rss" -}}
   {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
 {{- end }}
