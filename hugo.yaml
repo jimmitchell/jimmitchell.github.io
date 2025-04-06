@@ -39,11 +39,6 @@ services:
   rss:
     limit: 15
 
-redirects:
-  from: /**
-  status: 404
-  to: /404.html
-
 module:
   hugoVersion:
     extended: true
