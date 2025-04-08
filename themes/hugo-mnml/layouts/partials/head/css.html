@@ -1,16 +1,12 @@
 {{- $fonts       := (resources.Get "css/core/fonts.css") }}
+{{- $icons       := (resources.Get "css/phosphor/regular.css") }}
 {{- $vars        := (resources.Get "css/core/theme-vars.css") }}
 {{- $reset       := (resources.Get "css/core/reset.css") }}
 {{- $main        := (resources.Get "css/core/main.css") }}
-{{- $icons       := (resources.Get "css/phosphor/regular.css") }}
-{{- $phosphor    := (slice $icons) | resources.Concat "css/phosphor.css" | resources.Minify  }}
-{{- $stylesheet  := (slice $fonts $vars $reset $main) | resources.Concat "css/styles.css" | resources.Minify  }}
+{{- $stylesheet  := (slice $fonts $icons $vars $reset $main) | resources.Concat "css/styles.css" | resources.Minify  }}
 {{- if eq hugo.Environment "development" }}
-<link crossorigin="anonymous" href="{{ $phosphor.RelPermalink }}" rel="preload stylesheet preconnect" as="style">
 <link crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" rel="preload stylesheet preconnect" as="style">
 {{- else }}
-{{- $securePhosphor := $phosphor | resources.Fingerprint "sha512" }}
 {{- $secureStylesheet  := $stylesheet | resources.Fingerprint "sha512" }}
-<link crossorigin="anonymous" href="{{ $securePhosphor.RelPermalink }}" integrity="{{ $securePhosphor.Data.Integrity }}" crossorigin="anonymous" rel="preload stylesheet preconnect" as="style">
 <link crossorigin="anonymous" href="{{ $secureStylesheet.RelPermalink }}" integrity="{{ $secureStylesheet.Data.Integrity }}" crossorigin="anonymous" rel="preload stylesheet preconnect" as="style">
 {{- end }}
