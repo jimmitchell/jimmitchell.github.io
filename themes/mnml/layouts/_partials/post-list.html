@@ -1,0 +1,5 @@
+{{- /* All posts from the main sections, newest first. Sorted explicitly: the
+       default page order puts weight ahead of date, so a single weighted post
+       would otherwise reorder the Older/Newer chain. Call it through
+       partialCached so the sort runs once per build, not once per page. */ -}}
+{{- return (where site.RegularPages "Section" "in" site.Params.mainSections).ByDate.Reverse }}

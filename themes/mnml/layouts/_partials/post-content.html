@@ -1,0 +1,34 @@
+{{- $post := . }}
+{{- $forceFull := false }}
+{{- if reflect.IsMap . }}
+	{{- $post = .post }}
+	{{- $forceFull = .full }}
+{{- end }}
+{{- $showFull := or site.Params.show_full_post $forceFull }}
+{{- $datetime := $post.Date.Format "2006-01-02T15:04:05-07:00" }}
+{{- if $post.Title }}
+	<h2 class="post-title"><a href="{{ $post.RelPermalink }}" class="u-url">{{ $post.Title }}</a></h2>
+	<p class="post-date">
+		<time class="dt-published" datetime="{{ $datetime }}">
+			{{- partial "date.html" $post.Date }}{{- if site.Params.show_read_time }}&nbsp;<span class="sep">&bull;</span>&nbsp;{{ $post.ReadingTime }}&nbsp;{{ T "min read" }}{{- end }}
+		</time>
+	</p>
+	{{- if $showFull }}
+	{{ $post.Content }}
+	{{- else }}
+	{{ $post.Summary }}
+	<p><a href="{{ $post.RelPermalink }}" class="u-url">{{ T "Continue reading" }} →</a></p>
+	{{- end }}
+{{- else }}
+	<p class="post-date btm-margin">
+		<time class="dt-published" datetime="{{ $datetime }}">
+			<a href="{{ $post.RelPermalink }}" class="u-url">{{ partial "date.html" $post.Date }} →</a>
+		</time>
+	</p>
+	{{- if or $showFull (not $post.Truncated) }}
+	{{ $post.Content }}
+	{{- else }}
+	{{ $post.Summary }}
+	<p><a href="{{ $post.RelPermalink }}" class="u-url">{{ T "Continue reading" }} →</a></p>
+	{{- end }}
+{{- end }}

@@ -1,0 +1,7 @@
+<div id="pagefind-search" class="pagefind-search" data-pagefind-ignore="all"
+     data-bundle-path="{{ "pagefind/" | relURL }}"
+     data-page-size="{{ site.Params.search_results | default 5 }}"
+     data-unavailable="{{ T "Search unavailable" | default "Search isn't available yet. It's built when the site is built." }}"></div>
+<link rel="stylesheet" href="{{ "pagefind/pagefind-ui.css" | relURL }}">
+<script defer src="{{ "pagefind/pagefind-ui.js" | relURL }}"></script>
+{{ partial "script.html" "js/search.js" }}

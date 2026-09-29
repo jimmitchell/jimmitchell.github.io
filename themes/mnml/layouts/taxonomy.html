@@ -1,0 +1,14 @@
+{{ define "main" }}
+<main class="archive">
+    <article>
+        <h1 class="page-title">{{ .Title }}</h1>
+        <div class="archive-categories">
+            <div class="category-list">
+                {{- range .Data.Terms.Alphabetical }}
+                <a href="{{ .Page.RelPermalink }}" class="category">{{ .Page.Title }}{{ if site.Params.show_category_count }}&nbsp;<span class="post-count">({{ .Count }})</span>{{ end }}</a>
+                {{- end }}
+            </div>
+        </div>
+    </article>
+</main>
+{{ end }}

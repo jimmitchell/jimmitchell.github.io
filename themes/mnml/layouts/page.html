@@ -1,0 +1,53 @@
+{{- define "main" }}
+{{- if not (in site.Params.mainSections .Section) }}
+<main>
+  <article{{ if not .Params.search_exclude }} data-pagefind-body{{ end }}>
+    {{- if .Title }}
+    <h1 class="page-title" data-pagefind-meta="title">{{ .Title }}</h1>
+    {{- end }}
+    {{ .Content }}
+  </article>
+</main>
+{{- else }}
+<main>
+    {{- $datetime := .Date.Format "2006-01-02T15:04:05-07:00" }}
+    <article class="h-entry {{ partial "category-classes.html" . }}"{{ if not .Params.search_exclude }} data-pagefind-body{{ end }} data-pagefind-sort="date:{{ .Date.Format "2006-01-02" }}">
+        {{- if .Title }}
+        <h1 class="post-title p-name" data-pagefind-meta="title">{{ .Title }}</h1>
+        <p class="post-date" data-pagefind-ignore>
+            <time class="dt-published" datetime="{{ $datetime }}">
+                {{- partial "date.html" .Date }}{{- if site.Params.show_read_time }}&nbsp;<span class="sep">&bull;</span>&nbsp;{{ .ReadingTime }}&nbsp;{{ T "min read" }}{{- end }}
+            </time>
+        </p>
+        {{- else }}
+        <p class="post-date btm-margin" data-pagefind-ignore>
+            <time class="dt-published" datetime="{{ $datetime }}" data-pagefind-meta="title">{{ partial "date.html" .Date }}</time>
+        </p>
+        {{- end }}
+        <div class="e-content">
+            {{ .Content }}
+        </div>
+        {{- with .GetTerms "categories" }}
+        <p class="categories">
+            {{- range . }}
+            <a href="{{ .RelPermalink }}" class="category" data-pagefind-filter="category">{{ .LinkTitle }}</a>
+            {{- end }}
+        </p>
+        {{- end }}
+    </article>
+    {{- /* Walk the full post list rather than using .PrevInSection, so the
+           chain stays unbroken across sections and weighted posts. */}}
+    {{- $posts := partialCached "post-list.html" . }}
+    {{- $older := $posts.Prev . }}
+    {{- $newer := $posts.Next . }}
+    {{- if or $older $newer }}
+    <nav class="main-nav visually-hidden">
+        <ul>
+            <li>{{ with $older }}<a href="{{ .RelPermalink }}">← {{ T "Older" }}</a>{{ end }}</li>
+            <li>{{ with $newer }}<a href="{{ .RelPermalink }}">{{ T "Newer" }} →</a>{{ end }}</li>
+        </ul>
+    </nav>
+    {{- end }}
+</main>
+{{- end }}
+{{- end }}

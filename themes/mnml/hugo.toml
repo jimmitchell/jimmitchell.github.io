@@ -1,0 +1,6 @@
+# Theme defaults. Anything set in the site's own config wins.
+[module.hugoVersion]
+  min = "0.146.0"
+
+[params]
+  search_results = 5

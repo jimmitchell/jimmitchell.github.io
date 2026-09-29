@@ -1,0 +1,38 @@
+{{- /* Generates a 1200×630 share card for a page and returns the image. */ -}}
+{{- $base := resources.Get "images/og-base.png" }}
+{{- $bold := resources.Get "fonts/GT-W-Bold.ttf" }}
+{{- $regular := resources.Get "fonts/GT-W-Regular.ttf" }}
+{{- $pad := 80 }}
+
+{{- /* Untitled notes use their opening words; list pages their title; the
+       home page the site description. */ -}}
+{{- $headline := .Title }}
+{{- $headlineFont := $bold }}
+{{- $headlineSize := 64 }}
+{{- if .IsHome }}
+  {{- $headline = site.Params.description }}
+  {{- $headlineFont = $regular }}
+  {{- $headlineSize = 48 }}
+{{- else if not .Title }}
+  {{- $headline = partial "description.html" . }}
+  {{- $headlineFont = $regular }}
+  {{- $headlineSize = 48 }}
+{{- end }}
+{{- $headline = $headline | plainify | htmlUnescape | truncate 110 }}
+
+{{- $footer := (urls.Parse site.BaseURL).Host }}
+{{- if .IsPage }}
+  {{- $footer = printf "%s  ·  %s" (partial "date.html" .Date) $footer }}
+{{- end }}
+
+{{- $filters := slice
+  (images.Text site.Title (dict
+    "font" $bold "size" 36 "color" "#45c8f7" "x" $pad "y" $pad))
+  (images.Text $headline (dict
+    "font" $headlineFont "size" $headlineSize "color" "#ffffff" "linespacing" 14
+    "x" $pad "y" 180))
+  (images.Text $footer (dict
+    "font" $regular "size" 28 "color" "#d4d4d6" "x" $pad "y" 520))
+}}
+{{- $img := $base | images.Filter $filters }}
+{{- return resources.Copy (path.Join .RelPermalink "og.png") $img }}

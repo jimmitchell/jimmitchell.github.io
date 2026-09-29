@@ -1,0 +1,2 @@
+{{- /* Formats a date using the site's long or short date setting. */ -}}
+{{- return time.Format (cond site.Params.use_short_date ":date_short" ":date_full") . }}

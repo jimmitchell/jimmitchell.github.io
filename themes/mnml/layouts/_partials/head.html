@@ -1,0 +1,31 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <meta name="view-transition" content="same-origin" />
+  <title>{{ block "title" . }}{{ if .IsHome }}{{ site.Title }}{{ else if .Title }}{{ trim (.Title | plainify | htmlUnescape) " " }} | {{ site.Title }}{{ else }}{{ delimit (split (.Summary | plainify | htmlUnescape) " " | first 5) " " }} … | {{ site.Title }}{{ end }}{{ end }}</title>
+  {{- range slice "Regular" "Regular-Oblique" "Bold" "Bold-Oblique" }}
+  <link rel="preload" href="{{ printf "fonts/GT-W-%s.woff2" . | relURL }}" as="font" type="font/woff2" crossorigin="anonymous"/>
+  {{- end }}
+  <meta name="description" content="{{ partial "description.html" . | truncate 160 }}">
+  {{ partial "opengraph.html" . }}
+  {{- with site.Params.fediverse_creator }}
+  <meta name="fediverse:creator" content="{{ . }}" />
+  {{- end }}
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="author" href="{{ "humans.txt" | relURL }}" />
+  {{- with site.Home.OutputFormats.Get "rss" }}
+  <link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ site.Title }}">
+  {{- end }}
+  {{- $photos := cond site.Params.masonry_layout "css/photos-masonry.css" "css/photos-grid.css" }}
+  {{- $css := slice (resources.Get "css/fonts.css") (resources.Get "css/main.css") (resources.Get $photos) | resources.Concat "css/mnml.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#20232a" media="(prefers-color-scheme: dark)" />
+  {{- if site.Params.narrow_header }}
+  <style>.site-nav {max-width:var(--site-width)}</style>
+  {{- end }}
+  {{- if templates.Exists "_partials/custom_head.html" }}
+  {{ partial "custom_head.html" . }}
+  {{- end }}
+</head>

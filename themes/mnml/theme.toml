@@ -1,0 +1,11 @@
+name = "mnml"
+license = "GPL-2.0"
+licenselink = "https://github.com/jimmitchell/mnml/blob/main/LICENSE"
+description = "A clean and simple minimalist Hugo theme, ported from the mnml Micro.blog theme."
+homepage = "https://github.com/jimmitchell/mnml"
+tags = ["blog", "minimal", "dark mode", "responsive", "i18n"]
+min_version = "0.146.0"
+
+[author]
+  name = "Jim Mitchell"
+  homepage = "https://jimmitchell.org"

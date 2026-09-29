@@ -1,0 +1,7 @@
+{{- /* Plain-text description for meta tags: front matter description, then
+       the summary, then the site description. */ -}}
+{{- $d := site.Params.description }}
+{{- if not .IsHome }}
+  {{- $d = or .Description .Summary .Content $d }}
+{{- end }}
+{{- return ($d | plainify | htmlUnescape | strings.TrimSpace) }}

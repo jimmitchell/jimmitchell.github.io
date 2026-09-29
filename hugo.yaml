@@ -1,0 +1,60 @@
+baseURL: https://jimmitchell.github.io/
+locale: en-us
+timeZone: America/Los_Angeles
+title: Jim Mitchell
+theme: mnml
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 20
+
+taxonomies:
+  category: categories
+
+params:
+  description: Personal site and writing of Jim Mitchell.
+  author:
+    name: Jim Mitchell
+    avatar: ""              # path or URL to an avatar image
+  mainSections: [posts]
+
+  # mnml options (all default to off/blank)
+  fediverse_creator: ""     # e.g. @jim@mastodon.social
+  use_short_date: false
+  narrow_header: true
+  hide_avatar: true
+  custom_avatar: ""
+  pinned_category: ""
+  home_category: ""
+  show_full_post: false
+  show_read_time: false
+  enable_code_copy_button: true
+  category_full_post: false
+  show_categories: true
+  show_category_count: true
+  photos_category: ""
+  all_formats: false
+  masonry_layout: false
+  full_width_photos: false
+  single_image: false
+  search_results: 5
+  hide_copyright: false
+  footer_rss: true
+  hide_credit: true
+
+menus:
+  main:
+    - name: Archive
+      pageRef: /archive
+      weight: 10
+    - name: Search
+      pageRef: /search
+      weight: 20
+    - name: About
+      pageRef: /about
+      weight: 30
+
+services:
+  rss:
+    limit: 20

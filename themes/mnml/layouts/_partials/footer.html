@@ -1,0 +1,19 @@
+<footer>
+{{- if not site.Params.hide_copyright }}
+    {{- $earliest := 0 }}
+    {{- with (partialCached "post-list.html" .).ByDate }}
+        {{- $earliest = (index . 0).Date.Year }}
+    {{- end }}
+    <p>&copy; {{- if and $earliest (ne $earliest now.Year) }}{{ $earliest }}&nbsp;-&nbsp;{{- end }}{{ now.Year }} {{ or site.Params.author.name site.Title }}</p>
+{{- end }}
+{{- if templates.Exists "_partials/custom_footer.html" }}
+{{ partial "custom_footer.html" . }}
+{{- end }}
+{{- if site.Params.footer_rss }}
+    {{- with site.Home.OutputFormats.Get "rss" }}<p>{{ T "Subscribe via" }}&nbsp;<a href="{{ .RelPermalink }}">RSS</a></p>{{- end }}
+{{- end }}
+{{- if not site.Params.hide_credit }}
+    <p class="credits">{{ T "Powered by" }} <a href="https://gohugo.io">Hugo</a> &amp; <a href="https://github.com/jimmitchell/mnml">mnml</a>. {{ T "Designed by" }} <a href="https://jimmitchell.org">Jim Mitchell</a>.</p>
+{{- end }}
+</footer>
+{{ partial "scroll-to-top.html" . }}

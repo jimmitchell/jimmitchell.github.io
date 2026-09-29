@@ -1,0 +1,85 @@
+{{- define "main" }}
+<main class="archive">
+	<article>
+		<h1 class="page-title">{{ T "Archives" }}</h1>
+
+		{{- $categories := site.Taxonomies.categories.Alphabetical }}
+		{{- $category_count := site.Params.show_category_count }}
+		{{- if and (site.Params.show_categories) (gt (len $categories) 0) }}
+		<div class="archive-categories">
+			<div class="category-list">
+				{{ range $categories }}
+				<a href="{{ .Page.RelPermalink }}" class="category">{{ .Page.Title }}{{- if $category_count }}&nbsp;<span class="post-count">({{ .Count }})</span>{{- end }}</a>
+				{{ end }}
+			</div>
+		</div>
+		{{- end }}
+
+		{{- $posts := partialCached "post-list.html" . }}
+		{{- $groupedByYear := $posts.GroupByDate "2006" }}
+		{{- $groupedByYearMonth := $posts.GroupByDate "2006-01" }}
+
+		<div class="archive_years">
+			<label for="archive_popup">{{ T "Show posts from" }}:</label>
+			<select id="archive_popup">
+				<option value="all">{{ T "All years" }}</option>
+				{{ range $groupedByYear }}
+				<option value="{{ .Key }}">{{ .Key }}</option>
+				{{ end }}
+			</select>
+		</div>
+
+		<div class="h-feed archive_posts">
+			{{- range $groupedByYearMonth }}
+				{{- $yearMonth := .Key }}
+				{{- $year := index (split $yearMonth "-") 0 }}
+				{{- $monthName := (index .Pages 0).Date | time.Format "January 2006" }}
+				<h3 class="archive-range" data-year="{{ $year }}" data-year-month="{{ $yearMonth }}">{{ $monthName }}</h3>
+				{{- range .Pages }}
+				<div class="post-container" data-year="{{ .Date.Format "2006" }}" data-year-month="{{ .Date.Format "2006-01" }}">
+					<p class="post-date h-entry">
+						<a href="{{ .RelPermalink }}">{{ partial "date.html" .Date }} →</a>
+					</p>
+					<div class="entry">
+						<p>{{- if .Title }}<b>{{ .Title }}:</b>&nbsp;{{- end }}{{ .Summary | safeHTML | truncate 300  }}</p>
+					</div>
+				</div>
+				{{- end }}
+			{{- end }}
+		</div>
+
+		<script>
+			(function() {
+				const select = document.getElementById('archive_popup');
+
+				function filterPosts() {
+					const sel = select.value;
+					// show/hide each post container
+					document.querySelectorAll('.h-feed .post-container').forEach(el => {
+						el.style.display = (sel === "all" || el.getAttribute('data-year') === sel) ? '' : 'none';
+					});
+
+					// show/hide each year-month header based on whether any following post container is visible
+					document.querySelectorAll('.h-feed h3[data-year-month]').forEach(header => {
+						let next = header.nextElementSibling;
+						let keep = false;
+						while (next && !next.matches('h3[data-year-month]')) {
+							if (next.matches('.post-container') && (next.style.display != 'none')) {
+								keep = true; break;
+							}
+							next = next.nextElementSibling;
+						}
+						header.style.display = keep ? '' : 'none';
+					});
+				}
+
+				// on change, re-filter
+				select.addEventListener('change', filterPosts);
+
+				// initial filter
+				filterPosts();
+			})();
+		</script>
+	</article>
+</main>
+{{- end }}

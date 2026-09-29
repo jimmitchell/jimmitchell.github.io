@@ -1,0 +1,37 @@
+{{ define "main" }}
+<main class="home">
+    {{- $allPages := partialCached "post-list.html" . }}
+    {{- $home_categories := slice }}
+    {{- with site.Params.home_category }}
+        {{- range split . "," }}
+            {{- $home_categories = $home_categories | append (trim . " ") }}
+        {{- end }}
+    {{- end }}
+    {{- $pinnedPost := false }}
+    {{- with site.Params.pinned_category }}
+        {{- $pinnedPost = index (where $allPages "Params.categories" "intersect" (slice .)) 0 }}
+    {{- end }}
+    {{- $pages := $allPages }}
+    {{- if $home_categories }}
+        {{- $pages = where $allPages "Params.categories" "intersect" $home_categories }}
+    {{- end }}
+    {{- with $pinnedPost }}
+        {{- $pages = $pages | complement (slice .) }}
+    {{- end }}
+    {{- $paginator := .Paginate $pages }}
+    {{- if and $pinnedPost (eq $paginator.PageNumber 1) }}
+        {{- with $pinnedPost }}
+        <article class="h-entry pinned {{ partial "category-classes.html" . }}">
+            <div class="pinned-badge">{{ site.Params.pinned_category }}</div>
+            {{- partial "post-content.html" . }}
+        </article>
+        {{- end }}
+    {{- end }}
+    {{- range $paginator.Pages }}
+    <article class="h-entry {{ partial "category-classes.html" . }}">
+        {{- partial "post-content.html" . }}
+    </article>
+    {{- end }}
+    {{- partial "pagination.html" $paginator }}
+</main>
+{{ end }}

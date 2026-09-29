@@ -1,0 +1,16 @@
+{{ define "main" }}
+<main class="list">
+    <h1 class="page-title">{{ .Title }}</h1>
+    {{- with .Content }}
+    <div class="microblog-category-intro">{{ . }}</div>
+    {{- end }}
+    {{- $paginator := .Paginate (where .RegularPagesRecursive.ByDate.Reverse "Section" "in" site.Params.mainSections) }}
+    {{- $categoryFull := site.Params.category_full_post }}
+    {{- range $paginator.Pages }}
+    <article class="h-entry {{ partial "category-classes.html" . }}">
+        {{- partial "post-content.html" (dict "post" . "full" $categoryFull) }}
+    </article>
+    {{- end }}
+    {{- partial "pagination.html" $paginator }}
+</main>
+{{ end }}
