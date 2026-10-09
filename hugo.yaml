@@ -47,7 +47,7 @@ params:
   # add this domain; micropub is optional (a static site has no endpoint of its own).
   indieauth:
     site_id: "snqct4j1ek792jfp"
-    micropub: "jimmitchell.github.io"
+    micropub: "jimmitchell.github.io/micropub"
 
 menus:
   main:
