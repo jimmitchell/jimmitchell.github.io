@@ -1,0 +1,13 @@
+{{- /* IndieAuth via indiekey.id. Tags render on the home page only, and only once params.indieauth.site_id is set. */ -}}
+{{- if .IsHome }}
+{{- with site.Params.indieauth }}
+{{- with .site_id }}
+<link rel="indieauth-metadata" href="https://indiekey.id/.well-known/oauth-authorization-server/s/{{ . }}">
+<link rel="authorization_endpoint" href="https://indiekey.id/s/{{ . }}/auth">
+<link rel="token_endpoint" href="https://indiekey.id/token">
+{{- end }}
+{{- with .micropub }}
+<link rel="micropub" href="{{ . }}">
+{{- end }}
+{{- end }}
+{{- end }}
