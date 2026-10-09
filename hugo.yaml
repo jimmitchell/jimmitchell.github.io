@@ -46,7 +46,7 @@ params:
   # IndieAuth via indiekey.id. Set site_id to the ID IndieKey shows after you
   # add this domain; micropub is optional (a static site has no endpoint of its own).
   indieauth:
-    site_id: ""
+    site_id: "snqct4j1ek792jfp"
     micropub: ""
 
 menus:
