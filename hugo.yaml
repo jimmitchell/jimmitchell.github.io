@@ -23,7 +23,7 @@ params:
   description: Personal site and writing of Jim Mitchell.
   author:
     name: Jim Mitchell
-    avatar: ""              # path or URL to an avatar image
+    avatar: "images/avatar.png"              # path or URL to an avatar image
   mainSections: [posts]
 
   # mnml options (all default to off/blank)
