@@ -20,7 +20,7 @@ params:
   mainSections: [posts]
 
   # mnml options (all default to off/blank)
-  fediverse_creator: ""     # e.g. @jim@mastodon.social
+  fediverse_creator: "@jimmitchell@indieweb.social"     # e.g. @jim@mastodon.social
   use_short_date: false
   narrow_header: true
   hide_avatar: true
@@ -33,12 +33,12 @@ params:
   category_full_post: false
   show_categories: true
   show_category_count: true
-  photos_category: ""
+  photos_category: "photos"
   all_formats: false
   masonry_layout: false
   full_width_photos: false
   single_image: false
-  search_results: 5
+  search_results: 10
   hide_copyright: false
   footer_rss: true
   hide_credit: true
