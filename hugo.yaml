@@ -9,6 +9,13 @@ enableRobotsTXT: true
 pagination:
   pagerSize: 20
 
+# Posts are filed in content/posts/<yyyy>/<mm>/ and served at
+# /<yyyy>/<mm>/<dd>/<file-name>/. The Micropub Worker builds the same URLs, so
+# change both together.
+permalinks:
+  page:
+    posts: /:year/:month/:day/:contentbasename/
+
 taxonomies:
   category: categories
 
