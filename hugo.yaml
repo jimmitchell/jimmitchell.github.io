@@ -55,6 +55,9 @@ menus:
     - name: Archive
       pageRef: /archive
       weight: 10
+    - name: Photos
+      pageRef: /photos
+      weight: 15
     - name: Search
       pageRef: /search
       weight: 20
