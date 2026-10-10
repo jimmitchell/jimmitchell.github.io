@@ -30,7 +30,7 @@ params:
   fediverse_creator: "@jimmitchell@indieweb.social"     # e.g. @jim@mastodon.social
   use_short_date: false
   narrow_header: false
-  hide_avatar: true
+  hide_avatar: false
   custom_avatar: ""
   pinned_category: ""
   home_category: ""
