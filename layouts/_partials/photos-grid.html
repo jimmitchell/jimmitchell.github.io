@@ -10,7 +10,8 @@
 	{{- $pages = slice }}
 	{{- with index site.Taxonomies.categories (urlize (lower .)) }}{{ $pages = .Pages }}{{ end }}
 {{- end }}
-{{- $currentYearMonth := "" }}
+{{- $entries := slice }}
+{{- $years := slice }}
 {{- range sort $pages "Date" "desc" }}
 	{{- $imgs := slice }}
 	{{- range .Params.photos }}{{ $imgs = $imgs | append . }}{{ end }}
@@ -19,29 +20,61 @@
 	{{- $imgs = uniq $imgs }}
 	{{- if and $singleImage $imgs }}{{ $imgs = first 1 $imgs }}{{ end }}
 	{{- if $imgs }}
-	{{- $year := .Date.Format "2006" }}
-	{{- $yearMonth := .Date.Format "2006-01" }}
+		{{- $entries = $entries | append (dict "page" . "imgs" $imgs) }}
+		{{- $years = $years | append (.Date.Format "2006") }}
+	{{- end }}
+{{- end }}
+{{- with uniq $years }}
+<div class="archive_years">
+	<label for="photos_year">Show photos from:</label>
+	<select id="photos_year">
+		<option value="all">{{ T "All years" }}</option>
+		{{- range . }}
+		<option value="{{ . }}">{{ . }}</option>
+		{{- end }}
+	</select>
+</div>
+{{- end }}
+{{- $currentYearMonth := "" }}
+{{- range $entries }}
+	{{- $page := .page }}
+	{{- $year := $page.Date.Format "2006" }}
+	{{- $yearMonth := $page.Date.Format "2006-01" }}
 	{{- if ne $currentYearMonth $yearMonth }}
 		{{- if ne $currentYearMonth "" }}
 		</ul>
 		{{- end }}
-		<h3 class="archive-range" data-year="{{ $year }}" data-year-month="{{ $yearMonth }}">{{ .Date.Format "January" }} {{ $year }}</h3>
-		<ul class="grid">
+		<h3 class="archive-range" data-year="{{ $year }}" data-year-month="{{ $yearMonth }}">{{ $page.Date.Format "January" }} {{ $year }}</h3>
+		<ul class="grid" data-year="{{ $year }}">
 		{{- $currentYearMonth = $yearMonth }}
 	{{- end }}
-		{{- $postPermalink := .Permalink }}
-		{{- range $imgs }}
+		{{- range .imgs }}
 			<li>
-				<a href="{{ $postPermalink }}">
+				<a href="{{ . | relURL }}" class="lightbox-link" data-post="{{ $page.Permalink }}">
 					<img src="{{ . | relURL }}" loading="lazy" alt="" />
 				</a>
 			</li>
 		{{- end }}
-	{{- end }}
 {{- end }}
 {{- if ne $currentYearMonth "" }}
 </ul>
 {{- end }}
+<script>
+	(() => {
+		const select = document.getElementById('photos_year');
+		if (!select) return;
+		function filterPhotos() {
+			const sel = select.value;
+			document.querySelectorAll('h3.archive-range[data-year], ul.grid[data-year]').forEach(el => {
+				el.style.display = (sel === 'all' || el.dataset.year === sel) ? '' : 'none';
+			});
+			// Images revealed by the filter need their square height set.
+			window.dispatchEvent(new Event('resize'));
+		}
+		select.addEventListener('change', filterPhotos);
+		filterPhotos();
+	})();
+</script>
 <script>
 	const elementsToResize = new Set();
 	function debounce(func, wait) {
@@ -105,4 +138,67 @@
 			resizeImageHeight(img);
 		}
 	});
+</script>
+<dialog id="lightbox" class="lightbox" aria-label="Photo viewer">
+	<img class="lightbox-img" src="" alt="" />
+	<button type="button" class="lightbox-btn lightbox-close" aria-label="Close">&times;</button>
+	<button type="button" class="lightbox-btn lightbox-prev" aria-label="Previous photo">&lsaquo;</button>
+	<button type="button" class="lightbox-btn lightbox-next" aria-label="Next photo">&rsaquo;</button>
+	<a class="lightbox-post" href="">View post</a>
+</dialog>
+<style>
+	.lightbox { background: transparent; border: 0; max-height: 100vh; max-width: 100vw; height: 100vh; width: 100vw; padding: 0; margin: 0; overflow: hidden; }
+	.lightbox::backdrop { background: rgba(0, 0, 0, 0.9); }
+	.lightbox[open] { align-items: center; display: flex; justify-content: center; }
+	.lightbox-img { max-height: calc(100vh - 12rem); max-width: calc(100vw - 14rem); object-fit: contain; border-radius: var(--border-radius); }
+	.lightbox-btn { background: rgba(255, 255, 255, 0.12); border: 0; border-radius: 50%; color: #fff; cursor: pointer; font-size: 2.4rem; height: 4.4rem; line-height: 1; position: absolute; width: 4.4rem; }
+	.lightbox-btn:hover, .lightbox-btn:focus-visible { background: rgba(255, 255, 255, 0.25); }
+	.lightbox-close { right: 1rem; top: 1rem; }
+	.lightbox-prev { left: 1rem; top: 50%; transform: translateY(-50%); }
+	.lightbox-next { right: 1rem; top: 50%; transform: translateY(-50%); }
+	.lightbox a.lightbox-post { bottom: 2rem; color: #fff; left: 50%; position: absolute; transform: translateX(-50%); }
+	.lightbox a.lightbox-post:hover { color: #fff; text-decoration: underline; }
+	.lightbox.single .lightbox-prev, .lightbox.single .lightbox-next { display: none; }
+	@media (max-width: 600px) { .lightbox-img { max-width: calc(100vw - 2rem); } }
+</style>
+<script>
+	(() => {
+		const allLinks = Array.from(document.querySelectorAll('ul.grid a.lightbox-link'));
+		const box = document.getElementById('lightbox');
+		if (!allLinks.length || !box || !box.showModal) return;
+		const img = box.querySelector('.lightbox-img');
+		const post = box.querySelector('.lightbox-post');
+		let links = allLinks;
+		let current = 0;
+		function show(i) {
+			current = (i + links.length) % links.length;
+			img.src = links[current].href;
+			post.href = links[current].dataset.post;
+		}
+		allLinks.forEach(link => link.addEventListener('click', e => {
+			e.preventDefault();
+			// Only step through photos visible under the current year filter.
+			links = allLinks.filter(l => l.offsetParent !== null);
+			box.classList.toggle('single', links.length < 2);
+			show(links.indexOf(link));
+			box.showModal();
+		}));
+		box.querySelector('.lightbox-close').addEventListener('click', () => box.close());
+		box.querySelector('.lightbox-prev').addEventListener('click', () => show(current - 1));
+		box.querySelector('.lightbox-next').addEventListener('click', () => show(current + 1));
+		box.addEventListener('click', e => { if (e.target === box) box.close(); });
+		box.addEventListener('close', () => { img.src = ''; links[current].focus(); });
+		box.addEventListener('keydown', e => {
+			if (e.key === 'ArrowLeft') show(current - 1);
+			if (e.key === 'ArrowRight') show(current + 1);
+		});
+		let startX = null;
+		box.addEventListener('touchstart', e => { startX = e.touches[0].clientX; }, { passive: true });
+		box.addEventListener('touchend', e => {
+			if (startX === null) return;
+			const dx = e.changedTouches[0].clientX - startX;
+			if (Math.abs(dx) > 50) show(current + (dx < 0 ? 1 : -1));
+			startX = null;
+		});
+	})();
 </script>
