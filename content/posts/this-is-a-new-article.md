@@ -1,5 +1,6 @@
 ---
 title: "This is a New Article"
+summary: "Here is a summary of the article. It should display on the home page."
 date: "2026-10-10T15:40:17.625Z"
 categories: ["Post","Testing"]
 ---
