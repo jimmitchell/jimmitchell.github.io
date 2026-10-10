@@ -1,11 +1,17 @@
 {{- /* Override of the mnml theme partial. Micropub posts embed images in the
      body rather than in a `photos` front matter list, so collect every image
-     from every post: front matter `photos` plus markdown and <img> images. */ -}}
+     from posts in `photos_category` (all posts if it's unset): front matter
+     `photos` plus markdown and <img> images. */ -}}
 {{- $mdImg := `!\[[^\]]*\]\(\s*<?([^)\s>]+)` }}
 {{- $htmlImg := `<img[^>]+src=["']([^"']+)["']` }}
 {{- $singleImage := site.Params.single_image | default false }}
+{{- $pages := site.RegularPages }}
+{{- with site.Params.photos_category }}
+	{{- $pages = slice }}
+	{{- with index site.Taxonomies.categories (urlize (lower .)) }}{{ $pages = .Pages }}{{ end }}
+{{- end }}
 {{- $currentYearMonth := "" }}
-{{- range sort site.RegularPages "Date" "desc" }}
+{{- range sort $pages "Date" "desc" }}
 	{{- $imgs := slice }}
 	{{- range .Params.photos }}{{ $imgs = $imgs | append . }}{{ end }}
 	{{- range findRESubmatch $mdImg .RawContent }}{{ $imgs = $imgs | append (index . 1) }}{{ end }}
