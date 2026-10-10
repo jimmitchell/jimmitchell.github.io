@@ -32,6 +32,14 @@ jobs:
       - run: npm ci
       - id: pages
         uses: actions/configure-pages@v6
+      # Reuse photo thumbnails from earlier builds. A new key is saved only when
+      # uploads change; otherwise the closest previous cache is restored.
+      - name: Cache processed images
+        uses: actions/cache@v6
+        with:
+          path: resources/_gen/images
+          key: hugo-images-${{ hashFiles('static/media/**') }}
+          restore-keys: hugo-images-
       - name: Build
         env:
           HUGO_ENVIRONMENT: production
