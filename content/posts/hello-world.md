@@ -1,7 +1,7 @@
 ---
 title: "Hello, World"
 date: "2026-09-28"
-categories: ["Testing","Meta"]
+categories: ["Post","Testing","Meta"]
 ---
 First post on the new site, now running the mnml theme on Hugo.
 
