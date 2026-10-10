@@ -33,7 +33,7 @@ params:
   category_full_post: false
   show_categories: true
   show_category_count: true
-  photos_category: "photos"
+  photos_category: "Photos"
   all_formats: false
   masonry_layout: false
   full_width_photos: false
@@ -68,3 +68,13 @@ menus:
 services:
   rss:
     limit: 20
+
+# Expose Micropub uploads in static/media to Hugo's image processing so the
+# photos grid can generate thumbnails. Declaring an assets mount replaces the
+# default one, so assets/ is re-added explicitly.
+module:
+  mounts:
+    - source: assets
+      target: assets
+    - source: static/media
+      target: assets/media

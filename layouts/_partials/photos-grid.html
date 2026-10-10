@@ -49,9 +49,18 @@
 		{{- $currentYearMonth = $yearMonth }}
 	{{- end }}
 		{{- range .imgs }}
+			{{- /* Use a square thumbnail for local uploads; the lightbox keeps the original. */}}
+			{{- $thumb := . | relURL }}
+			{{- with findRESubmatch `^(?:https?://[^/]+)?/?(media/.+)$` . 1 }}
+				{{- with resources.Get (index (index . 0) 1) }}
+					{{- if in (slice "jpeg" "png" "webp" "gif" "tiff" "bmp") .MediaType.SubType }}
+						{{- $thumb = (.Fill "600x600 Center webp q75").RelPermalink }}
+					{{- end }}
+				{{- end }}
+			{{- end }}
 			<li>
 				<a href="{{ . | relURL }}" class="lightbox-link" data-post="{{ $page.Permalink }}">
-					<img src="{{ . | relURL }}" loading="lazy" alt="" />
+					<img src="{{ $thumb }}" loading="lazy" alt="" />
 				</a>
 			</li>
 		{{- end }}
