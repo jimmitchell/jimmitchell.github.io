@@ -14,3 +14,7 @@ hugo new content posts/my-next-post.md
 Then let's add some more to the post. This'll be awesome if it posts right.
 
 Let's edit this post a little more to test that it's working as expected.
+
+```php
+<?php echo "Hello world" ; ?>
+```
