@@ -22,7 +22,7 @@ params:
   # mnml options (all default to off/blank)
   fediverse_creator: "@jimmitchell@indieweb.social"     # e.g. @jim@mastodon.social
   use_short_date: false
-  narrow_header: true
+  narrow_header: false
   hide_avatar: true
   custom_avatar: ""
   pinned_category: ""
