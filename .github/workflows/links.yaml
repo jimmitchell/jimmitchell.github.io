@@ -46,6 +46,7 @@ jobs:
             --max-concurrency 8 --timeout 20 --max-retries 2
             --exclude-path public/pagefind
             --exclude '^https?://([a-z]+\.)?(x|twitter|linkedin|instagram|facebook)\.com'
+            --exclude '^https://indiekey\.id/' --exclude '^https://jimmitchell-micropub\.'
             'public/**/*.html'
       - name: Find open report
         id: report
