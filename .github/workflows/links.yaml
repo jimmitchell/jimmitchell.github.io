@@ -2,7 +2,8 @@ name: Check links
 
 # Weekly, build the site and check every link in it. Broken links are reported
 # in a single open issue (labeled link-checker) that's updated each run and
-# closed once everything passes. Third-party actions are pinned to commits.
+# closed once everything passes. Links listed in .lycheeignore are skipped.
+# Third-party actions are pinned to commits.
 on:
   schedule:
     - cron: "0 15 * * 1"

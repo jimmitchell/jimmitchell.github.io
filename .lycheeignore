@@ -1,0 +1,18 @@
+# Links the weekly link check (.github/workflows/links.yaml) skips. One
+# regular expression per line.
+
+# The search index is built only on deploy, not in the link check's build.
+/public/pagefind/
+
+# Known-dead links in old posts, kept as originally written (2026-10-10).
+# Remove a line to have that link checked again.
+/public/contact$
+^https://melodicmayhem\.net/
+^https://micro\.blog/(DaveyCraney|bstn|crossingthethreshold|eumrz|jedda|jimmitchell|jmanes|luxury_format|lzbth|pcora|stupendousman|vincent)$
+^https://mnml\.micro\.blog/2025/03/02/mnml-theme-updates/
+^https://mnml\.micro\.blog/2025/04/26/mnml-v-released/
+^https://mnml\.micro\.blog/2025/05/11/mnml-v-released/
+^https://social\.jimmitchell\.org/
+^https://social\.lol/@(canion|hemisphericviews|jason|jim|martinfeld|vincentritter)$
+^https://tinylytics\.app/docs/show_hit_counter
+^https://yasuapp\.dev/
