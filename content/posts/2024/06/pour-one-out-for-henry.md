@@ -8,7 +8,7 @@ I can’t say he and I were close friends, but when I was active in the Long Bea
 
 Henry had chops and a great voice. He had style too. And to top it off, he was one of the more gracious musicians I’ve known.
 
-<img src="/media/2024/317b2d8fa8.jpg" width="800" height="600" alt="Auto-generated description: A band is performing on stage, featuring a guitarist, drummer, upright bass player, and harmonica player.">
+![Auto-generated description: A band is performing on stage, featuring a guitarist, drummer, upright bass player, and harmonica player.](/media/2024/317b2d8fa8.jpg)
 
 The photo above is the last time I got to play with him on New Year’s Eve, 2017. Henry’s on guitar, I’m on bass.
 

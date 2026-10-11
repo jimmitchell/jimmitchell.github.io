@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 15: Small.
 
-<img src="/media/2024/small.jpeg" alt="A small curious lizard on a stick." title="small.jpeg" border="0" width="1000" height="750" />
+![A small curious lizard on a stick.](/media/2024/small.jpeg)
 
 [#mbapr](https://micro.blog/discover/mbapr) [@jmanes](https://micro.blog/jmanes)

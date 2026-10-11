@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 07: Well-being.
 
-<img src="/media/2024/well-being.jpeg" alt="A sandy beach viewing the ocean with small waves." title="well-being.jpeg" border="0" width="1000" height="750" />
+![A sandy beach viewing the ocean with small waves.](/media/2024/well-being.jpeg)
 
 [#mbapr](https://micro.blog/discover/mbapr) [@ridwan](https://micro.blog/ridwan)

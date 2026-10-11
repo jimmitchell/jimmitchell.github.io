@@ -4,4 +4,5 @@ categories: ["Photos"]
 ---
 📷 Surf rider.
 
-<img src="/media/2024/surf-rider.jpeg" alt="A lone surfer on a shoulder-high wave at Huntington Beach." title="surf-rider.jpeg" border="0" width="1000" height="750" />
+![A lone surfer on a shoulder-high wave at Huntington Beach.](/media/2024/surf-rider.jpeg)
+

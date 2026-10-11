@@ -4,4 +4,5 @@ categories: ["Photos"]
 ---
 📷 Bear with me a minute…
 
-<img src="/media/2023/a5c081b58c.jpg" alt="Close up of a carved bear likeness.">
+![Close up of a carved bear likeness.](/media/2023/a5c081b58c.jpg)
+

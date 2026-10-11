@@ -4,4 +4,5 @@ categories: ["Photos"]
 ---
 📷 Happy New Year from the top of SoCal!
 
-<img src="/media/2024/d582735b70.jpg" alt="A view of Palm Springs at night from the tramway restaurant on Mt. San Jacinto.">
+![A view of Palm Springs at night from the tramway restaurant on Mt. San Jacinto.](/media/2024/d582735b70.jpg)
+

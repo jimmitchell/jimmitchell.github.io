@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 26: Critter.
 
-<img loading="lazy" src="/media/2024/critter.jpeg" alt="A curious squirrel looking at the camera." title="critter.jpeg" border="0" width="1000" height="1000" />
+![A curious squirrel looking at the camera.](/media/2024/critter.jpeg)
 
 [#mbapr](https://micro.blog/discover/mbapr) [@7robots](https://micro.blog/7robots)

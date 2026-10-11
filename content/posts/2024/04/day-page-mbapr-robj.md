@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 13: Page.
 
-<img src="/media/2024/page.jpeg" alt="A page from a book titled 'the Daily Stoic'." title="page.jpeg" border="0" width="1000" height="750" />
+![A page from a book titled 'the Daily Stoic'.](/media/2024/page.jpeg)
 
 [#mbapr](https://micro.blog/discover/mbapr) [@robj](https://micro.blog/robj)

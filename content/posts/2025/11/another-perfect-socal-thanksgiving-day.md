@@ -4,4 +4,5 @@ categories: ["Photos"]
 ---
 📷 Another perfect SoCal Thanksgiving day.
 
-<img src="/media/2025/64e55b9dc5.jpg" alt="A sandy beach stretches out towards a distant pier extending over the ocean, with a few people relaxing near the water under a partly cloudy sky.">
+![A sandy beach stretches out towards a distant pier extending over the ocean, with a few people relaxing near the water under a partly cloudy sky.](/media/2025/64e55b9dc5.jpg)
+

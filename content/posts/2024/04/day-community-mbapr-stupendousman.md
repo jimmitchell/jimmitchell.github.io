@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 28: Community.
 
-<img loading="lazy" src="/media/2024/community.jpeg" alt="Cultural dancers in a parade as the crowd looks on." title="community.jpeg" border="0" width="1000" height="750" />
+![Cultural dancers in a parade as the crowd looks on.](/media/2024/community.jpeg)
 
 [#mbapr](https://micro.blog/discover/mbapr) [@stupendousman](https://micro.blog/stupendousman)

@@ -5,6 +5,6 @@ categories: ["Photos"]
 ---
 📷 Day 27: Collective.
 
-<img src="/media/2025/27-collective.jpeg" width="600" height="450" alt="Auto-generated description: A large group of surfers forms a circle on the water near a sandy beach.">
+![Auto-generated description: A large group of surfers forms a circle on the water near a sandy beach.](/media/2025/27-collective.jpeg)
 
 [#mbjune](https://micro.blog/discover/mbjune)

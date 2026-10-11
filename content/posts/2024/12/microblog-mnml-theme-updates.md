@@ -8,13 +8,13 @@ Once you've updated from your Micro.blog plugins page, you'll see a new settings
 
 ### mnml Settings
 
-<img src="/media/2024/mnml-settings.webp" width="600" height="215" alt="Auto-generated description: A settings interface for customizing a website shows options for uploading a custom avatar, displaying categories on archives, and hiding footer credits, with buttons for going back and updating settings.">
+![Auto-generated description: A settings interface for customizing a website shows options for uploading a custom avatar, displaying categories on archives, and hiding footer credits, with buttons for going back and updating settings.](/media/2024/mnml-settings.webp)
 
 Each of these settings are outlined below...
 
 ### The Custom Icon
 
-<img src="/media/2024/mnml-custom-avatar.webp" width="600" height="82" alt="Auto-generated description: A camera icon is displayed next to the text Jim Mitchell.">
+![Auto-generated description: A camera icon is displayed next to the text Jim Mitchell.](/media/2024/mnml-custom-avatar.webp)
 
 Many Micro.blog themes are coded to use your main account profile photo for the header image. If you run multiple blogs on the <a href="https://micro.blog/about/pricing">Premium plan</a> and want to use the same theme for each of them, your sites aren't easily distinguishable.
 
@@ -28,7 +28,7 @@ Easy-peasy.
 
 ### Categories on the Archives Page
 
-<img src="/media/2024/mnml-archive-categories.webp" width="600" height="146" alt="Auto-generated description: A menu bar labeled Archives contains tags for Photos, Thoughts, Posts, Videos, Links, mnml, and WeekLog.">
+![Auto-generated description: A menu bar labeled Archives contains tags for Photos, Thoughts, Posts, Videos, Links, mnml, and WeekLog.](/media/2024/mnml-archive-categories.webp)
 
 Some people have asked how they can show their blog's categories on the Archives page, while others have told me how much they like the fact <strong>mnml</strong> doesn't do that.
 
@@ -36,7 +36,7 @@ Being the people pleaser I am, I came up with a way to make everyone happy. If y
 
 ### Footer Credits
 
-<img src="/media/2024/mnml-footer-credits.webp" width="600" height="68" alt="Auto-generated description: The text mentions hosting by Micro.blog, powered by mmm, and designed by Jim Mitchell.">
+![Auto-generated description: The text mentions hosting by Micro.blog, powered by mmm, and designed by Jim Mitchell.](/media/2024/mnml-footer-credits.webp)
 
 Lastly, I've added a credit line to the footer of <strong>mnml</strong> to drive people to Micro.blog, the theme's Github page, or my own site.
 

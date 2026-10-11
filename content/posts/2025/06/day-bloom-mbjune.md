@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 24: Bloom.
 
-<img src="/media/2025/24-bloom.jpeg" width="600" height="450" alt="Auto-generated description: A delicate white and purple flower is surrounded by green and brown leaves.">
+![Auto-generated description: A delicate white and purple flower is surrounded by green and brown leaves.](/media/2025/24-bloom.jpeg)
 
 [#mbjune](https://micro.blog/discover/mbjune)

@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 12: Magic.
 
-<img src="/media/2024/magic.jpeg" alt="An inspirational poster with candle and mirror." title="magic.jpeg" border="0" width="750" height="1000" />
+![An inspirational poster with candle and mirror.](/media/2024/magic.jpeg)
 
 [#mbapr](https://micro.blog/discover/mbapr) [@DaveyCraney](https://micro.blog/DaveyCraney)

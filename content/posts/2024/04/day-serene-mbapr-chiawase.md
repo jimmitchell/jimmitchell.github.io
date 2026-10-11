@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 05: Serene.
 
-<img src="/media/2024/serene.jpeg" alt="Person's bare feet on sandy beach with ocean waves in background." title="serene.jpeg" border="0" width="1000" height="750" />
+![Person's bare feet on sandy beach with ocean waves in background.](/media/2024/serene.jpeg)
 
 [#mbapr](https://micro.blog/discover/mbapr) [@chiawase](https://micro.blog/chiawase)

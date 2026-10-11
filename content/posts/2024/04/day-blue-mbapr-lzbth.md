@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 22: Blue.
 
-<img src="/media/2024/blue.jpeg" alt="Boats anchord in Catalina harbor." title="blue.jpeg" border="0" width="1000" height="750" />
+![Boats anchord in Catalina harbor.](/media/2024/blue.jpeg)
 
 [#mbapr](https://micro.blog/discover/mbapr) [@lzbth](https://micro.blog/lzbth)

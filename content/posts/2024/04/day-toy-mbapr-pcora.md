@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 01: Toy.
 
-<img src="/media/2024/b05158f5a3.jpg" alt="The Toy Story Pizza Planet delivery truck replica driving in a Fourth of July parade.">
+![The Toy Story Pizza Planet delivery truck replica driving in a Fourth of July parade.](/media/2024/b05158f5a3.jpg)
 
 [#mbapr](https://micro.blog/discover/mbapr) [@pcora](https://micro.blog/pcora)

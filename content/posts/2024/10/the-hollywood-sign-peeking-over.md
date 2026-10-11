@@ -4,4 +4,5 @@ categories: ["Photos"]
 ---
 📷 The Hollywood sign, peeking over the hills.
 
-<img src="/media/2024/93251e31d5.jpg" width="700" height="525" alt="Large white letters spelling 'HOLLYWOOD' are situated on a hillside with rugged terrain in the foreground.">
+![Large white letters spelling 'HOLLYWOOD' are situated on a hillside with rugged terrain in the foreground.](/media/2024/93251e31d5.jpg)
+

@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 01: Tree.
 
-<img src="/media/2025/01-tree.jpg" width="600" height="450" alt="Auto-generated description: A sprawling tree with thick, gnarled branches stands surrounded by lush greenery.">
+![Auto-generated description: A sprawling tree with thick, gnarled branches stands surrounded by lush greenery.](/media/2025/01-tree.jpg)
 
 [#mbjune](https://micro.blog/discover/mbjune)

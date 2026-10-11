@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 02: Flowers.
 
-<img src="/media/2024/eec3cdc910.jpg" alt="Yellow flowers blooming.">
+![Yellow flowers blooming.](/media/2024/eec3cdc910.jpg)
 
 [#mbapr](https://micro.blog/discover/mbapr) [@davegullett](https://micro.blog/davegullett)

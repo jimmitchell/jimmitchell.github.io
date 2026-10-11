@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 22: Hometown.
 
-<img src="/media/2025/22-hometown.jpeg" width="600" height="450" alt="Auto-generated description: A crowd of people is gathered on a street lined with palm trees, engaging in an outdoor event with booths and a stage.">
+![Auto-generated description: A crowd of people is gathered on a street lined with palm trees, engaging in an outdoor event with booths and a stage.](/media/2025/22-hometown.jpeg)
 
 [#mbjune](https://micro.blog/discover/mbjune)

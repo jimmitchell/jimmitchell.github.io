@@ -14,7 +14,7 @@ Because some may not want to display every single image from your blog on your p
 
 Mess around with the options until you find your happy place. Then blog your heart out.
 
-<img src="/media/2025/mnml-settings-20250118.png" alt="Micro.blog mnml theme settings for update v2.3.0." title="mnml-settings-20250118.png" border="0" width="1000" height="561" />
+![Micro.blog mnml theme settings for update v2.3.0.](/media/2025/mnml-settings-20250118.png)
 
 A huge thanks goes out to everyone who've sent kind words, and a special thanks to those who've parted with cold hard cash to [support my efforts](https://buymeacoffee.com/jim.mitchell) on this project. Yeah, that's a bit of a shameless plug... Do you blame me?
 

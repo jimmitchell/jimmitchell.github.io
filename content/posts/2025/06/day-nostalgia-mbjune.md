@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 04: Nostalgia.
 
-<img src="/media/2025/04-nostalgia.jpg" width="600" height="450" alt="Auto-generated description: A vintage car with a wooden exterior is parked on a street next to a trailer, surrounded by people and other classic cars.">
+![Auto-generated description: A vintage car with a wooden exterior is parked on a street next to a trailer, surrounded by people and other classic cars.](/media/2025/04-nostalgia.jpg)
 
 [#mbjune](https://micro.blog/discover/mbjune)

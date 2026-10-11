@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 11: Brick.
 
-<img src="/media/2025/11-brick.jpeg" width="600" height="450" alt="Auto-generated description: A dimly lit brick tunnel with an exit sign leads to a brighter area in the distance.">
+![Auto-generated description: A dimly lit brick tunnel with an exit sign leads to a brighter area in the distance.](/media/2025/11-brick.jpeg)
 
 [#mbjune](https://micro.blog/discover/mbjune)

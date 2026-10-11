@@ -4,4 +4,5 @@ categories: ["Photos"]
 ---
 Dice, the sun king.
 
-<img src="/media/2026/upload-29356c62.jpg" width="600" height="450" alt="A black dog asleep suns himself on a grey floor">
+![A black dog asleep suns himself on a grey floor](/media/2026/upload-29356c62.jpg)
+

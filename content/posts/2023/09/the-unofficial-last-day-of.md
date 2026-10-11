@@ -4,4 +4,5 @@ categories: ["Photos"]
 ---
 📷 The Unofficial Last Day of Summer in Surf City, USA.
 
-<img src="/media/2023/af48e10452.jpg" alt="Huntington Beach pier and volleyball players.">
+![Huntington Beach pier and volleyball players.](/media/2023/af48e10452.jpg)
+

@@ -4,4 +4,5 @@ categories: ["Photos"]
 ---
 📷 Donnie is a kook...
 
-<img src="/media/2024/trump-dont-surf.jpeg" alt="Graffiti on a concrete wall reads 'TRUMP DON'T SURF' in black letters along with other smaller drawings and writings nearby.">
+![Graffiti on a concrete wall reads 'TRUMP DON'T SURF' in black letters along with other smaller drawings and writings nearby.](/media/2024/trump-dont-surf.jpeg)
+

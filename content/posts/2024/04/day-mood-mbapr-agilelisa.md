@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 18: Mood.
 
-<img src="/media/2024/mood.jpeg" alt="Storm clouds over a body of water." title="mood.jpeg" border="0" width="1000" height="750" />
+![Storm clouds over a body of water.](/media/2024/mood.jpeg)
 
 [#mbapr](https://micro.blog/discover/mbapr) [@agilelisa](https://micro.blog/agilelisa)

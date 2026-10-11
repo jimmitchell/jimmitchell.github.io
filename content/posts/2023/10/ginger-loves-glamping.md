@@ -4,4 +4,5 @@ categories: ["Photos"]
 ---
 📷 Ginger loves glamping…
 
-<img src="/media/2023/a1d1788e5b.jpg" alt="Content dog in a blanket.">
+![Content dog in a blanket.](/media/2023/a1d1788e5b.jpg)
+

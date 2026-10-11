@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 13: Pathway.
 
-<img src="/media/2025/13-pathway.jpeg" width="600" height="450" alt="Auto-generated description: A sunlit desert pathway is surrounded by large rocks, shrubs, and trees.">
+![Auto-generated description: A sunlit desert pathway is surrounded by large rocks, shrubs, and trees.](/media/2025/13-pathway.jpeg)
 
 [#mbjune](https://micro.blog/discover/mbjune)

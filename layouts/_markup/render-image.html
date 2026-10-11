@@ -1,0 +1,38 @@
+{{- /* Serve local uploads at the content column's width (680px, and 1360px
+     for high-density screens) as WebP instead of the full-size originals.
+     Remote images, GIFs and anything already small pass through untouched. */ -}}
+{{- $src := .Destination }}
+{{- $img := "" }}
+{{- with .PageInner.Resources.Get $src }}
+	{{- $img = . }}
+{{- else }}
+	{{- with findRESubmatch `^(?:https?://[^/]+)?/?(media/.+)$` $src 1 }}
+		{{- $img = resources.Get (index (index . 0) 1) }}
+	{{- end }}
+{{- end }}
+{{- $srcset := slice }}
+{{- $width := 0 }}
+{{- $height := 0 }}
+{{- if and $img (in (slice "jpeg" "png" "webp") $img.MediaType.SubType) }}
+	{{- $hint := cond (eq $img.MediaType.SubType "png") "drawing" "photo" }}
+	{{- $largest := $img }}
+	{{- range slice 680 1360 }}
+		{{- if gt $img.Width . }}
+			{{- $largest = $img.Resize (printf "%dx webp %s q80" . $hint) }}
+			{{- $srcset = $srcset | append (printf "%s %dw" $largest.RelPermalink .) }}
+		{{- end }}
+	{{- end }}
+	{{- /* Between 680px and 1360px wide: a WebP copy at full width is the high-density version. */}}
+	{{- if eq (len $srcset) 1 }}
+		{{- $largest = $img.Resize (printf "%dx webp %s q80" $img.Width $hint) }}
+		{{- $srcset = $srcset | append (printf "%s %dw" $largest.RelPermalink $img.Width) }}
+	{{- end }}
+	{{- $src = $largest.RelPermalink }}
+	{{- $width = $largest.Width }}
+	{{- $height = $largest.Height }}
+{{- end -}}
+<img src="{{ $src }}" alt="{{ .PlainText }}"
+	{{- with .Title }} title="{{ . }}"{{ end }}
+	{{- with $srcset }} srcset="{{ delimit . ", " }}" sizes="(max-width: 680px) 100vw, 680px"{{ end }}
+	{{- with $width }} width="{{ . }}" height="{{ $height }}"{{ end }} loading="lazy" decoding="async">
+{{- /**/ -}}

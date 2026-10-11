@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 05: Reflection.
 
-<img src="/media/2025/05-reflection.jpg" width="600" height="450" alt="Auto-generated description: A turtle is swimming in a clear pond, reflecting the nearby surroundings.">
+![Auto-generated description: A turtle is swimming in a clear pond, reflecting the nearby surroundings.](/media/2025/05-reflection.jpg)
 
 [#mbjune](https://micro.blog/discover/mbjune)

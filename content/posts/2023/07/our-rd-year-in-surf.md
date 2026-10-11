@@ -4,4 +4,5 @@ categories: ["Photos"]
 ---
 📷 Our 23rd year in Surf City, USA…
 
-<img src="/media/2023/035110a288.jpg" alt="Huntington Beach 4th of July parade banner.">
+![Huntington Beach 4th of July parade banner.](/media/2023/035110a288.jpg)
+

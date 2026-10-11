@@ -4,4 +4,5 @@ categories: ["Photos"]
 ---
 📷 Campground peacock.
 
-<img src="/media/2023/b7f77d8082.jpg" alt="Peacock roaming our campsite.">
+![Peacock roaming our campsite.](/media/2023/b7f77d8082.jpg)
+

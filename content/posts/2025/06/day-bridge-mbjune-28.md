@@ -5,6 +5,6 @@ categories: ["Photos"]
 ---
 📷 Day 28: Ephemeral.
 
-<img src="/media/2025/28-ephemeral.jpeg" width="600" height="450" alt="Auto-generated description: A glowing streak of light trails across the twilight sky, resembling a rocket launch or celestial event.">
+![Auto-generated description: A glowing streak of light trails across the twilight sky, resembling a rocket launch or celestial event.](/media/2025/28-ephemeral.jpeg)
 
 [#mbjune](https://micro.blog/discover/mbjune)

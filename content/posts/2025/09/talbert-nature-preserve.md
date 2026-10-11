@@ -7,7 +7,7 @@ categories: ["Photos"]
 
 It wasn't a killer, but I've got to start somewhere. It felt good to put one foot in front of another in dirt again. I even made it up the ten flights of stairs without crapping out.
 
-<img src="/media/2025/img-6283.jpg" alt="A wooden staircase with metal railings leads down through a natural, green landscape." title="IMG_6283.jpeg" />
+![A wooden staircase with metal railings leads down through a natural, green landscape.](/media/2025/img-6283.jpg)
 
 <p class="hike">
 <i class="ph ph-map-pin"></i> <a href="https://maps.apple.com/?ll=33.662459,-117.938620">Talbert Nature Preserve</a><br/>

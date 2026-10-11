@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 07: Switch.
 
-<img src="/media/2025/07-switch.jpg" width="600" height="450" alt="Auto-generated description: A large telescope is positioned inside an observatory with a domed, windowed ceiling.">
+![Auto-generated description: A large telescope is positioned inside an observatory with a domed, windowed ceiling.](/media/2025/07-switch.jpg)
 
 [#mbjune](https://micro.blog/discover/mbjune)

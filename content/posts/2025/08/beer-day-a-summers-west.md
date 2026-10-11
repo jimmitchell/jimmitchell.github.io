@@ -7,8 +7,9 @@ categories: ["Photos"]
 
 First up, a *33 Summers West Coast IPA* at HB Brewing Company, downtown HB.
 
-<img src="/media/2025/dad41f83ca.jpg" alt="A frosty pint of golden beer sits on a polished wooden bar.">
+![A frosty pint of golden beer sits on a polished wooden bar.](/media/2025/dad41f83ca.jpg)
 
 And then a *Neon Rainbows Hazy IPA* -- also at HB Brewing Company.
 
-<img src="/media/2025/48bc6b54fd.jpg" alt="A frothy glass of beer sits on a wooden bar counter.">
+![A frothy glass of beer sits on a wooden bar counter.](/media/2025/48bc6b54fd.jpg)
+

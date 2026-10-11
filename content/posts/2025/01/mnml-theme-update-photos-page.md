@@ -6,7 +6,7 @@ As I mentioned yesterday, I recently discovered that the photos page for my **[m
 
 While I was at it, I included an option to display your photos grid in either a wide or narrow format. Wide format will show a four-across grid, whereas the default (unchecked) option shows a three-across grid.
 
-<img src="/media/2025/mnml-theme-options.png" alt="Mnml theme settings page higlighting the full width photos page option." title="mnml-theme-options.png" border="0" width="999" height="486" />
+![Mnml theme settings page higlighting the full width photos page option.](/media/2025/mnml-theme-options.png)
 
 It should be noted that if you're already using a photos plugin, that plugin will override the theme's default photos page and the wide page format will not be enabled.
 

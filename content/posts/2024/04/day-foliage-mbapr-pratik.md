@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 04: Foliage.
 
-<img src="/media/2024/foliage.jpeg" alt="Foliage along a dirt hiking trail." title="foliage.jpeg" border="0" width="1000" height="750" />
+![Foliage along a dirt hiking trail.](/media/2024/foliage.jpeg)
 
 [#mbapr](https://micro.blog/discover/mbapr) [@pratik](https://micro.blog/pratik)

@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 08: Prevention.
 
-<img src="/media/2024/prevention.jpeg" alt="A fall warning label on ladder." title="prevention.jpeg" border="0" width="747" height="1000" />
+![A fall warning label on ladder.](/media/2024/prevention.jpeg)
 
 [#mbapr](https://micro.blog/discover/mbapr) [@anniegreens](https://micro.blog/anniegreens)

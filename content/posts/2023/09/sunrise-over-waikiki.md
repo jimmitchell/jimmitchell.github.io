@@ -4,4 +4,5 @@ categories: ["Photos"]
 ---
 📷 Sunrise over Waikiki.
 
-<img src="/media/2023/d86bec0760.jpg" alt="Sunrise over Waikiki">
+![Sunrise over Waikiki](/media/2023/d86bec0760.jpg)
+

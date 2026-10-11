@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 06: Windy.
 
-<img src="/media/2024/windy.jpg" alt="An American flag, blowing in the wind, surrounded by palm trees" title="windy.jpg" border="0" width="1000" height="750" />
+![An American flag, blowing in the wind, surrounded by palm trees](/media/2024/windy.jpg)
 
 [#mbapr](https://micro.blog/discover/mbapr) [@Miraz](https://micro.blog/Miraz)

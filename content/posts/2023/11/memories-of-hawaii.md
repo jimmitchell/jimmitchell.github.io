@@ -4,4 +4,5 @@ categories: ["Photos"]
 ---
 📷 Memories of Hawai’i.
 
-<img src="/media/2023/4cc821c6f7.jpg" alt="Diamond Head from the Waikiki breakwater.">
+![Diamond Head from the Waikiki breakwater.](/media/2023/4cc821c6f7.jpg)
+

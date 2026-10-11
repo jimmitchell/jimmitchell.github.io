@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 10: Train.
 
-<img src="/media/2024/train.jpeg" alt="The side of an old steam locomotive." title="train.jpeg" border="0" width="1000" height="750" />
+![The side of an old steam locomotive.](/media/2024/train.jpeg)
 
 [#mbapr](https://micro.blog/discover/mbapr) [@starrwulfe](https://micro.blog/starrwulfe)

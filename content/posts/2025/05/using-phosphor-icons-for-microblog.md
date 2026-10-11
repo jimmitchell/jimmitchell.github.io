@@ -7,8 +7,11 @@ This post walks through how I'm using Phosphor icons for the Mastodon, Github an
 While <strong>mnml</strong> supports the use of icons in page and navigation titles now, I wanted to use only icons when browsed on desktop screens, but use the actual page title links without icons for the mobile responsive menu...
 
 <figure>
-<img src="/media/2025/sitemenu.png" alt="A webpage menu bar features the name 'Jim Mitchell' alongside links labeled 'Now,' 'Projects,' 'Photos,' 'Archive,' and icons for social media and search functions." title="SiteMenu.png" border="0" width="700" height="119" />
-<img src="/media/2025/8cbc86d7b6.jpg" width="600" height="600" alt="Auto-generated description: A smartphone displaying a minimalist website menu against a vibrant, colorful background." >
+
+![A webpage menu bar features the name 'Jim Mitchell' alongside links labeled 'Now,' 'Projects,' 'Photos,' 'Archive,' and icons for social media and search functions.](/media/2025/sitemenu.png)
+
+![Auto-generated description: A smartphone displaying a minimalist website menu against a vibrant, colorful background.](/media/2025/8cbc86d7b6.jpg)
+
 <figcaption>Desktop navigation with icons, mobile navigation with links.</figcaption>
 </figure>
 
@@ -29,14 +32,18 @@ The first step is to decide which Phosphor Icons for Micro.blog set you want to 
 You should also get the Unicode values of the icons you want to use from the <a href="https://phosphoricons.com/">Phosphor Icons website</a> in advance. See comments in the code below about using Unicode values.
 
 <figure>
-<img src="/media/2025/mastodonunicode.png" alt="A user interface displays various options for hte Phosphor Mastodon icon with the Unicode value highlighted." title="MastodonUnicode.png" border="0" width="700" height="100" />
+
+![A user interface displays various options for hte Phosphor Mastodon icon with the Unicode value highlighted.](/media/2025/mastodonunicode.png)
+
 <figcaption>Note the circled "U+ED68" Unicode value for the Mastodon icon. These are what you want.</figcaption>
 </figure>
 
 The next step is to create your pages and get their url. In this example, I've created a Mastodon page with redirect.
 
 <figure>
-<img src="/media/2025/pageredirect.png" alt="A webpage interface shows options for redirecting to a Mastodon page with a checkbox to include the page in blog navigation." title="PageRedirect.png" border="0" width="700" height="216" />
+
+![A webpage interface shows options for redirecting to a Mastodon page with a checkbox to include the page in blog navigation.](/media/2025/pageredirect.png)
+
 <figcaption>Note the "/mastodon" url and that I've included the page in my blog navigation. I've done the same for a Github redirect and the local Search page.</figcaption>
 </figure>
 

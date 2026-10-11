@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 27: Surprise.
 
-<img loading="lazy" src="/media/2024/surprise.jpeg" alt="A MacBook Air box on a desk." title="surprise.jpeg" border="0" width="1000" height="750" />
+![A MacBook Air box on a desk.](/media/2024/surprise.jpeg)
 
 [#mbapr](https://micro.blog/discover/mbapr) [@Sdevore](https://micro.blog/Sdevore)

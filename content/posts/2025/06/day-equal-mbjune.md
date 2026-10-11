@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 19: Equal.
 
-<img src="/media/2025/19-equal.jpeg" width="600" height="450" alt="Auto-generated description: A historical information sign about coastal defense during World War II is displayed with illustrations and text, set against a background of greenery and flowers.">
+![Auto-generated description: A historical information sign about coastal defense during World War II is displayed with illustrations and text, set against a background of greenery and flowers.](/media/2025/19-equal.jpeg)
 
 [#mbjune](https://micro.blog/discover/mbjune)

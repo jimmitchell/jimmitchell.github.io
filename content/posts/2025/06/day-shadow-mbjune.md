@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 03: Shadow.
 
-<img src="/media/2025/03-shadow.jpg" width="600" height="450" alt="Auto-generated description: A quiet, tree-lined road stretches ahead, flanked by lush greenery under a bright blue sky.">
+![Auto-generated description: A quiet, tree-lined road stretches ahead, flanked by lush greenery under a bright blue sky.](/media/2025/03-shadow.jpg)
 
 [#mbjune](https://micro.blog/discover/mbjune)

@@ -10,11 +10,11 @@ Here's how the feature works...
 
 Say you have a category you always want the latest post to stay pinned to the top of your home page for, no matter how many other posts in different categories you may publish. It might -- well, does -- look something like this...
 
-<img src="/media/2025/mnml-pinned-post.png" alt="Mnml pinned post." title="mnml-pinned-post.png" />
+![Mnml pinned post.](/media/2025/mnml-pinned-post.png)
 
 After updating to version 2.7.1, all you have to do is set your preferred category name in the new **mnml** theme setting, like this...
 
-<img src="/media/2025/mnml-pinned-setting.png" alt="Mnml pinned setting." title="mnml-pinned-setting.png" />
+![Mnml pinned setting.](/media/2025/mnml-pinned-setting.png)
 
 In this example on my sandbox site, the latest post in my "Featured Post" category stays pinned on the home page, no matter what. When I publish a new post in the "Featured Post" category, it then becomes the pinned post at the top of the home page.
 

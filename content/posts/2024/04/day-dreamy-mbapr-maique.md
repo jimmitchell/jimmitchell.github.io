@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 23: Dreamy.
 
-<img src="/media/2024/dreamy.jpeg" alt="" title="dreamy.jpeg" border="0" width="1000" height="750" />
+![](/media/2024/dreamy.jpeg)
 
 [#mbapr](https://micro.blog/discover/mbapr) [@maique](https://micro.blog/maique)

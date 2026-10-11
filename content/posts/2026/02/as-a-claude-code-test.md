@@ -6,4 +6,5 @@ As a Claude Code test this morning, I spun up an empty Xcode project, gave a sho
 
 Holy moly, the results were pretty darned good...
 
-<img src="/media/2026/claude-yasu-layout.png" alt="The SwiftUI layout automatically created by Claude Code." width="1000" height="934" />
+![The SwiftUI layout automatically created by Claude Code.](/media/2026/claude-yasu-layout.png)
+

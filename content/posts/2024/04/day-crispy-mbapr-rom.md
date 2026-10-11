@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 09: Crispy.
 
-<img src="/media/2024/crispy.jpeg" alt="Crispy fried chicken and potato salad on a plate." title="crispy.jpeg" border="0" width="1000" height="750" />
+![Crispy fried chicken and potato salad on a plate.](/media/2024/crispy.jpeg)
 
 [#mbapr](https://micro.blog/discover/mbapr) [@rom](https://micro.blog/rom)

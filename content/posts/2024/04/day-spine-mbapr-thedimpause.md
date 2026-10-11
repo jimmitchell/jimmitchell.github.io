@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 25: Spine.
 
-<img src="/media/2024/spine.jpeg" alt="" title="spine.jpeg" border="0" width="1000" height="714" />
+![](/media/2024/spine.jpeg)
 
 [#mbapr](https://micro.blog/discover/mbapr) [@thedimpause](https://micro.blog/thedimpause)

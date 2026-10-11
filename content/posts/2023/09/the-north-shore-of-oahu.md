@@ -4,4 +4,5 @@ categories: ["Photos"]
 ---
 📷 The North Shore of O’ahu. More beautiful than I imagined it would be.
 
-<img src="/media/2023/45e52bbbf7.jpg" alt="Laniakea Beach">
+![Laniakea Beach](/media/2023/45e52bbbf7.jpg)
+

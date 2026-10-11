@@ -4,6 +4,6 @@ categories: ["Photos"]
 ---
 📷 Day 19: Birthday.
 
-<img src="/media/2024/birthday.jpeg" alt="A homemade birthday cake with candles for a 23rd birthday." title="birthday.jpeg" border="0" width="1000" height="750" />
+![A homemade birthday cake with candles for a 23rd birthday.](/media/2024/birthday.jpeg)
 
 [#mbapr](https://micro.blog/discover/mbapr) [@crossingthethreshold](https://micro.blog/crossingthethreshold)
