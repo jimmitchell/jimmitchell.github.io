@@ -1,0 +1,19 @@
+{{- /* Sends the visitor to a random post. The post list is baked in at build
+     time, so this works without a server. */ -}}
+{{- define "main" }}
+{{- $urls := slice }}
+{{- range where site.RegularPages "Section" "in" site.Params.mainSections }}
+	{{- $urls = $urls | append .RelPermalink }}
+{{- end }}
+<main>
+  <article>
+    <p>Taking you to a random post… If nothing happens, <a href="{{ "archive/" | relURL }}">browse the archive</a> instead.</p>
+  </article>
+</main>
+<script>
+  (() => {
+    const posts = {{ $urls }};
+    if (posts.length) location.replace(posts[Math.floor(Math.random() * posts.length)]);
+  })();
+</script>
+{{- end }}

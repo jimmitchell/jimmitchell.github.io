@@ -18,7 +18,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.166.0
+      HUGO_VERSION: 0.167.0  # keep in step with module.hugoVersion in hugo.yaml
     steps:
       - name: Install Hugo
         run: |

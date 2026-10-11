@@ -6,4 +6,4 @@ categories: ["Photos","Testing"]
 ---
 Another image test
 
-![](https://jimmitchell.github.io/media/2026/10/8604dec9b6a8eb7e.jpg)
+![](/media/2026/10/8604dec9b6a8eb7e.jpg)

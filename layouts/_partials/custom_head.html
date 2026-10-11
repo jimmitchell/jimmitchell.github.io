@@ -11,3 +11,9 @@
 {{- end }}
 {{- end }}
 {{- end }}
+{{- range site.Params.rel_me }}
+<link rel="me" href="{{ . }}">
+{{- end }}
+{{- with site.Home.OutputFormats.Get "jsonfeed" }}
+<link rel="alternate" type="application/feed+json" href="{{ .Permalink }}" title="{{ site.Title }}">
+{{- end }}

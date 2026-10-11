@@ -32,6 +32,12 @@ params:
     avatar: "images/avatar.png"              # path or URL to an avatar image
   mainSections: [posts]
 
+  # Profiles that link back here, for rel="me" verification (Mastodon shows a
+  # checkmark once its profile links to this site too).
+  rel_me:
+    - https://indieweb.social/@jimmitchell
+    - https://github.com/jimmitchell
+
   # mnml options (all default to off/blank)
   fediverse_creator: "@jimmitchell@indieweb.social"     # e.g. @jim@mastodon.social
   use_short_date: false
@@ -74,6 +80,9 @@ menus:
     - name: Search
       pageRef: /search
       weight: 20
+    - name: Random
+      pageRef: /random
+      weight: 25
     - name: About
       pageRef: /about
       weight: 30
@@ -82,10 +91,29 @@ services:
   rss:
     limit: 20
 
+# A JSON Feed (jsonfeed.org) alongside RSS, at /feed.json.
+mediaTypes:
+  application/feed+json:
+    suffixes: [json]
+
+outputFormats:
+  jsonfeed:
+    mediaType: application/feed+json
+    baseName: feed
+    isPlainText: true
+
+outputs:
+  home: [html, rss, jsonfeed]
+
 # Expose Micropub uploads in static/media to Hugo's image processing so the
 # photos grid can generate thumbnails. Declaring an assets mount replaces the
 # default one, so assets/ is re-added explicitly.
 module:
+  # The version CI builds with (HUGO_VERSION in .github/workflows/hugo.yaml);
+  # an older local Hugo warns that it doesn't match.
+  hugoVersion:
+    min: "0.167.0"
+    extended: true
   mounts:
     - source: assets
       target: assets

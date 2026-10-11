@@ -5,4 +5,4 @@ categories: ["Post","Photos"]
 ---
 One last image test, but this is a post rather than a note.
 
-![](https://jimmitchell.github.io/media/2026/10/0396ed8721ca146f.jpg)
+![](/media/2026/10/0396ed8721ca146f.jpg)

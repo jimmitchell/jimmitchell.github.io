@@ -1,0 +1,67 @@
+name: Check links
+
+# Weekly, build the site and check every link in it. Broken links are reported
+# in a single open issue (labeled link-checker) that's updated each run and
+# closed once everything passes. Third-party actions are pinned to commits.
+on:
+  schedule:
+    - cron: "0 15 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.167.0  # keep in step with hugo.yaml
+    steps:
+      - name: Install Hugo
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
+          sudo dpkg -i ${{ runner.temp }}/hugo.deb
+      - uses: actions/checkout@v7
+      - name: Build
+        run: hugo
+      # Links that passed recently aren't fetched again for a week.
+      - name: Restore link cache
+        uses: actions/cache@v6
+        with:
+          path: .lycheecache
+          key: lychee-${{ github.run_id }}
+          restore-keys: lychee-
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
+        with:
+          fail: false
+          output: lychee/out.md
+          format: markdown
+          args: >-
+            --root-dir ${{ github.workspace }}/public
+            --cache --max-cache-age 7d
+            --accept 200..=299,403,429
+            --max-concurrency 8 --timeout 20 --max-retries 2
+            --exclude-path public/pagefind
+            --exclude '^https?://([a-z]+\.)?(x|twitter|linkedin|instagram|facebook)\.com'
+            'public/**/*.html'
+      - name: Find open report
+        id: report
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: echo "number=$(gh issue list -R ${{ github.repository }} --label link-checker --state open --json number -q '.[0].number')" >> "$GITHUB_OUTPUT"
+      - name: Open or update report
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710 # v6.0.0
+        with:
+          title: Broken links
+          content-filepath: lychee/out.md
+          issue-number: ${{ steps.report.outputs.number }}
+          labels: link-checker
+      - name: Close report when links pass
+        if: steps.lychee.outputs.exit_code == 0 && steps.report.outputs.number != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue close ${{ steps.report.outputs.number }} -R ${{ github.repository }} --comment "All links pass as of this run."
