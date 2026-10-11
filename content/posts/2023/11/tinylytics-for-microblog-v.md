@@ -8,6 +8,6 @@ I'm excited to share I've released a new version of my [Tinylytics for Micro.blo
 
 This release adds features to link back to your public stats page on Tinylytics if you have it enabled, and show a webring avatar on the footer embed code if you so choose.
 
-I've also created a [dedicated page](https://micro.jimmitchell.org/tinylytics-for-microblog/) that explains the plugin's options, how to use it, as well as providing some examples for styling the footer embed to get you going for your own site.
+I've also created a [dedicated page](/tinylytics-for-microblog/) that explains the plugin's options, how to use it, as well as providing some examples for styling the footer embed to get you going for your own site.
 
 The plugin is of course free to use, but if you find it worth supporting, donations can be made via my [Ko-fi](https://ko-fi.com/jimmitchellmedia) page.
