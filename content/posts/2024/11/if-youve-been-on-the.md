@@ -1,0 +1,4 @@
+---
+date: "2024-11-27T19:15:35-07:00"
+---
+If you've been on the fence about grabbing a [Micro.blog t-shirt](https://cottonbureau.com/p/ZJUKRZ/shirt/microblog-tee?utm_medium=email&utm_source=transactional&utm_campaign=designer-sale-notification#/27062466/tee-men-premium-lightweight-vintage-black-tri-blend-s) or [phone case](https://cottonbureau.com/p/P3KM3N/phonecase/microblog-phone-case?utm_medium=email&utm_source=transactional&utm_campaign=designer-sale-notification#/27065688/iphone-16-iphone-16-pro-tough-magsafe-charcoal) of your own, this weekend is the time to get yours! Shipping on all Cotton Bureau merchandise is free using the coupon code **EXTRAGRAVY** at checkout. The coupon is only good through Monday, so act fast! [@manton](https://micro.blog/manton) [@vincent](https://micro.blog/vincent)

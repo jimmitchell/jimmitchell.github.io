@@ -19,6 +19,12 @@ permalinks:
 taxonomies:
   category: categories
 
+# Posts imported from Micro.blog contain inline HTML (figures, video, links).
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 params:
   description: Personal site and writing of Jim Mitchell.
   author:
