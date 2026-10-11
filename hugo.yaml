@@ -91,7 +91,9 @@ services:
   rss:
     limit: 20
 
-# A JSON Feed (jsonfeed.org) alongside RSS, at /feed.json.
+# A JSON Feed (jsonfeed.org) alongside RSS, at /feed.json. The RSS feed is
+# also served at /feed.xml, where Micro.blog had it, so subscribers following
+# the old domain's redirect still find it.
 mediaTypes:
   application/feed+json:
     suffixes: [json]
@@ -101,9 +103,14 @@ outputFormats:
     mediaType: application/feed+json
     baseName: feed
     isPlainText: true
+  feedxml:
+    mediaType: application/rss+xml
+    baseName: feed
+    isPlainText: true
+    noAlternative: true
 
 outputs:
-  home: [html, rss, jsonfeed]
+  home: [html, rss, jsonfeed, feedxml]
 
 # Expose Micropub uploads in static/media to Hugo's image processing so the
 # photos grid can generate thumbnails. Declaring an assets mount replaces the
