@@ -65,7 +65,7 @@ params:
 
 menus:
   main:
-    - name: Archive
+    - name: Archives
       pageRef: /archive
       weight: 10
     - name: Photos
