@@ -1,5 +1,6 @@
 ---
 title: "mnml Theme v2.8.15 Released"
+summary: "I've not given mnml much love for a while and a handful of needed fixes have piled up. The latest version (v2.8.15) is now out, and here's what's corrected in this release..."
 date: "2026-09-12T09:03:12-07:00"
 categories: ["Posts"]
 ---
