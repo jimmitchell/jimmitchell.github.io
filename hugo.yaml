@@ -16,6 +16,11 @@ permalinks:
   page:
     posts: /:year/:month/:day/:contentbasename/
 
+# Future-dated posts stay out of the build until their date. The Micropub
+# Worker's cron trigger pushes an empty commit when one falls due, so the next
+# build publishes it.
+buildFuture: false
+
 taxonomies:
   category: categories
 
