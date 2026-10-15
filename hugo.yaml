@@ -61,6 +61,11 @@ params:
   webmentions:
     domain: jimmitchell.github.io
 
+  # Clodd sets note cards flat at the page's colour so articles stand out;
+  # here every card gets the same raised surface.
+  custom_css: |
+    .post-card--note { background: var(--color-surface); }
+
 menus:
   main:
     - name: Archives
