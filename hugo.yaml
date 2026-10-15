@@ -2,7 +2,6 @@ baseURL: https://jimmitchell.github.io/
 locale: en-us
 timeZone: America/Los_Angeles
 title: Jim Mitchell
-theme: mnml
 
 enableRobotsTXT: true
 
@@ -30,49 +29,37 @@ markup:
     renderer:
       unsafe: true
 
+# Theme options are documented in the theme's README:
+# https://github.com/jimmitchell/hugo-theme-clodd#configuration
 params:
   description: Personal site and writing of Jim Mitchell.
+  mainSections: [posts]
+  home_intro: "Saved by grace. Wrangler of nerds, herder of cats, and butcher of code, though not always in that order. This is my place on the web to explore technology, design, and simple living through the lens of someone who uses ellipses like punctuation should be optional... Indieweb is punk."
+
   author:
     name: Jim Mitchell
-    avatar: "images/avatar.png"              # path or URL to an avatar image
-  mainSections: [posts]
+    bio: "Saved by grace. Wrangler of nerds. Herder of cats. Butcher of code. Abuser of ellipses..."
+    avatar: images/avatar.png    # static/images is mounted into assets below
+    email: hello@jimmitchell.org # shows the Email reply pill under posts
 
-  # Profiles that link back here, for rel="me" verification (Mastodon shows a
-  # checkmark once its profile links to this site too).
-  rel_me:
-    - https://indieweb.social/@jimmitchell
-    - https://github.com/jimmitchell
+  # Footer icons and the home page h-card, all rel="me" (Mastodon shows a
+  # checkmark once its profile links back here too).
+  social:
+    mastodon: "@jimmitchell@indieweb.social"
+    bluesky: https://bsky.app/profile/jimmitchell.org
+    pixelfed: https://pixelfed.social/jimmitchell
+    github: https://github.com/jimmitchell
 
-  # mnml options (all default to off/blank)
-  fediverse_creator: "@jimmitchell@indieweb.social"     # e.g. @jim@mastodon.social
-  use_short_date: false
-  narrow_header: false
-  hide_avatar: false
-  custom_avatar: ""
-  pinned_category: ""
-  home_category: ""
-  show_full_post: false
-  show_read_time: false
-  enable_code_copy_button: true
-  category_full_post: false
-  show_categories: true
-  show_category_count: true
-  photos_category: "Photos"
-  all_formats: false
-  masonry_layout: false
-  full_width_photos: false
-  single_image: false
-  search_results: 10
-  hide_copyright: false
-  footer_rss: true
-  hide_credit: true
-
-  # IndieAuth via indiekey.id. Set site_id to the ID IndieKey shows after you
-  # add this domain. micropub is the Worker in the jimmitchell/micropub repo; it
-  # must match the URL registered under IndieKey > Resource servers exactly.
+  # IndieAuth via indiekey.id: the site ID IndieKey shows for this domain.
+  # micropub is the Worker in the jimmitchell/micropub repo; it must match the
+  # URL registered under IndieKey > Resource servers exactly.
   indieauth:
-    site_id: "snqct4j1ek792jfp"
-    micropub: "https://jimmitchell-micropub.jim-983.workers.dev/"
+    indiekey: "snqct4j1ek792jfp"
+  micropub: "https://jimmitchell-micropub.jim-983.workers.dev/"
+
+  # Webmentions are received by webmention.io for this domain.
+  webmentions:
+    domain: jimmitchell.github.io
 
 menus:
   main:
@@ -96,31 +83,23 @@ services:
   rss:
     limit: 20
 
-# A JSON Feed (jsonfeed.org) alongside RSS, at /feed.json. The RSS feed is
-# also served at /feed.xml, where Micro.blog had it, so subscribers following
-# the old domain's redirect still find it.
-mediaTypes:
-  application/feed+json:
-    suffixes: [json]
-
-outputFormats:
-  jsonfeed:
-    mediaType: application/feed+json
-    baseName: feed
-    isPlainText: true
-  feedxml:
-    mediaType: application/rss+xml
-    baseName: feed
-    isPlainText: true
-    noAlternative: true
-
+# Takes the theme's feeds: RSS at /index.xml (copied to /feed.xml, where
+# Micro.blog had it, and /feed.rss), Atom at /atom.xml and JSON Feed at
+# /feed.json, for the home page and every category. Hugo leaves a theme's
+# outputs out unless asked.
 outputs:
-  home: [html, rss, jsonfeed, feedxml]
+  _merge: shallow
 
-# Expose Micropub uploads in static/media to Hugo's image processing so the
-# photos grid can generate thumbnails. Declaring an assets mount replaces the
-# default one, so assets/ is re-added explicitly.
+# The theme, as a Hugo module (needs Go). To try local changes to it:
+#   HUGO_MODULE_REPLACEMENTS="github.com/jimmitchell/hugo-theme-clodd -> ../../hugo-theme-clodd" hugo server
+#
+# static/media (Micropub uploads) and static/images (the avatar) are mounted
+# into assets too, so Hugo can size and convert the pictures and draw the
+# avatar on share cards. Declaring an assets mount replaces the default one,
+# so assets/ is re-added explicitly.
 module:
+  imports:
+    - path: github.com/jimmitchell/hugo-theme-clodd
   # The version CI builds with (HUGO_VERSION in .github/workflows/hugo.yaml);
   # an older local Hugo warns that it doesn't match.
   hugoVersion:
@@ -131,3 +110,5 @@ module:
       target: assets
     - source: static/media
       target: assets/media
+    - source: static/images
+      target: assets/images
